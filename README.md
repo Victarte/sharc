@@ -11,8 +11,8 @@ For more information regarding authorship of content, please consult the listed 
 
 ## Documentation
 
-- [Documentation Doxygen](https://victarte.github.io/sharc/doxygen/) — *(à déployer sur GitHub Pages)*
-- Site Hugo — *(à venir)*
+- [Site Hugo](https://victarte.github.io/sharc/)
+- [Documentation Doxygen](https://victarte.github.io/sharc/doxygen/)
 
 ## I/ Introduction
 
