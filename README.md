@@ -9,6 +9,11 @@ Written by CEA/IFPEN and Contributors
 All content is the property of the respective authors or their employers.
 For more information regarding authorship of content, please consult the listed source code repository logs.
 
+## Documentation
+
+- [Documentation Doxygen](https://victarte.github.io/sharc/doxygen/) — *(à déployer sur GitHub Pages)*
+- Site Hugo — *(à venir)*
+
 ## I/ Introduction
 
 <p align="center">
