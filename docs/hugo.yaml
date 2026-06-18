@@ -1,4 +1,4 @@
-baseURL: https://arcaneframework.github.io/sharc/
+baseURL: https://victarte.github.io/sharc/
 title: ShArc
 disableKinds:
   - taxonomy
