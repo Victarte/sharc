@@ -4,8 +4,8 @@
 <area shape="rect" id="node3" href="$classFemModuleElasticity.html#aea65a80f4ea414287e4400990d081a7f" title="Assemble the FEM linear operator." alt="" coords="747,5,925,47"/>
 <area shape="rect" id="node7" href="$classFemModulePoisson.html#a19a6fbbb03c003731ceaf8f9a32d8b77" title="FEM linear operator for the current simulation step." alt="" coords="739,71,933,112"/>
 <area shape="rect" id="node11" href="$classFemModulePoisson.html#af8de4df6526ea1669d0bf2797e53176b" title="FEM linear operator for the current simulation step." alt="" coords="739,136,933,177"/>
-<area shape="rect" id="node12" href="$classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers.html#ae6876c309e2f8a1e698d77d3610a2213" title=" " alt="" coords="716,202,956,258"/>
-<area shape="rect" id="node13" href="$classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers.html#a8b4517fc127a5eada859108b70d17356" title=" " alt="" coords="711,282,961,338"/>
+<area shape="rect" id="node12" href="$classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers.html#ae6876c309e2f8a1e698d77d3610a2213" title="AI generated: Applies Dirichlet BCs by setting the RHS value directly (no matrix modification)" alt="" coords="716,202,956,258"/>
+<area shape="rect" id="node13" href="$classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers.html#a8b4517fc127a5eada859108b70d17356" title="AI generated: Applies Dirichlet BCs using the penalty method (adds penalty to diagonal and RHS)" alt="" coords="711,282,961,338"/>
 <area shape="rect" id="node4" href="$classFemModuleElasticity.html#a5b769fd9a5bc4503b409f70211e3a0b1" title="Performs a stationary solve for the FEM system." alt="" coords="480,5,624,47"/>
 <area shape="rect" id="node5" href="$classFemModuleElasticity.html#ad3bb0f9040e4141ceef536038cd61a2d" title="Performs the main computation for the FemModuleElasticity." alt="" coords="249,5,393,47"/>
 <area shape="rect" id="node6" href="$classFemModuleElasticity.html#ab06ab2db63cae57328155891523641f4" title="AI comment: Main time loop, handles coupled (preCICE) and standalone computation modes." alt="" coords="31,5,175,47"/>

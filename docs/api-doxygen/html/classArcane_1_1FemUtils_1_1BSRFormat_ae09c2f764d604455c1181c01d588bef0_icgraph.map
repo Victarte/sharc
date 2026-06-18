@@ -1,7 +1,7 @@
 <map id="Arcane::FemUtils::BSRFormat::computeSortedEdges" name="Arcane::FemUtils::BSRFormat::computeSortedEdges">
-<area shape="rect" id="node1" title=" " alt="" coords="1320,35,1520,76"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a663d729428e45f524a7c688d117eb21a" title=" " alt="" coords="1072,35,1272,76"/>
-<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#ae2923f622def0bbfe6f52809deaeb791" title=" " alt="" coords="824,35,1024,76"/>
+<area shape="rect" id="node1" title="AI generated: Computes sorted edges from element connectivity." alt="" coords="1320,35,1520,76"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a663d729428e45f524a7c688d117eb21a" title="AI generated: Computes sparsity using atomic operations." alt="" coords="1072,35,1272,76"/>
+<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#ae2923f622def0bbfe6f52809deaeb791" title="AI generated: Computes the sparsity pattern." alt="" coords="824,35,1024,76"/>
 <area shape="rect" id="node4" href="$classFemModuleElasticity.html#aaa11f39de79f8c84022f82bb6cf03b7e" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="585,5,772,47"/>
 <area shape="rect" id="node8" href="$classFemModulePoisson.html#a044148fb14bd4cc124ba751b11fea973" title="Performs the main computation for the FemModulePoisson." alt="" coords="581,71,776,98"/>
 <area shape="rect" id="node5" href="$classFemModuleElasticity.html#a5b769fd9a5bc4503b409f70211e3a0b1" title="Performs a stationary solve for the FEM system." alt="" coords="389,5,533,47"/>

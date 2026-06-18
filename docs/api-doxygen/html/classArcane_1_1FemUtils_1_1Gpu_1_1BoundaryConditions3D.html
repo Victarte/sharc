@@ -105,20 +105,24 @@ $(document).ready(function(){initNavTree('classArcane_1_1FemUtils_1_1Gpu_1_1Boun
 </div><!--header-->
 <div class="contents">
 
+<p>AI generated: Applies 3D boundary conditions (constant source, Neumann) on the RHS.  
+ <a href="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditions3D.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:afb568b7357fafea2e918077bbfb11742"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditions3D.html#afb568b7357fafea2e918077bbfb11742">applyConstantSourceToRhs</a> (Real qdot, const <a class="el" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html">FemDoFsOnNodes</a> &amp;dofs_on_nodes, const VariableNodeReal3 &amp;node_coord, VariableDoFReal &amp;rhs_variable_na, IMesh *mesh, Accelerator::RunQueue *queue)</td></tr>
-<tr class="memdesc:afb568b7357fafea2e918077bbfb11742"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a constant source term to the RHS vector.  <a href="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditions3D.html#afb568b7357fafea2e918077bbfb11742">More...</a><br /></td></tr>
+<tr class="memdesc:afb568b7357fafea2e918077bbfb11742"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Applies a constant source term to the RHS vector using 3D cell volume weighting.  <a href="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditions3D.html#afb568b7357fafea2e918077bbfb11742">More...</a><br /></td></tr>
 <tr class="separator:afb568b7357fafea2e918077bbfb11742"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65da0ac16bfd49ddbcf12656ab8ed5a2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditions3D.html#a65da0ac16bfd49ddbcf12656ab8ed5a2">applyNeumannToRhs</a> (<a class="el" href="classBC_1_1INeumannBoundaryCondition.html">BC::INeumannBoundaryCondition</a> *bs, const <a class="el" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html">FemDoFsOnNodes</a> &amp;dofs_on_nodes, const VariableNodeReal3 &amp;node_coord, VariableDoFReal &amp;rhs_variable_na, IMesh *mesh, Accelerator::RunQueue *queue)</td></tr>
 <tr class="memdesc:a65da0ac16bfd49ddbcf12656ab8ed5a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies Neumann conditions to the right-hand side (RHS) values.  <a href="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditions3D.html#a65da0ac16bfd49ddbcf12656ab8ed5a2">More...</a><br /></td></tr>
 <tr class="separator:a65da0ac16bfd49ddbcf12656ab8ed5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00795">795</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
+<div class="textblock"><p>AI generated: Applies 3D boundary conditions (constant source, Neumann) on the RHS. </p>
+
+<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00792">792</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="afb568b7357fafea2e918077bbfb11742"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afb568b7357fafea2e918077bbfb11742">&#9670;&nbsp;</a></span>applyConstantSourceToRhs()</h2>
@@ -178,8 +182,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Applies a constant source term to the RHS vector. </p>
-<p>This method adds a constant source term <code>qdot</code> to the RHS vector for each node in the mesh. The contribution to each node is weighted by the area of the cell and evenly distributed among the number of nodes of the cell. </p>
+<p>AI generated: Applies a constant source term to the RHS vector using 3D cell volume weighting. </p>
 
 </div>
 </div>

@@ -1,6 +1,6 @@
 <map id="Arcane::FemUtils::DoFLinearSystemRowColumnEliminationHelper" name="Arcane::FemUtils::DoFLinearSystemRowColumnEliminationHelper">
 <area shape="rect" id="node1" title="Helper class to handle RowColumn elimination." alt="" coords="93,243,333,284"/>
 <area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html" title="Linear system Matrix A + Vector x + Vector b for Ax=b." alt="" coords="117,139,309,180"/>
-<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1IDoFLinearSystemFactory.html" title=" " alt="" coords="5,5,201,47"/>
+<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1IDoFLinearSystemFactory.html" title="AI generated: Interface for a factory that creates linear system implementations." alt="" coords="5,5,201,47"/>
 <area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1IDoFLinearSystemImpl.html" title=" " alt="" coords="225,5,421,47"/>
 </map>

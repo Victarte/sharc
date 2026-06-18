@@ -1,4 +1,4 @@
 <map id="Arcane::FemUtils::BSRFormat::computeSortedEdges" name="Arcane::FemUtils::BSRFormat::computeSortedEdges">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,205,47"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#af078e5a4de9111824894d821a54b34fb" title=" " alt="" coords="253,5,453,47"/>
+<area shape="rect" id="node1" title="AI generated: Computes sorted edges from element connectivity." alt="" coords="5,5,205,47"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#af078e5a4de9111824894d821a54b34fb" title="AI generated: Packs two Int32 values into a UInt64." alt="" coords="253,5,453,47"/>
 </map>

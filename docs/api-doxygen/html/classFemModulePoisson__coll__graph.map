@@ -6,8 +6,8 @@
 <area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes_1_1Impl.html" title=" " alt="" coords="164,70,355,111"/>
 <area shape="rect" id="node5" title=" " alt="" coords="5,163,115,189"/>
 <area shape="rect" id="node7" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html" title="A class representing a Block Sparse Row (BSR) matrix." alt="" coords="379,188,575,215"/>
-<area shape="rect" id="node8" href="$classArcane_1_1FemUtils_1_1CsrFormat.html" title=" " alt="" coords="380,247,573,273"/>
+<area shape="rect" id="node8" href="$classArcane_1_1FemUtils_1_1CsrFormat.html" title="AI generated: Container for matrices in Compressed Sparse Row (CSR) format." alt="" coords="380,247,573,273"/>
 <area shape="rect" id="node9" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html" title="Linear system Matrix A + Vector x + Vector b for Ax=b." alt="" coords="995,313,1187,354"/>
-<area shape="rect" id="node10" href="$classArcane_1_1FemUtils_1_1IDoFLinearSystemFactory.html" title=" " alt="" coords="599,313,795,354"/>
+<area shape="rect" id="node10" href="$classArcane_1_1FemUtils_1_1IDoFLinearSystemFactory.html" title="AI generated: Interface for a factory that creates linear system implementations." alt="" coords="599,313,795,354"/>
 <area shape="rect" id="node11" href="$classArcane_1_1FemUtils_1_1IDoFLinearSystemImpl.html" title=" " alt="" coords="599,378,795,419"/>
 </map>

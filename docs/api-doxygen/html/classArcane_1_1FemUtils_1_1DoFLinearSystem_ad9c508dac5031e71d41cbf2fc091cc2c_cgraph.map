@@ -1,5 +1,5 @@
 <map id="Arcane::FemUtils::DoFLinearSystem::endSystemAssembly" name="Arcane::FemUtils::DoFLinearSystem::endSystemAssembly">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,203,80"/>
+<area shape="rect" id="node1" title="AI generated: Ends system assembly (flushes batch operations)" alt="" coords="5,39,203,80"/>
 <area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#afcda9b66b5bd30edc8472ec6b9af18a4" title=" " alt="" coords="287,5,479,47"/>
 <area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1AlienDoFLinearSystemImpl.html#a83873e500ef16abb85ce1b1312c6ab7d" title=" " alt="" coords="251,71,516,112"/>
 </map>

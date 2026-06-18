@@ -27,20 +27,29 @@ namespace Arcane::FemUtils
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI generated: Forward declaration */
 class CsrRowColumnIterator;
+/** AI generated: Forward declaration */
 class CsrFormatMatrixView;
+/** AI generated: Forward declaration */
 class CsrRow;
+/** AI generated: Forward declaration */
 class CsrFormat;
+/** AI generated: Forward declaration */
 class CsrRowColumnIndex;
+/** AI generated: Forward declaration */
 class IDoFLinearSystemFactory;
+/** AI generated: Forward declaration */
 class DoFLinearSystem;
+/** AI generated: Forward declaration */
 class IDoFLinearSystemImpl;
+/** AI generated: Forward declaration */
 class FemDoFsOnNodes;
 
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
-//! Old name to keep compatibility with existing code.
+/** AI generated: Legacy alias for CsrFormatMatrixView to maintain backward compatibility */
 using CSRFormatView = CsrFormatMatrixView;
 
 /*---------------------------------------------------------------------------*/
@@ -57,8 +66,11 @@ enum class MatrixEliminationType : Byte
   //! RowColumn elimination
   RowColumn = 2,
 };
+/** AI generated: Constant for matrix elimination type: none */
 static constexpr Byte ELIMINATE_NONE = static_cast<Byte>(MatrixEliminationType::None);
+/** AI generated: Constant for matrix elimination type: row only */
 static constexpr Byte ELIMINATE_ROW = static_cast<Byte>(MatrixEliminationType::Row);
+/** AI generated: Constant for matrix elimination type: row and column */
 static constexpr Byte ELIMINATE_ROW_COLUMN = static_cast<Byte>(MatrixEliminationType::RowColumn);
 
 /*---------------------------------------------------------------------------*/

@@ -1,5 +1,5 @@
 <map id="Arcane::FemUtils::DoFLinearSystemRowColumnEliminationHelper::addElimination" name="Arcane::FemUtils::DoFLinearSystemRowColumnEliminationHelper::addElimination">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,245,61"/>
+<area shape="rect" id="node1" title="AI generated: Mark a row for row&#45;column elimination (modifies matrix symmetry and RHS)" alt="" coords="5,5,245,61"/>
 <area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#ae97df68be0f24f6057da043b92c73243" title=" " alt="" coords="293,13,499,54"/>
 <area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1IDoFLinearSystemImpl.html#a9db333eb62a222ed34807b7fb73227a9" title=" " alt="" coords="547,13,769,54"/>
 </map>

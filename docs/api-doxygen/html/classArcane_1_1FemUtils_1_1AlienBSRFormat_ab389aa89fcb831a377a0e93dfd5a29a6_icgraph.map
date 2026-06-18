@@ -1,5 +1,5 @@
 <map id="Arcane::FemUtils::AlienBSRFormat::assembleBilinearOrderedPerRowAtomicFree" name="Arcane::FemUtils::AlienBSRFormat::assembleBilinearOrderedPerRowAtomicFree">
-<area shape="rect" id="node1" title=" " alt="" coords="560,5,848,47"/>
+<area shape="rect" id="node1" title="AI generated: Assembles the bilinear form per row without atomic operations." alt="" coords="560,5,848,47"/>
 <area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ade768ae2af1a5ddd3c2ecf8ae6189e6b" title="Assembles the global BSR matrix for a bilinear operator, node&#45;wise." alt="" coords="283,5,512,47"/>
-<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861" title=" " alt="" coords="5,5,235,47"/>
+<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861" title="AI generated: Dispatches assembly to atomic or atomic&#45;free method." alt="" coords="5,5,235,47"/>
 </map>

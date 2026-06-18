@@ -1,7 +1,7 @@
 <map id="Arcane::FemUtils::AlienBSRFormat::unpack" name="Arcane::FemUtils::AlienBSRFormat::unpack">
-<area shape="rect" id="node1" title=" " alt="" coords="837,39,1067,80"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a457423aef18c3e9a46c8964dc9c04293" title=" " alt="" coords="560,5,789,47"/>
-<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a12977ac25951cf9c21f972b620051c00" title=" " alt="" coords="560,71,789,112"/>
-<area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8fb3b5efe946ad96d816e4360e6599f5" title=" " alt="" coords="283,71,512,112"/>
-<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#acb46694d417beab16112310aaf2ba31e" title=" " alt="" coords="5,71,235,112"/>
+<area shape="rect" id="node1" title="AI generated: Unpacks a UInt64 edge representation into two Int32 values." alt="" coords="837,39,1067,80"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a457423aef18c3e9a46c8964dc9c04293" title="AI generated: Computes column indices from sorted edges." alt="" coords="560,5,789,47"/>
+<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a12977ac25951cf9c21f972b620051c00" title="AI generated: Computes neighbor nodes from sorted edges." alt="" coords="560,71,789,112"/>
+<area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8fb3b5efe946ad96d816e4360e6599f5" title="AI generated: Computes row index array from sorted edges." alt="" coords="283,71,512,112"/>
+<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#acb46694d417beab16112310aaf2ba31e" title="AI generated: Computes matrix sparsity pattern with atomic operations." alt="" coords="5,71,235,112"/>
 </map>

@@ -1,7 +1,7 @@
 <map id="Arcane::FemUtils::DoFLinearSystem::setCSRValues" name="Arcane::FemUtils::DoFLinearSystem::setCSRValues">
 <area shape="rect" id="node1" title="Positionne directement les valeurs de la matrice." alt="" coords="1116,72,1308,113"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a01cf7f213dbfed98b9ab3328fa0311ce" title=" " alt="" coords="868,39,1068,80"/>
-<area shape="rect" id="node10" href="$classArcane_1_1FemUtils_1_1CsrFormat.html#accabe45ba8e0314bb66105c75adfc282" title=" " alt="" coords="871,104,1065,145"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a01cf7f213dbfed98b9ab3328fa0311ce" title="AI generated: Converts the matrix to a DoF linear system." alt="" coords="868,39,1068,80"/>
+<area shape="rect" id="node10" href="$classArcane_1_1FemUtils_1_1CsrFormat.html#accabe45ba8e0314bb66105c75adfc282" title="AI generated: Transfers CSR matrix values into a DoFLinearSystem." alt="" coords="871,104,1065,145"/>
 <area shape="rect" id="node3" href="$classFemModuleElasticity.html#aaa11f39de79f8c84022f82bb6cf03b7e" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="633,5,820,47"/>
 <area shape="rect" id="node7" href="$classFemModulePoisson.html#abebde0793ed126cb14881d9e629bf9a3" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="637,71,816,112"/>
 <area shape="rect" id="node4" href="$classFemModuleElasticity.html#a5b769fd9a5bc4503b409f70211e3a0b1" title="Performs a stationary solve for the FEM system." alt="" coords="441,5,585,47"/>

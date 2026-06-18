@@ -1,8 +1,8 @@
 <map id="Arcane::FemUtils::Gpu::BoundaryConditionsHelpers::applyDirichletToNodeGroupViaPenalty" name="Arcane::FemUtils::Gpu::BoundaryConditionsHelpers::applyDirichletToNodeGroupViaPenalty">
-<area shape="rect" id="node1" title=" " alt="" coords="5,129,256,185"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a83391c328302a1f9ed7a214202a6154d" title=" " alt="" coords="328,103,520,144"/>
-<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a488c97be03a3888428c1cf48da6c7eb6" title=" " alt="" coords="328,37,520,79"/>
-<area shape="rect" id="node7" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title=" " alt="" coords="304,233,544,275"/>
+<area shape="rect" id="node1" title="AI generated: Applies Dirichlet BCs using the penalty method (adds penalty to diagonal and RHS)" alt="" coords="5,129,256,185"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a83391c328302a1f9ed7a214202a6154d" title="AI generated: Returns the variable storing forced Dirichlet info flags." alt="" coords="328,103,520,144"/>
+<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a488c97be03a3888428c1cf48da6c7eb6" title="AI generated: Returns the variable storing forced Dirichlet values." alt="" coords="328,37,520,79"/>
+<area shape="rect" id="node7" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title="AI generated: Returns the connectivity view from nodes to their associated DoFs." alt="" coords="304,233,544,275"/>
 <area shape="rect" id="node8" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#ab9e662cc1eef2002a687c47e8fb858ac" title="Variable containing the right hand side vector." alt="" coords="328,168,520,209"/>
 <area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#afcda9b66b5bd30edc8472ec6b9af18a4" title=" " alt="" coords="594,71,786,112"/>
 <area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1IDoFLinearSystemImpl.html#a3c9d8fc3bbc388133e26cd714354dd55" title=" " alt="" coords="592,136,788,177"/>

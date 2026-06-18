@@ -1,5 +1,5 @@
 <map id="Arcane::FemUtils::AlienBSRFormat::computeColumnsAtomicFree" name="Arcane::FemUtils::AlienBSRFormat::computeColumnsAtomicFree">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,235,80"/>
+<area shape="rect" id="node1" title="AI generated: Computes column indices without atomic operations." alt="" coords="5,39,235,80"/>
 <area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a2f46b241a78e444367b7db753fcbfe60" title=" " alt="" coords="283,5,508,47"/>
 <area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a0cf9b6726ecce39f6c575731d2a1b038" title=" " alt="" coords="283,71,508,112"/>
 </map>

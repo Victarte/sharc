@@ -1,4 +1,4 @@
 <map id="Arcane::FemUtils::BSRMatrix::toCsr" name="Arcane::FemUtils::BSRMatrix::toCsr">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,201,47"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1CsrFormat.html#a7da1f23497bad08f44d87e19d27b6861" title=" " alt="" coords="249,5,443,47"/>
+<area shape="rect" id="node1" title="AI generated: Converts the BSR matrix to CSR format." alt="" coords="5,5,201,47"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1CsrFormat.html#a7da1f23497bad08f44d87e19d27b6861" title="AI generated: Initializes the CSR matrix with DoF family, nnz, and row count." alt="" coords="249,5,443,47"/>
 </map>

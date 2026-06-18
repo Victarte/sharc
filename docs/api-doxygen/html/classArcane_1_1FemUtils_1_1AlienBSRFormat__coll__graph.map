@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" title="A class for assembling Block Sparse Row (BSR) matrices from mesh data." alt="" coords="977,103,1207,129"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,99,115,125"/>
 <area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes_1_1Impl.html" title=" " alt="" coords="164,61,355,102"/>
-<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1CsrFormat.html" title=" " alt="" coords="395,128,588,155"/>
+<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1CsrFormat.html" title="AI generated: Container for matrices in Compressed Sparse Row (CSR) format." alt="" coords="395,128,588,155"/>
 <area shape="rect" id="node6" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html" title="A class representing a Block Sparse Row (BSR) matrix." alt="" coords="379,187,604,213"/>
 <area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html" title="Manage one or more DoFs on Nodes." alt="" coords="628,61,819,102"/>
 </map>

@@ -35,16 +35,19 @@ namespace Arcane::FemUtils
 using namespace Arcane;
 
 namespace ax = Arcane::Accelerator;
+/** AI generated: Container for matrices in Coordinate (COO) format */
 class CooFormat : TraceAccessor
 {
  public:
 
+  /** AI generated: Constructs a COO format matrix with a trace manager */
   explicit CooFormat(ITraceMng* tm)
   : TraceAccessor(tm)
   {
     info() << "Creating COO Matrix";
   }
 
+  /** AI generated: Initializes the COO matrix with DoF family and nnz */
   void initialize(IItemFamily* dof_family, Int32 nnz, RunQueue& queue)
   {
 
@@ -126,6 +129,7 @@ class CooFormat : TraceAccessor
     file.close();
   }
 
+  /** AI generated: Records a (row, column) coordinate during sparsity pattern assembly */
   void setCoordinates(DoFLocalId row, DoFLocalId column)
   {
     m_matrix_row(m_last_value) = row.localId();
@@ -133,6 +137,7 @@ class CooFormat : TraceAccessor
     m_last_value++;
   }
 
+  /** AI generated: Sorts the COO matrix by row and column */
   void sort()
   {
     sortMatrix(true, 0, m_matrix_row.extent0() - 1);
@@ -302,6 +307,7 @@ class CooFormat : TraceAccessor
   }
 };
 
+/** AI generated: Binary search for (row, col) index in a COO-formatted array */
 ARCCORE_HOST_DEVICE Int32 findIndexBinarySearch(Int32 row, Int32 col,
                                                 const auto& in_row_coo,
                                                 const auto& in_col_coo,

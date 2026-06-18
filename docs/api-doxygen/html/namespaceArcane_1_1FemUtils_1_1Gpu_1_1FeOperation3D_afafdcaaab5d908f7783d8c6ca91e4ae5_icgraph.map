@@ -1,5 +1,5 @@
 <map id="Arcane::FemUtils::Gpu::FeOperation3D::computeGradientsAndJacobianHexa8" name="Arcane::FemUtils::Gpu::FeOperation3D::computeGradientsAndJacobianHexa8">
-<area shape="rect" id="node1" title=" " alt="" coords="855,24,1087,80"/>
+<area shape="rect" id="node1" title="AI generated: Computes shape function gradients and Jacobian determinant for a Hexa8 element at a giv..." alt="" coords="855,24,1087,80"/>
 <area shape="rect" id="node2" href="$Elasticity_2ElementMatrixHexQuad_8h.html#a57fa85a3cff7bbe323c1a2ce664a4836" title="AI comment: GPU&#45;accelerated wrapper for hexahedron element matrix computation." alt="" coords="585,5,803,32"/>
 <area shape="rect" id="node3" href="$classArcaneFemFunctions_1_1FeOperation3D.html#a768f626b681eb8b7380ff919680c6399" title="Computes the gradient of a scalar field &#39;u&#39; for a Hexa8 element." alt="" coords="581,56,807,112"/>
 <area shape="rect" id="node4" href="$classFemModuleElasticity.html#a6a6df5d96f7be0ff7073f09712a9d62a" title="AI comment: Post&#45;processing: extracts displacement components and computes divergence." alt="" coords="389,30,533,71"/>

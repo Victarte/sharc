@@ -1,8 +1,8 @@
 <map id="Arcane::FemUtils::FemDoFsOnNodes::dofFamily" name="Arcane::FemUtils::FemDoFsOnNodes::dofFamily">
-<area shape="rect" id="node1" title=" " alt="" coords="859,78,1049,119"/>
+<area shape="rect" id="node1" title="AI generated: Returns the DoF item family." alt="" coords="859,78,1049,119"/>
 <area shape="rect" id="node2" href="$classFemModulePoisson.html#a044148fb14bd4cc124ba751b11fea973" title="Performs the main computation for the FemModulePoisson." alt="" coords="599,5,793,32"/>
 <area shape="rect" id="node3" href="$classFemModuleElasticity.html#ad3bb0f9040e4141ceef536038cd61a2d" title="Performs the main computation for the FemModuleElasticity." alt="" coords="197,78,341,119"/>
-<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a72d88ba25afcfee76f1f76577ff8b77f" title=" " alt="" coords="581,107,811,149"/>
+<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a72d88ba25afcfee76f1f76577ff8b77f" title="AI generated: Initializes the format with mesh and number of DoFs per node." alt="" coords="581,107,811,149"/>
 <area shape="rect" id="node7" href="$classFemModulePoisson.html#a78a40032ccbee596b760c2a302799450" title="Initializes the FemModulePoisson at the start of the simulation." alt="" coords="601,173,791,200"/>
 <area shape="rect" id="node4" href="$classFemModuleElasticity.html#ab06ab2db63cae57328155891523641f4" title="AI comment: Main time loop, handles coupled (preCICE) and standalone computation modes." alt="" coords="5,78,149,119"/>
 <area shape="rect" id="node6" href="$classFemModuleElasticity.html#a3abe0e405d3b7b734efa42c7142dc92c" title="AI comment: Initializes the Alien BSR (Block Sparse Row) matrix format." alt="" coords="389,107,533,149"/>

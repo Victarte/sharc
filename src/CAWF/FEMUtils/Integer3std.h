@@ -17,6 +17,7 @@
 
 using namespace Arcane;
 
+/** AI generated: Plain Old Data structure for a 3D integer vector */
 struct Int3POD {
   public:
 	Integer m_i;
@@ -54,6 +55,7 @@ struct Int3POD {
 
  /*---------------------------------------------------------------------------*/
  /*---------------------------------------------------------------------------*/
+ /** AI generated: 3D integer vector with arithmetic operations */
  class Integer3
  : public Int3POD
  {

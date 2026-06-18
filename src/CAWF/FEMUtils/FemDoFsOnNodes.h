@@ -48,7 +48,9 @@ class FemDoFsOnNodes
 
  public:
 
+  /** AI generated: Constructs the DoF manager with a trace manager */
   FemDoFsOnNodes(Arcane::ITraceMng* tm);
+  /** AI generated: Destructor */
   ~FemDoFsOnNodes();
 
  public:
@@ -67,7 +69,9 @@ class FemDoFsOnNodes
 
  public:
 
+  /** AI generated: Returns the connectivity view from nodes to their associated DoFs */
   Arcane::IndexedNodeDoFConnectivityView nodeDoFConnectivityView() const;
+  /** AI generated: Returns the DoF item family */
   Arcane::IItemFamily* dofFamily() const;
 
  private:

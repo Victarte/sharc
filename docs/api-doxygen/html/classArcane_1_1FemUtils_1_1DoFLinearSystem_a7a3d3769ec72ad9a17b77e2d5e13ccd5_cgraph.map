@@ -1,5 +1,5 @@
 <map id="Arcane::FemUtils::DoFLinearSystem::startSystemAssembly" name="Arcane::FemUtils::DoFLinearSystem::startSystemAssembly">
-<area shape="rect" id="node1" title=" " alt="" coords="5,43,208,84"/>
+<area shape="rect" id="node1" title="AI generated: Begins system assembly (batch operations)" alt="" coords="5,43,208,84"/>
 <area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#afcda9b66b5bd30edc8472ec6b9af18a4" title=" " alt="" coords="267,5,459,47"/>
 <area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1AlienDoFLinearSystemImpl.html#abd106649fd60d51bd59f7a03682fc6f2" title=" " alt="" coords="256,71,469,127"/>
 </map>

@@ -38,49 +38,62 @@ namespace Arcane::FemUtils
 // For edges & quadrangles only
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
+/** AI generated: Half-value constant (0.5) used in quadrature computations */
 const Real xh{ 0.5000000000000000 };
 
 // order 1
+/** AI generated: Gauss-Legendre quadrature abscissa for order 1 */
 const Real xgauss1 = 0.;
+/** AI generated: Gauss-Legendre quadrature weight for order 1 */
 const Real wgauss1 = 2.;
 
 // order 2
+/** AI generated: Gauss-Legendre quadrature abscissa for order 2 */
 const Real xgauss2[2] = { -1. / sqrt(3.), 1. / sqrt(3.) };
+/** AI generated: Gauss-Legendre quadrature weight for order 2 */
 const Real wgauss2[2] = { 1., 1. };
 
 // order 3
+/** AI generated: Gauss-Legendre quadrature abscissa for order 3 */
 const Real xgauss3[3] = { -sqrt(0.6), 0., sqrt(0.6) };
+/** AI generated: Gauss-Legendre quadrature weight for order 3 */
 const Real wgauss3[3] = { 5. / 9., 8. / 9., 5. / 9. };
 
 // order 4
+/** AI generated: Gauss-Legendre quadrature abscissa for order 4 */
 const Real xgauss4[4] = {
   -sqrt((3. + 2. * sqrt(1.2)) / 7.), -sqrt((3. - 2. * sqrt(1.2)) / 7.),
   sqrt((3. - 2. * sqrt(1.2)) / 7.), sqrt((3. + 2. * sqrt(1.2)) / 7.)
 };
 
+/** AI generated: Gauss-Legendre quadrature weight for order 4 */
 const Real wgauss4[4] = {
   xh - sqrt(5. / 6.) / 6., xh + sqrt(5. / 6.) / 6.,
   xh + sqrt(5. / 6.) / 6., xh - sqrt(5. / 6.) / 6.
 };
 
 // order 5
+/** AI generated: Gauss-Legendre quadrature abscissa for order 5 */
 const Real xgauss5[5] = {
   -sqrt(245. + 14. * sqrt(70.)) / 21., -sqrt(245. - 14. * sqrt(70.)) / 21., 0.,
   sqrt(245. - 14. * sqrt(70.)) / 21., sqrt(245. + 14. * sqrt(70.)) / 21.
 };
 
+/** AI generated: Gauss-Legendre quadrature weight for order 5 */
 const Real wgauss5[5] = {
   (322. - 13 * sqrt(70.)) / 900., (322. + 13 * sqrt(70.)) / 900., 128. / 225.,
   (322. + 13 * sqrt(70.)) / 900., (322. - 13 * sqrt(70.)) / 900.
 };
 
 // order 6
+/** AI generated: Gauss-Legendre quadrature abscissa for order 6 */
 const Real xgauss6[6] = {
   -0.932469514203152, -0.661209386466265,
   -0.238619186083197, 0.238619186083197,
   0.661209386466265, 0.932469514203152
 };
 
+/** AI generated: Gauss-Legendre quadrature weight for order 6 */
 const Real wgauss6[6] = {
   0.171324492379170, 0.360761573048139,
   0.467913934572691, 0.467913934572691,
@@ -88,12 +101,14 @@ const Real wgauss6[6] = {
 };
 
 // order 7
+/** AI generated: Gauss-Legendre quadrature abscissa for order 7 */
 const Real xgauss7[7] = {
   -0.949107912342759, -0.741531185599394,
   -0.405845151377397, 0., 0.405845151377397,
   0.741531185599394, 0.949107912342759
 };
 
+/** AI generated: Gauss-Legendre quadrature weight for order 7 */
 const Real wgauss7[7] = {
   0.129484966168870, 0.279705391489277,
   0.381830050505119, 0.417959183673469, 0.381830050505119,
@@ -101,6 +116,7 @@ const Real wgauss7[7] = {
 };
 
 // order 8
+/** AI generated: Gauss-Legendre quadrature abscissa for order 8 */
 const Real xgauss8[8] = {
   -0.960289856497536, -0.796666477413627,
   -0.525532409916329, -0.183434642495650,
@@ -108,6 +124,7 @@ const Real xgauss8[8] = {
   0.796666477413627, 0.960289856497536
 };
 
+/** AI generated: Gauss-Legendre quadrature weight for order 8 */
 const Real wgauss8[8] = {
   0.101228536290376, 0.222381034453374,
   0.313706645877887, 0.362683783378362,
@@ -116,6 +133,7 @@ const Real wgauss8[8] = {
 };
 
 // order 9
+/** AI generated: Gauss-Legendre quadrature abscissa for order 9 */
 const Real xgauss9[9] = {
   -0.968160239507626, -0.836031107326636,
   -0.613371432700590, -0.324253423403809, 0.,
@@ -123,6 +141,7 @@ const Real xgauss9[9] = {
   0.836031107326636, 0.968160239507626
 };
 
+/** AI generated: Gauss-Legendre quadrature weight for order 9 */
 const Real wgauss9[9] = {
   0.081274388361574, 0.180648160694857,
   0.260610696402935, 0.312347077040003, 0.330239355001260,
@@ -138,6 +157,7 @@ const Real wgauss9[9] = {
 /*---------------------------------------------------------------------------*/
 
 // Local (reference) coordinates on the 1st edge of the triangle
+/** AI generated: Triangle Gauss quadrature local x-coordinates on the first edge */
 const Real xg1[4][7] = {
   { 1. / 3., 0., 0., 0., 0., 0., 0. },
   { xh, 0., xh, 0., 0., 0., 0. },
@@ -147,6 +167,7 @@ const Real xg1[4][7] = {
 };
 
 // Local (reference) coordinates on the 2nd edge of the triangle
+/** AI generated: Triangle Gauss quadrature local x-coordinates on the second edge */
 const Real xg2[4][7] = {
   { 1. / 3., 0., 0., 0., 0., 0., 0. },
   { xh, xh, 0., 0., 0., 0., 0. },
@@ -167,6 +188,7 @@ const Real xg3[4][7] = {
 */
 
 // Integration weights
+/** AI generated: Triangle Gauss quadrature integration weights */
 const Real wg[4][7] = {
   { xh, 0., 0., 0., 0., 0., 0. },
   { 1. / 6., 1. / 6., 1. / 6., 0., 0., 0., 0. },
@@ -176,6 +198,7 @@ const Real wg[4][7] = {
 };
 
 //  Correspondence between integration order & number of integration points
+/** AI generated: Triangle Gauss quadrature number of integration points per order */
 const Integer nptg[4] = { 1, 3, 4, 7 };
 
 /*---------------------------------------------------------------------------*/
@@ -188,24 +211,34 @@ const Integer nptg[4] = { 1, 3, 4, 7 };
 /*---------------------------------------------------------------------------*/
 
 // Local (reference) coordinates along x axis
+/** AI generated: Tetrahedron Gauss quadrature local x-coordinates */
 const Real xit[4] = { 0.58541020, 0.13819660, 0.13819660, 0.13819660 };
 
 // Local (reference) coordinates along y axis
+/** AI generated: Tetrahedron Gauss quadrature local y-coordinates */
 const Real yit[4] = { 0.13819660, 0.58541020, 0.13819660, 0.13819660 };
 
 // Local (reference) coordinates along z axis
+/** AI generated: Tetrahedron Gauss quadrature local z-coordinates */
 const Real zit[4] = { 0.13819660, 0.13819660, 0.58541020, 0.13819660 };
 
 // Integration weight
+/** AI generated: Tetrahedron Gauss quadrature integration weight for order 2 */
 const Real wgtetra = 1. / 24.;
 
+/** AI generated: Tetrahedron Gauss quadrature intermediate constants for order 2 */
 const Real a2{ (5. - sqrt(5.)) / 20. }, b2{ (5. + 3. * sqrt(5.)) / 20. };
+/** AI generated: Tetrahedron Gauss quadrature intermediate constants for order 3 */
 const Real a1{ 1. / 4. }, b3{ 1. / 6. }, c3{ 1. / 2. };
+/** AI generated: Tetrahedron Gauss quadrature intermediate constants for order 4 (group b) */
 const Real b41{ (7. + sqrt(15.)) / 34. }, b42{ (7. - sqrt(15.)) / 34. };
+/** AI generated: Tetrahedron Gauss quadrature intermediate constants for order 4 (group c) */
 const Real c41{ (13. - 3. * sqrt(15.)) / 34. }, c42{ (13. + 3. * sqrt(15.)) / 34. };
+/** AI generated: Tetrahedron Gauss quadrature intermediate constants for order 4 (group d/e) */
 const Real d4{ (5. - sqrt(15.)) / 20. }, e4{ (5. + sqrt(15.)) / 20. };
 
 // Local (reference) coordinates along x axis
+/** AI generated: Tetrahedron Gauss quadrature local x-coordinates for orders 1--4 */
 const Real xtet[4][15] = {
   { a1, 0., 0., 0., //order 1
     0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0. },
@@ -217,6 +250,7 @@ const Real xtet[4][15] = {
 };
 
 // Local (reference) coordinates along y axis
+/** AI generated: Tetrahedron Gauss quadrature local y-coordinates for orders 1--4 */
 const Real ytet[4][15] = {
   { a1, 0., 0., 0., //order 1
     0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0. },
@@ -228,6 +262,7 @@ const Real ytet[4][15] = {
 };
 
 // Local (reference) coordinates along z axis
+/** AI generated: Tetrahedron Gauss quadrature local z-coordinates for orders 1--4 */
 const Real ztet[4][15] = {
   { a1, 0., 0., 0., //order 1
     0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0. },
@@ -237,15 +272,21 @@ const Real ztet[4][15] = {
     0., 0., 0., 0., 0., 0., 0., 0., 0., 0. },
   { a1, b41, c41, b41, b41, b42, c42, b42, b42, e4, d4, d4, e4, e4, d4 } //order 4
 };
+/** AI generated: Tetrahedron Gauss quadrature weight for order 1 */
 const Real wgtet1{ 1. / 6. };
+/** AI generated: Tetrahedron Gauss quadrature weight for order 2 */
 const Real wgtet2{ 1. / 24. };
+/** AI generated: Tetrahedron Gauss quadrature weights for order 3 */
 const Real wgtet3[2] = { -2. / 15., 3. / 40. };
+/** AI generated: Tetrahedron Gauss quadrature weights for order 4 */
 const Real wgtet4[4] = { 8. / 405., (2665 - 14. * sqrt(15)) / 226800., (2665 + 4. * sqrt(15)) / 226800., 5. / 567. };
 
 //  Correspondence between weight / gauss point indices for order 3
+/** AI generated: Tetrahedron weight-to-Gauss-point index mapping for order 3 */
 const Integer npwgtet3[5] = { 0, 1, 1, 1 };
 
 //  Correspondence between weight / gauss point indices for order 4
+/** AI generated: Tetrahedron weight-to-Gauss-point index mapping for order 4 */
 const Integer npwgtet4[15] = { 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3 };
 
 /*---------------------------------------------------------------------------*/
@@ -257,31 +298,40 @@ const Integer npwgtet4[15] = { 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3 };
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 // Local (reference) coordinates along x axis
+/** AI generated: Pyramid Gauss quadrature intermediate constant a_p1 */
 const Real ap1{ 0.5702963741068025 };
+/** AI generated: Pyramid Gauss quadrature z-coordinate constants for order 2 */
 const Real hp21{ 0.1531754163448146 }, hp22{ 0.6372983346207416 };
+/** AI generated: Pyramid Gauss quadrature z-coordinate constants for order 3 */
 const Real hp31{ 1. / 6. }, hp32{ 0.08063183038464675 }, hp33{ 0.6098484849057127 };
+/** AI generated: Pyramid Gauss quadrature local x-coordinates for orders 2--3 */
 const Real xpyr[2][6] = {
   { xh, 0., -xh, 0., 0., 0. }, //order 2
   { ap1, 0., -ap1, 0., 0., 0. } //order 3
 };
 
 // Local (reference) coordinates along y axis
+/** AI generated: Pyramid Gauss quadrature local y-coordinates for orders 2--3 */
 const Real ypyr[2][6] = {
   { 0., xh, 0., -xh, 0., 0. }, //order 2
   { 0., ap1, 0., -ap1, 0., 0. } //order 3
 };
 
 // Local (reference) coordinates along z axis
+/** AI generated: Pyramid Gauss quadrature local z-coordinates for orders 2--3 */
 const Real zpyr[2][6] = {
   { hp21, hp21, hp21, hp21, hp22, 0. }, //order 2
   { hp31, hp31, hp31, hp31, hp32, hp33 } //order 3
 };
 
 // Integration weight
+/** AI generated: Pyramid Gauss quadrature weight for order 2 */
 const Real wgpyr2{ 2. / 15. };
+/** AI generated: Pyramid Gauss quadrature weights for order 3 */
 const Real wgpyr3[3]{ 0.1024890634400000, 0.1100000000000000, 0.1467104129066667 };
 
 //  Correspondence between weight / gauss point indices for order 3
+/** AI generated: Pyramid weight-to-Gauss-point index mapping for order 3 */
 const Integer npwgpyr3[6] = { 0, 0, 0, 0, 1, 2 };
 
 /*---------------------------------------------------------------------------*/
@@ -293,31 +343,39 @@ const Integer npwgpyr3[6] = { 0, 0, 0, 0, 1, 2 };
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 // Local (reference) coordinates along x axis
+/** AI generated: Pentaedron Gauss quadrature intermediate constants */
 const Real apt1{ 1. / sqrt(3.) }, apt2{ 0.577350269189626 };
+/** AI generated: Pentaedron Gauss quadrature local x-coordinates for orders 2--3 */
 const Real xpent[2][8] = {
   { -apt1, -apt1, -apt1, apt1, apt1, apt1, 0., 0. }, //order 2
   { -apt2, -apt2, -apt2, -apt2, apt2, apt2, apt2, apt2 } //order 3
 };
 
 // Local (reference) coordinates along y axis
+/** AI generated: Pentaedron Gauss quadrature local y-coordinates for orders 2--3 */
 const Real ypent[2][8] = {
   { xh, 0., xh, xh, 0., xh, 0., 0. }, //order 2
   { 1. / 3., 3. / 5., 1. / 5., 1. / 5., 1. / 3., 3. / 5., 1. / 5., 1. / 5. } //order 3
 };
 
 // Local (reference) coordinates along z axis
+/** AI generated: Pentaedron Gauss quadrature local z-coordinates for orders 2--3 */
 const Real zpent[2][8] = {
   { xh, xh, 0., xh, xh, 0., 0., 0. }, //order 2
   { 1. / 3., 1. / 5., 3. / 5., 1. / 5., 1. / 3., 1. / 5., 3. / 5., 1. / 5. } //order 3
 };
 
 // Integration weight
+/** AI generated: Pentaedron Gauss quadrature weight for order 2 */
 const Real wgpent2{ 1. / 6. };
+/** AI generated: Pentaedron Gauss quadrature weights for order 3 */
 const Real wgpent3[2]{ -27. / 96., 25. / 96. };
 
 //  Correspondence between weight / gauss point indices for order 3
+/** AI generated: Pentaedron weight-to-Gauss-point index mapping for order 3 */
 const Integer npwgpent3[8] = { 0, 1, 1, 1, 0, 1, 1, 1 };
 
+/** AI generated: Maximum Gauss-Legendre quadrature order */
 const Integer maxnint = 9;
 }
 /*---------------------------------------------------------------------------*/

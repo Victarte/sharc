@@ -44,6 +44,7 @@ class AlienBSRFormat ;
  *
  * Only the method 2 is available on accelerator.
 */
+/** AI generated: Helper class for row elimination in a linear system */
 class DoFLinearSystemRowEliminationHelper
 {
   friend DoFLinearSystem;
@@ -58,23 +59,12 @@ class DoFLinearSystemRowEliminationHelper
 
  public:
 
-  /*
-   * \brief Eliminate the row \a row of the linear system.
-   *
-   * The elimination is equivalent to the following calls:
-   * - matrixSetValue(row,j,0) for j!=row
-   * - matrixSetValue(row,row,1.0)
-   * - RHS[rc] = value
-   *
-   * The row is only eliminated when solve() is called.
-   * Any call to matrixAddValue(row,...)
-   * or matrixSetValue(row,...) are discarded.
-   *
-   * \note After a row elimination the matrix may no longer be symmetric.
-   */
+  /** AI generated: Mark a row for elimination (sets row to identity and RHS to value) */
   void addElimination(DoFLocalId row, Real value);
 
+  /** AI generated: Returns the variable tracking elimination info for each DoF */
   VariableDoFByte& getEliminationInfo();
+  /** AI generated: Returns the variable tracking elimination values for each DoF */
   VariableDoFReal& getEliminationValue();
 
  private:
@@ -99,6 +89,7 @@ class DoFLinearSystemRowEliminationHelper
  *
  * Only the method 2 is available on accelerator.
 */
+/** AI generated: Helper class for row-column elimination in a linear system */
 class DoFLinearSystemRowColumnEliminationHelper
 {
   friend DoFLinearSystem;
@@ -113,23 +104,12 @@ class DoFLinearSystemRowColumnEliminationHelper
 
  public:
 
-  /*
-   * \brief Eliminate the row \a row of the linear system.
-   *
-   * The elimination is equivalent to the following calls:
-   * - matrixSetValue(row,j,0) for j!=row
-   * - matrixSetValue(row,row,1.0)
-   * - RHS[rc] = value
-   *
-   * The row is only eliminated when solve() is called.
-   * Any call to matrixAddValue(row,...)
-   * or matrixSetValue(row,...) are discarded.
-   *
-   * \note After a row elimination the matrix may no longer be symmetric.
-   */
+  /** AI generated: Mark a row for row-column elimination (modifies matrix symmetry and RHS) */
   void addElimination(DoFLocalId row, Real value);
 
+  /** AI generated: Returns the variable tracking elimination info for each DoF */
   VariableDoFByte& getEliminationInfo();
+  /** AI generated: Returns the variable tracking elimination values for each DoF */
   VariableDoFReal& getEliminationValue();
 
  private:
@@ -158,7 +138,9 @@ class DoFLinearSystem
 
  public:
 
+  /** AI generated: Constructs an empty linear system */
   DoFLinearSystem();
+  /** AI generated: Destructor */
   ~DoFLinearSystem();
   DoFLinearSystem(const DoFLinearSystem&) = delete;
   DoFLinearSystem(DoFLinearSystem&&) = delete;
@@ -167,9 +149,7 @@ class DoFLinearSystem
 
  public:
 
-  /*
-   * \brief Initialize the instance.
-   */
+  /** AI generated: Initialize the instance with subdomain, DoF family, and solver name */
   void initialize(ISubDomain* sd, IItemFamily* dof_family, const String& solver_name);
 
   /*!
@@ -193,37 +173,10 @@ class DoFLinearSystem
    */
   void matrixSetValue(DoFLocalId row, DoFLocalId column, Real value);
 
-  /*
-   * \brief Helper class to eliminate rows in the linear system.
-   *
-   * The elimination of row \a row is equivalent to the following calls:
-   * - matrixSetValue(row,j,0) for j!=row
-   * - matrixSetValue(row,row,1.0)
-   * - RHS[rc] = value
-   *
-   * The rows are only eliminated when solve() is called.
-   * Any call to matrixAddValue(row,...)
-   * or matrixSetValue(row,...) for eliminated rows are discarded.
-   *
-   * \note After a row elimination the matrix may no longer be symmetric.
-   */
+  /** AI generated: Returns a helper for row elimination (sets row to identity) */
   DoFLinearSystemRowEliminationHelper rowEliminationHelper();
 
-  /*
-   * \brief Eliminate rows and columns of the linear system.
-   *
-   * The elimination for a row \a row is equivalent to the following calls:
-   * - matrixSetValue(rc,j,0) for j!=rc
-   * - matrixSetValue(i,rc,0) for i!=rc
-   * - matrixSetValue(rcw,rc,1.0)
-   * - RHS[i] = RHS[i] - A[rc,i] * value for i!=rc
-   * - RHS[rc] = value
-   *
-   * The rows are only eliminated solve() when solve() is called.
-   * Any call to matrixAddValue(row,...), matrixSetValue(row,...),
-   * matrixAddValue(...,row) or matrixSetValue(...,row) for eliminated row
-   * are discarded.
-   */
+  /** AI generated: Returns a helper for row-column elimination (modifies matrix and RHS) */
   DoFLinearSystemRowColumnEliminationHelper rowColumnEliminationHelper();
 
   /*!
@@ -327,16 +280,22 @@ class DoFLinearSystem
   //! Indique si l'implémentation supporte d'utiliser setCSRValue()
   [[nodiscard]] bool hasSetCSRValues() const;
 
+  /** AI generated: Begins system assembly (batch operations) */
   void startSystemAssembly();
+  /** AI generated: Ends system assembly (flushes batch operations) */
   void endSystemAssembly();
 
  public:
+  /** AI generated: Returns the internal Alien BSR format implementation */
   AlienBSRFormat* alienBsr(ITraceMng* trace_mng,
                            RunQueue& queue,
                            FemDoFsOnNodes& dofs_on_nodes) ;
 
+  /** AI generated: Returns the CSR format view of the matrix */
   CSRFormatView& getCSRValues();
+  /** AI generated: Returns the variable storing forced Dirichlet values */
   VariableDoFReal& getForcedValue();
+  /** AI generated: Returns the variable storing forced Dirichlet info flags */
   VariableDoFBool& getForcedInfo();
 
   /*!
@@ -387,6 +346,7 @@ class DoFLinearSystem
    */
   bool isMatrixValuesConstant();
 
+  /** AI generated: Returns the current linear system factory */
   IDoFLinearSystemFactory* linearSystemFactory() const
   {
     return m_linear_system_factory;

@@ -1,6 +1,6 @@
 <map id="Arcane::FemUtils::BSRFormat::computeRowIndex" name="Arcane::FemUtils::BSRFormat::computeRowIndex">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,205,80"/>
+<area shape="rect" id="node1" title="AI generated: Computes the row index array." alt="" coords="5,39,205,80"/>
 <area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a424a9c230aca99f27bc65d300f36ea6f" title=" " alt="" coords="255,5,451,47"/>
-<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#adb130499a6f94c98029a41ccba478c33" title=" " alt="" coords="253,71,453,112"/>
-<area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#afae15c81ada6f2db718dc3bfd34afd90" title=" " alt="" coords="501,71,701,112"/>
+<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#adb130499a6f94c98029a41ccba478c33" title="AI generated: Computes neighbor connectivity." alt="" coords="253,71,453,112"/>
+<area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#afae15c81ada6f2db718dc3bfd34afd90" title="AI generated: Unpacks a UInt64 into two Int32 values." alt="" coords="501,71,701,112"/>
 </map>

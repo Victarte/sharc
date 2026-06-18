@@ -1,4 +1,4 @@
 <map id="FemModulePoisson::_computeElementMatrixHexa8" name="FemModulePoisson::_computeElementMatrixHexa8">
-<area shape="rect" id="node1" title="Computes the element matrix for a hexahedral element (HEXA8, ℙ1 FE)." alt="" coords="5,13,205,54"/>
+<area shape="rect" id="node1" title="AI comment: Computes the 8&#45;node hexahedron element matrix." alt="" coords="5,13,205,54"/>
 <area shape="rect" id="node2" href="$classArcaneFemFunctions_1_1FeOperation3D.html#af9b3f653f6750e4b98587903249c204e" title="Computes shape function gradients and the Jacobian determinant for a Hexa8 element." alt="" coords="253,5,485,61"/>
 </map>

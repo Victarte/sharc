@@ -108,11 +108,13 @@ $(document).ready(function(){initNavTree('namespaceArcane_1_1FemUtils_1_1Gpu_1_1
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structArcane_1_1FemUtils_1_1Gpu_1_1FeOperation2D_1_1Quad4GaussPointInfo.html">Quad4GaussPointInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Stores shape function gradients (dN/dx, dN/dy) and Jacobian determinant at a quadrature point for a Quad4 element.  <a href="structArcane_1_1FemUtils_1_1Gpu_1_1FeOperation2D_1_1Quad4GaussPointInfo.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a26aaa13ed4775a4e7967a466fd2a976f"><td class="memItemLeft" align="right" valign="top">static ARCCORE_HOST_DEVICE <a class="el" href="structArcane_1_1FemUtils_1_1Gpu_1_1FeOperation2D_1_1Quad4GaussPointInfo.html">Quad4GaussPointInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation2D.html#a26aaa13ed4775a4e7967a466fd2a976f">computeGradientsAndJacobianQuad4</a> (CellLocalId cell_lid, const IndexedCellNodeConnectivityView &amp;cn_cv, const Accelerator::VariableNodeReal3InView &amp;in_node_coord, Real xi, Real eta)</td></tr>
+<tr class="memdesc:a26aaa13ed4775a4e7967a466fd2a976f"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Computes shape function gradients and Jacobian determinant for a Quad4 element at a given (xi, eta) Gauss point.  <a href="namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation2D.html#a26aaa13ed4775a4e7967a466fd2a976f">More...</a><br /></td></tr>
 <tr class="separator:a26aaa13ed4775a4e7967a466fd2a976f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac019000fd3845be08da0af3f6ee6ec7e"><td class="memItemLeft" align="right" valign="top">ARCCORE_HOST_DEVICE Real3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation2D.html#ac019000fd3845be08da0af3f6ee6ec7e">computeGradientXTria3</a> (CellLocalId cell_lid, const IndexedCellNodeConnectivityView &amp;cn_cv, const Accelerator::VariableNodeReal3InView &amp;in_node_coord)</td></tr>
 <tr class="memdesc:ac019000fd3845be08da0af3f6ee6ec7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the 𝑥 gradients of basis functions 𝐍 for ℙ1 triangles.  <a href="namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation2D.html#ac019000fd3845be08da0af3f6ee6ec7e">More...</a><br /></td></tr>
@@ -174,7 +176,9 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00310">310</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
+<p>AI generated: Computes shape function gradients and Jacobian determinant for a Quad4 element at a given (xi, eta) Gauss point. </p>
+
+<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00315">315</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="Elasticity_2ElementMatrixHexQuad_8h_source.html#l00111">computeElementMatrixQuad4Gpu()</a>, and <a class="el" href="ArcaneFemFunctions_8h_source.html#l00716">ArcaneFemFunctions::FeOperation2D::computeGradientQuad4()</a>.</p>
 <div class="dynheader">
@@ -182,7 +186,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation2D_a26aaa13ed4775a4e7967a466fd2a976f_icgraph.png" border="0" usemap="#anamespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation2D_a26aaa13ed4775a4e7967a466fd2a976f_icgraph" alt=""/></div>
 <map name="anamespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation2D_a26aaa13ed4775a4e7967a466fd2a976f_icgraph" id="anamespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation2D_a26aaa13ed4775a4e7967a466fd2a976f_icgraph">
-<area shape="rect" title=" " alt="" coords="279,24,511,80"/>
+<area shape="rect" title="AI generated: Computes shape function gradients and Jacobian determinant for a Quad4 element at a giv..." alt="" coords="279,24,511,80"/>
 <area shape="rect" href="Elasticity_2ElementMatrixHexQuad_8h.html#aebbe4a505d80c982c938d09a1f39b24c" title="AI comment: GPU&#45;accelerated wrapper for quadrilateral element matrix computation." alt="" coords="9,5,227,32"/>
 <area shape="rect" href="classArcaneFemFunctions_1_1FeOperation2D.html#a0ad6ffa5ee8b19be36db90e526e9f0e3" title="Computes the gradient of a scalar field &#39;u&#39; for a Quad4 element." alt="" coords="5,56,231,112"/>
 </map>
@@ -235,7 +239,7 @@ Here is the caller graph for this function:</div>
 
     ∂𝐍/∂𝑥 = 1/(2𝐴) [ y2-y3  y3−y1  y1−y2 ]
 </pre> 
-<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00261">261</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00264">264</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="Poisson_2ElementMatrix_8h_source.html#l00041">_computeElementMatrixTria3Gpu()</a>, <a class="el" href="Poisson_2ElementMatrix_8h_source.html#l00054">_computeElementVectorTria3Gpu()</a>, <a class="el" href="Elasticity_2ElementMatrix_8h_source.html#l00065">computeElementMatrixTria3Gpu()</a>, <a class="el" href="ElementMatrixSYCL_8h_source.html#l00067">computeElementMatrixTria3SYCL()</a>, <a class="el" href="Elasticity_2ElementMatrix_8h_source.html#l00095">computeElementVectorTria3Gpu()</a>, and <a class="el" href="ElementMatrixSYCL_8h_source.html#l00087">computeElementVectorTria3SYCL()</a>.</p>
 <div class="dynheader">
@@ -307,7 +311,7 @@ Here is the caller graph for this function:</div>
 
     ∂𝐍/∂𝑥 = 1/(2𝐴) [ 𝑥₃−𝑥₂  𝑥₁−𝑥₃  𝑥₂−𝑥₁ ]
 </pre> 
-<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00289">289</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00292">292</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="Poisson_2ElementMatrix_8h_source.html#l00041">_computeElementMatrixTria3Gpu()</a>, <a class="el" href="Poisson_2ElementMatrix_8h_source.html#l00054">_computeElementVectorTria3Gpu()</a>, <a class="el" href="Elasticity_2ElementMatrix_8h_source.html#l00065">computeElementMatrixTria3Gpu()</a>, <a class="el" href="ElementMatrixSYCL_8h_source.html#l00067">computeElementMatrixTria3SYCL()</a>, <a class="el" href="Elasticity_2ElementMatrix_8h_source.html#l00095">computeElementVectorTria3Gpu()</a>, and <a class="el" href="ElementMatrixSYCL_8h_source.html#l00087">computeElementVectorTria3SYCL()</a>.</p>
 <div class="dynheader">

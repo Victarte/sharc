@@ -1,4 +1,4 @@
 <map id="Arcane::FemUtils::DoFLinearSystem::rowColumnEliminationHelper" name="Arcane::FemUtils::DoFLinearSystem::rowColumnEliminationHelper">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,248,47"/>
+<area shape="rect" id="node1" title="AI generated: Returns a helper for row&#45;column elimination (modifies matrix and RHS)" alt="" coords="5,5,248,47"/>
 <area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#afcda9b66b5bd30edc8472ec6b9af18a4" title=" " alt="" coords="296,5,488,47"/>
 </map>

@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" title="Computes the volume of a tetrahedra defined by four nodes." alt="" coords="1177,166,1396,222"/>
 <area shape="rect" id="node2" href="$classFemModuleElasticity.html#a256f8c1d84a3fb6da7c58eeb211e89cc" title="Applies body force to the RHS vector of the linear system." alt="" coords="948,5,1092,47"/>
 <area shape="rect" id="node7" href="$classFemModuleElasticity.html#aa3e68cf42ad61c851776529942f95f33" title="AI comment: Computes the tetrahedron element matrix, called from CPU assembly path." alt="" coords="917,71,1123,112"/>
-<area shape="rect" id="node9" href="$classFemModulePoisson.html#af2830e355648aa350dc37708ac97ad02" title="Computes the element matrix for a tetrahedral element (ℙ1 FE)." alt="" coords="921,136,1119,177"/>
+<area shape="rect" id="node9" href="$classFemModulePoisson.html#af2830e355648aa350dc37708ac97ad02" title="AI comment: Computes the 4&#45;node tetrahedron element matrix." alt="" coords="921,136,1119,177"/>
 <area shape="rect" id="node13" href="$classArcaneFemFunctions_1_1BoundaryConditions3D.html#aa0ebb21bb3657d2a31c6fbff5de45312" title="Applies a constant source term to the RHS vector." alt="" coords="923,202,1117,258"/>
 <area shape="rect" id="node16" href="$classArcaneFemFunctions_1_1BoundaryConditions3D.html#a4d5618875552b3a45fa2119c09982f4e" title="Applies a manufactured source term to the RHS vector." alt="" coords="911,282,1129,338"/>
 <area shape="rect" id="node17" href="$classArcaneFemFunctions_1_1BoundaryConditions3D.html#ab330d57e63d7d402b34999c0c3932640" title="Applies a nodal field as a source term to the RHS vector." alt="" coords="912,362,1128,418"/>

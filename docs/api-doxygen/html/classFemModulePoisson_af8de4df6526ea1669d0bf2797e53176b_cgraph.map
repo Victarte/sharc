@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" title="FEM linear operator for the current simulation step." alt="" coords="5,169,200,211"/>
 <area shape="rect" id="node2" href="$classBC_1_1IArcaneFemBC.html#a81fbbaff7f2f584e3a6e192a76636a80" title=" " alt="" coords="252,5,444,47"/>
 <area shape="rect" id="node3" href="$classBC_1_1IArcaneFemBC.html#ac495026549e1b2397e509792943faf6b" title=" " alt="" coords="252,71,444,112"/>
-<area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a83391c328302a1f9ed7a214202a6154d" title=" " alt="" coords="252,136,444,177"/>
+<area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a83391c328302a1f9ed7a214202a6154d" title="AI generated: Returns the variable storing forced Dirichlet info flags." alt="" coords="252,136,444,177"/>
 <area shape="rect" id="node7" href="$classBC_1_1IArcaneFemBC.html#a2e984ae291359c93e5173edbe2f85a38" title=" " alt="" coords="248,201,448,243"/>
 <area shape="rect" id="node8" href="$classArcaneFemFunctions_1_1GeneralFunctions.html#a536ca8befa6eb6b59fff8ef1a5895634" title="Logs the execution time with ArcaneFem&#45;Timer." alt="" coords="275,267,421,323"/>
 <area shape="rect" id="node9" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#ab9e662cc1eef2002a687c47e8fb858ac" title="Variable containing the right hand side vector." alt="" coords="252,348,444,389"/>

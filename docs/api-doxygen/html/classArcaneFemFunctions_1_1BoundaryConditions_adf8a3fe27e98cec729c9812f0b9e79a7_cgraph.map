@@ -10,12 +10,12 @@
 <area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#ab987262eff9a3c9006687d8036fde167" title="Set the value value to the (row,column) element of the matrix." alt="" coords="599,5,791,47"/>
 <area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#afcda9b66b5bd30edc8472ec6b9af18a4" title=" " alt="" coords="871,152,1063,193"/>
 <area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1IDoFLinearSystemImpl.html#a2bf079434a3e2d5e5a14e9d084f83e25" title=" " alt="" coords="869,5,1065,47"/>
-<area shape="rect" id="node7" href="$classArcane_1_1FemUtils_1_1DoFLinearSystemRowColumnEliminationHelper.html#ac989cd1fa7a057847baaabe54ba6ab9c" title=" " alt="" coords="575,283,815,339"/>
-<area shape="rect" id="node10" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#af0700ee5c3832143a6fb0dee9834ef9a" title=" " alt="" coords="573,217,816,259"/>
+<area shape="rect" id="node7" href="$classArcane_1_1FemUtils_1_1DoFLinearSystemRowColumnEliminationHelper.html#ac989cd1fa7a057847baaabe54ba6ab9c" title="AI generated: Mark a row for row&#45;column elimination (modifies matrix symmetry and RHS)" alt="" coords="575,283,815,339"/>
+<area shape="rect" id="node10" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#af0700ee5c3832143a6fb0dee9834ef9a" title="AI generated: Returns a helper for row&#45;column elimination (modifies matrix and RHS)" alt="" coords="573,217,816,259"/>
 <area shape="rect" id="node8" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#ae97df68be0f24f6057da043b92c73243" title=" " alt="" coords="864,291,1069,332"/>
 <area shape="rect" id="node9" href="$classArcane_1_1FemUtils_1_1IDoFLinearSystemImpl.html#a9db333eb62a222ed34807b7fb73227a9" title=" " alt="" coords="1117,291,1340,332"/>
-<area shape="rect" id="node12" href="$classArcane_1_1FemUtils_1_1DoFLinearSystemRowEliminationHelper.html#a4d5cb4c5014962fe5500c90baa3324a1" title=" " alt="" coords="597,71,792,127"/>
-<area shape="rect" id="node15" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a39e645f267b72edd535d3e6abe2953dd" title=" " alt="" coords="596,152,793,193"/>
+<area shape="rect" id="node12" href="$classArcane_1_1FemUtils_1_1DoFLinearSystemRowEliminationHelper.html#a4d5cb4c5014962fe5500c90baa3324a1" title="AI generated: Mark a row for elimination (sets row to identity and RHS to value)" alt="" coords="597,71,792,127"/>
+<area shape="rect" id="node15" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a39e645f267b72edd535d3e6abe2953dd" title="AI generated: Returns a helper for row elimination (sets row to identity)" alt="" coords="596,152,793,193"/>
 <area shape="rect" id="node13" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a7f97631dd9ffbe13d25c981766e8e18f" title=" " alt="" coords="871,79,1063,120"/>
 <area shape="rect" id="node14" href="$classArcane_1_1FemUtils_1_1IDoFLinearSystemImpl.html#ad7d7fe6b08d5657483b408d653b14a7c" title=" " alt="" coords="1131,79,1327,120"/>
 </map>

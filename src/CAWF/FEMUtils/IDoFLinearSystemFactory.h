@@ -26,11 +26,13 @@ namespace Arcane::FemUtils
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI generated: Forward declaration */
 class IDoFLinearSystemImpl;
 
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI generated: Interface for a factory that creates linear system implementations */
 class IDoFLinearSystemFactory
 {
  public:
@@ -39,6 +41,7 @@ class IDoFLinearSystemFactory
 
  public:
 
+  /** AI generated: Creates a new linear system implementation instance */
   virtual IDoFLinearSystemImpl*
   createInstance(ISubDomain* sd, IItemFamily* dof_family, const String& solver_name) = 0;
 };

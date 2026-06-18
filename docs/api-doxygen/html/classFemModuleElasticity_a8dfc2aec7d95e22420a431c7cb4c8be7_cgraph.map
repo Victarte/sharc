@@ -1,4 +1,4 @@
 <map id="FemModuleElasticity::_defineMatrixProfile" name="FemModuleElasticity::_defineMatrixProfile">
 <area shape="rect" id="node1" title=" " alt="" coords="5,5,151,47"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title=" " alt="" coords="199,5,439,47"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title="AI generated: Returns the connectivity view from nodes to their associated DoFs." alt="" coords="199,5,439,47"/>
 </map>

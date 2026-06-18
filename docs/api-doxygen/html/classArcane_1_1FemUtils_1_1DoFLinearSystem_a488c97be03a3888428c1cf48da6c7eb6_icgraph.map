@@ -1,5 +1,5 @@
 <map id="Arcane::FemUtils::DoFLinearSystem::getForcedValue" name="Arcane::FemUtils::DoFLinearSystem::getForcedValue">
-<area shape="rect" id="node1" title=" " alt="" coords="573,13,765,54"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers.html#a8b4517fc127a5eada859108b70d17356" title=" " alt="" coords="275,5,525,61"/>
+<area shape="rect" id="node1" title="AI generated: Returns the variable storing forced Dirichlet values." alt="" coords="573,13,765,54"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers.html#a8b4517fc127a5eada859108b70d17356" title="AI generated: Applies Dirichlet BCs using the penalty method (adds penalty to diagonal and RHS)" alt="" coords="275,5,525,61"/>
 <area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditions.html#a67eda03119c334c2d6d444a9e0a2bbcc" title="Applies Point Dirichlet boundary conditions to RHS and LHS." alt="" coords="5,5,227,61"/>
 </map>

@@ -79,37 +79,52 @@ class AlienBSRMatrix
 
  public:
 
+  /** AI generated: Constructor initializing the BSR matrix with memory resource and queue. */
   AlienBSRMatrix(ITraceMng* tm,
                  const eMemoryRessource& mem_ressource,
                  const RunQueue& queue);
 
  public:
 
+  /** AI generated: Initializes the matrix with dimensions and block parameters. */
   void initialize(Int32 nb_non_zero_value, Int32 nb_col, Int32 nb_row, Int8 nb_block, bool order_values_per_block);
+  /** AI generated: Finds the linear index of a value given its (row, col) coordinates. */
   Int32 findValueIndex(DoFLocalId row, DoFLocalId col) const;
+  /** AI generated: Gets the value at the specified (row, col) position. */
   Real getValue(DoFLocalId row, DoFLocalId col) const
   {
     auto value_idx = findValueIndex(row, col);
     return m_values[value_idx];
   }
+  /** AI generated: Sets the value at the specified (row, col) position. */
   void setValue(DoFLocalId row, DoFLocalId col, Real value)
   {
     auto value_idx = findValueIndex(row, col);
     m_values[value_idx] = value;
   }
+  /** AI generated: Adds a value at the specified (row, col) position. */
   void addValue(DoFLocalId row, DoFLocalId col, Real value)
   {
     auto value_idx = findValueIndex(row, col);
     m_values[value_idx] += value;
   }
+
+  /** AI generated: Converts the BSR matrix to CSR format. */
   void toCsr(CsrFormat* csr_matrix);
+  /** AI generated: Converts the matrix to a linear system for solving. */
   void toLinearSystem(DoFLinearSystem& linear_system);
+  /** AI generated: Dumps the matrix contents to a file. */
   void dump(const String& filename);
 
+  /** AI generated: Returns true if values are ordered per block (vs per row). */
   bool orderValuePerBlock() { return m_order_values_per_block; }
+  /** AI generated: Returns the number of non-zero values. */
   Int32 nbNonZero() { return m_nb_non_zero_value; };
+  /** AI generated: Returns the number of columns. */
   Int32 nbColumn() { return m_nb_col; };
+  /** AI generated: Returns the number of rows. */
   Int32 nbRow() { return m_nb_row; };
+  /** AI generated: Returns the block size. */
   Int8 nbBlock() { return m_nb_block; };
 
  private:
@@ -159,6 +174,7 @@ class AlienBSRFormat
 {
  public:
 
+  /** AI generated: Constructor initializing the BSR format with mesh DoFs and accelerator settings. */
   AlienBSRFormat(ITraceMng* tm, RunQueue& queue, const FemDoFsOnNodes& dofs_on_nodes, bool use_accelerator);
 
  private:
@@ -169,19 +185,28 @@ class AlienBSRFormat
 
  public:
 
+  /** AI generated: Initializes the format with mesh and number of DoFs per node. */
   void initialize(IMesh* mesh,
                   Int8 nb_dof);
 
+  /** AI generated: Returns the associated run queue. */
   RunQueue& queue() {
     return m_queue;
   }
+  /** AI generated: Converts the assembled matrix to a linear system. */
   void toLinearSystem(DoFLinearSystem& linear_system);
+  /** AI generated: Computes the number of non-zeros per row array. */
   void computeNzPerRowArray();
+  /** AI generated: Computes neighbor lists without atomic operations. */
   void computeNeighborsAtomicFree(SmallSpan<Int32>& neighbors_ss);
+  /** AI generated: Computes row index array without atomic operations. */
   void computeRowIndexAtomicFree();
+  /** AI generated: Computes column indices without atomic operations. */
   void computeColumnsAtomicFree();
+  /** AI generated: Computes matrix sparsity pattern without atomic operations. */
   void computeSparsityAtomicFree();
 
+  /** AI generated: Packs two Int32 values into a single UInt64 for edge representation. */
   ARCCORE_HOST_DEVICE static UInt64 pack(Int32 n0, Int32 n1)
   {
     Int32 min = n0 > n1 ? n1 : n0;
@@ -189,16 +214,21 @@ class AlienBSRFormat
     return ((UInt64)min << 32) | (UInt64)max;
   }
 
+  /** AI generated: Unpacks a UInt64 edge representation into two Int32 values. */
   ARCCORE_HOST_DEVICE static void unpack(UInt64 packed_edge, Int32& n0, Int32& n1)
   {
     n0 = (Int32)(packed_edge >> 32);
     n1 = (Int32)(packed_edge & 0xFFFFFFFF);
   }
 
+  /** AI generated: Computes sorted edge list from mesh connectivity. */
   void computeSortedEdges(Int8 edges_per_element, Int64 nb_edge_total, SmallSpan<UInt64>& sorted_edges_ss);
+  /** AI generated: Computes neighbor nodes from sorted edges. */
   void computeNeighbors(Int8 edges_per_element, Int64 nb_edge_total, NumArray<Int32, MDDim1>& neighbors, SmallSpan<UInt64>& sorted_edges_ss);
+  /** AI generated: Computes row index array from sorted edges. */
   void computeRowIndex(Int8 edges_per_element, Int64 nb_edge_total, SmallSpan<UInt64>& sorted_edges_ss);
 
+  /** AI generated: Atomically registers an edge as a column entry in the sparsity pattern. */
   ARCCORE_HOST_DEVICE static void
   registerEdgeInColumns(Int32 src, Int32 dst,
                         Accelerator::NumArrayView<DataViewGetterSetter<Int32>, MDDim1, DefaultLayout> offsets,
@@ -210,57 +240,75 @@ class AlienBSRFormat
     columns[start + offset] = dst;
   }
 
+  /** AI generated: Computes column indices from sorted edges. */
   void computeColumns(Int8 edges_per_element, Int64 nb_edge_total, SmallSpan<uint64_t>& sorted_edges_ss);
+  /** AI generated: Computes matrix sparsity pattern with atomic operations. */
   void computeSparsityAtomic();
+  /** AI generated: Computes the matrix profile using a user-defined callback. */
   template<typename ProfileT>
   void computeProfile(const std::function<void(ProfileT&,ConstArrayView<Integer>)>& compute_matrix_profile);
 
+  /** AI generated: Begins the system filling step. */
   void startSystemFillingStep() ;
+  /** AI generated: Ends the system filling step. */
   void endSystemFillingStep() ;
 
+  /** AI generated: Returns the profiled matrix builder. */
   Alien::ProfiledMatrixBuilder* getMatrixBuilder() {
     return m_builder.get() ;
   }
 
+  /** AI generated: Returns all UIndex values as a const view. */
   ConstArrayView<Arccore::Integer> getAllUIndex() const {
     return m_allUIndex.constView();
   }
 
+  /** AI generated: Returns the right-hand side vector B. */
   Alien::Vector& getVectorB() {
     return m_vectorB;
   }
 
+  /** AI generated: Returns the solution vector X. */
   Alien::Vector& getVectorX() {
     return m_vectorX;
   }
 
+  /** AI generated: Returns the system matrix A. */
   Alien::Matrix& getMatrixA() {
     return m_matrixA;
   }
 
+  /** AI generated: Returns the underlying BSR matrix. */
   AlienBSRMatrix& matrix();
+  /** AI generated: Resets all matrix values to zero. */
   void resetMatrixValues();
+  /** AI generated: Dumps the matrix to a file for debugging. */
   void dumpMatrix(const String& filename);
 
  public:
 
+  /** AI generated: Assembles the bilinear form with values ordered per block. */
   template <class Function> inline void
   assembleBilinearOrderedPerBlock(Function compute_element_matrix);
 
+  /** AI generated: Assembles the bilinear form with values ordered per row. */
   template <class Function> inline void
   assembleBilinearOrderedPerRow(Function compute_element_matrix);
 
   template <class Function> inline void
   assembleBilinearAtomic(Function compute_element_matrix);
 
+  /** AI generated: Assembles the bilinear form per block without atomic operations. */
   template <class Function> inline void
   assembleBilinearOrderedPerBlockAtomicFree(Function compute_element_vectors);
 
+  /** AI generated: Assembles the bilinear form per row without atomic operations. */
   template <class Function> inline void
   assembleBilinearOrderedPerRowAtomicFree(Function compute_element_vectors);
 
   template <class Function> inline void
   assembleBilinearAtomicFree(Function compute_element_vectors);
+  /** AI generated: Dispatches assembly to atomic or atomic-free method. */
   template <class Function> inline void
   assembleBilinear(Function compute_element_matrix);
 

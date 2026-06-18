@@ -1,4 +1,4 @@
 <map id="Arcane::FemUtils::AlienBSRFormat::computeNeighbors" name="Arcane::FemUtils::AlienBSRFormat::computeNeighbors">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,235,47"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a7c1dc3dec490e94cda382b028bd3ab74" title=" " alt="" coords="283,5,512,47"/>
+<area shape="rect" id="node1" title="AI generated: Computes neighbor nodes from sorted edges." alt="" coords="5,5,235,47"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a7c1dc3dec490e94cda382b028bd3ab74" title="AI generated: Unpacks a UInt64 edge representation into two Int32 values." alt="" coords="283,5,512,47"/>
 </map>

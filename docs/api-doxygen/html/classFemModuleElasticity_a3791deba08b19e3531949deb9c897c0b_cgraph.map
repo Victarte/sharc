@@ -1,6 +1,6 @@
 <map id="FemModuleElasticity::_updateVariables" name="FemModuleElasticity::_updateVariables">
 <area shape="rect" id="node1" title="Update the FEM variables." alt="" coords="5,79,149,120"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title=" " alt="" coords="197,5,437,47"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title="AI generated: Returns the connectivity view from nodes to their associated DoFs." alt="" coords="197,5,437,47"/>
 <area shape="rect" id="node3" href="$classArcaneFemFunctions_1_1GeneralFunctions.html#a536ca8befa6eb6b59fff8ef1a5895634" title="Logs the execution time with ArcaneFem&#45;Timer." alt="" coords="244,71,391,127"/>
 <area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a2c0c142c63809f51c41742d8923c2472" title="Variable containing the solution vector." alt="" coords="221,152,413,193"/>
 <area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#afcda9b66b5bd30edc8472ec6b9af18a4" title=" " alt="" coords="487,119,679,160"/>

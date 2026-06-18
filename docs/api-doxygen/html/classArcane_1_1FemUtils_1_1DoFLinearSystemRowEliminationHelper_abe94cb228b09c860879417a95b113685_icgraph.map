@@ -1,5 +1,5 @@
 <map id="Arcane::FemUtils::DoFLinearSystemRowEliminationHelper::getEliminationInfo" name="Arcane::FemUtils::DoFLinearSystemRowEliminationHelper::getEliminationInfo">
-<area shape="rect" id="node1" title=" " alt="" coords="557,13,752,69"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers.html#a895ff58526cda3ffe081e2db524276bb" title=" " alt="" coords="275,5,509,76"/>
+<area shape="rect" id="node1" title="AI generated: Returns the variable tracking elimination info for each DoF." alt="" coords="557,13,752,69"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers.html#a895ff58526cda3ffe081e2db524276bb" title="AI generated: Applies Dirichlet BCs via row or row&#45;column elimination (modifies matrix and RHS)" alt="" coords="275,5,509,76"/>
 <area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditions.html#a67eda03119c334c2d6d444a9e0a2bbcc" title="Applies Point Dirichlet boundary conditions to RHS and LHS." alt="" coords="5,13,227,69"/>
 </map>

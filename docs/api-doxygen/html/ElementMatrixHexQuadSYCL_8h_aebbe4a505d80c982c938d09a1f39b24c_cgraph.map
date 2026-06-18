@@ -1,5 +1,5 @@
 <map id="computeElementMatrixQuad4Gpu" name="computeElementMatrixQuad4Gpu">
 <area shape="rect" id="node1" title="AI comment: SYCL&#45;accelerated wrapper for quadrilateral element matrix computation." alt="" coords="5,39,224,65"/>
 <area shape="rect" id="node2" href="$ElementMatrixHexQuadSYCL_8h.html#a8621659b9ea138456aa352ab33ca583e" title="Computes the element matrix for a quadrilateral element (QUAD4, ℙ1 FE)." alt="" coords="276,5,500,32"/>
-<area shape="rect" id="node3" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation2D.html#a26aaa13ed4775a4e7967a466fd2a976f" title=" " alt="" coords="272,56,504,112"/>
+<area shape="rect" id="node3" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation2D.html#a26aaa13ed4775a4e7967a466fd2a976f" title="AI generated: Computes shape function gradients and Jacobian determinant for a Quad4 element at a giv..." alt="" coords="272,56,504,112"/>
 </map>

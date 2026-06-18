@@ -1,16 +1,16 @@
 <map id="Arcane::FemUtils::BSRFormat::computeSparsityAtomic" name="Arcane::FemUtils::BSRFormat::computeSparsityAtomic">
-<area shape="rect" id="node1" title=" " alt="" coords="5,287,205,328"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a47adcb4d0a1c33fcb06750ac6ef0a279" title=" " alt="" coords="253,129,453,171"/>
-<area shape="rect" id="node7" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a0158263adf36bc2fac02da467309e612" title=" " alt="" coords="253,319,453,360"/>
-<area shape="rect" id="node11" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a880e9ee563cf2959309be90ab24ca67c" title=" " alt="" coords="253,253,453,295"/>
-<area shape="rect" id="node13" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#ae09c2f764d604455c1181c01d588bef0" title=" " alt="" coords="253,449,453,491"/>
+<area shape="rect" id="node1" title="AI generated: Computes sparsity using atomic operations." alt="" coords="5,287,205,328"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a47adcb4d0a1c33fcb06750ac6ef0a279" title="AI generated: Computes the columns array from sorted edges." alt="" coords="253,129,453,171"/>
+<area shape="rect" id="node7" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a0158263adf36bc2fac02da467309e612" title="AI generated: Computes the number of non&#45;zeros per row array." alt="" coords="253,319,453,360"/>
+<area shape="rect" id="node11" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a880e9ee563cf2959309be90ab24ca67c" title="AI generated: Computes the row index array." alt="" coords="253,253,453,295"/>
+<area shape="rect" id="node13" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#ae09c2f764d604455c1181c01d588bef0" title="AI generated: Computes sorted edges from element connectivity." alt="" coords="253,449,453,491"/>
 <area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a23cc2fce6932d9fdc5be4d44b0ef2a43" title=" " alt="" coords="503,5,699,47"/>
 <area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a424a9c230aca99f27bc65d300f36ea6f" title=" " alt="" coords="503,253,699,295"/>
-<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a285c10797ab422e8a7fd307c7f249c0d" title=" " alt="" coords="501,71,701,112"/>
-<area shape="rect" id="node6" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#afae15c81ada6f2db718dc3bfd34afd90" title=" " alt="" coords="749,159,949,200"/>
+<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a285c10797ab422e8a7fd307c7f249c0d" title="AI generated: Registers an edge in the columns array." alt="" coords="501,71,701,112"/>
+<area shape="rect" id="node6" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#afae15c81ada6f2db718dc3bfd34afd90" title="AI generated: Unpacks a UInt64 into two Int32 values." alt="" coords="749,159,949,200"/>
 <area shape="rect" id="node8" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a89d7aa7afdf3fcc05a3c109fb07d004e" title=" " alt="" coords="503,384,699,425"/>
-<area shape="rect" id="node9" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a54edb205b403239c6a8e91b450e060a6" title=" " alt="" coords="503,449,699,491"/>
-<area shape="rect" id="node10" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a0d260a1f8d46380e164e6fc1e8fa259d" title=" " alt="" coords="503,319,699,360"/>
-<area shape="rect" id="node12" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#adb130499a6f94c98029a41ccba478c33" title=" " alt="" coords="501,188,701,229"/>
-<area shape="rect" id="node14" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#af078e5a4de9111824894d821a54b34fb" title=" " alt="" coords="501,515,701,556"/>
+<area shape="rect" id="node9" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a54edb205b403239c6a8e91b450e060a6" title="AI generated: Returns the number of columns." alt="" coords="503,449,699,491"/>
+<area shape="rect" id="node10" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a0d260a1f8d46380e164e6fc1e8fa259d" title="AI generated: Returns the number of rows." alt="" coords="503,319,699,360"/>
+<area shape="rect" id="node12" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#adb130499a6f94c98029a41ccba478c33" title="AI generated: Computes neighbor connectivity." alt="" coords="501,188,701,229"/>
+<area shape="rect" id="node14" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#af078e5a4de9111824894d821a54b34fb" title="AI generated: Packs two Int32 values into a UInt64." alt="" coords="501,515,701,556"/>
 </map>

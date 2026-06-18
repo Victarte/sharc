@@ -1,5 +1,5 @@
 <map id="Arcane::FemUtils::BSRFormat::initialize" name="Arcane::FemUtils::BSRFormat::initialize">
-<area shape="rect" id="node1" title=" " alt="" coords="632,35,832,76"/>
+<area shape="rect" id="node1" title="AI generated: Initializes the BSR format with mesh and DoF parameters." alt="" coords="632,35,832,76"/>
 <area shape="rect" id="node2" href="$classFemModuleElasticity.html#ac31cf211d5632b669e22b69098ba96b4" title="Initializes BSR matrix." alt="" coords="415,5,559,47"/>
 <area shape="rect" id="node5" href="$classFemModulePoisson.html#a044148fb14bd4cc124ba751b11fea973" title="Performs the main computation for the FemModulePoisson." alt="" coords="389,71,584,98"/>
 <area shape="rect" id="node3" href="$classFemModuleElasticity.html#ad3bb0f9040e4141ceef536038cd61a2d" title="Performs the main computation for the FemModuleElasticity." alt="" coords="197,5,341,47"/>

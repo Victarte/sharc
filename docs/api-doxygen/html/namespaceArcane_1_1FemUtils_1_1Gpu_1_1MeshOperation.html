@@ -107,6 +107,7 @@ $(document).ready(function(){initNavTree('namespaceArcane_1_1FemUtils_1_1Gpu_1_1
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a9e8317fecb3d24b1fffa39bbd7b36912"><td class="memItemLeft" align="right" valign="top">ARCCORE_HOST_DEVICE Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceArcane_1_1FemUtils_1_1Gpu_1_1MeshOperation.html#a9e8317fecb3d24b1fffa39bbd7b36912">computeAreaTria</a> (FaceLocalId face_lid, const IndexedFaceNodeConnectivityView &amp;fn_cv, const Accelerator::VariableNodeReal3InView &amp;in_node_coord)</td></tr>
+<tr class="memdesc:a9e8317fecb3d24b1fffa39bbd7b36912"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Computes the area of a triangular face from face-to-node connectivity.  <a href="namespaceArcane_1_1FemUtils_1_1Gpu_1_1MeshOperation.html#a9e8317fecb3d24b1fffa39bbd7b36912">More...</a><br /></td></tr>
 <tr class="separator:a9e8317fecb3d24b1fffa39bbd7b36912"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cf50a9c52da08162b43e6d8b7719571"><td class="memItemLeft" align="right" valign="top">ARCCORE_HOST_DEVICE Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceArcane_1_1FemUtils_1_1Gpu_1_1MeshOperation.html#a8cf50a9c52da08162b43e6d8b7719571">computeAreaTria3</a> (CellLocalId cell_lid, const IndexedCellNodeConnectivityView &amp;cn_cv, const Accelerator::VariableNodeReal3InView &amp;in_node_coord)</td></tr>
 <tr class="memdesc:a8cf50a9c52da08162b43e6d8b7719571"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the area of a triangle defined by three nodes.  <a href="namespaceArcane_1_1FemUtils_1_1Gpu_1_1MeshOperation.html#a8cf50a9c52da08162b43e6d8b7719571">More...</a><br /></td></tr>
@@ -121,6 +122,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:aee6839b5b89b9658821b6818f1890383"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the normalized triangle normal for a given face.  <a href="namespaceArcane_1_1FemUtils_1_1Gpu_1_1MeshOperation.html#aee6839b5b89b9658821b6818f1890383">More...</a><br /></td></tr>
 <tr class="separator:aee6839b5b89b9658821b6818f1890383"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a095e338ef3a8aee503c0f5a86d372346"><td class="memItemLeft" align="right" valign="top">static ARCCORE_HOST_DEVICE Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceArcane_1_1FemUtils_1_1Gpu_1_1MeshOperation.html#a095e338ef3a8aee503c0f5a86d372346">computeVolumeHexa8</a> (CellLocalId cell_lid, const IndexedCellNodeConnectivityView &amp;cn_cv, const Accelerator::VariableNodeReal3InView &amp;in_node_coord)</td></tr>
+<tr class="memdesc:a095e338ef3a8aee503c0f5a86d372346"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Computes the volume of a hexahedron as the sum of three tetrahedral decompositions.  <a href="namespaceArcane_1_1FemUtils_1_1Gpu_1_1MeshOperation.html#a095e338ef3a8aee503c0f5a86d372346">More...</a><br /></td></tr>
 <tr class="separator:a095e338ef3a8aee503c0f5a86d372346"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7939929d72afd589596c4a562faafd9"><td class="memItemLeft" align="right" valign="top">ARCCORE_HOST_DEVICE Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceArcane_1_1FemUtils_1_1Gpu_1_1MeshOperation.html#ae7939929d72afd589596c4a562faafd9">computeVolumeTetra4</a> (CellLocalId cell_lid, const IndexedCellNodeConnectivityView &amp;cn_cv, const Accelerator::VariableNodeReal3InView &amp;in_node_coord)</td></tr>
 <tr class="memdesc:ae7939929d72afd589596c4a562faafd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the volume of a tetrahedra defined by four nodes.  <a href="namespaceArcane_1_1FemUtils_1_1Gpu_1_1MeshOperation.html#ae7939929d72afd589596c4a562faafd9">More...</a><br /></td></tr>
@@ -167,7 +169,9 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00091">91</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
+<p>AI generated: Computes the area of a triangular face from face-to-node connectivity. </p>
+
+<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00093">93</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
 
 </div>
 </div>
@@ -214,7 +218,7 @@ Functions</h2></td></tr>
 <p>computes the area of a triangle defined by three nodes. </p>
 <p>The area is determined as half the magnitude of the cross-product of two edge vectors originating from the first node. </p>
 
-<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00076">76</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00077">77</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="Poisson_2ElementMatrix_8h_source.html#l00041">_computeElementMatrixTria3Gpu()</a>, <a class="el" href="Poisson_2ElementMatrix_8h_source.html#l00054">_computeElementVectorTria3Gpu()</a>, <a class="el" href="Elasticity_2ElementMatrix_8h_source.html#l00065">computeElementMatrixTria3Gpu()</a>, <a class="el" href="ElementMatrixSYCL_8h_source.html#l00067">computeElementMatrixTria3SYCL()</a>, <a class="el" href="Elasticity_2ElementMatrix_8h_source.html#l00095">computeElementVectorTria3Gpu()</a>, <a class="el" href="ElementMatrixSYCL_8h_source.html#l00087">computeElementVectorTria3SYCL()</a>, and <a class="el" href="ArcaneFemFunctions_8h_source.html#l00356">ArcaneFemFunctions::MeshOperation::computeFacLengthOrArea()</a>.</p>
 <div class="dynheader">
@@ -285,7 +289,7 @@ Here is the caller graph for this function:</div>
 <p>Computes the length of the edge defined by a given face. </p>
 <p>This method calculates Euclidean distance between the two nodes of the face. </p>
 
-<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00138">138</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00140">140</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
 
 </div>
 </div>
@@ -338,7 +342,7 @@ Here is the caller graph for this function:</div>
 <p>Computes the normalized edge normal for a given face. </p>
 <p>This method calculates normal vector to the edge defined by nodes of the face, normalizes it, and ensures the correct orientation. </p>
 
-<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00158">158</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00160">160</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
 
 </div>
 </div>
@@ -391,7 +395,7 @@ Here is the caller graph for this function:</div>
 <p>Computes the normalized triangle normal for a given face. </p>
 <p>This method calculates normal vector to the triangle defined by nodes, of the face and normalizes it, and ensures the correct orientation. </p>
 
-<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00189">189</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00191">191</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
 
 </div>
 </div>
@@ -435,7 +439,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00216">216</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
+<p>AI generated: Computes the volume of a hexahedron as the sum of three tetrahedral decompositions. </p>
+
+<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00219">219</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
 
 </div>
 </div>
@@ -482,7 +488,7 @@ Here is the caller graph for this function:</div>
 <p>Computes the volume of a tetrahedra defined by four nodes. </p>
 <p>The volume is given by one-sixth of the absolute value of the determinant formed by three edge vectors originating from the first node. </p>
 
-<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00113">113</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00115">115</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="Poisson_2ElementMatrix_8h_source.html#l00093">_computeElementMatrixTetra4Gpu()</a>, <a class="el" href="Poisson_2ElementMatrix_8h_source.html#l00107">_computeElementVectorTetra4Gpu()</a>, <a class="el" href="Elasticity_2ElementMatrix_8h_source.html#l00218">computeElementMatrixTetra4Gpu()</a>, <a class="el" href="ElementMatrixSYCL_8h_source.html#l00195">computeElementMatrixTetra4SYCL()</a>, <a class="el" href="Elasticity_2ElementMatrix_8h_source.html#l00238">computeElementVectorTetra4Gpu()</a>, and <a class="el" href="ElementMatrixSYCL_8h_source.html#l00213">computeElementVectorTetra4SYCL()</a>.</p>
 <div class="dynheader">

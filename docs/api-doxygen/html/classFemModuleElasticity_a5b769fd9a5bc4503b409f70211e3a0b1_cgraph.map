@@ -6,22 +6,22 @@
 <area shape="rect" id="node40" href="$classFemModuleElasticity.html#a79d9054778f3d94fcea4c521fc940c0d" title="Solves the linear system." alt="" coords="240,1199,384,1240"/>
 <area shape="rect" id="node42" href="$classFemModuleElasticity.html#a3791deba08b19e3531949deb9c897c0b" title="Update the FEM variables." alt="" coords="240,1329,384,1371"/>
 <area shape="rect" id="node44" href="$classFemModuleElasticity.html#a7103f7131405b48047f227d4034ef208" title="AI comment: Validates computed results against a reference solution file." alt="" coords="240,1264,384,1305"/>
-<area shape="rect" id="node46" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a2becc0a3663d37a07b286376941eb857" title=" " alt="" coords="197,1851,427,1892"/>
-<area shape="rect" id="node47" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#ad9c508dac5031e71d41cbf2fc091cc2c" title=" " alt="" coords="213,1695,411,1736"/>
-<area shape="rect" id="node49" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a7a3d3769ec72ad9a17b77e2d5e13ccd5" title=" " alt="" coords="211,1785,413,1827"/>
+<area shape="rect" id="node46" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a2becc0a3663d37a07b286376941eb857" title="AI generated: Computes the matrix profile using a user&#45;defined callback." alt="" coords="197,1851,427,1892"/>
+<area shape="rect" id="node47" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#ad9c508dac5031e71d41cbf2fc091cc2c" title="AI generated: Ends system assembly (flushes batch operations)" alt="" coords="213,1695,411,1736"/>
+<area shape="rect" id="node49" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a7a3d3769ec72ad9a17b77e2d5e13ccd5" title="AI generated: Begins system assembly (batch operations)" alt="" coords="211,1785,413,1827"/>
 <area shape="rect" id="node3" href="$classFemModuleElasticity.html#a7ea496af8ddb472bb9fedd82a7e613bd" title="AI comment: Computes the hexahedron element matrix using 2×2×2 Gauss quadrature." alt="" coords="506,605,714,647"/>
 <area shape="rect" id="node6" href="$classFemModuleElasticity.html#ac2500a3508b48f967e296ffc0f72d668" title="AI comment: Computes the quadrilateral element matrix using 2×2 Gauss quadrature." alt="" coords="505,993,715,1035"/>
 <area shape="rect" id="node9" href="$classFemModuleElasticity.html#aa3e68cf42ad61c851776529942f95f33" title="AI comment: Computes the tetrahedron element matrix, called from CPU assembly path." alt="" coords="507,488,713,529"/>
 <area shape="rect" id="node15" href="$classFemModuleElasticity.html#a6f3693bac64f0e4dd7b43c54609ca028" title="AI comment: Computes the triangle element matrix, called from CPU assembly path." alt="" coords="511,681,709,723"/>
-<area shape="rect" id="node20" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#ab40b83069f7e3687258becfc1f3ca01e" title="Assembles the global BSR matrix for a bilinear operator, cell&#45;wise." alt="" coords="510,71,710,112"/>
-<area shape="rect" id="node25" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a8d688f9f1a53070ad55129d0e3a32fa8" title="Assembles the global BSR matrix for a bilinear operator, node&#45;wise." alt="" coords="510,188,710,229"/>
+<area shape="rect" id="node20" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#ab40b83069f7e3687258becfc1f3ca01e" title="AI generated: Assembles the bilinear form using atomic operations." alt="" coords="510,71,710,112"/>
+<area shape="rect" id="node25" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a8d688f9f1a53070ad55129d0e3a32fa8" title="AI generated: Assembles the bilinear form using atomic&#45;free operations." alt="" coords="510,188,710,229"/>
 <area shape="rect" id="node26" href="$Elasticity_2ElementMatrix_8h.html#aa807872358f2879e9566ea8952f0e759" title="AI comment: GPU&#45;accelerated wrapper for tetrahedron element matrix computation." alt="" coords="502,437,718,463"/>
 <area shape="rect" id="node27" href="$Elasticity_2ElementMatrix_8h.html#a99f38bb1dc681d4708c9efd37f455665" title="AI comment: GPU&#45;accelerated wrapper for triangular element matrix computation." alt="" coords="506,554,714,581"/>
 <area shape="rect" id="node28" href="$Elasticity_2ElementMatrix_8h.html#a706cc33d50679432ad666301a86da9f9" title="AI comment: GPU&#45;accelerated computation of a single row of the tetrahedron element matrix." alt="" coords="501,137,719,163"/>
 <area shape="rect" id="node29" href="$Elasticity_2ElementMatrix_8h.html#a6d5dce2fcf240bb1b915f6212d3f2738" title=" " alt="" coords="505,254,715,281"/>
-<area shape="rect" id="node30" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#ae2923f622def0bbfe6f52809deaeb791" title=" " alt="" coords="510,305,710,347"/>
+<area shape="rect" id="node30" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#ae2923f622def0bbfe6f52809deaeb791" title="AI generated: Computes the sparsity pattern." alt="" coords="510,305,710,347"/>
 <area shape="rect" id="node31" href="$classArcaneFemFunctions_1_1GeneralFunctions.html#a536ca8befa6eb6b59fff8ef1a5895634" title="Logs the execution time with ArcaneFem&#45;Timer." alt="" coords="537,1257,683,1313"/>
-<area shape="rect" id="node32" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a01cf7f213dbfed98b9ab3328fa0311ce" title=" " alt="" coords="510,371,710,412"/>
+<area shape="rect" id="node32" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a01cf7f213dbfed98b9ab3328fa0311ce" title="AI generated: Converts the matrix to a DoF linear system." alt="" coords="510,371,710,412"/>
 <area shape="rect" id="node4" href="$Elasticity_2ElementMatrixHexQuad_8h.html#a3e9c949cc73f865668bf84e13c0a998b" title="Computes the element matrix for a quadrilateral element (HEXA8, ℙ1 FE)." alt="" coords="798,573,1021,599"/>
 <area shape="rect" id="node5" href="$classArcaneFemFunctions_1_1FeOperation3D.html#af9b3f653f6750e4b98587903249c204e" title="Computes shape function gradients and the Jacobian determinant for a Hexa8 element." alt="" coords="793,754,1025,810"/>
 <area shape="rect" id="node7" href="$Elasticity_2ElementMatrixHexQuad_8h.html#a8621659b9ea138456aa352ab33ca583e" title="Computes the element matrix for a quadrilateral element (QUAD4, ℙ1 FE)." alt="" coords="797,1074,1021,1101"/>
@@ -35,10 +35,10 @@
 <area shape="rect" id="node17" href="$Elasticity_2ElementMatrix_8h.html#a766babd4e6daed43f0f8c5f2a9da5a80" title="Computes the element matrix for a triangular element (ℙ1 FE)." alt="" coords="802,623,1017,650"/>
 <area shape="rect" id="node18" href="$classArcaneFemFunctions_1_1FeOperation2D.html#ac409be566c382b69d3107b719a1f688b" title="Computes the 𝑥 gradients of basis functions 𝐍 for ℙ1 triangles." alt="" coords="797,834,1022,890"/>
 <area shape="rect" id="node19" href="$classArcaneFemFunctions_1_1FeOperation2D.html#aa09b12c670700a10bd61408c983b7412" title="Computes the 𝑦 gradients of basis functions 𝐍 for ℙ1 triangles." alt="" coords="797,674,1022,730"/>
-<area shape="rect" id="node21" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a7d97fed9fe3c78510d5e1427b5fd72cc" title=" " alt="" coords="796,5,1023,47"/>
-<area shape="rect" id="node23" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a677f917d42dc238a228295baadade5a2" title=" " alt="" coords="799,71,1020,112"/>
-<area shape="rect" id="node24" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a037d05c3c1534722230b2440e56e90bb" title=" " alt="" coords="811,136,1007,177"/>
-<area shape="rect" id="node22" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title=" " alt="" coords="1073,1117,1313,1159"/>
+<area shape="rect" id="node21" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a7d97fed9fe3c78510d5e1427b5fd72cc" title="AI generated: Assembles the bilinear form ordered per block." alt="" coords="796,5,1023,47"/>
+<area shape="rect" id="node23" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a677f917d42dc238a228295baadade5a2" title="AI generated: Assembles the bilinear form ordered per row." alt="" coords="799,71,1020,112"/>
+<area shape="rect" id="node24" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a037d05c3c1534722230b2440e56e90bb" title="AI generated: Returns whether values are ordered per block." alt="" coords="811,136,1007,177"/>
+<area shape="rect" id="node22" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title="AI generated: Returns the connectivity view from nodes to their associated DoFs." alt="" coords="1073,1117,1313,1159"/>
 <area shape="rect" id="node34" href="$classFemModuleElasticity.html#a256f8c1d84a3fb6da7c58eeb211e89cc" title="Applies body force to the RHS vector of the linear system." alt="" coords="538,921,682,963"/>
 <area shape="rect" id="node35" href="$classFemModuleElasticity.html#a1a2d5533850e79a7eec7dfb09c1c78e6" title="Applies dirichlet to LHS matrix and RHS vector of the linear system." alt="" coords="538,1505,682,1547"/>
 <area shape="rect" id="node36" href="$classFemModuleElasticity.html#a526e85aa56f5d994dce81161e3e0debf" title="Applies traction to the RHS vector of the linear system." alt="" coords="538,1571,682,1612"/>

@@ -1,17 +1,17 @@
 <map id="Arcane::FemUtils::AlienBSRMatrix::_rowsIndex" name="Arcane::FemUtils::AlienBSRMatrix::_rowsIndex">
 <area shape="rect" id="node1" title=" " alt="" coords="903,267,1128,308"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8871b081cd97590f22c5db65693225c0" title=" " alt="" coords="593,5,822,47"/>
-<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#aacb0c7afc08bc53d94212bcad8daf508" title=" " alt="" coords="560,136,855,177"/>
-<area shape="rect" id="node7" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a5e31ed65629996c71daf509eb729ca31" title=" " alt="" coords="593,71,822,112"/>
-<area shape="rect" id="node8" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ab389aa89fcb831a377a0e93dfd5a29a6" title=" " alt="" coords="563,201,851,243"/>
-<area shape="rect" id="node9" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a457423aef18c3e9a46c8964dc9c04293" title=" " alt="" coords="593,267,822,308"/>
-<area shape="rect" id="node10" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a54334dc256ef60f404a625917ae27f61" title=" " alt="" coords="593,332,822,373"/>
-<area shape="rect" id="node12" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a37871181fd6885e63fbae2ee0a14298e" title=" " alt="" coords="593,463,822,504"/>
-<area shape="rect" id="node14" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8fb3b5efe946ad96d816e4360e6599f5" title=" " alt="" coords="593,528,822,569"/>
-<area shape="rect" id="node15" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a97c1a2249fa8d481533216ae82e0b896" title=" " alt="" coords="593,397,822,439"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8871b081cd97590f22c5db65693225c0" title="AI generated: Assembles the bilinear form with values ordered per block." alt="" coords="593,5,822,47"/>
+<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#aacb0c7afc08bc53d94212bcad8daf508" title="AI generated: Assembles the bilinear form per block without atomic operations." alt="" coords="560,136,855,177"/>
+<area shape="rect" id="node7" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a5e31ed65629996c71daf509eb729ca31" title="AI generated: Assembles the bilinear form with values ordered per row." alt="" coords="593,71,822,112"/>
+<area shape="rect" id="node8" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ab389aa89fcb831a377a0e93dfd5a29a6" title="AI generated: Assembles the bilinear form per row without atomic operations." alt="" coords="563,201,851,243"/>
+<area shape="rect" id="node9" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a457423aef18c3e9a46c8964dc9c04293" title="AI generated: Computes column indices from sorted edges." alt="" coords="593,267,822,308"/>
+<area shape="rect" id="node10" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a54334dc256ef60f404a625917ae27f61" title="AI generated: Computes column indices without atomic operations." alt="" coords="593,332,822,373"/>
+<area shape="rect" id="node12" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a37871181fd6885e63fbae2ee0a14298e" title="AI generated: Computes the number of non&#45;zeros per row array." alt="" coords="593,463,822,504"/>
+<area shape="rect" id="node14" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8fb3b5efe946ad96d816e4360e6599f5" title="AI generated: Computes row index array from sorted edges." alt="" coords="593,528,822,569"/>
+<area shape="rect" id="node15" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a97c1a2249fa8d481533216ae82e0b896" title="AI generated: Computes row index array without atomic operations." alt="" coords="593,397,822,439"/>
 <area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a02cb4997bece47e6015647b8d047b383" title="Assembles the global BSR matrix for a bilinear operator, cell&#45;wise." alt="" coords="283,71,512,112"/>
-<area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861" title=" " alt="" coords="5,104,235,145"/>
+<area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861" title="AI generated: Dispatches assembly to atomic or atomic&#45;free method." alt="" coords="5,104,235,145"/>
 <area shape="rect" id="node6" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ade768ae2af1a5ddd3c2ecf8ae6189e6b" title="Assembles the global BSR matrix for a bilinear operator, node&#45;wise." alt="" coords="283,136,512,177"/>
-<area shape="rect" id="node11" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a644b8c26165e813d7b40c124edd51c63" title=" " alt="" coords="283,397,512,439"/>
-<area shape="rect" id="node13" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#acb46694d417beab16112310aaf2ba31e" title=" " alt="" coords="283,496,512,537"/>
+<area shape="rect" id="node11" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a644b8c26165e813d7b40c124edd51c63" title="AI generated: Computes matrix sparsity pattern without atomic operations." alt="" coords="283,397,512,439"/>
+<area shape="rect" id="node13" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#acb46694d417beab16112310aaf2ba31e" title="AI generated: Computes matrix sparsity pattern with atomic operations." alt="" coords="283,496,512,537"/>
 </map>

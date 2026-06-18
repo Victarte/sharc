@@ -1,12 +1,12 @@
 <map id="Arcane::FemUtils::AlienBSRFormat::computeSparsityAtomicFree" name="Arcane::FemUtils::AlienBSRFormat::computeSparsityAtomicFree">
-<area shape="rect" id="node1" title=" " alt="" coords="5,136,235,177"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a54334dc256ef60f404a625917ae27f61" title=" " alt="" coords="283,71,512,112"/>
-<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a37871181fd6885e63fbae2ee0a14298e" title=" " alt="" coords="283,136,512,177"/>
-<area shape="rect" id="node9" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a97c1a2249fa8d481533216ae82e0b896" title=" " alt="" coords="283,201,512,243"/>
+<area shape="rect" id="node1" title="AI generated: Computes matrix sparsity pattern without atomic operations." alt="" coords="5,136,235,177"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a54334dc256ef60f404a625917ae27f61" title="AI generated: Computes column indices without atomic operations." alt="" coords="283,71,512,112"/>
+<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a37871181fd6885e63fbae2ee0a14298e" title="AI generated: Computes the number of non&#45;zeros per row array." alt="" coords="283,136,512,177"/>
+<area shape="rect" id="node9" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a97c1a2249fa8d481533216ae82e0b896" title="AI generated: Computes row index array without atomic operations." alt="" coords="283,201,512,243"/>
 <area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a2f46b241a78e444367b7db753fcbfe60" title=" " alt="" coords="562,5,787,47"/>
 <area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a0cf9b6726ecce39f6c575731d2a1b038" title=" " alt="" coords="562,71,787,112"/>
 <area shape="rect" id="node6" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aecf06682109a4e927f11489880e45cb0" title=" " alt="" coords="562,136,787,177"/>
-<area shape="rect" id="node7" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title=" " alt="" coords="562,201,787,243"/>
-<area shape="rect" id="node8" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title=" " alt="" coords="562,267,787,308"/>
-<area shape="rect" id="node10" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a58840b7840470c40427c5a43c7ec1ad8" title=" " alt="" coords="560,332,789,373"/>
+<area shape="rect" id="node7" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title="AI generated: Returns the number of columns." alt="" coords="562,201,787,243"/>
+<area shape="rect" id="node8" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title="AI generated: Returns the number of rows." alt="" coords="562,267,787,308"/>
+<area shape="rect" id="node10" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a58840b7840470c40427c5a43c7ec1ad8" title="AI generated: Computes neighbor lists without atomic operations." alt="" coords="560,332,789,373"/>
 </map>

@@ -88,8 +88,8 @@ namespace Arcane::FemUtils
 using namespace Arcane;
 using namespace Alien;
 
+/** AI generated: Implementation of DoFLinearSystem using Alien linear algebra */
 class AlienDoFLinearSystemImpl
-//: public CsrDoFLinearSystemImpl
 : public DoFLinearSystemImplBase
 {
  public:

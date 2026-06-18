@@ -1,5 +1,5 @@
 <map id="Arcane::FemUtils::DoFLinearSystem::getForcedValue" name="Arcane::FemUtils::DoFLinearSystem::getForcedValue">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,197,80"/>
+<area shape="rect" id="node1" title="AI generated: Returns the variable storing forced Dirichlet values." alt="" coords="5,39,197,80"/>
 <area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#afcda9b66b5bd30edc8472ec6b9af18a4" title=" " alt="" coords="247,5,439,47"/>
 <area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1IDoFLinearSystemImpl.html#a59a6845805ace7b97f3913bb5fedb41c" title=" " alt="" coords="245,71,441,112"/>
 </map>

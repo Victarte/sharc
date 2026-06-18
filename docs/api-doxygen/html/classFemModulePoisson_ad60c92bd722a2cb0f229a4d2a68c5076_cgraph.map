@@ -1,4 +1,4 @@
 <map id="FemModulePoisson::_computeElementMatrixQuad4" name="FemModulePoisson::_computeElementMatrixQuad4">
-<area shape="rect" id="node1" title="Computes the element matrix for a quadrilateral element (QUAD4, ℙ1 FE)." alt="" coords="5,13,207,54"/>
+<area shape="rect" id="node1" title="AI comment: Computes the 4&#45;node quadrilateral element matrix." alt="" coords="5,13,207,54"/>
 <area shape="rect" id="node2" href="$classArcaneFemFunctions_1_1FeOperation2D.html#aabb86aa038cacbd4cf61718234fcdfb7" title="Computes shape function gradients and the Jacobian determinant for a Quad4 element." alt="" coords="255,5,487,61"/>
 </map>

@@ -252,9 +252,7 @@ class RealMatrix
   std::array<Arcane::Real, totalNbElement()> m_values = {};
 };
 
-/*---------------------------------------------------------------------------*/
-//  Outer product of two Real3 vectors to produce a RealMatrix<3, 3>
-/*---------------------------------------------------------------------------*/
+/** AI generated: Outer product of two Real3 vectors producing a 3x3 matrix */
 ARCCORE_HOST_DEVICE inline RealMatrix<3, 3> operator^(const Arcane::Real3& lhs, const Arcane::Real3& rhs)
 {
   RealMatrix<3, 3> result;
@@ -266,9 +264,7 @@ ARCCORE_HOST_DEVICE inline RealMatrix<3, 3> operator^(const Arcane::Real3& lhs, 
   return result;
 }
 
-/*---------------------------------------------------------------------------*/
-//  Outer product of two Real4 vectors to produce a RealMatrix<4, 4>
-/*---------------------------------------------------------------------------*/
+/** AI generated: Outer product of two Real4 vectors producing a 4x4 matrix */
 ARCCORE_HOST_DEVICE inline RealMatrix<4, 4> operator^(const Real4& lhs, const Real4& rhs)
 {
   RealMatrix<4, 4> result;
@@ -280,9 +276,7 @@ ARCCORE_HOST_DEVICE inline RealMatrix<4, 4> operator^(const Real4& lhs, const Re
   return result;
 }
 
-/*---------------------------------------------------------------------------*/
-/*---------------------------------------------------------------------------*/
-
+/** AI generated: Element-wise addition of two matrices producing a square matrix */
 template <int N, int M> inline RealMatrix<N, N>
 ARCCORE_HOST_DEVICE matrixAddition(const RealMatrix<N, M>& a, const RealMatrix<M, N>& b)
 {
@@ -297,9 +291,7 @@ ARCCORE_HOST_DEVICE matrixAddition(const RealMatrix<N, M>& a, const RealMatrix<M
   return new_matrix;
 }
 
-/*---------------------------------------------------------------------------*/
-/*---------------------------------------------------------------------------*/
-
+/** AI generated: Matrix-matrix multiplication (a * b) producing a square matrix */
 template <int N, int M> inline RealMatrix<N, N>
 ARCCORE_HOST_DEVICE matrixMultiplication(const RealMatrix<N, M>& a, const RealMatrix<M, N>& b)
 {
@@ -318,9 +310,7 @@ ARCCORE_HOST_DEVICE matrixMultiplication(const RealMatrix<N, M>& a, const RealMa
   return new_matrix;
 }
 
-/*---------------------------------------------------------------------------*/
-/*---------------------------------------------------------------------------*/
-
+/** AI generated: Transpose of a matrix (swaps rows and columns) */
 template <int N, int M> inline RealMatrix<M, N>
 ARCCORE_HOST_DEVICE matrixTranspose(const RealMatrix<N, M>& a)
 {
@@ -335,9 +325,7 @@ ARCCORE_HOST_DEVICE matrixTranspose(const RealMatrix<N, M>& a)
   return t_matrix;
 }
 
-/*---------------------------------------------------------------------------*/
-/*---------------------------------------------------------------------------*/
-
+/** AI generated: Computes the mass matrix (lhs^T * rhs) from row vector inputs */
 template <int N> inline RealMatrix<N, N>
 ARCCORE_HOST_DEVICE massMatrix(const RealMatrix<1, N>& lhs, const RealMatrix<1, N>& rhs)
 {
@@ -535,10 +523,7 @@ class RealVector
   std::array<Arcane::Real, totalNbElement()> m_values = {};
 };
 
-/*---------------------------------------------------------------------------*/
-//  Matrix vector product of RealVector<N> vectors and matrix RealMatrix<N, N>
-/*---------------------------------------------------------------------------*/
-
+/** AI generated: Matrix-vector product (lhs * rhs) for a RealVector and a RealMatrix */
 template <int N> inline RealVector<N>
 ARCCORE_HOST_DEVICE operator*(const RealVector<N>& lhs, const RealMatrix<N, N>& rhs)
 {
@@ -552,9 +537,7 @@ ARCCORE_HOST_DEVICE operator*(const RealVector<N>& lhs, const RealMatrix<N, N>& 
   return result;
 }
 
-/*---------------------------------------------------------------------------*/
-//  Outer product of two RealVector<N> vectors to produce a RealMatrix<N, N>
-/*---------------------------------------------------------------------------*/
+/** AI generated: Outer product of two RealVector vectors producing a square matrix */
 template <int N> inline RealMatrix<N, N>
 ARCCORE_HOST_DEVICE operator^(const RealVector<N>& lhs, const RealVector<N>& rhs)
 {
@@ -567,9 +550,7 @@ ARCCORE_HOST_DEVICE operator^(const RealVector<N>& lhs, const RealVector<N>& rhs
   return result;
 }
 
-/*---------------------------------------------------------------------------*/
-/*---------------------------------------------------------------------------*/
-
+/** AI generated: Computes the mass matrix as the outer product of two RealVector vectors */
 template <int N> inline RealMatrix<N, N>
 ARCCORE_HOST_DEVICE massMatrix(const RealVector<N>& lhs, const RealVector<N>& rhs)
 {
@@ -637,9 +618,7 @@ Real3 real3x3GetSupOutdiagonal(const Real3x3& mat);
 extern "C++"
 Real3 real3x3GetLowOutdiagonal(const Real3x3& mat);
 
-/*---------------------------------------------------------------------------*/
-/*---------------------------------------------------------------------------*/
-
+/** AI generated: Represents a symmetric second-order tensor (Voigt notation, 6 components) */
 class Tensor2
 {
   RealVector<6> m_vec;

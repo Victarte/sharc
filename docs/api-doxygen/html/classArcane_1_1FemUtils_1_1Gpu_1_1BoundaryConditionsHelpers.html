@@ -105,23 +105,31 @@ $(document).ready(function(){initNavTree('classArcane_1_1FemUtils_1_1Gpu_1_1Boun
 </div><!--header-->
 <div class="contents">
 
+<p>AI generated: Helper class implementing generic GPU boundary condition operations (Dirichlet, source terms)  
+ <a href="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a3f3973226d32f0ce3147bb7205712be3"><td class="memTemplParams" colspan="2">template&lt;class Function &gt; </td></tr>
 <tr class="memitem:a3f3973226d32f0ce3147bb7205712be3"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers.html#a3f3973226d32f0ce3147bb7205712be3">applyConstantSourceToRhsBase</a> (Function computeSpatialIntegral, Real qdot, RunQueue *queue, VariableDoFReal &amp;rhs_variable_na, IMesh *mesh, const <a class="el" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html">FemDoFsOnNodes</a> &amp;dofs_on_nodes, const VariableNodeReal3 &amp;node_coord)</td></tr>
+<tr class="memdesc:a3f3973226d32f0ce3147bb7205712be3"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Applies a constant source term to the RHS using a spatial integral functor.  <a href="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers.html#a3f3973226d32f0ce3147bb7205712be3">More...</a><br /></td></tr>
 <tr class="separator:a3f3973226d32f0ce3147bb7205712be3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6876c309e2f8a1e698d77d3610a2213"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers.html#ae6876c309e2f8a1e698d77d3610a2213">applyDirichletToNodeGroupRhsOnly</a> (Int32 dof_index, Real value, RunQueue *queue, IMesh *mesh, <a class="el" href="classArcane_1_1FemUtils_1_1DoFLinearSystem.html">DoFLinearSystem</a> &amp;linear_system, const <a class="el" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html">FemDoFsOnNodes</a> &amp;dofs_on_nodes, const NodeGroup &amp;node_group)</td></tr>
+<tr class="memdesc:ae6876c309e2f8a1e698d77d3610a2213"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Applies Dirichlet BCs by setting the RHS value directly (no matrix modification)  <a href="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers.html#ae6876c309e2f8a1e698d77d3610a2213">More...</a><br /></td></tr>
 <tr class="separator:ae6876c309e2f8a1e698d77d3610a2213"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b4517fc127a5eada859108b70d17356"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers.html#a8b4517fc127a5eada859108b70d17356">applyDirichletToNodeGroupViaPenalty</a> (Int32 dof_index, Real value, Real penalty, RunQueue *queue, IMesh *mesh, <a class="el" href="classArcane_1_1FemUtils_1_1DoFLinearSystem.html">DoFLinearSystem</a> &amp;linear_system, const <a class="el" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html">FemDoFsOnNodes</a> &amp;dofs_on_nodes, const NodeGroup &amp;node_group)</td></tr>
+<tr class="memdesc:a8b4517fc127a5eada859108b70d17356"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Applies Dirichlet BCs using the penalty method (adds penalty to diagonal and RHS)  <a href="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers.html#a8b4517fc127a5eada859108b70d17356">More...</a><br /></td></tr>
 <tr class="separator:a8b4517fc127a5eada859108b70d17356"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a895ff58526cda3ffe081e2db524276bb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers.html#a895ff58526cda3ffe081e2db524276bb">applyDirichletToNodeGroupViaRowOrRowColumnElimination</a> (Byte elimination_type, Int32 dof_index, Real value, RunQueue *queue, <a class="el" href="classArcane_1_1FemUtils_1_1DoFLinearSystem.html">DoFLinearSystem</a> &amp;linear_system, const <a class="el" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html">FemDoFsOnNodes</a> &amp;dofs_on_nodes, const NodeGroup &amp;node_group)</td></tr>
+<tr class="memdesc:a895ff58526cda3ffe081e2db524276bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Applies Dirichlet BCs via row or row-column elimination (modifies matrix and RHS)  <a href="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers.html#a895ff58526cda3ffe081e2db524276bb">More...</a><br /></td></tr>
 <tr class="separator:a895ff58526cda3ffe081e2db524276bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00643">643</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
+<div class="textblock"><p>AI generated: Helper class implementing generic GPU boundary condition operations (Dirichlet, source terms) </p>
+
+<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00651">651</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a3f3973226d32f0ce3147bb7205712be3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3f3973226d32f0ce3147bb7205712be3">&#9670;&nbsp;</a></span>applyConstantSourceToRhsBase()</h2>
@@ -189,7 +197,9 @@ template&lt;class Function &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00648">648</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
+<p>AI generated: Applies a constant source term to the RHS using a spatial integral functor. </p>
+
+<p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html#l00657">657</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8h_source.html">ArcaneFemFunctionsGpu.h</a>.</p>
 
 <p class="reference">References <a class="el" href="FemDoFsOnNodes_8cc_source.html#l00146">Arcane::FemUtils::FemDoFsOnNodes::nodeDoFConnectivityView()</a>.</p>
 <div class="dynheader">
@@ -197,8 +207,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_a3f3973226d32f0ce3147bb7205712be3_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_a3f3973226d32f0ce3147bb7205712be3_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_a3f3973226d32f0ce3147bb7205712be3_cgraph" id="aclassArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_a3f3973226d32f0ce3147bb7205712be3_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,228,61"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title=" " alt="" coords="276,13,516,54"/>
+<area shape="rect" title="AI generated: Applies a constant source term to the RHS using a spatial integral functor." alt="" coords="5,5,228,61"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title="AI generated: Returns the connectivity view from nodes to their associated DoFs." alt="" coords="276,13,516,54"/>
 </map>
 </div>
 
@@ -268,6 +278,8 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>AI generated: Applies Dirichlet BCs by setting the RHS value directly (no matrix modification) </p>
+
 <p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8cc_source.html#l00026">26</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8cc_source.html">ArcaneFemFunctionsGpu.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="DoFLinearSystem_8cc_source.html#l00587">Arcane::FemUtils::DoFLinearSystem::getForcedInfo()</a>, <a class="el" href="FemDoFsOnNodes_8cc_source.html#l00146">Arcane::FemUtils::FemDoFsOnNodes::nodeDoFConnectivityView()</a>, and <a class="el" href="DoFLinearSystem_8cc_source.html#l00540">Arcane::FemUtils::DoFLinearSystem::rhsVariable()</a>.</p>
@@ -276,9 +288,9 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_ae6876c309e2f8a1e698d77d3610a2213_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_ae6876c309e2f8a1e698d77d3610a2213_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_ae6876c309e2f8a1e698d77d3610a2213_cgraph" id="aclassArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_ae6876c309e2f8a1e698d77d3610a2213_cgraph">
-<area shape="rect" title=" " alt="" coords="5,63,245,119"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a83391c328302a1f9ed7a214202a6154d" title=" " alt="" coords="317,5,509,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title=" " alt="" coords="293,71,533,112"/>
+<area shape="rect" title="AI generated: Applies Dirichlet BCs by setting the RHS value directly (no matrix modification)" alt="" coords="5,63,245,119"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a83391c328302a1f9ed7a214202a6154d" title="AI generated: Returns the variable storing forced Dirichlet info flags." alt="" coords="317,5,509,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title="AI generated: Returns the connectivity view from nodes to their associated DoFs." alt="" coords="293,71,533,112"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1DoFLinearSystem.html#ab9e662cc1eef2002a687c47e8fb858ac" title="Variable containing the right hand side vector." alt="" coords="317,136,509,177"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1DoFLinearSystem.html#afcda9b66b5bd30edc8472ec6b9af18a4" title=" " alt="" coords="583,71,775,112"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1IDoFLinearSystemImpl.html#a3c9d8fc3bbc388133e26cd714354dd55" title=" " alt="" coords="581,5,777,47"/>
@@ -358,6 +370,8 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>AI generated: Applies Dirichlet BCs using the penalty method (adds penalty to diagonal and RHS) </p>
+
 <p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8cc_source.html#l00054">54</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8cc_source.html">ArcaneFemFunctionsGpu.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="DoFLinearSystem_8cc_source.html#l00587">Arcane::FemUtils::DoFLinearSystem::getForcedInfo()</a>, <a class="el" href="DoFLinearSystem_8cc_source.html#l00578">Arcane::FemUtils::DoFLinearSystem::getForcedValue()</a>, <a class="el" href="FemDoFsOnNodes_8cc_source.html#l00146">Arcane::FemUtils::FemDoFsOnNodes::nodeDoFConnectivityView()</a>, and <a class="el" href="DoFLinearSystem_8cc_source.html#l00540">Arcane::FemUtils::DoFLinearSystem::rhsVariable()</a>.</p>
@@ -368,10 +382,10 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_a8b4517fc127a5eada859108b70d17356_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_a8b4517fc127a5eada859108b70d17356_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_a8b4517fc127a5eada859108b70d17356_cgraph" id="aclassArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_a8b4517fc127a5eada859108b70d17356_cgraph">
-<area shape="rect" title=" " alt="" coords="5,129,256,185"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a83391c328302a1f9ed7a214202a6154d" title=" " alt="" coords="328,103,520,144"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a488c97be03a3888428c1cf48da6c7eb6" title=" " alt="" coords="328,37,520,79"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title=" " alt="" coords="304,233,544,275"/>
+<area shape="rect" title="AI generated: Applies Dirichlet BCs using the penalty method (adds penalty to diagonal and RHS)" alt="" coords="5,129,256,185"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a83391c328302a1f9ed7a214202a6154d" title="AI generated: Returns the variable storing forced Dirichlet info flags." alt="" coords="328,103,520,144"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a488c97be03a3888428c1cf48da6c7eb6" title="AI generated: Returns the variable storing forced Dirichlet values." alt="" coords="328,37,520,79"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title="AI generated: Returns the connectivity view from nodes to their associated DoFs." alt="" coords="304,233,544,275"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1DoFLinearSystem.html#ab9e662cc1eef2002a687c47e8fb858ac" title="Variable containing the right hand side vector." alt="" coords="328,168,520,209"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1DoFLinearSystem.html#afcda9b66b5bd30edc8472ec6b9af18a4" title=" " alt="" coords="594,71,786,112"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1IDoFLinearSystemImpl.html#a3c9d8fc3bbc388133e26cd714354dd55" title=" " alt="" coords="592,136,788,177"/>
@@ -384,7 +398,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_a8b4517fc127a5eada859108b70d17356_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_a8b4517fc127a5eada859108b70d17356_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_a8b4517fc127a5eada859108b70d17356_icgraph" id="aclassArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_a8b4517fc127a5eada859108b70d17356_icgraph">
-<area shape="rect" title=" " alt="" coords="275,5,525,61"/>
+<area shape="rect" title="AI generated: Applies Dirichlet BCs using the penalty method (adds penalty to diagonal and RHS)" alt="" coords="275,5,525,61"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditions.html#a67eda03119c334c2d6d444a9e0a2bbcc" title="Applies Point Dirichlet boundary conditions to RHS and LHS." alt="" coords="5,5,227,61"/>
 </map>
 </div>
@@ -455,6 +469,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>AI generated: Applies Dirichlet BCs via row or row-column elimination (modifies matrix and RHS) </p>
+
 <p class="definition">Definition at line <a class="el" href="ArcaneFemFunctionsGpu_8cc_source.html#l00083">83</a> of file <a class="el" href="ArcaneFemFunctionsGpu_8cc_source.html">ArcaneFemFunctionsGpu.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="DoFLinearSystem_8cc_source.html#l00725">Arcane::FemUtils::DoFLinearSystemRowEliminationHelper::getEliminationInfo()</a>, <a class="el" href="DoFLinearSystem_8cc_source.html#l00734">Arcane::FemUtils::DoFLinearSystemRowEliminationHelper::getEliminationValue()</a>, <a class="el" href="FemDoFsOnNodes_8cc_source.html#l00146">Arcane::FemUtils::FemDoFsOnNodes::nodeDoFConnectivityView()</a>, and <a class="el" href="DoFLinearSystem_8cc_source.html#l00469">Arcane::FemUtils::DoFLinearSystem::rowEliminationHelper()</a>.</p>
@@ -465,11 +481,11 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_a895ff58526cda3ffe081e2db524276bb_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_a895ff58526cda3ffe081e2db524276bb_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_a895ff58526cda3ffe081e2db524276bb_cgraph" id="aclassArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_a895ff58526cda3ffe081e2db524276bb_cgraph">
-<area shape="rect" title=" " alt="" coords="5,93,240,163"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1DoFLinearSystemRowEliminationHelper.html#abe94cb228b09c860879417a95b113685" title=" " alt="" coords="311,5,505,61"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1DoFLinearSystemRowEliminationHelper.html#a9c05fb4e0048d5d5694e5553a2ca62d6" title=" " alt="" coords="311,203,505,259"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title=" " alt="" coords="288,137,528,178"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a39e645f267b72edd535d3e6abe2953dd" title=" " alt="" coords="576,78,773,119"/>
+<area shape="rect" title="AI generated: Applies Dirichlet BCs via row or row&#45;column elimination (modifies matrix and RHS)" alt="" coords="5,93,240,163"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1DoFLinearSystemRowEliminationHelper.html#abe94cb228b09c860879417a95b113685" title="AI generated: Returns the variable tracking elimination info for each DoF." alt="" coords="311,5,505,61"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1DoFLinearSystemRowEliminationHelper.html#a9c05fb4e0048d5d5694e5553a2ca62d6" title="AI generated: Returns the variable tracking elimination values for each DoF." alt="" coords="311,203,505,259"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title="AI generated: Returns the connectivity view from nodes to their associated DoFs." alt="" coords="288,137,528,178"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a39e645f267b72edd535d3e6abe2953dd" title="AI generated: Returns a helper for row elimination (sets row to identity)" alt="" coords="576,78,773,119"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1DoFLinearSystem.html#af953352a7f3fe32a1d530fb2b1e69562" title=" " alt="" coords="579,13,771,54"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1DoFLinearSystem.html#afcda9b66b5bd30edc8472ec6b9af18a4" title=" " alt="" coords="832,78,1024,119"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1IDoFLinearSystemImpl.html#a821a1055e07a2655fa69edab647b05b2" title=" " alt="" coords="827,13,1029,54"/>
@@ -482,7 +498,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_a895ff58526cda3ffe081e2db524276bb_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_a895ff58526cda3ffe081e2db524276bb_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_a895ff58526cda3ffe081e2db524276bb_icgraph" id="aclassArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditionsHelpers_a895ff58526cda3ffe081e2db524276bb_icgraph">
-<area shape="rect" title=" " alt="" coords="275,5,509,76"/>
+<area shape="rect" title="AI generated: Applies Dirichlet BCs via row or row&#45;column elimination (modifies matrix and RHS)" alt="" coords="275,5,509,76"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditions.html#a67eda03119c334c2d6d444a9e0a2bbcc" title="Applies Point Dirichlet boundary conditions to RHS and LHS." alt="" coords="5,13,227,69"/>
 </map>
 </div>

@@ -1,6 +1,6 @@
 <map id="FemModulePoisson::startInit" name="FemModulePoisson::startInit">
 <area shape="rect" id="node1" title="Initializes the FemModulePoisson at the start of the simulation." alt="" coords="5,78,196,105"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#a0918765e5de7906386b66d36558ca6ab" title=" " alt="" coords="244,5,435,47"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#a0918765e5de7906386b66d36558ca6ab" title="AI generated: Returns the DoF item family." alt="" coords="244,5,435,47"/>
 <area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#a0abb16988567ffdf4c3f09ad00c9bbad" title="Initialize the instance." alt="" coords="244,71,435,112"/>
 <area shape="rect" id="node5" href="$classArcaneFemFunctions_1_1GeneralFunctions.html#a536ca8befa6eb6b59fff8ef1a5895634" title="Logs the execution time with ArcaneFem&#45;Timer." alt="" coords="266,137,413,193"/>
 <area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes_1_1Impl.html#adbdf3ea88ed5e7d0b0cbcdd60957e0ce" title=" " alt="" coords="483,71,673,112"/>

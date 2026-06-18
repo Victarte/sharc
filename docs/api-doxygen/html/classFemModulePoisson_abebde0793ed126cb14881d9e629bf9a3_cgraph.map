@@ -1,17 +1,17 @@
 <map id="FemModulePoisson::_assembleBilinearOperator" name="FemModulePoisson::_assembleBilinearOperator">
 <area shape="rect" id="node1" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="5,1006,184,1047"/>
-<area shape="rect" id="node2" href="$classFemModulePoisson.html#aa5174a7121a86fff49e32a6ad16f2e7c" title="Computes the element matrix for a hexahedral element (HEXA8, ℙ1 FE)." alt="" coords="244,65,444,106"/>
-<area shape="rect" id="node4" href="$classFemModulePoisson.html#ad60c92bd722a2cb0f229a4d2a68c5076" title="Computes the element matrix for a quadrilateral element (QUAD4, ℙ1 FE)." alt="" coords="243,181,445,222"/>
-<area shape="rect" id="node6" href="$classFemModulePoisson.html#af2830e355648aa350dc37708ac97ad02" title="Computes the element matrix for a tetrahedral element (ℙ1 FE)." alt="" coords="245,333,443,374"/>
+<area shape="rect" id="node2" href="$classFemModulePoisson.html#aa5174a7121a86fff49e32a6ad16f2e7c" title="AI comment: Computes the 8&#45;node hexahedron element matrix." alt="" coords="244,65,444,106"/>
+<area shape="rect" id="node4" href="$classFemModulePoisson.html#ad60c92bd722a2cb0f229a4d2a68c5076" title="AI comment: Computes the 4&#45;node quadrilateral element matrix." alt="" coords="243,181,445,222"/>
+<area shape="rect" id="node6" href="$classFemModulePoisson.html#af2830e355648aa350dc37708ac97ad02" title="AI comment: Computes the 4&#45;node tetrahedron element matrix." alt="" coords="245,333,443,374"/>
 <area shape="rect" id="node11" href="$Poisson_2ElementMatrix_8h.html#a4dd99acc353027fc5b0dc6797813124b" title=" " alt="" coords="233,635,455,661"/>
-<area shape="rect" id="node16" href="$classFemModulePoisson.html#a6d3a01e3b39f9a2b9f573b4ce60262c4" title="Computes the element matrix for a triangular element (ℙ1 FE)." alt="" coords="249,933,439,974"/>
+<area shape="rect" id="node16" href="$classFemModulePoisson.html#a6d3a01e3b39f9a2b9f573b4ce60262c4" title="AI comment: Computes the 3&#45;node triangle element matrix." alt="" coords="249,933,439,974"/>
 <area shape="rect" id="node20" href="$Poisson_2ElementMatrix_8h.html#a53be004bebd5729d503005756ef2c58b" title=" " alt="" coords="237,1068,451,1095"/>
 <area shape="rect" id="node24" href="$Poisson_2ElementMatrix_8h.html#a6a585275423469db2894e3ccde74de19" title=" " alt="" coords="232,685,456,712"/>
 <area shape="rect" id="node25" href="$Poisson_2ElementMatrix_8h.html#a69341d03f94402891b8deac715a53fa4" title=" " alt="" coords="236,1125,452,1152"/>
-<area shape="rect" id="node26" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#ab40b83069f7e3687258becfc1f3ca01e" title="Assembles the global BSR matrix for a bilinear operator, cell&#45;wise." alt="" coords="244,1319,444,1361"/>
-<area shape="rect" id="node39" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a8d688f9f1a53070ad55129d0e3a32fa8" title="Assembles the global BSR matrix for a bilinear operator, node&#45;wise." alt="" coords="244,1417,444,1458"/>
+<area shape="rect" id="node26" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#ab40b83069f7e3687258becfc1f3ca01e" title="AI generated: Assembles the bilinear form using atomic operations." alt="" coords="244,1319,444,1361"/>
+<area shape="rect" id="node39" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a8d688f9f1a53070ad55129d0e3a32fa8" title="AI generated: Assembles the bilinear form using atomic&#45;free operations." alt="" coords="244,1417,444,1458"/>
 <area shape="rect" id="node42" href="$classArcaneFemFunctions_1_1GeneralFunctions.html#a536ca8befa6eb6b59fff8ef1a5895634" title="Logs the execution time with ArcaneFem&#45;Timer." alt="" coords="271,1483,417,1539"/>
-<area shape="rect" id="node43" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a01cf7f213dbfed98b9ab3328fa0311ce" title=" " alt="" coords="244,1741,444,1782"/>
+<area shape="rect" id="node43" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a01cf7f213dbfed98b9ab3328fa0311ce" title="AI generated: Converts the matrix to a DoF linear system." alt="" coords="244,1741,444,1782"/>
 <area shape="rect" id="node3" href="$classArcaneFemFunctions_1_1FeOperation3D.html#af9b3f653f6750e4b98587903249c204e" title="Computes shape function gradients and the Jacobian determinant for a Hexa8 element." alt="" coords="504,5,736,61"/>
 <area shape="rect" id="node5" href="$classArcaneFemFunctions_1_1FeOperation2D.html#aabb86aa038cacbd4cf61718234fcdfb7" title="Computes shape function gradients and the Jacobian determinant for a Quad4 element." alt="" coords="504,85,736,141"/>
 <area shape="rect" id="node7" href="$classArcaneFemFunctions_1_1FeOperation3D.html#a9fe2e5d79bb1b967c02e1d083f699877" title="Computes the X gradients of basis functions 𝐍 for ℙ1 Tetrahedron." alt="" coords="507,325,733,381"/>
@@ -28,25 +28,25 @@
 <area shape="rect" id="node21" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1MeshOperation.html#a8cf50a9c52da08162b43e6d8b7719571" title="computes the area of a triangle defined by three nodes." alt="" coords="519,1045,721,1101"/>
 <area shape="rect" id="node22" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation2D.html#ac019000fd3845be08da0af3f6ee6ec7e" title="Computes the 𝑥 gradients of basis functions 𝐍 for ℙ1 triangles." alt="" coords="507,1125,733,1181"/>
 <area shape="rect" id="node23" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation2D.html#a73e82a008e620a09ccc86d38008971a1" title="Computes the 𝑦 gradients of basis functions 𝐍 for ℙ1 triangles." alt="" coords="507,1205,733,1261"/>
-<area shape="rect" id="node27" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a7d97fed9fe3c78510d5e1427b5fd72cc" title=" " alt="" coords="507,1286,733,1327"/>
-<area shape="rect" id="node37" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a677f917d42dc238a228295baadade5a2" title=" " alt="" coords="509,1351,731,1393"/>
-<area shape="rect" id="node38" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a037d05c3c1534722230b2440e56e90bb" title=" " alt="" coords="522,1417,718,1458"/>
+<area shape="rect" id="node27" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a7d97fed9fe3c78510d5e1427b5fd72cc" title="AI generated: Assembles the bilinear form ordered per block." alt="" coords="507,1286,733,1327"/>
+<area shape="rect" id="node37" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a677f917d42dc238a228295baadade5a2" title="AI generated: Assembles the bilinear form ordered per row." alt="" coords="509,1351,731,1393"/>
+<area shape="rect" id="node38" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a037d05c3c1534722230b2440e56e90bb" title="AI generated: Returns whether values are ordered per block." alt="" coords="522,1417,718,1458"/>
 <area shape="rect" id="node28" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a23cc2fce6932d9fdc5be4d44b0ef2a43" title=" " alt="" coords="806,1547,1002,1589"/>
 <area shape="rect" id="node29" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a89d7aa7afdf3fcc05a3c109fb07d004e" title=" " alt="" coords="806,1221,1002,1262"/>
 <area shape="rect" id="node30" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a424a9c230aca99f27bc65d300f36ea6f" title=" " alt="" coords="806,1613,1002,1654"/>
 <area shape="rect" id="node31" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a48709f21b363909bf3c445829dd68729" title=" " alt="" coords="806,1678,1002,1719"/>
-<area shape="rect" id="node32" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#afb24fb4d10e07a155fb628e40a1d5c14" title=" " alt="" coords="806,1286,1002,1327"/>
-<area shape="rect" id="node33" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a54edb205b403239c6a8e91b450e060a6" title=" " alt="" coords="806,1351,1002,1393"/>
-<area shape="rect" id="node34" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a3e31824b88d0c5a057a7df29fd486bd1" title=" " alt="" coords="806,1417,1002,1458"/>
-<area shape="rect" id="node35" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a0d260a1f8d46380e164e6fc1e8fa259d" title=" " alt="" coords="806,1482,1002,1523"/>
-<area shape="rect" id="node36" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title=" " alt="" coords="784,1155,1024,1197"/>
-<area shape="rect" id="node40" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a042b4adcd932b6b200604b2f6bf05a75" title=" " alt="" coords="507,1563,733,1619"/>
-<area shape="rect" id="node41" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a767201a827f5bd52be86dcda60e0894c" title=" " alt="" coords="509,1483,731,1539"/>
+<area shape="rect" id="node32" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#afb24fb4d10e07a155fb628e40a1d5c14" title="AI generated: Returns the number of blocks." alt="" coords="806,1286,1002,1327"/>
+<area shape="rect" id="node33" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a54edb205b403239c6a8e91b450e060a6" title="AI generated: Returns the number of columns." alt="" coords="806,1351,1002,1393"/>
+<area shape="rect" id="node34" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a3e31824b88d0c5a057a7df29fd486bd1" title="AI generated: Returns the number of non&#45;zero values." alt="" coords="806,1417,1002,1458"/>
+<area shape="rect" id="node35" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a0d260a1f8d46380e164e6fc1e8fa259d" title="AI generated: Returns the number of rows." alt="" coords="806,1482,1002,1523"/>
+<area shape="rect" id="node36" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title="AI generated: Returns the connectivity view from nodes to their associated DoFs." alt="" coords="784,1155,1024,1197"/>
+<area shape="rect" id="node40" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a042b4adcd932b6b200604b2f6bf05a75" title="AI generated: Assembles the bilinear form ordered per block with atomic&#45;free operations." alt="" coords="507,1563,733,1619"/>
+<area shape="rect" id="node41" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a767201a827f5bd52be86dcda60e0894c" title="AI generated: Assembles the bilinear form ordered per row with atomic&#45;free operations." alt="" coords="509,1483,731,1539"/>
 <area shape="rect" id="node44" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a04439cc0d8ee2ad5206a161650836af8" title="Indique si l&#39;implémentation supporte d&#39;utiliser setCSRValue()" alt="" coords="524,1905,716,1946"/>
 <area shape="rect" id="node47" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a163c2a203744152ebbfc057c7eaeab96" title="Positionne directement les valeurs de la matrice." alt="" coords="524,1839,716,1881"/>
-<area shape="rect" id="node48" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a0614e7b67c54539a865ab7d310313400" title=" " alt="" coords="522,1643,718,1685"/>
-<area shape="rect" id="node49" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#ae4cc36e6ff5e26b92ea9f1d86e8bd2e5" title=" " alt="" coords="522,1709,718,1750"/>
-<area shape="rect" id="node50" href="$classArcane_1_1FemUtils_1_1CsrFormat.html#a59c94a5d04bc1307789c08162185b8d0" title="View of the matrix." alt="" coords="523,1774,717,1815"/>
+<area shape="rect" id="node48" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a0614e7b67c54539a865ab7d310313400" title="AI generated: Converts the BSR matrix to CSR format." alt="" coords="522,1643,718,1685"/>
+<area shape="rect" id="node49" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#ae4cc36e6ff5e26b92ea9f1d86e8bd2e5" title="AI generated: Converts to a DoF linear system." alt="" coords="522,1709,718,1750"/>
+<area shape="rect" id="node50" href="$classArcane_1_1FemUtils_1_1CsrFormat.html#a59c94a5d04bc1307789c08162185b8d0" title="AI generated: Returns a view of the matrix." alt="" coords="523,1774,717,1815"/>
 <area shape="rect" id="node45" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#afcda9b66b5bd30edc8472ec6b9af18a4" title=" " alt="" coords="808,1839,1000,1881"/>
 <area shape="rect" id="node46" href="$classArcane_1_1FemUtils_1_1IDoFLinearSystemImpl.html#a92471b64242db204146c475299c23a2b" title=" " alt="" coords="801,1905,1007,1946"/>
 </map>

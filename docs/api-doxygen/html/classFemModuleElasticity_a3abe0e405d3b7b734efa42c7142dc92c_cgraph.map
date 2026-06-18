@@ -1,10 +1,10 @@
 <map id="FemModuleElasticity::_initAlienBsr" name="FemModuleElasticity::_initAlienBsr">
 <area shape="rect" id="node1" title="AI comment: Initializes the Alien BSR (Block Sparse Row) matrix format." alt="" coords="5,136,149,177"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a3d2077a3d47531b1425455380c833ba0" title=" " alt="" coords="216,71,408,112"/>
-<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a72d88ba25afcfee76f1f76577ff8b77f" title=" " alt="" coords="197,136,427,177"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a3d2077a3d47531b1425455380c833ba0" title="AI generated: Returns the internal Alien BSR format implementation." alt="" coords="216,71,408,112"/>
+<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a72d88ba25afcfee76f1f76577ff8b77f" title="AI generated: Initializes the format with mesh and number of DoFs per node." alt="" coords="197,136,427,177"/>
 <area shape="rect" id="node8" href="$classArcaneFemFunctions_1_1GeneralFunctions.html#a536ca8befa6eb6b59fff8ef1a5895634" title="Logs the execution time with ArcaneFem&#45;Timer." alt="" coords="239,202,385,258"/>
 <area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#afcda9b66b5bd30edc8472ec6b9af18a4" title=" " alt="" coords="493,5,685,47"/>
 <area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1AlienDoFLinearSystemImpl.html#a2f58cc3fc456da9975a03a60acc0f597" title=" " alt="" coords="500,71,679,112"/>
 <area shape="rect" id="node6" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a68a924c9113672501a71fe4362179ee1" title=" " alt="" coords="475,136,704,177"/>
-<area shape="rect" id="node7" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#a0918765e5de7906386b66d36558ca6ab" title=" " alt="" coords="494,201,685,243"/>
+<area shape="rect" id="node7" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#a0918765e5de7906386b66d36558ca6ab" title="AI generated: Returns the DoF item family." alt="" coords="494,201,685,243"/>
 </map>

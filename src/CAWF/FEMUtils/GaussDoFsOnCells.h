@@ -42,7 +42,9 @@ class GaussDoFsOnCells
 
  public:
 
+  /** AI generated: Constructs the Gauss point manager with a trace manager */
   explicit GaussDoFsOnCells(Arcane::ITraceMng* tm);
+  /** AI generated: Destructor */
   ~GaussDoFsOnCells();
 
  public:
@@ -61,23 +63,37 @@ class GaussDoFsOnCells
 
  public:
 
+  /** AI generated: Returns the connectivity view from cells to their associated Gauss DoFs */
   [[nodiscard]] Arcane::IndexedCellDoFConnectivityView gaussCellConnectivityView() const;
+  /** AI generated: Returns the Gauss DoF item family */
   [[nodiscard]] Arcane::IItemFamily* gaussFamily() const;
+  /** AI generated: Returns the Gauss point shape function values variable */
   Arcane::VariableDoFArrayReal& gaussShape();
+  /** AI generated: Returns the Gauss point shape function derivatives variable */
   Arcane::VariableDoFArrayReal3& gaussShapeDeriv();
+  /** AI generated: Returns the Gauss point reference positions variable */
   Arcane::VariableDoFReal3& gaussRefPosition();
+  /** AI generated: Returns the Gauss point Jacobian matrix variable */
   Arcane::VariableDoFReal3x3& gaussJacobMat();
+  /** AI generated: Returns the Gauss point integration weights variable */
   Arcane::VariableDoFReal& gaussWeight();
+  /** AI generated: Returns the Gauss point Jacobian determinant variable */
   Arcane::VariableDoFReal& gaussJacobian();
+  /** AI generated: Returns the Gauss point law parameters variable */
   Arcane::VariableDoFArrayReal& gaussLawParam();
+  /** AI generated: Returns the Gauss point law history parameters variable */
   Arcane::VariableDoFArrayReal& gaussLawHistoryParam();
 
 /*  Arcane::VariableDoFArrayTensor2& gaussStress();
   Arcane::VariableDoFArrayTensor2& gaussStrain();
   Arcane::VariableDoFArrayTensor2& gaussStrainPlastic();*/
+  /** AI generated: Returns the Gauss point stress variable */
   Arcane::VariableDoFArrayReal3x3& gaussStress();
+  /** AI generated: Returns the Gauss point strain variable */
   Arcane::VariableDoFArrayReal3x3& gaussStrain();
+  /** AI generated: Returns the Gauss point plastic strain variable */
   Arcane::VariableDoFArrayReal3x3& gaussStrainPlastic();
+  /** AI generated: Returns the Gauss point tangent operator variable */
   Arcane::VariableDoFArrayReal3x3& gaussTangentOperator();
 
  private:

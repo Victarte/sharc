@@ -1,6 +1,6 @@
 <map id="Arcane::FemUtils::AlienBSRFormat::dumpMatrix" name="Arcane::FemUtils::AlienBSRFormat::dumpMatrix">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,235,80"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aa68cc2cd03d6cfd2167dbb00f800867f" title=" " alt="" coords="283,39,508,80"/>
-<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9da97819dc60146f3eb0174d29a6097" title=" " alt="" coords="556,5,781,47"/>
-<area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title=" " alt="" coords="556,71,781,112"/>
+<area shape="rect" id="node1" title="AI generated: Dumps the matrix to a file for debugging." alt="" coords="5,39,235,80"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aa68cc2cd03d6cfd2167dbb00f800867f" title="AI generated: Dumps the matrix contents to a file." alt="" coords="283,39,508,80"/>
+<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9da97819dc60146f3eb0174d29a6097" title="AI generated: Returns the number of non&#45;zero values." alt="" coords="556,5,781,47"/>
+<area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title="AI generated: Returns the number of rows." alt="" coords="556,71,781,112"/>
 </map>

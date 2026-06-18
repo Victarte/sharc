@@ -1,5 +1,5 @@
 <map id="Arcane::FemUtils::AlienBSRFormat::computeNeighborsAtomicFree" name="Arcane::FemUtils::AlienBSRFormat::computeNeighborsAtomicFree">
-<area shape="rect" id="node1" title=" " alt="" coords="560,5,789,47"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a97c1a2249fa8d481533216ae82e0b896" title=" " alt="" coords="283,5,512,47"/>
-<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a644b8c26165e813d7b40c124edd51c63" title=" " alt="" coords="5,5,235,47"/>
+<area shape="rect" id="node1" title="AI generated: Computes neighbor lists without atomic operations." alt="" coords="560,5,789,47"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a97c1a2249fa8d481533216ae82e0b896" title="AI generated: Computes row index array without atomic operations." alt="" coords="283,5,512,47"/>
+<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a644b8c26165e813d7b40c124edd51c63" title="AI generated: Computes matrix sparsity pattern without atomic operations." alt="" coords="5,5,235,47"/>
 </map>

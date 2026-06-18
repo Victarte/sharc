@@ -20,6 +20,7 @@ namespace Arcane
 
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
+/** AI generated: Scalar mesh variable holding a Tensor2 value per item */
 template<class ItemTypeT>
 class MeshVariableScalarTensor2:
 public MeshVariableScalarRefT<ItemTypeT,FemUtils::Tensor2>
@@ -99,6 +100,7 @@ public MeshVariableScalarRefT<ItemTypeT,FemUtils::Tensor2>
 
 };
 
+/** AI generated: Array mesh variable holding multiple Tensor2 values per item */
 template<class ItemTypeT>
 class MeshVariableArrayTensor2:
 public MeshVariableArrayRefT<ItemTypeT,FemUtils::Tensor2>
@@ -145,10 +147,7 @@ public MeshVariableArrayRefT<ItemTypeT,FemUtils::Tensor2>
   static VariableRef* _autoCreate(const VariableBuildInfo& vb);
 };
 
-/*!
- * \ingroup Variable
- * \brief Classe de base d'une variable type Tensor2 sur des entités du maillage.
- */
+/** AI generated: MeshVariableInfo specialization for scalar Tensor2 on Node */
 template<>
 class MeshVariableInfoT<Node,Arcane::FemUtils::Tensor2,0>
 {
@@ -159,6 +158,7 @@ class MeshVariableInfoT<Node,Arcane::FemUtils::Tensor2,0>
   typedef VariableArrayT< Arcane::FemUtils::Tensor2 > PrivateType;
 };
 
+/** AI generated: MeshVariableInfo specialization for array Tensor2 on Node */
 template<>
 class MeshVariableInfoT<Node,Arcane::FemUtils::Tensor2,1>
 {
@@ -169,6 +169,7 @@ class MeshVariableInfoT<Node,Arcane::FemUtils::Tensor2,1>
   typedef Array2VariableT< Arcane::FemUtils::Tensor2 > PrivateType;
 };
 
+/** AI generated: MeshVariableInfo specialization for scalar Tensor2 on Edge */
 template<>
 class MeshVariableInfoT<Edge,Arcane::FemUtils::Tensor2,0>
 {
@@ -179,6 +180,7 @@ class MeshVariableInfoT<Edge,Arcane::FemUtils::Tensor2,0>
   typedef VariableArrayT< Arcane::FemUtils::Tensor2 > PrivateType;
 };
 
+/** AI generated: MeshVariableInfo specialization for array Tensor2 on Edge */
 template<>
 class MeshVariableInfoT<Edge,Arcane::FemUtils::Tensor2,1>
 {
@@ -189,6 +191,7 @@ class MeshVariableInfoT<Edge,Arcane::FemUtils::Tensor2,1>
   typedef Array2VariableT< Arcane::FemUtils::Tensor2 > PrivateType;
 };
 
+/** AI generated: MeshVariableInfo specialization for scalar Tensor2 on Face */
 template<>
 class MeshVariableInfoT<Face,Arcane::FemUtils::Tensor2,0>
 {
@@ -199,6 +202,7 @@ class MeshVariableInfoT<Face,Arcane::FemUtils::Tensor2,0>
   typedef VariableArrayT< Arcane::FemUtils::Tensor2 > PrivateType;
 };
 
+/** AI generated: MeshVariableInfo specialization for array Tensor2 on Face */
 template<>
 class MeshVariableInfoT<Face,Arcane::FemUtils::Tensor2,1>
 {
@@ -209,6 +213,7 @@ class MeshVariableInfoT<Face,Arcane::FemUtils::Tensor2,1>
   typedef Array2VariableT< Arcane::FemUtils::Tensor2 > PrivateType;
 };
 
+/** AI generated: MeshVariableInfo specialization for scalar Tensor2 on Cell */
 template<>
 class MeshVariableInfoT<Cell,Arcane::FemUtils::Tensor2,0>
 {
@@ -219,6 +224,7 @@ class MeshVariableInfoT<Cell,Arcane::FemUtils::Tensor2,0>
   typedef VariableArrayT< Arcane::FemUtils::Tensor2 > PrivateType;
 };
 
+/** AI generated: MeshVariableInfo specialization for array Tensor2 on Cell */
 template<>
 class MeshVariableInfoT<Cell,Arcane::FemUtils::Tensor2,1>
 {
@@ -229,6 +235,7 @@ class MeshVariableInfoT<Cell,Arcane::FemUtils::Tensor2,1>
   typedef Array2VariableT< Arcane::FemUtils::Tensor2 > PrivateType;
 };
 
+/** AI generated: MeshVariableInfo specialization for scalar Tensor2 on DoF */
 template<>
 class MeshVariableInfoT<DoF,Arcane::FemUtils::Tensor2,0>
 {
@@ -239,6 +246,7 @@ class MeshVariableInfoT<DoF,Arcane::FemUtils::Tensor2,0>
   typedef VariableArrayT< Arcane::FemUtils::Tensor2 > PrivateType;
 };
 
+/** AI generated: MeshVariableInfo specialization for array Tensor2 on DoF */
 template<>
 class MeshVariableInfoT<DoF,Arcane::FemUtils::Tensor2,1>
 {

@@ -1,4 +1,4 @@
 <map id="Arcane::FemUtils::AlienBSRMatrix::getValue" name="Arcane::FemUtils::AlienBSRMatrix::getValue">
-<area shape="rect" id="node1" title=" " alt="" coords="279,5,504,47"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a327425773696a13f80be66e53c9b2eb9" title=" " alt="" coords="5,5,231,47"/>
+<area shape="rect" id="node1" title="AI generated: Gets the value at the specified (row, col) position." alt="" coords="279,5,504,47"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a327425773696a13f80be66e53c9b2eb9" title="AI generated: Converts the matrix to a linear system for solving." alt="" coords="5,5,231,47"/>
 </map>

@@ -1,14 +1,14 @@
 <map id="Arcane::FemUtils::BSRFormat::assembleBilinearAtomicFree" name="Arcane::FemUtils::BSRFormat::assembleBilinearAtomicFree">
-<area shape="rect" id="node1" title="Assembles the global BSR matrix for a bilinear operator, node&#45;wise." alt="" coords="5,267,205,308"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a042b4adcd932b6b200604b2f6bf05a75" title=" " alt="" coords="253,179,480,235"/>
-<area shape="rect" id="node10" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a767201a827f5bd52be86dcda60e0894c" title=" " alt="" coords="256,259,477,315"/>
-<area shape="rect" id="node12" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a037d05c3c1534722230b2440e56e90bb" title=" " alt="" coords="269,340,465,381"/>
+<area shape="rect" id="node1" title="AI generated: Assembles the bilinear form using atomic&#45;free operations." alt="" coords="5,267,205,308"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a042b4adcd932b6b200604b2f6bf05a75" title="AI generated: Assembles the bilinear form ordered per block with atomic&#45;free operations." alt="" coords="253,179,480,235"/>
+<area shape="rect" id="node10" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a767201a827f5bd52be86dcda60e0894c" title="AI generated: Assembles the bilinear form ordered per row with atomic&#45;free operations." alt="" coords="256,259,477,315"/>
+<area shape="rect" id="node12" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a037d05c3c1534722230b2440e56e90bb" title="AI generated: Returns whether values are ordered per block." alt="" coords="269,340,465,381"/>
 <area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a23cc2fce6932d9fdc5be4d44b0ef2a43" title=" " alt="" coords="528,136,724,177"/>
 <area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a424a9c230aca99f27bc65d300f36ea6f" title=" " alt="" coords="528,201,724,243"/>
 <area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a48709f21b363909bf3c445829dd68729" title=" " alt="" coords="528,267,724,308"/>
-<area shape="rect" id="node6" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#afb24fb4d10e07a155fb628e40a1d5c14" title=" " alt="" coords="528,332,724,373"/>
-<area shape="rect" id="node7" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a54edb205b403239c6a8e91b450e060a6" title=" " alt="" coords="528,397,724,439"/>
-<area shape="rect" id="node8" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a3e31824b88d0c5a057a7df29fd486bd1" title=" " alt="" coords="528,5,724,47"/>
-<area shape="rect" id="node9" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a0d260a1f8d46380e164e6fc1e8fa259d" title=" " alt="" coords="528,71,724,112"/>
+<area shape="rect" id="node6" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#afb24fb4d10e07a155fb628e40a1d5c14" title="AI generated: Returns the number of blocks." alt="" coords="528,332,724,373"/>
+<area shape="rect" id="node7" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a54edb205b403239c6a8e91b450e060a6" title="AI generated: Returns the number of columns." alt="" coords="528,397,724,439"/>
+<area shape="rect" id="node8" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a3e31824b88d0c5a057a7df29fd486bd1" title="AI generated: Returns the number of non&#45;zero values." alt="" coords="528,5,724,47"/>
+<area shape="rect" id="node9" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a0d260a1f8d46380e164e6fc1e8fa259d" title="AI generated: Returns the number of rows." alt="" coords="528,71,724,112"/>
 <area shape="rect" id="node11" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a89d7aa7afdf3fcc05a3c109fb07d004e" title=" " alt="" coords="528,463,724,504"/>
 </map>

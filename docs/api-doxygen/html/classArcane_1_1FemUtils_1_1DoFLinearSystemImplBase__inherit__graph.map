@@ -1,7 +1,7 @@
 <map id="Arcane::FemUtils::DoFLinearSystemImplBase" name="Arcane::FemUtils::DoFLinearSystemImplBase">
 <area shape="rect" id="node1" title=" " alt="" coords="249,71,441,112"/>
 <area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1AlephDoFLinearSystemImpl.html" title=" " alt="" coords="504,5,687,47"/>
-<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1AlienDoFLinearSystemImpl.html" title=" " alt="" coords="506,71,685,112"/>
+<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1AlienDoFLinearSystemImpl.html" title="AI generated: Implementation of DoFLinearSystem using Alien linear algebra." alt="" coords="506,71,685,112"/>
 <area shape="rect" id="node6" href="$classArcane_1_1FemUtils_1_1CsrDoFLinearSystemImpl.html" title=" " alt="" coords="489,136,701,177"/>
 <area shape="rect" id="node2" title=" " alt="" coords="49,49,158,75"/>
 <area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1IDoFLinearSystemImpl.html" title=" " alt="" coords="5,100,201,141"/>

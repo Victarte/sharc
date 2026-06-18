@@ -1,5 +1,5 @@
 <map id="Arcane::FemUtils::DoFLinearSystemRowEliminationHelper::getEliminationInfo" name="Arcane::FemUtils::DoFLinearSystemRowEliminationHelper::getEliminationInfo">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,200,87"/>
+<area shape="rect" id="node1" title="AI generated: Returns the variable tracking elimination info for each DoF." alt="" coords="5,31,200,87"/>
 <area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#af953352a7f3fe32a1d530fb2b1e69562" title=" " alt="" coords="248,39,440,80"/>
 <area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#afcda9b66b5bd30edc8472ec6b9af18a4" title=" " alt="" coords="493,5,685,47"/>
 <area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1IDoFLinearSystemImpl.html#a821a1055e07a2655fa69edab647b05b2" title=" " alt="" coords="488,71,691,112"/>

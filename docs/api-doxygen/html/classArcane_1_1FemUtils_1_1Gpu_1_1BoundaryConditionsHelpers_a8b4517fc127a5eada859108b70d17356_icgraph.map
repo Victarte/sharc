@@ -1,4 +1,4 @@
 <map id="Arcane::FemUtils::Gpu::BoundaryConditionsHelpers::applyDirichletToNodeGroupViaPenalty" name="Arcane::FemUtils::Gpu::BoundaryConditionsHelpers::applyDirichletToNodeGroupViaPenalty">
-<area shape="rect" id="node1" title=" " alt="" coords="275,5,525,61"/>
+<area shape="rect" id="node1" title="AI generated: Applies Dirichlet BCs using the penalty method (adds penalty to diagonal and RHS)" alt="" coords="275,5,525,61"/>
 <area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1Gpu_1_1BoundaryConditions.html#a67eda03119c334c2d6d444a9e0a2bbcc" title="Applies Point Dirichlet boundary conditions to RHS and LHS." alt="" coords="5,5,227,61"/>
 </map>

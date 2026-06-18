@@ -1,4 +1,4 @@
 <map id="Arcane::FemUtils::Gpu::FeOperation3D::Hexa8GaussPointInfo" name="Arcane::FemUtils::Gpu::FeOperation3D::Hexa8GaussPointInfo">
-<area shape="rect" id="node1" title=" " alt="" coords="18,124,219,180"/>
+<area shape="rect" id="node1" title="AI generated: Stores shape function gradients (dN/dx, dN/dy, dN/dz) and Jacobian determinant at a qua..." alt="" coords="18,124,219,180"/>
 <area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1RealVector.html" title=" " alt="" coords="5,5,232,32"/>
 </map>

@@ -129,7 +129,7 @@ Collaboration diagram for Arcane::FemUtils::AlienBSRFormat:</div>
 <area shape="rect" title="A class for assembling Block Sparse Row (BSR) matrices from mesh data." alt="" coords="977,103,1207,129"/>
 <area shape="rect" title=" " alt="" coords="5,99,115,125"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes_1_1Impl.html" title=" " alt="" coords="164,61,355,102"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1CsrFormat.html" title=" " alt="" coords="395,128,588,155"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1CsrFormat.html" title="AI generated: Container for matrices in Compressed Sparse Row (CSR) format." alt="" coords="395,128,588,155"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html" title="A class representing a Block Sparse Row (BSR) matrix." alt="" coords="379,187,604,213"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html" title="Manage one or more DoFs on Nodes." alt="" coords="628,61,819,102"/>
 </map>
@@ -138,9 +138,11 @@ Collaboration diagram for Arcane::FemUtils::AlienBSRFormat:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a495dbf1fa3e6dbdd6fcccea24c9f18e3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a495dbf1fa3e6dbdd6fcccea24c9f18e3">AlienBSRFormat</a> (ITraceMng *tm, RunQueue &amp;<a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a3f314a6acb756b84a506b1fdb05bc2a4">queue</a>, const <a class="el" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html">FemDoFsOnNodes</a> &amp;dofs_on_nodes, bool use_accelerator)</td></tr>
+<tr class="memdesc:a495dbf1fa3e6dbdd6fcccea24c9f18e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Constructor initializing the BSR format with mesh DoFs and accelerator settings.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a495dbf1fa3e6dbdd6fcccea24c9f18e3">More...</a><br /></td></tr>
 <tr class="separator:a495dbf1fa3e6dbdd6fcccea24c9f18e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a367d0c623145dd217393543231bf7861"><td class="memTemplParams" colspan="2">template&lt;class Function &gt; </td></tr>
 <tr class="memitem:a367d0c623145dd217393543231bf7861"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861">assembleBilinear</a> (Function compute_element_matrix)</td></tr>
+<tr class="memdesc:a367d0c623145dd217393543231bf7861"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Dispatches assembly to atomic or atomic-free method.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861">More...</a><br /></td></tr>
 <tr class="separator:a367d0c623145dd217393543231bf7861"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02cb4997bece47e6015647b8d047b383"><td class="memTemplParams" colspan="2">template&lt;class Function &gt; </td></tr>
 <tr class="memitem:a02cb4997bece47e6015647b8d047b383"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a02cb4997bece47e6015647b8d047b383">assembleBilinearAtomic</a> (Function compute_element_matrix)</td></tr>
@@ -152,73 +154,104 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ade768ae2af1a5ddd3c2ecf8ae6189e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8871b081cd97590f22c5db65693225c0"><td class="memTemplParams" colspan="2">template&lt;class Function &gt; </td></tr>
 <tr class="memitem:a8871b081cd97590f22c5db65693225c0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8871b081cd97590f22c5db65693225c0">assembleBilinearOrderedPerBlock</a> (Function compute_element_matrix)</td></tr>
+<tr class="memdesc:a8871b081cd97590f22c5db65693225c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Assembles the bilinear form with values ordered per block.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8871b081cd97590f22c5db65693225c0">More...</a><br /></td></tr>
 <tr class="separator:a8871b081cd97590f22c5db65693225c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacb0c7afc08bc53d94212bcad8daf508"><td class="memTemplParams" colspan="2">template&lt;class Function &gt; </td></tr>
 <tr class="memitem:aacb0c7afc08bc53d94212bcad8daf508"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#aacb0c7afc08bc53d94212bcad8daf508">assembleBilinearOrderedPerBlockAtomicFree</a> (Function compute_element_vectors)</td></tr>
+<tr class="memdesc:aacb0c7afc08bc53d94212bcad8daf508"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Assembles the bilinear form per block without atomic operations.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#aacb0c7afc08bc53d94212bcad8daf508">More...</a><br /></td></tr>
 <tr class="separator:aacb0c7afc08bc53d94212bcad8daf508"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e31ed65629996c71daf509eb729ca31"><td class="memTemplParams" colspan="2">template&lt;class Function &gt; </td></tr>
 <tr class="memitem:a5e31ed65629996c71daf509eb729ca31"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a5e31ed65629996c71daf509eb729ca31">assembleBilinearOrderedPerRow</a> (Function compute_element_matrix)</td></tr>
+<tr class="memdesc:a5e31ed65629996c71daf509eb729ca31"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Assembles the bilinear form with values ordered per row.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a5e31ed65629996c71daf509eb729ca31">More...</a><br /></td></tr>
 <tr class="separator:a5e31ed65629996c71daf509eb729ca31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab389aa89fcb831a377a0e93dfd5a29a6"><td class="memTemplParams" colspan="2">template&lt;class Function &gt; </td></tr>
 <tr class="memitem:ab389aa89fcb831a377a0e93dfd5a29a6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ab389aa89fcb831a377a0e93dfd5a29a6">assembleBilinearOrderedPerRowAtomicFree</a> (Function compute_element_vectors)</td></tr>
+<tr class="memdesc:ab389aa89fcb831a377a0e93dfd5a29a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Assembles the bilinear form per row without atomic operations.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ab389aa89fcb831a377a0e93dfd5a29a6">More...</a><br /></td></tr>
 <tr class="separator:ab389aa89fcb831a377a0e93dfd5a29a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a457423aef18c3e9a46c8964dc9c04293"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a457423aef18c3e9a46c8964dc9c04293">computeColumns</a> (Int8 edges_per_element, Int64 nb_edge_total, SmallSpan&lt; uint64_t &gt; &amp;sorted_edges_ss)</td></tr>
+<tr class="memdesc:a457423aef18c3e9a46c8964dc9c04293"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Computes column indices from sorted edges.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a457423aef18c3e9a46c8964dc9c04293">More...</a><br /></td></tr>
 <tr class="separator:a457423aef18c3e9a46c8964dc9c04293"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54334dc256ef60f404a625917ae27f61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a54334dc256ef60f404a625917ae27f61">computeColumnsAtomicFree</a> ()</td></tr>
+<tr class="memdesc:a54334dc256ef60f404a625917ae27f61"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Computes column indices without atomic operations.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a54334dc256ef60f404a625917ae27f61">More...</a><br /></td></tr>
 <tr class="separator:a54334dc256ef60f404a625917ae27f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12977ac25951cf9c21f972b620051c00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a12977ac25951cf9c21f972b620051c00">computeNeighbors</a> (Int8 edges_per_element, Int64 nb_edge_total, NumArray&lt; Int32, MDDim1 &gt; &amp;neighbors, SmallSpan&lt; UInt64 &gt; &amp;sorted_edges_ss)</td></tr>
+<tr class="memdesc:a12977ac25951cf9c21f972b620051c00"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Computes neighbor nodes from sorted edges.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a12977ac25951cf9c21f972b620051c00">More...</a><br /></td></tr>
 <tr class="separator:a12977ac25951cf9c21f972b620051c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58840b7840470c40427c5a43c7ec1ad8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a58840b7840470c40427c5a43c7ec1ad8">computeNeighborsAtomicFree</a> (SmallSpan&lt; Int32 &gt; &amp;neighbors_ss)</td></tr>
+<tr class="memdesc:a58840b7840470c40427c5a43c7ec1ad8"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Computes neighbor lists without atomic operations.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a58840b7840470c40427c5a43c7ec1ad8">More...</a><br /></td></tr>
 <tr class="separator:a58840b7840470c40427c5a43c7ec1ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37871181fd6885e63fbae2ee0a14298e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a37871181fd6885e63fbae2ee0a14298e">computeNzPerRowArray</a> ()</td></tr>
+<tr class="memdesc:a37871181fd6885e63fbae2ee0a14298e"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Computes the number of non-zeros per row array.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a37871181fd6885e63fbae2ee0a14298e">More...</a><br /></td></tr>
 <tr class="separator:a37871181fd6885e63fbae2ee0a14298e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2becc0a3663d37a07b286376941eb857"><td class="memTemplParams" colspan="2">template&lt;typename ProfileT &gt; </td></tr>
 <tr class="memitem:a2becc0a3663d37a07b286376941eb857"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a2becc0a3663d37a07b286376941eb857">computeProfile</a> (const std::function&lt; void(ProfileT &amp;, ConstArrayView&lt; Integer &gt;)&gt; &amp;compute_matrix_profile)</td></tr>
+<tr class="memdesc:a2becc0a3663d37a07b286376941eb857"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Computes the matrix profile using a user-defined callback.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a2becc0a3663d37a07b286376941eb857">More...</a><br /></td></tr>
 <tr class="separator:a2becc0a3663d37a07b286376941eb857"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fb3b5efe946ad96d816e4360e6599f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8fb3b5efe946ad96d816e4360e6599f5">computeRowIndex</a> (Int8 edges_per_element, Int64 nb_edge_total, SmallSpan&lt; UInt64 &gt; &amp;sorted_edges_ss)</td></tr>
+<tr class="memdesc:a8fb3b5efe946ad96d816e4360e6599f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Computes row index array from sorted edges.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8fb3b5efe946ad96d816e4360e6599f5">More...</a><br /></td></tr>
 <tr class="separator:a8fb3b5efe946ad96d816e4360e6599f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97c1a2249fa8d481533216ae82e0b896"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a97c1a2249fa8d481533216ae82e0b896">computeRowIndexAtomicFree</a> ()</td></tr>
+<tr class="memdesc:a97c1a2249fa8d481533216ae82e0b896"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Computes row index array without atomic operations.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a97c1a2249fa8d481533216ae82e0b896">More...</a><br /></td></tr>
 <tr class="separator:a97c1a2249fa8d481533216ae82e0b896"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade2d033e9c9fdb650fce0860e13cc795"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ade2d033e9c9fdb650fce0860e13cc795">computeSortedEdges</a> (Int8 edges_per_element, Int64 nb_edge_total, SmallSpan&lt; UInt64 &gt; &amp;sorted_edges_ss)</td></tr>
+<tr class="memdesc:ade2d033e9c9fdb650fce0860e13cc795"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Computes sorted edge list from mesh connectivity.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ade2d033e9c9fdb650fce0860e13cc795">More...</a><br /></td></tr>
 <tr class="separator:ade2d033e9c9fdb650fce0860e13cc795"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb46694d417beab16112310aaf2ba31e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#acb46694d417beab16112310aaf2ba31e">computeSparsityAtomic</a> ()</td></tr>
+<tr class="memdesc:acb46694d417beab16112310aaf2ba31e"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Computes matrix sparsity pattern with atomic operations.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#acb46694d417beab16112310aaf2ba31e">More...</a><br /></td></tr>
 <tr class="separator:acb46694d417beab16112310aaf2ba31e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a644b8c26165e813d7b40c124edd51c63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a644b8c26165e813d7b40c124edd51c63">computeSparsityAtomicFree</a> ()</td></tr>
+<tr class="memdesc:a644b8c26165e813d7b40c124edd51c63"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Computes matrix sparsity pattern without atomic operations.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a644b8c26165e813d7b40c124edd51c63">More...</a><br /></td></tr>
 <tr class="separator:a644b8c26165e813d7b40c124edd51c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b32721a4be26617f86aa854d4e931d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a4b32721a4be26617f86aa854d4e931d4">dumpMatrix</a> (const String &amp;filename)</td></tr>
+<tr class="memdesc:a4b32721a4be26617f86aa854d4e931d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Dumps the matrix to a file for debugging.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a4b32721a4be26617f86aa854d4e931d4">More...</a><br /></td></tr>
 <tr class="separator:a4b32721a4be26617f86aa854d4e931d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb3c291b420d88d233c4a3887bf0e3cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#aeb3c291b420d88d233c4a3887bf0e3cb">endSystemFillingStep</a> ()</td></tr>
+<tr class="memdesc:aeb3c291b420d88d233c4a3887bf0e3cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Ends the system filling step.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#aeb3c291b420d88d233c4a3887bf0e3cb">More...</a><br /></td></tr>
 <tr class="separator:aeb3c291b420d88d233c4a3887bf0e3cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e5e736631db72528b486be0620b54e4"><td class="memItemLeft" align="right" valign="top">ConstArrayView&lt; Arccore::Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a2e5e736631db72528b486be0620b54e4">getAllUIndex</a> () const</td></tr>
+<tr class="memdesc:a2e5e736631db72528b486be0620b54e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Returns all UIndex values as a const view.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a2e5e736631db72528b486be0620b54e4">More...</a><br /></td></tr>
 <tr class="separator:a2e5e736631db72528b486be0620b54e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a678071c6affb75ba711ccddce410c518"><td class="memItemLeft" align="right" valign="top">Alien::Matrix &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a678071c6affb75ba711ccddce410c518">getMatrixA</a> ()</td></tr>
+<tr class="memdesc:a678071c6affb75ba711ccddce410c518"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Returns the system matrix A.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a678071c6affb75ba711ccddce410c518">More...</a><br /></td></tr>
 <tr class="separator:a678071c6affb75ba711ccddce410c518"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08275838696ba1990f7b6476a506c0bf"><td class="memItemLeft" align="right" valign="top">Alien::ProfiledMatrixBuilder *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a08275838696ba1990f7b6476a506c0bf">getMatrixBuilder</a> ()</td></tr>
+<tr class="memdesc:a08275838696ba1990f7b6476a506c0bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Returns the profiled matrix builder.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a08275838696ba1990f7b6476a506c0bf">More...</a><br /></td></tr>
 <tr class="separator:a08275838696ba1990f7b6476a506c0bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6eda26afb7f71ecd57e011c86af064e"><td class="memItemLeft" align="right" valign="top">Alien::Vector &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#aa6eda26afb7f71ecd57e011c86af064e">getVectorB</a> ()</td></tr>
+<tr class="memdesc:aa6eda26afb7f71ecd57e011c86af064e"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Returns the right-hand side vector B.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#aa6eda26afb7f71ecd57e011c86af064e">More...</a><br /></td></tr>
 <tr class="separator:aa6eda26afb7f71ecd57e011c86af064e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade6da3960d46c807545f7810f2c613fc"><td class="memItemLeft" align="right" valign="top">Alien::Vector &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ade6da3960d46c807545f7810f2c613fc">getVectorX</a> ()</td></tr>
+<tr class="memdesc:ade6da3960d46c807545f7810f2c613fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Returns the solution vector X.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ade6da3960d46c807545f7810f2c613fc">More...</a><br /></td></tr>
 <tr class="separator:ade6da3960d46c807545f7810f2c613fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72d88ba25afcfee76f1f76577ff8b77f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a72d88ba25afcfee76f1f76577ff8b77f">initialize</a> (IMesh *mesh, Int8 nb_dof)</td></tr>
+<tr class="memdesc:a72d88ba25afcfee76f1f76577ff8b77f"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Initializes the format with mesh and number of DoFs per node.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a72d88ba25afcfee76f1f76577ff8b77f">More...</a><br /></td></tr>
 <tr class="separator:a72d88ba25afcfee76f1f76577ff8b77f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7934de1cb567755c0479ed45b1290059"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html">AlienBSRMatrix</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a7934de1cb567755c0479ed45b1290059">matrix</a> ()</td></tr>
+<tr class="memdesc:a7934de1cb567755c0479ed45b1290059"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Returns the underlying BSR matrix.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a7934de1cb567755c0479ed45b1290059">More...</a><br /></td></tr>
 <tr class="separator:a7934de1cb567755c0479ed45b1290059"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f314a6acb756b84a506b1fdb05bc2a4"><td class="memItemLeft" align="right" valign="top">RunQueue &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a3f314a6acb756b84a506b1fdb05bc2a4">queue</a> ()</td></tr>
+<tr class="memdesc:a3f314a6acb756b84a506b1fdb05bc2a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Returns the associated run queue.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a3f314a6acb756b84a506b1fdb05bc2a4">More...</a><br /></td></tr>
 <tr class="separator:a3f314a6acb756b84a506b1fdb05bc2a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5353a49b0cbee9a2d7893b64779d1749"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a5353a49b0cbee9a2d7893b64779d1749">resetMatrixValues</a> ()</td></tr>
+<tr class="memdesc:a5353a49b0cbee9a2d7893b64779d1749"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Resets all matrix values to zero.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a5353a49b0cbee9a2d7893b64779d1749">More...</a><br /></td></tr>
 <tr class="separator:a5353a49b0cbee9a2d7893b64779d1749"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02fdb6abeab017623a9fcd2539f1d5c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a02fdb6abeab017623a9fcd2539f1d5c7">startSystemFillingStep</a> ()</td></tr>
+<tr class="memdesc:a02fdb6abeab017623a9fcd2539f1d5c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Begins the system filling step.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a02fdb6abeab017623a9fcd2539f1d5c7">More...</a><br /></td></tr>
 <tr class="separator:a02fdb6abeab017623a9fcd2539f1d5c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3c5464fceb2dd83d87f2ef74eda9158"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ac3c5464fceb2dd83d87f2ef74eda9158">toLinearSystem</a> (<a class="el" href="classArcane_1_1FemUtils_1_1DoFLinearSystem.html">DoFLinearSystem</a> &amp;linear_system)</td></tr>
+<tr class="memdesc:ac3c5464fceb2dd83d87f2ef74eda9158"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Converts the assembled matrix to a linear system.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ac3c5464fceb2dd83d87f2ef74eda9158">More...</a><br /></td></tr>
 <tr class="separator:ac3c5464fceb2dd83d87f2ef74eda9158"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:abef32ce1fd3199e122e057a3172b9dc9"><td class="memItemLeft" align="right" valign="top">static ARCCORE_HOST_DEVICE UInt64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#abef32ce1fd3199e122e057a3172b9dc9">pack</a> (Int32 n0, Int32 n1)</td></tr>
+<tr class="memdesc:abef32ce1fd3199e122e057a3172b9dc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Packs two Int32 values into a single UInt64 for edge representation.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#abef32ce1fd3199e122e057a3172b9dc9">More...</a><br /></td></tr>
 <tr class="separator:abef32ce1fd3199e122e057a3172b9dc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad28fe76f82fa019063088b1684eb8fda"><td class="memItemLeft" align="right" valign="top">static ARCCORE_HOST_DEVICE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ad28fe76f82fa019063088b1684eb8fda">registerEdgeInColumns</a> (Int32 src, Int32 dst, Accelerator::NumArrayView&lt; DataViewGetterSetter&lt; Int32 &gt;, MDDim1, DefaultLayout &gt; offsets, Accelerator::NumArrayView&lt; DataViewGetter&lt; Int32 &gt;, MDDim1, DefaultLayout &gt; row_index, Accelerator::NumArrayView&lt; DataViewGetterSetter&lt; Int32 &gt;, MDDim1, DefaultLayout &gt; columns)</td></tr>
+<tr class="memdesc:ad28fe76f82fa019063088b1684eb8fda"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Atomically registers an edge as a column entry in the sparsity pattern.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ad28fe76f82fa019063088b1684eb8fda">More...</a><br /></td></tr>
 <tr class="separator:ad28fe76f82fa019063088b1684eb8fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c1dc3dec490e94cda382b028bd3ab74"><td class="memItemLeft" align="right" valign="top">static ARCCORE_HOST_DEVICE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a7c1dc3dec490e94cda382b028bd3ab74">unpack</a> (UInt64 packed_edge, Int32 &amp;n0, Int32 &amp;n1)</td></tr>
+<tr class="memdesc:a7c1dc3dec490e94cda382b028bd3ab74"><td class="mdescLeft">&#160;</td><td class="mdescRight">AI generated: Unpacks a UInt64 edge representation into two Int32 values.  <a href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a7c1dc3dec490e94cda382b028bd3ab74">More...</a><br /></td></tr>
 <tr class="separator:a7c1dc3dec490e94cda382b028bd3ab74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -273,7 +306,7 @@ Private Attributes</h2></td></tr>
 <dd>
 This class keep a reference on the instance of FemDoFOnNodes used in the constructor. So this instance of FemDoFOnNodes must live until the instance of this class is destroyed. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00157">157</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00172">172</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a495dbf1fa3e6dbdd6fcccea24c9f18e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a495dbf1fa3e6dbdd6fcccea24c9f18e3">&#9670;&nbsp;</a></span>AlienBSRFormat()</h2>
@@ -313,6 +346,8 @@ This class keep a reference on the instance of FemDoFOnNodes used in the constru
       </table>
 </div><div class="memdoc">
 
+<p>AI generated: Constructor initializing the BSR format with mesh DoFs and accelerator settings. </p>
+
 <p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8cc_source.html#l00256">256</a> of file <a class="el" href="AlienBSRFormat_8cc_source.html">AlienBSRFormat.cc</a>.</p>
 
 </div>
@@ -344,31 +379,33 @@ template&lt;class Function &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00618">618</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p>AI generated: Dispatches assembly to atomic or atomic-free method. </p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00441">assembleBilinearAtomic()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00605">assembleBilinearAtomicFree()</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00269">m_use_atomic_free</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00666">666</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00489">assembleBilinearAtomic()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00653">assembleBilinearAtomicFree()</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00317">m_use_atomic_free</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a367d0c623145dd217393543231bf7861_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a367d0c623145dd217393543231bf7861_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a367d0c623145dd217393543231bf7861_cgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a367d0c623145dd217393543231bf7861_cgraph">
-<area shape="rect" title=" " alt="" coords="5,268,235,309"/>
+<area shape="rect" title="AI generated: Dispatches assembly to atomic or atomic&#45;free method." alt="" coords="5,268,235,309"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a02cb4997bece47e6015647b8d047b383" title="Assembles the global BSR matrix for a bilinear operator, cell&#45;wise." alt="" coords="283,235,512,276"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ade768ae2af1a5ddd3c2ecf8ae6189e6b" title="Assembles the global BSR matrix for a bilinear operator, node&#45;wise." alt="" coords="283,300,512,341"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8871b081cd97590f22c5db65693225c0" title=" " alt="" coords="593,136,822,177"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a5e31ed65629996c71daf509eb729ca31" title=" " alt="" coords="593,201,822,243"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#af516abc93edb3b3feb763f9c0d07ce27" title=" " alt="" coords="595,267,820,308"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8871b081cd97590f22c5db65693225c0" title="AI generated: Assembles the bilinear form with values ordered per block." alt="" coords="593,136,822,177"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a5e31ed65629996c71daf509eb729ca31" title="AI generated: Assembles the bilinear form with values ordered per row." alt="" coords="593,201,822,243"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#af516abc93edb3b3feb763f9c0d07ce27" title="AI generated: Returns true if values are ordered per block (vs per row)." alt="" coords="595,267,820,308"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a2f46b241a78e444367b7db753fcbfe60" title=" " alt="" coords="910,332,1135,373"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aecf06682109a4e927f11489880e45cb0" title=" " alt="" coords="910,5,1135,47"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a0cf9b6726ecce39f6c575731d2a1b038" title=" " alt="" coords="910,397,1135,439"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a1c12a539b7442dd0f182abfd4bbb2cef" title=" " alt="" coords="910,463,1135,504"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aec07d413d9e977cc56ae5deee377f14c" title=" " alt="" coords="910,136,1135,177"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title=" " alt="" coords="910,201,1135,243"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title=" " alt="" coords="910,267,1135,308"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9da97819dc60146f3eb0174d29a6097" title=" " alt="" coords="910,528,1135,569"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title=" " alt="" coords="903,71,1143,112"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#aacb0c7afc08bc53d94212bcad8daf508" title=" " alt="" coords="560,397,855,439"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ab389aa89fcb831a377a0e93dfd5a29a6" title=" " alt="" coords="563,332,851,373"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aec07d413d9e977cc56ae5deee377f14c" title="AI generated: Returns the block size." alt="" coords="910,136,1135,177"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title="AI generated: Returns the number of columns." alt="" coords="910,201,1135,243"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title="AI generated: Returns the number of rows." alt="" coords="910,267,1135,308"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9da97819dc60146f3eb0174d29a6097" title="AI generated: Returns the number of non&#45;zero values." alt="" coords="910,528,1135,569"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title="AI generated: Returns the connectivity view from nodes to their associated DoFs." alt="" coords="903,71,1143,112"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#aacb0c7afc08bc53d94212bcad8daf508" title="AI generated: Assembles the bilinear form per block without atomic operations." alt="" coords="560,397,855,439"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ab389aa89fcb831a377a0e93dfd5a29a6" title="AI generated: Assembles the bilinear form per row without atomic operations." alt="" coords="563,332,851,373"/>
 </map>
 </div>
 
@@ -415,29 +452,29 @@ Key Details:</h3>
 <li>Handles block structure updates for <code>blockSize x blockSize</code> dimensions. </li>
 </ul>
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00440">440</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00488">488</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00306">assembleBilinearOrderedPerBlock()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00363">assembleBilinearOrderedPerRow()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00285">m_bsr_matrix</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00109">Arcane::FemUtils::AlienBSRMatrix::orderValuePerBlock()</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00354">assembleBilinearOrderedPerBlock()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00411">assembleBilinearOrderedPerRow()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00333">m_bsr_matrix</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00120">Arcane::FemUtils::AlienBSRMatrix::orderValuePerBlock()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00619">assembleBilinear()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00667">assembleBilinear()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a02cb4997bece47e6015647b8d047b383_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a02cb4997bece47e6015647b8d047b383_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a02cb4997bece47e6015647b8d047b383_cgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a02cb4997bece47e6015647b8d047b383_cgraph">
 <area shape="rect" title="Assembles the global BSR matrix for a bilinear operator, cell&#45;wise." alt="" coords="5,267,235,308"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8871b081cd97590f22c5db65693225c0" title=" " alt="" coords="283,201,512,243"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a5e31ed65629996c71daf509eb729ca31" title=" " alt="" coords="283,267,512,308"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#af516abc93edb3b3feb763f9c0d07ce27" title=" " alt="" coords="285,332,510,373"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8871b081cd97590f22c5db65693225c0" title="AI generated: Assembles the bilinear form with values ordered per block." alt="" coords="283,201,512,243"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a5e31ed65629996c71daf509eb729ca31" title="AI generated: Assembles the bilinear form with values ordered per row." alt="" coords="283,267,512,308"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#af516abc93edb3b3feb763f9c0d07ce27" title="AI generated: Returns true if values are ordered per block (vs per row)." alt="" coords="285,332,510,373"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a2f46b241a78e444367b7db753fcbfe60" title=" " alt="" coords="567,332,793,373"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aecf06682109a4e927f11489880e45cb0" title=" " alt="" coords="567,397,793,439"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a0cf9b6726ecce39f6c575731d2a1b038" title=" " alt="" coords="567,5,793,47"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a1c12a539b7442dd0f182abfd4bbb2cef" title=" " alt="" coords="567,71,793,112"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aec07d413d9e977cc56ae5deee377f14c" title=" " alt="" coords="567,136,793,177"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title=" " alt="" coords="567,201,793,243"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title=" " alt="" coords="567,267,793,308"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9da97819dc60146f3eb0174d29a6097" title=" " alt="" coords="567,528,793,569"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title=" " alt="" coords="560,463,800,504"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aec07d413d9e977cc56ae5deee377f14c" title="AI generated: Returns the block size." alt="" coords="567,136,793,177"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title="AI generated: Returns the number of columns." alt="" coords="567,201,793,243"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title="AI generated: Returns the number of rows." alt="" coords="567,267,793,308"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9da97819dc60146f3eb0174d29a6097" title="AI generated: Returns the number of non&#45;zero values." alt="" coords="567,528,793,569"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title="AI generated: Returns the connectivity view from nodes to their associated DoFs." alt="" coords="560,463,800,504"/>
 </map>
 </div>
 <div class="dynheader">
@@ -446,7 +483,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a02cb4997bece47e6015647b8d047b383_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a02cb4997bece47e6015647b8d047b383_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a02cb4997bece47e6015647b8d047b383_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a02cb4997bece47e6015647b8d047b383_icgraph">
 <area shape="rect" title="Assembles the global BSR matrix for a bilinear operator, cell&#45;wise." alt="" coords="283,5,512,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861" title=" " alt="" coords="5,5,235,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861" title="AI generated: Dispatches assembly to atomic or atomic&#45;free method." alt="" coords="5,5,235,47"/>
 </map>
 </div>
 
@@ -492,27 +529,27 @@ Key Details:</h3>
 <li>Handles block structure updates for <code>blockSize x blockSize</code> dimensions. </li>
 </ul>
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00604">604</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00652">652</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00455">assembleBilinearOrderedPerBlockAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00522">assembleBilinearOrderedPerRowAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00285">m_bsr_matrix</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00109">Arcane::FemUtils::AlienBSRMatrix::orderValuePerBlock()</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00503">assembleBilinearOrderedPerBlockAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00570">assembleBilinearOrderedPerRowAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00333">m_bsr_matrix</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00120">Arcane::FemUtils::AlienBSRMatrix::orderValuePerBlock()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00619">assembleBilinear()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00667">assembleBilinear()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_ade768ae2af1a5ddd3c2ecf8ae6189e6b_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ade768ae2af1a5ddd3c2ecf8ae6189e6b_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ade768ae2af1a5ddd3c2ecf8ae6189e6b_cgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ade768ae2af1a5ddd3c2ecf8ae6189e6b_cgraph">
 <area shape="rect" title="Assembles the global BSR matrix for a bilinear operator, node&#45;wise." alt="" coords="5,267,235,308"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#aacb0c7afc08bc53d94212bcad8daf508" title=" " alt="" coords="283,201,577,243"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ab389aa89fcb831a377a0e93dfd5a29a6" title=" " alt="" coords="286,267,574,308"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#af516abc93edb3b3feb763f9c0d07ce27" title=" " alt="" coords="317,332,543,373"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#aacb0c7afc08bc53d94212bcad8daf508" title="AI generated: Assembles the bilinear form per block without atomic operations." alt="" coords="283,201,577,243"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ab389aa89fcb831a377a0e93dfd5a29a6" title="AI generated: Assembles the bilinear form per row without atomic operations." alt="" coords="286,267,574,308"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#af516abc93edb3b3feb763f9c0d07ce27" title="AI generated: Returns true if values are ordered per block (vs per row)." alt="" coords="317,332,543,373"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a2f46b241a78e444367b7db753fcbfe60" title=" " alt="" coords="625,136,851,177"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a0cf9b6726ecce39f6c575731d2a1b038" title=" " alt="" coords="625,201,851,243"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a1c12a539b7442dd0f182abfd4bbb2cef" title=" " alt="" coords="625,267,851,308"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aec07d413d9e977cc56ae5deee377f14c" title=" " alt="" coords="625,332,851,373"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title=" " alt="" coords="625,397,851,439"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9da97819dc60146f3eb0174d29a6097" title=" " alt="" coords="625,5,851,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title=" " alt="" coords="625,71,851,112"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aec07d413d9e977cc56ae5deee377f14c" title="AI generated: Returns the block size." alt="" coords="625,332,851,373"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title="AI generated: Returns the number of columns." alt="" coords="625,397,851,439"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9da97819dc60146f3eb0174d29a6097" title="AI generated: Returns the number of non&#45;zero values." alt="" coords="625,5,851,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title="AI generated: Returns the number of rows." alt="" coords="625,71,851,112"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aecf06682109a4e927f11489880e45cb0" title=" " alt="" coords="625,463,851,504"/>
 </map>
 </div>
@@ -522,7 +559,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_ade768ae2af1a5ddd3c2ecf8ae6189e6b_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ade768ae2af1a5ddd3c2ecf8ae6189e6b_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ade768ae2af1a5ddd3c2ecf8ae6189e6b_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ade768ae2af1a5ddd3c2ecf8ae6189e6b_icgraph">
 <area shape="rect" title="Assembles the global BSR matrix for a bilinear operator, node&#45;wise." alt="" coords="283,5,512,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861" title=" " alt="" coords="5,5,235,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861" title="AI generated: Dispatches assembly to atomic or atomic&#45;free method." alt="" coords="5,5,235,47"/>
 </map>
 </div>
 
@@ -554,24 +591,26 @@ template&lt;class Function &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00305">305</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p>AI generated: Assembles the bilinear form with values ordered per block. </p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00118">Arcane::FemUtils::AlienBSRMatrix::_columns()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00120">Arcane::FemUtils::AlienBSRMatrix::_nbNonZeroPerRows()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00119">Arcane::FemUtils::AlienBSRMatrix::_rowsIndex()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00117">Arcane::FemUtils::AlienBSRMatrix::_values()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00285">m_bsr_matrix</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00288">m_mesh</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00289">m_queue</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00113">Arcane::FemUtils::AlienBSRMatrix::nbBlock()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00111">Arcane::FemUtils::AlienBSRMatrix::nbColumn()</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00112">Arcane::FemUtils::AlienBSRMatrix::nbRow()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00353">353</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00441">assembleBilinearAtomic()</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00133">Arcane::FemUtils::AlienBSRMatrix::_columns()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00135">Arcane::FemUtils::AlienBSRMatrix::_nbNonZeroPerRows()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00134">Arcane::FemUtils::AlienBSRMatrix::_rowsIndex()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00132">Arcane::FemUtils::AlienBSRMatrix::_values()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00333">m_bsr_matrix</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00336">m_mesh</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00337">m_queue</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00128">Arcane::FemUtils::AlienBSRMatrix::nbBlock()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00124">Arcane::FemUtils::AlienBSRMatrix::nbColumn()</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00126">Arcane::FemUtils::AlienBSRMatrix::nbRow()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00489">assembleBilinearAtomic()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a8871b081cd97590f22c5db65693225c0_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a8871b081cd97590f22c5db65693225c0_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a8871b081cd97590f22c5db65693225c0_cgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a8871b081cd97590f22c5db65693225c0_cgraph">
-<area shape="rect" title=" " alt="" coords="5,201,235,243"/>
+<area shape="rect" title="AI generated: Assembles the bilinear form with values ordered per block." alt="" coords="5,201,235,243"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a2f46b241a78e444367b7db753fcbfe60" title=" " alt="" coords="283,5,508,47"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aecf06682109a4e927f11489880e45cb0" title=" " alt="" coords="283,71,508,112"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a0cf9b6726ecce39f6c575731d2a1b038" title=" " alt="" coords="283,136,508,177"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a1c12a539b7442dd0f182abfd4bbb2cef" title=" " alt="" coords="283,201,508,243"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aec07d413d9e977cc56ae5deee377f14c" title=" " alt="" coords="283,267,508,308"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title=" " alt="" coords="283,332,508,373"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title=" " alt="" coords="283,397,508,439"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aec07d413d9e977cc56ae5deee377f14c" title="AI generated: Returns the block size." alt="" coords="283,267,508,308"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title="AI generated: Returns the number of columns." alt="" coords="283,332,508,373"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title="AI generated: Returns the number of rows." alt="" coords="283,397,508,439"/>
 </map>
 </div>
 <div class="dynheader">
@@ -579,9 +618,9 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a8871b081cd97590f22c5db65693225c0_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a8871b081cd97590f22c5db65693225c0_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a8871b081cd97590f22c5db65693225c0_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a8871b081cd97590f22c5db65693225c0_icgraph">
-<area shape="rect" title=" " alt="" coords="560,5,789,47"/>
+<area shape="rect" title="AI generated: Assembles the bilinear form with values ordered per block." alt="" coords="560,5,789,47"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a02cb4997bece47e6015647b8d047b383" title="Assembles the global BSR matrix for a bilinear operator, cell&#45;wise." alt="" coords="283,5,512,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861" title=" " alt="" coords="5,5,235,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861" title="AI generated: Dispatches assembly to atomic or atomic&#45;free method." alt="" coords="5,5,235,47"/>
 </map>
 </div>
 
@@ -613,24 +652,26 @@ template&lt;class Function &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00454">454</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p>AI generated: Assembles the bilinear form per block without atomic operations. </p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00118">Arcane::FemUtils::AlienBSRMatrix::_columns()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00119">Arcane::FemUtils::AlienBSRMatrix::_rowsIndex()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00117">Arcane::FemUtils::AlienBSRMatrix::_values()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00285">m_bsr_matrix</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00288">m_mesh</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00289">m_queue</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00113">Arcane::FemUtils::AlienBSRMatrix::nbBlock()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00111">Arcane::FemUtils::AlienBSRMatrix::nbColumn()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00110">Arcane::FemUtils::AlienBSRMatrix::nbNonZero()</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00112">Arcane::FemUtils::AlienBSRMatrix::nbRow()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00502">502</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00605">assembleBilinearAtomicFree()</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00133">Arcane::FemUtils::AlienBSRMatrix::_columns()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00134">Arcane::FemUtils::AlienBSRMatrix::_rowsIndex()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00132">Arcane::FemUtils::AlienBSRMatrix::_values()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00333">m_bsr_matrix</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00336">m_mesh</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00337">m_queue</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00128">Arcane::FemUtils::AlienBSRMatrix::nbBlock()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00124">Arcane::FemUtils::AlienBSRMatrix::nbColumn()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00122">Arcane::FemUtils::AlienBSRMatrix::nbNonZero()</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00126">Arcane::FemUtils::AlienBSRMatrix::nbRow()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00653">assembleBilinearAtomicFree()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_aacb0c7afc08bc53d94212bcad8daf508_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_aacb0c7afc08bc53d94212bcad8daf508_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_aacb0c7afc08bc53d94212bcad8daf508_cgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_aacb0c7afc08bc53d94212bcad8daf508_cgraph">
-<area shape="rect" title=" " alt="" coords="5,201,300,243"/>
+<area shape="rect" title="AI generated: Assembles the bilinear form per block without atomic operations." alt="" coords="5,201,300,243"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a2f46b241a78e444367b7db753fcbfe60" title=" " alt="" coords="348,5,573,47"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a0cf9b6726ecce39f6c575731d2a1b038" title=" " alt="" coords="348,71,573,112"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a1c12a539b7442dd0f182abfd4bbb2cef" title=" " alt="" coords="348,136,573,177"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aec07d413d9e977cc56ae5deee377f14c" title=" " alt="" coords="348,201,573,243"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title=" " alt="" coords="348,267,573,308"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9da97819dc60146f3eb0174d29a6097" title=" " alt="" coords="348,332,573,373"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title=" " alt="" coords="348,397,573,439"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aec07d413d9e977cc56ae5deee377f14c" title="AI generated: Returns the block size." alt="" coords="348,201,573,243"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title="AI generated: Returns the number of columns." alt="" coords="348,267,573,308"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9da97819dc60146f3eb0174d29a6097" title="AI generated: Returns the number of non&#45;zero values." alt="" coords="348,332,573,373"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title="AI generated: Returns the number of rows." alt="" coords="348,397,573,439"/>
 </map>
 </div>
 <div class="dynheader">
@@ -638,9 +679,9 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_aacb0c7afc08bc53d94212bcad8daf508_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_aacb0c7afc08bc53d94212bcad8daf508_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_aacb0c7afc08bc53d94212bcad8daf508_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_aacb0c7afc08bc53d94212bcad8daf508_icgraph">
-<area shape="rect" title=" " alt="" coords="560,5,855,47"/>
+<area shape="rect" title="AI generated: Assembles the bilinear form per block without atomic operations." alt="" coords="560,5,855,47"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ade768ae2af1a5ddd3c2ecf8ae6189e6b" title="Assembles the global BSR matrix for a bilinear operator, node&#45;wise." alt="" coords="283,5,512,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861" title=" " alt="" coords="5,5,235,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861" title="AI generated: Dispatches assembly to atomic or atomic&#45;free method." alt="" coords="5,5,235,47"/>
 </map>
 </div>
 
@@ -672,26 +713,28 @@ template&lt;class Function &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00362">362</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p>AI generated: Assembles the bilinear form with values ordered per row. </p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00118">Arcane::FemUtils::AlienBSRMatrix::_columns()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00120">Arcane::FemUtils::AlienBSRMatrix::_nbNonZeroPerRows()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00119">Arcane::FemUtils::AlienBSRMatrix::_rowsIndex()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00117">Arcane::FemUtils::AlienBSRMatrix::_values()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00285">m_bsr_matrix</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00290">m_dofs_on_nodes</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00288">m_mesh</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00289">m_queue</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00113">Arcane::FemUtils::AlienBSRMatrix::nbBlock()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00111">Arcane::FemUtils::AlienBSRMatrix::nbColumn()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00110">Arcane::FemUtils::AlienBSRMatrix::nbNonZero()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00112">Arcane::FemUtils::AlienBSRMatrix::nbRow()</a>, and <a class="el" href="FemDoFsOnNodes_8cc_source.html#l00146">Arcane::FemUtils::FemDoFsOnNodes::nodeDoFConnectivityView()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00410">410</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00441">assembleBilinearAtomic()</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00133">Arcane::FemUtils::AlienBSRMatrix::_columns()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00135">Arcane::FemUtils::AlienBSRMatrix::_nbNonZeroPerRows()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00134">Arcane::FemUtils::AlienBSRMatrix::_rowsIndex()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00132">Arcane::FemUtils::AlienBSRMatrix::_values()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00333">m_bsr_matrix</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00338">m_dofs_on_nodes</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00336">m_mesh</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00337">m_queue</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00128">Arcane::FemUtils::AlienBSRMatrix::nbBlock()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00124">Arcane::FemUtils::AlienBSRMatrix::nbColumn()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00122">Arcane::FemUtils::AlienBSRMatrix::nbNonZero()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00126">Arcane::FemUtils::AlienBSRMatrix::nbRow()</a>, and <a class="el" href="FemDoFsOnNodes_8cc_source.html#l00146">Arcane::FemUtils::FemDoFsOnNodes::nodeDoFConnectivityView()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00489">assembleBilinearAtomic()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a5e31ed65629996c71daf509eb729ca31_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a5e31ed65629996c71daf509eb729ca31_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a5e31ed65629996c71daf509eb729ca31_cgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a5e31ed65629996c71daf509eb729ca31_cgraph">
-<area shape="rect" title=" " alt="" coords="5,267,235,308"/>
+<area shape="rect" title="AI generated: Assembles the bilinear form with values ordered per row." alt="" coords="5,267,235,308"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a2f46b241a78e444367b7db753fcbfe60" title=" " alt="" coords="290,5,515,47"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aecf06682109a4e927f11489880e45cb0" title=" " alt="" coords="290,71,515,112"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a0cf9b6726ecce39f6c575731d2a1b038" title=" " alt="" coords="290,136,515,177"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a1c12a539b7442dd0f182abfd4bbb2cef" title=" " alt="" coords="290,201,515,243"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aec07d413d9e977cc56ae5deee377f14c" title=" " alt="" coords="290,267,515,308"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title=" " alt="" coords="290,332,515,373"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9da97819dc60146f3eb0174d29a6097" title=" " alt="" coords="290,397,515,439"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title=" " alt="" coords="290,463,515,504"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title=" " alt="" coords="283,528,523,569"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aec07d413d9e977cc56ae5deee377f14c" title="AI generated: Returns the block size." alt="" coords="290,267,515,308"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title="AI generated: Returns the number of columns." alt="" coords="290,332,515,373"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9da97819dc60146f3eb0174d29a6097" title="AI generated: Returns the number of non&#45;zero values." alt="" coords="290,397,515,439"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title="AI generated: Returns the number of rows." alt="" coords="290,463,515,504"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title="AI generated: Returns the connectivity view from nodes to their associated DoFs." alt="" coords="283,528,523,569"/>
 </map>
 </div>
 <div class="dynheader">
@@ -699,9 +742,9 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a5e31ed65629996c71daf509eb729ca31_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a5e31ed65629996c71daf509eb729ca31_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a5e31ed65629996c71daf509eb729ca31_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a5e31ed65629996c71daf509eb729ca31_icgraph">
-<area shape="rect" title=" " alt="" coords="560,5,789,47"/>
+<area shape="rect" title="AI generated: Assembles the bilinear form with values ordered per row." alt="" coords="560,5,789,47"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a02cb4997bece47e6015647b8d047b383" title="Assembles the global BSR matrix for a bilinear operator, cell&#45;wise." alt="" coords="283,5,512,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861" title=" " alt="" coords="5,5,235,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861" title="AI generated: Dispatches assembly to atomic or atomic&#45;free method." alt="" coords="5,5,235,47"/>
 </map>
 </div>
 
@@ -733,25 +776,27 @@ template&lt;class Function &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00521">521</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p>AI generated: Assembles the bilinear form per row without atomic operations. </p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00118">Arcane::FemUtils::AlienBSRMatrix::_columns()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00120">Arcane::FemUtils::AlienBSRMatrix::_nbNonZeroPerRows()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00119">Arcane::FemUtils::AlienBSRMatrix::_rowsIndex()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00117">Arcane::FemUtils::AlienBSRMatrix::_values()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00285">m_bsr_matrix</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00288">m_mesh</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00289">m_queue</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00113">Arcane::FemUtils::AlienBSRMatrix::nbBlock()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00111">Arcane::FemUtils::AlienBSRMatrix::nbColumn()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00110">Arcane::FemUtils::AlienBSRMatrix::nbNonZero()</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00112">Arcane::FemUtils::AlienBSRMatrix::nbRow()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00569">569</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00605">assembleBilinearAtomicFree()</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00133">Arcane::FemUtils::AlienBSRMatrix::_columns()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00135">Arcane::FemUtils::AlienBSRMatrix::_nbNonZeroPerRows()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00134">Arcane::FemUtils::AlienBSRMatrix::_rowsIndex()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00132">Arcane::FemUtils::AlienBSRMatrix::_values()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00333">m_bsr_matrix</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00336">m_mesh</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00337">m_queue</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00128">Arcane::FemUtils::AlienBSRMatrix::nbBlock()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00124">Arcane::FemUtils::AlienBSRMatrix::nbColumn()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00122">Arcane::FemUtils::AlienBSRMatrix::nbNonZero()</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00126">Arcane::FemUtils::AlienBSRMatrix::nbRow()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00653">assembleBilinearAtomicFree()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_ab389aa89fcb831a377a0e93dfd5a29a6_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ab389aa89fcb831a377a0e93dfd5a29a6_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ab389aa89fcb831a377a0e93dfd5a29a6_cgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ab389aa89fcb831a377a0e93dfd5a29a6_cgraph">
-<area shape="rect" title=" " alt="" coords="5,235,293,276"/>
+<area shape="rect" title="AI generated: Assembles the bilinear form per row without atomic operations." alt="" coords="5,235,293,276"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a2f46b241a78e444367b7db753fcbfe60" title=" " alt="" coords="341,5,567,47"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aecf06682109a4e927f11489880e45cb0" title=" " alt="" coords="341,71,567,112"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a0cf9b6726ecce39f6c575731d2a1b038" title=" " alt="" coords="341,136,567,177"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a1c12a539b7442dd0f182abfd4bbb2cef" title=" " alt="" coords="341,201,567,243"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aec07d413d9e977cc56ae5deee377f14c" title=" " alt="" coords="341,267,567,308"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title=" " alt="" coords="341,332,567,373"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9da97819dc60146f3eb0174d29a6097" title=" " alt="" coords="341,397,567,439"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title=" " alt="" coords="341,463,567,504"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aec07d413d9e977cc56ae5deee377f14c" title="AI generated: Returns the block size." alt="" coords="341,267,567,308"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title="AI generated: Returns the number of columns." alt="" coords="341,332,567,373"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9da97819dc60146f3eb0174d29a6097" title="AI generated: Returns the number of non&#45;zero values." alt="" coords="341,397,567,439"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title="AI generated: Returns the number of rows." alt="" coords="341,463,567,504"/>
 </map>
 </div>
 <div class="dynheader">
@@ -759,9 +804,9 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_ab389aa89fcb831a377a0e93dfd5a29a6_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ab389aa89fcb831a377a0e93dfd5a29a6_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ab389aa89fcb831a377a0e93dfd5a29a6_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ab389aa89fcb831a377a0e93dfd5a29a6_icgraph">
-<area shape="rect" title=" " alt="" coords="560,5,848,47"/>
+<area shape="rect" title="AI generated: Assembles the bilinear form per row without atomic operations." alt="" coords="560,5,848,47"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ade768ae2af1a5ddd3c2ecf8ae6189e6b" title="Assembles the global BSR matrix for a bilinear operator, node&#45;wise." alt="" coords="283,5,512,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861" title=" " alt="" coords="5,5,235,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861" title="AI generated: Dispatches assembly to atomic or atomic&#45;free method." alt="" coords="5,5,235,47"/>
 </map>
 </div>
 
@@ -799,19 +844,21 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>AI generated: Computes column indices from sorted edges. </p>
+
 <p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8cc_source.html#l00611">611</a> of file <a class="el" href="AlienBSRFormat_8cc_source.html">AlienBSRFormat.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00118">Arcane::FemUtils::AlienBSRMatrix::_columns()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00119">Arcane::FemUtils::AlienBSRMatrix::_rowsIndex()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00285">m_bsr_matrix</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00288">m_mesh</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00289">m_queue</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00203">registerEdgeInColumns()</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00192">unpack()</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00133">Arcane::FemUtils::AlienBSRMatrix::_columns()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00134">Arcane::FemUtils::AlienBSRMatrix::_rowsIndex()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00333">m_bsr_matrix</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00336">m_mesh</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00337">m_queue</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00233">registerEdgeInColumns()</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00218">unpack()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a457423aef18c3e9a46c8964dc9c04293_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a457423aef18c3e9a46c8964dc9c04293_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a457423aef18c3e9a46c8964dc9c04293_cgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a457423aef18c3e9a46c8964dc9c04293_cgraph">
-<area shape="rect" title=" " alt="" coords="5,104,235,145"/>
+<area shape="rect" title="AI generated: Computes column indices from sorted edges." alt="" coords="5,104,235,145"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a2f46b241a78e444367b7db753fcbfe60" title=" " alt="" coords="285,5,510,47"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a0cf9b6726ecce39f6c575731d2a1b038" title=" " alt="" coords="285,71,510,112"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ad28fe76f82fa019063088b1684eb8fda" title=" " alt="" coords="283,136,512,177"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a7c1dc3dec490e94cda382b028bd3ab74" title=" " alt="" coords="283,201,512,243"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ad28fe76f82fa019063088b1684eb8fda" title="AI generated: Atomically registers an edge as a column entry in the sparsity pattern." alt="" coords="283,136,512,177"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a7c1dc3dec490e94cda382b028bd3ab74" title="AI generated: Unpacks a UInt64 edge representation into two Int32 values." alt="" coords="283,201,512,243"/>
 </map>
 </div>
 
@@ -832,9 +879,11 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>AI generated: Computes column indices without atomic operations. </p>
+
 <p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8cc_source.html#l00452">452</a> of file <a class="el" href="AlienBSRFormat_8cc_source.html">AlienBSRFormat.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00118">Arcane::FemUtils::AlienBSRMatrix::_columns()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00119">Arcane::FemUtils::AlienBSRMatrix::_rowsIndex()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00285">m_bsr_matrix</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00288">m_mesh</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00289">m_queue</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00133">Arcane::FemUtils::AlienBSRMatrix::_columns()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00134">Arcane::FemUtils::AlienBSRMatrix::_rowsIndex()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00333">m_bsr_matrix</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00336">m_mesh</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00337">m_queue</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8cc_source.html#l00500">computeSparsityAtomicFree()</a>.</p>
 <div class="dynheader">
@@ -842,7 +891,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a54334dc256ef60f404a625917ae27f61_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a54334dc256ef60f404a625917ae27f61_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a54334dc256ef60f404a625917ae27f61_cgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a54334dc256ef60f404a625917ae27f61_cgraph">
-<area shape="rect" title=" " alt="" coords="5,39,235,80"/>
+<area shape="rect" title="AI generated: Computes column indices without atomic operations." alt="" coords="5,39,235,80"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a2f46b241a78e444367b7db753fcbfe60" title=" " alt="" coords="283,5,508,47"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a0cf9b6726ecce39f6c575731d2a1b038" title=" " alt="" coords="283,71,508,112"/>
 </map>
@@ -852,8 +901,8 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a54334dc256ef60f404a625917ae27f61_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a54334dc256ef60f404a625917ae27f61_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a54334dc256ef60f404a625917ae27f61_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a54334dc256ef60f404a625917ae27f61_icgraph">
-<area shape="rect" title=" " alt="" coords="283,5,512,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a644b8c26165e813d7b40c124edd51c63" title=" " alt="" coords="5,5,235,47"/>
+<area shape="rect" title="AI generated: Computes column indices without atomic operations." alt="" coords="283,5,512,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a644b8c26165e813d7b40c124edd51c63" title="AI generated: Computes matrix sparsity pattern without atomic operations." alt="" coords="5,5,235,47"/>
 </map>
 </div>
 
@@ -892,7 +941,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a68a924c9113672501a71fe4362179ee1_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a68a924c9113672501a71fe4362179ee1_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a68a924c9113672501a71fe4362179ee1_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a68a924c9113672501a71fe4362179ee1_icgraph">
 <area shape="rect" title=" " alt="" coords="859,5,1088,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a72d88ba25afcfee76f1f76577ff8b77f" title=" " alt="" coords="581,5,811,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a72d88ba25afcfee76f1f76577ff8b77f" title="AI generated: Initializes the format with mesh and number of DoFs per node." alt="" coords="581,5,811,47"/>
 <area shape="rect" href="classFemModuleElasticity.html#a3abe0e405d3b7b734efa42c7142dc92c" title="AI comment: Initializes the Alien BSR (Block Sparse Row) matrix format." alt="" coords="389,5,533,47"/>
 <area shape="rect" href="classFemModuleElasticity.html#ad3bb0f9040e4141ceef536038cd61a2d" title="Performs the main computation for the FemModuleElasticity." alt="" coords="197,5,341,47"/>
 <area shape="rect" href="classFemModuleElasticity.html#ab06ab2db63cae57328155891523641f4" title="AI comment: Main time loop, handles coupled (preCICE) and standalone computation modes." alt="" coords="5,5,149,47"/>
@@ -939,9 +988,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>AI generated: Computes neighbor nodes from sorted edges. </p>
+
 <p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8cc_source.html#l00572">572</a> of file <a class="el" href="AlienBSRFormat_8cc_source.html">AlienBSRFormat.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00289">m_queue</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00192">unpack()</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00337">m_queue</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00218">unpack()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8cc_source.html#l00595">computeRowIndex()</a>.</p>
 <div class="dynheader">
@@ -949,8 +1000,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a12977ac25951cf9c21f972b620051c00_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a12977ac25951cf9c21f972b620051c00_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a12977ac25951cf9c21f972b620051c00_cgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a12977ac25951cf9c21f972b620051c00_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,235,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a7c1dc3dec490e94cda382b028bd3ab74" title=" " alt="" coords="283,5,512,47"/>
+<area shape="rect" title="AI generated: Computes neighbor nodes from sorted edges." alt="" coords="5,5,235,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a7c1dc3dec490e94cda382b028bd3ab74" title="AI generated: Unpacks a UInt64 edge representation into two Int32 values." alt="" coords="283,5,512,47"/>
 </map>
 </div>
 <div class="dynheader">
@@ -958,9 +1009,9 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a12977ac25951cf9c21f972b620051c00_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a12977ac25951cf9c21f972b620051c00_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a12977ac25951cf9c21f972b620051c00_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a12977ac25951cf9c21f972b620051c00_icgraph">
-<area shape="rect" title=" " alt="" coords="560,5,789,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8fb3b5efe946ad96d816e4360e6599f5" title=" " alt="" coords="283,5,512,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#acb46694d417beab16112310aaf2ba31e" title=" " alt="" coords="5,5,235,47"/>
+<area shape="rect" title="AI generated: Computes neighbor nodes from sorted edges." alt="" coords="560,5,789,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8fb3b5efe946ad96d816e4360e6599f5" title="AI generated: Computes row index array from sorted edges." alt="" coords="283,5,512,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#acb46694d417beab16112310aaf2ba31e" title="AI generated: Computes matrix sparsity pattern with atomic operations." alt="" coords="5,5,235,47"/>
 </map>
 </div>
 
@@ -982,9 +1033,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>AI generated: Computes neighbor lists without atomic operations. </p>
+
 <p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8cc_source.html#l00409">409</a> of file <a class="el" href="AlienBSRFormat_8cc_source.html">AlienBSRFormat.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00288">m_mesh</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00289">m_queue</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00336">m_mesh</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00337">m_queue</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8cc_source.html#l00437">computeRowIndexAtomicFree()</a>.</p>
 <div class="dynheader">
@@ -992,9 +1045,9 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a58840b7840470c40427c5a43c7ec1ad8_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a58840b7840470c40427c5a43c7ec1ad8_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a58840b7840470c40427c5a43c7ec1ad8_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a58840b7840470c40427c5a43c7ec1ad8_icgraph">
-<area shape="rect" title=" " alt="" coords="560,5,789,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a97c1a2249fa8d481533216ae82e0b896" title=" " alt="" coords="283,5,512,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a644b8c26165e813d7b40c124edd51c63" title=" " alt="" coords="5,5,235,47"/>
+<area shape="rect" title="AI generated: Computes neighbor lists without atomic operations." alt="" coords="560,5,789,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a97c1a2249fa8d481533216ae82e0b896" title="AI generated: Computes row index array without atomic operations." alt="" coords="283,5,512,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a644b8c26165e813d7b40c124edd51c63" title="AI generated: Computes matrix sparsity pattern without atomic operations." alt="" coords="5,5,235,47"/>
 </map>
 </div>
 
@@ -1015,9 +1068,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>AI generated: Computes the number of non-zeros per row array. </p>
+
 <p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8cc_source.html#l00364">364</a> of file <a class="el" href="AlienBSRFormat_8cc_source.html">AlienBSRFormat.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00120">Arcane::FemUtils::AlienBSRMatrix::_nbNonZeroPerRows()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00119">Arcane::FemUtils::AlienBSRMatrix::_rowsIndex()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00285">m_bsr_matrix</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00289">m_queue</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00111">Arcane::FemUtils::AlienBSRMatrix::nbColumn()</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00112">Arcane::FemUtils::AlienBSRMatrix::nbRow()</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00135">Arcane::FemUtils::AlienBSRMatrix::_nbNonZeroPerRows()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00134">Arcane::FemUtils::AlienBSRMatrix::_rowsIndex()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00333">m_bsr_matrix</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00337">m_queue</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00124">Arcane::FemUtils::AlienBSRMatrix::nbColumn()</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00126">Arcane::FemUtils::AlienBSRMatrix::nbRow()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8cc_source.html#l00659">computeSparsityAtomic()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00500">computeSparsityAtomicFree()</a>.</p>
 <div class="dynheader">
@@ -1025,11 +1080,11 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a37871181fd6885e63fbae2ee0a14298e_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a37871181fd6885e63fbae2ee0a14298e_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a37871181fd6885e63fbae2ee0a14298e_cgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a37871181fd6885e63fbae2ee0a14298e_cgraph">
-<area shape="rect" title=" " alt="" coords="5,104,235,145"/>
+<area shape="rect" title="AI generated: Computes the number of non&#45;zeros per row array." alt="" coords="5,104,235,145"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aecf06682109a4e927f11489880e45cb0" title=" " alt="" coords="283,5,508,47"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a0cf9b6726ecce39f6c575731d2a1b038" title=" " alt="" coords="283,71,508,112"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title=" " alt="" coords="283,136,508,177"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title=" " alt="" coords="283,201,508,243"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title="AI generated: Returns the number of columns." alt="" coords="283,136,508,177"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title="AI generated: Returns the number of rows." alt="" coords="283,201,508,243"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1037,9 +1092,9 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a37871181fd6885e63fbae2ee0a14298e_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a37871181fd6885e63fbae2ee0a14298e_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a37871181fd6885e63fbae2ee0a14298e_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a37871181fd6885e63fbae2ee0a14298e_icgraph">
-<area shape="rect" title=" " alt="" coords="283,39,512,80"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#acb46694d417beab16112310aaf2ba31e" title=" " alt="" coords="5,5,235,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a644b8c26165e813d7b40c124edd51c63" title=" " alt="" coords="5,71,235,112"/>
+<area shape="rect" title="AI generated: Computes the number of non&#45;zeros per row array." alt="" coords="283,39,512,80"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#acb46694d417beab16112310aaf2ba31e" title="AI generated: Computes matrix sparsity pattern with atomic operations." alt="" coords="5,5,235,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a644b8c26165e813d7b40c124edd51c63" title="AI generated: Computes matrix sparsity pattern without atomic operations." alt="" coords="5,71,235,112"/>
 </map>
 </div>
 
@@ -1063,9 +1118,11 @@ template&lt;typename ProfileT &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00296">296</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p>AI generated: Computes the matrix profile using a user-defined callback. </p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00272">m_allUIndex</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00280">m_matrixA</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00344">344</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00320">m_allUIndex</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00328">m_matrixA</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="FemModule_8cc_source.html#l00687">FemModuleElasticity::_doStationarySolve()</a>.</p>
 <div class="dynheader">
@@ -1073,7 +1130,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a2becc0a3663d37a07b286376941eb857_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a2becc0a3663d37a07b286376941eb857_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a2becc0a3663d37a07b286376941eb857_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a2becc0a3663d37a07b286376941eb857_icgraph">
-<area shape="rect" title=" " alt="" coords="581,5,811,47"/>
+<area shape="rect" title="AI generated: Computes the matrix profile using a user&#45;defined callback." alt="" coords="581,5,811,47"/>
 <area shape="rect" href="classFemModuleElasticity.html#a5b769fd9a5bc4503b409f70211e3a0b1" title="Performs a stationary solve for the FEM system." alt="" coords="389,5,533,47"/>
 <area shape="rect" href="classFemModuleElasticity.html#ad3bb0f9040e4141ceef536038cd61a2d" title="Performs the main computation for the FemModuleElasticity." alt="" coords="197,5,341,47"/>
 <area shape="rect" href="classFemModuleElasticity.html#ab06ab2db63cae57328155891523641f4" title="AI comment: Main time loop, handles coupled (preCICE) and standalone computation modes." alt="" coords="5,5,149,47"/>
@@ -1114,9 +1171,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>AI generated: Computes row index array from sorted edges. </p>
+
 <p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8cc_source.html#l00594">594</a> of file <a class="el" href="AlienBSRFormat_8cc_source.html">AlienBSRFormat.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00119">Arcane::FemUtils::AlienBSRMatrix::_rowsIndex()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00573">computeNeighbors()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00285">m_bsr_matrix</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00288">m_mesh</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00289">m_queue</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00134">Arcane::FemUtils::AlienBSRMatrix::_rowsIndex()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00573">computeNeighbors()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00333">m_bsr_matrix</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00336">m_mesh</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00337">m_queue</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8cc_source.html#l00659">computeSparsityAtomic()</a>.</p>
 <div class="dynheader">
@@ -1124,10 +1183,10 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a8fb3b5efe946ad96d816e4360e6599f5_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a8fb3b5efe946ad96d816e4360e6599f5_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a8fb3b5efe946ad96d816e4360e6599f5_cgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a8fb3b5efe946ad96d816e4360e6599f5_cgraph">
-<area shape="rect" title=" " alt="" coords="5,39,235,80"/>
+<area shape="rect" title="AI generated: Computes row index array from sorted edges." alt="" coords="5,39,235,80"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a0cf9b6726ecce39f6c575731d2a1b038" title=" " alt="" coords="285,5,510,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a12977ac25951cf9c21f972b620051c00" title=" " alt="" coords="283,71,512,112"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a7c1dc3dec490e94cda382b028bd3ab74" title=" " alt="" coords="560,71,789,112"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a12977ac25951cf9c21f972b620051c00" title="AI generated: Computes neighbor nodes from sorted edges." alt="" coords="283,71,512,112"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a7c1dc3dec490e94cda382b028bd3ab74" title="AI generated: Unpacks a UInt64 edge representation into two Int32 values." alt="" coords="560,71,789,112"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1135,8 +1194,8 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a8fb3b5efe946ad96d816e4360e6599f5_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a8fb3b5efe946ad96d816e4360e6599f5_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a8fb3b5efe946ad96d816e4360e6599f5_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a8fb3b5efe946ad96d816e4360e6599f5_icgraph">
-<area shape="rect" title=" " alt="" coords="283,5,512,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#acb46694d417beab16112310aaf2ba31e" title=" " alt="" coords="5,5,235,47"/>
+<area shape="rect" title="AI generated: Computes row index array from sorted edges." alt="" coords="283,5,512,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#acb46694d417beab16112310aaf2ba31e" title="AI generated: Computes matrix sparsity pattern with atomic operations." alt="" coords="5,5,235,47"/>
 </map>
 </div>
 
@@ -1157,9 +1216,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>AI generated: Computes row index array without atomic operations. </p>
+
 <p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8cc_source.html#l00436">436</a> of file <a class="el" href="AlienBSRFormat_8cc_source.html">AlienBSRFormat.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00119">Arcane::FemUtils::AlienBSRMatrix::_rowsIndex()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00410">computeNeighborsAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00285">m_bsr_matrix</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00288">m_mesh</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00289">m_queue</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00134">Arcane::FemUtils::AlienBSRMatrix::_rowsIndex()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00410">computeNeighborsAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00333">m_bsr_matrix</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00336">m_mesh</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00337">m_queue</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8cc_source.html#l00500">computeSparsityAtomicFree()</a>.</p>
 <div class="dynheader">
@@ -1167,9 +1228,9 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a97c1a2249fa8d481533216ae82e0b896_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a97c1a2249fa8d481533216ae82e0b896_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a97c1a2249fa8d481533216ae82e0b896_cgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a97c1a2249fa8d481533216ae82e0b896_cgraph">
-<area shape="rect" title=" " alt="" coords="5,39,235,80"/>
+<area shape="rect" title="AI generated: Computes row index array without atomic operations." alt="" coords="5,39,235,80"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a0cf9b6726ecce39f6c575731d2a1b038" title=" " alt="" coords="285,5,510,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a58840b7840470c40427c5a43c7ec1ad8" title=" " alt="" coords="283,71,512,112"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a58840b7840470c40427c5a43c7ec1ad8" title="AI generated: Computes neighbor lists without atomic operations." alt="" coords="283,71,512,112"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1177,8 +1238,8 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a97c1a2249fa8d481533216ae82e0b896_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a97c1a2249fa8d481533216ae82e0b896_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a97c1a2249fa8d481533216ae82e0b896_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a97c1a2249fa8d481533216ae82e0b896_icgraph">
-<area shape="rect" title=" " alt="" coords="283,5,512,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a644b8c26165e813d7b40c124edd51c63" title=" " alt="" coords="5,5,235,47"/>
+<area shape="rect" title="AI generated: Computes row index array without atomic operations." alt="" coords="283,5,512,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a644b8c26165e813d7b40c124edd51c63" title="AI generated: Computes matrix sparsity pattern without atomic operations." alt="" coords="5,5,235,47"/>
 </map>
 </div>
 
@@ -1216,9 +1277,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>AI generated: Computes sorted edge list from mesh connectivity. </p>
+
 <p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8cc_source.html#l00517">517</a> of file <a class="el" href="AlienBSRFormat_8cc_source.html">AlienBSRFormat.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00288">m_mesh</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00289">m_queue</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00185">pack()</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00336">m_mesh</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00337">m_queue</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00210">pack()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8cc_source.html#l00659">computeSparsityAtomic()</a>.</p>
 <div class="dynheader">
@@ -1226,8 +1289,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_ade2d033e9c9fdb650fce0860e13cc795_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ade2d033e9c9fdb650fce0860e13cc795_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ade2d033e9c9fdb650fce0860e13cc795_cgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ade2d033e9c9fdb650fce0860e13cc795_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,235,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#abef32ce1fd3199e122e057a3172b9dc9" title=" " alt="" coords="283,5,512,47"/>
+<area shape="rect" title="AI generated: Computes sorted edge list from mesh connectivity." alt="" coords="5,5,235,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#abef32ce1fd3199e122e057a3172b9dc9" title="AI generated: Packs two Int32 values into a single UInt64 for edge representation." alt="" coords="283,5,512,47"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1235,8 +1298,8 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_ade2d033e9c9fdb650fce0860e13cc795_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ade2d033e9c9fdb650fce0860e13cc795_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ade2d033e9c9fdb650fce0860e13cc795_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ade2d033e9c9fdb650fce0860e13cc795_icgraph">
-<area shape="rect" title=" " alt="" coords="283,5,512,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#acb46694d417beab16112310aaf2ba31e" title=" " alt="" coords="5,5,235,47"/>
+<area shape="rect" title="AI generated: Computes sorted edge list from mesh connectivity." alt="" coords="283,5,512,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#acb46694d417beab16112310aaf2ba31e" title="AI generated: Computes matrix sparsity pattern with atomic operations." alt="" coords="5,5,235,47"/>
 </map>
 </div>
 
@@ -1257,25 +1320,27 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>AI generated: Computes matrix sparsity pattern with atomic operations. </p>
+
 <p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8cc_source.html#l00658">658</a> of file <a class="el" href="AlienBSRFormat_8cc_source.html">AlienBSRFormat.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8cc_source.html#l00365">computeNzPerRowArray()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00595">computeRowIndex()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00518">computeSortedEdges()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00288">m_mesh</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00289">m_queue</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00268">m_use_csr_in_linear_system</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8cc_source.html#l00365">computeNzPerRowArray()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00595">computeRowIndex()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00518">computeSortedEdges()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00336">m_mesh</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00337">m_queue</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00316">m_use_csr_in_linear_system</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_acb46694d417beab16112310aaf2ba31e_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_acb46694d417beab16112310aaf2ba31e_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_acb46694d417beab16112310aaf2ba31e_cgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_acb46694d417beab16112310aaf2ba31e_cgraph">
-<area shape="rect" title=" " alt="" coords="5,219,235,260"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a37871181fd6885e63fbae2ee0a14298e" title=" " alt="" coords="283,136,512,177"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8fb3b5efe946ad96d816e4360e6599f5" title=" " alt="" coords="283,219,512,260"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ade2d033e9c9fdb650fce0860e13cc795" title=" " alt="" coords="283,300,512,341"/>
+<area shape="rect" title="AI generated: Computes matrix sparsity pattern with atomic operations." alt="" coords="5,219,235,260"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a37871181fd6885e63fbae2ee0a14298e" title="AI generated: Computes the number of non&#45;zeros per row array." alt="" coords="283,136,512,177"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8fb3b5efe946ad96d816e4360e6599f5" title="AI generated: Computes row index array from sorted edges." alt="" coords="283,219,512,260"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ade2d033e9c9fdb650fce0860e13cc795" title="AI generated: Computes sorted edge list from mesh connectivity." alt="" coords="283,300,512,341"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aecf06682109a4e927f11489880e45cb0" title=" " alt="" coords="562,5,787,47"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a0cf9b6726ecce39f6c575731d2a1b038" title=" " alt="" coords="562,201,787,243"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title=" " alt="" coords="562,71,787,112"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title=" " alt="" coords="562,136,787,177"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a12977ac25951cf9c21f972b620051c00" title=" " alt="" coords="560,267,789,308"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a7c1dc3dec490e94cda382b028bd3ab74" title=" " alt="" coords="837,267,1067,308"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#abef32ce1fd3199e122e057a3172b9dc9" title=" " alt="" coords="560,332,789,373"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title="AI generated: Returns the number of columns." alt="" coords="562,71,787,112"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title="AI generated: Returns the number of rows." alt="" coords="562,136,787,177"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a12977ac25951cf9c21f972b620051c00" title="AI generated: Computes neighbor nodes from sorted edges." alt="" coords="560,267,789,308"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a7c1dc3dec490e94cda382b028bd3ab74" title="AI generated: Unpacks a UInt64 edge representation into two Int32 values." alt="" coords="837,267,1067,308"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#abef32ce1fd3199e122e057a3172b9dc9" title="AI generated: Packs two Int32 values into a single UInt64 for edge representation." alt="" coords="560,332,789,373"/>
 </map>
 </div>
 
@@ -1296,24 +1361,26 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>AI generated: Computes matrix sparsity pattern without atomic operations. </p>
+
 <p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8cc_source.html#l00499">499</a> of file <a class="el" href="AlienBSRFormat_8cc_source.html">AlienBSRFormat.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8cc_source.html#l00453">computeColumnsAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00365">computeNzPerRowArray()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00437">computeRowIndexAtomicFree()</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00268">m_use_csr_in_linear_system</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8cc_source.html#l00453">computeColumnsAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00365">computeNzPerRowArray()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00437">computeRowIndexAtomicFree()</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00316">m_use_csr_in_linear_system</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a644b8c26165e813d7b40c124edd51c63_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a644b8c26165e813d7b40c124edd51c63_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a644b8c26165e813d7b40c124edd51c63_cgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a644b8c26165e813d7b40c124edd51c63_cgraph">
-<area shape="rect" title=" " alt="" coords="5,136,235,177"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a54334dc256ef60f404a625917ae27f61" title=" " alt="" coords="283,71,512,112"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a37871181fd6885e63fbae2ee0a14298e" title=" " alt="" coords="283,136,512,177"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a97c1a2249fa8d481533216ae82e0b896" title=" " alt="" coords="283,201,512,243"/>
+<area shape="rect" title="AI generated: Computes matrix sparsity pattern without atomic operations." alt="" coords="5,136,235,177"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a54334dc256ef60f404a625917ae27f61" title="AI generated: Computes column indices without atomic operations." alt="" coords="283,71,512,112"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a37871181fd6885e63fbae2ee0a14298e" title="AI generated: Computes the number of non&#45;zeros per row array." alt="" coords="283,136,512,177"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a97c1a2249fa8d481533216ae82e0b896" title="AI generated: Computes row index array without atomic operations." alt="" coords="283,201,512,243"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a2f46b241a78e444367b7db753fcbfe60" title=" " alt="" coords="562,5,787,47"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a0cf9b6726ecce39f6c575731d2a1b038" title=" " alt="" coords="562,71,787,112"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aecf06682109a4e927f11489880e45cb0" title=" " alt="" coords="562,136,787,177"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title=" " alt="" coords="562,201,787,243"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title=" " alt="" coords="562,267,787,308"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a58840b7840470c40427c5a43c7ec1ad8" title=" " alt="" coords="560,332,789,373"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a01b221aff255e471ac166c7bbd6d31ba" title="AI generated: Returns the number of columns." alt="" coords="562,201,787,243"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title="AI generated: Returns the number of rows." alt="" coords="562,267,787,308"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a58840b7840470c40427c5a43c7ec1ad8" title="AI generated: Computes neighbor lists without atomic operations." alt="" coords="560,332,789,373"/>
 </map>
 </div>
 
@@ -1335,18 +1402,20 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>AI generated: Dumps the matrix to a file for debugging. </p>
+
 <p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8cc_source.html#l00758">758</a> of file <a class="el" href="AlienBSRFormat_8cc_source.html">AlienBSRFormat.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8cc_source.html#l00226">Arcane::FemUtils::AlienBSRMatrix::dump()</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00285">m_bsr_matrix</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8cc_source.html#l00226">Arcane::FemUtils::AlienBSRMatrix::dump()</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00333">m_bsr_matrix</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a4b32721a4be26617f86aa854d4e931d4_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a4b32721a4be26617f86aa854d4e931d4_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a4b32721a4be26617f86aa854d4e931d4_cgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a4b32721a4be26617f86aa854d4e931d4_cgraph">
-<area shape="rect" title=" " alt="" coords="5,39,235,80"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aa68cc2cd03d6cfd2167dbb00f800867f" title=" " alt="" coords="283,39,508,80"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9da97819dc60146f3eb0174d29a6097" title=" " alt="" coords="556,5,781,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title=" " alt="" coords="556,71,781,112"/>
+<area shape="rect" title="AI generated: Dumps the matrix to a file for debugging." alt="" coords="5,39,235,80"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#aa68cc2cd03d6cfd2167dbb00f800867f" title="AI generated: Dumps the matrix contents to a file." alt="" coords="283,39,508,80"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9da97819dc60146f3eb0174d29a6097" title="AI generated: Returns the number of non&#45;zero values." alt="" coords="556,5,781,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#ab9989833cfbd60450e9767892c73624c" title="AI generated: Returns the number of rows." alt="" coords="556,71,781,112"/>
 </map>
 </div>
 
@@ -1367,9 +1436,11 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>AI generated: Ends the system filling step. </p>
+
 <p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8cc_source.html#l00729">729</a> of file <a class="el" href="AlienBSRFormat_8cc_source.html">AlienBSRFormat.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00282">m_builder</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00270">m_use_accelerator</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00330">m_builder</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00318">m_use_accelerator</a>.</p>
 
 </div>
 </div>
@@ -1396,9 +1467,11 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00225">225</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p>AI generated: Returns all UIndex values as a const view. </p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00272">m_allUIndex</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00262">262</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00320">m_allUIndex</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="FemModuleSYCL_8cc_source.html#l00081">FemModuleElasticity::_assembleBilinearOperatorGpu()</a>.</p>
 <div class="dynheader">
@@ -1406,7 +1479,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a2e5e736631db72528b486be0620b54e4_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a2e5e736631db72528b486be0620b54e4_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a2e5e736631db72528b486be0620b54e4_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a2e5e736631db72528b486be0620b54e4_icgraph">
-<area shape="rect" title=" " alt="" coords="264,5,493,47"/>
+<area shape="rect" title="AI generated: Returns all UIndex values as a const view." alt="" coords="264,5,493,47"/>
 <area shape="rect" href="classFemModuleElasticity.html#a35fa42e0639c01a17b79dd25103a5a8d" title=" " alt="" coords="5,5,216,47"/>
 </map>
 </div>
@@ -1436,9 +1509,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00237">237</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p>AI generated: Returns the system matrix A. </p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00280">m_matrixA</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00277">277</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00328">m_matrixA</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="FemModuleSYCL_8cc_source.html#l00081">FemModuleElasticity::_assembleBilinearOperatorGpu()</a>.</p>
 <div class="dynheader">
@@ -1446,7 +1521,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a678071c6affb75ba711ccddce410c518_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a678071c6affb75ba711ccddce410c518_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a678071c6affb75ba711ccddce410c518_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a678071c6affb75ba711ccddce410c518_icgraph">
-<area shape="rect" title=" " alt="" coords="264,5,493,47"/>
+<area shape="rect" title="AI generated: Returns the system matrix A." alt="" coords="264,5,493,47"/>
 <area shape="rect" href="classFemModuleElasticity.html#a35fa42e0639c01a17b79dd25103a5a8d" title=" " alt="" coords="5,5,216,47"/>
 </map>
 </div>
@@ -1476,9 +1551,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00221">221</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p>AI generated: Returns the profiled matrix builder. </p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00282">m_builder</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00257">257</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00330">m_builder</a>.</p>
 
 </div>
 </div>
@@ -1505,9 +1582,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00229">229</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p>AI generated: Returns the right-hand side vector B. </p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00278">m_vectorB</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00267">267</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00326">m_vectorB</a>.</p>
 
 </div>
 </div>
@@ -1534,9 +1613,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00233">233</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p>AI generated: Returns the solution vector X. </p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00279">m_vectorX</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00272">272</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00327">m_vectorX</a>.</p>
 
 </div>
 </div>
@@ -1566,9 +1647,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>AI generated: Initializes the format with mesh and number of DoFs per node. </p>
+
 <p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8cc_source.html#l00290">290</a> of file <a class="el" href="AlienBSRFormat_8cc_source.html">AlienBSRFormat.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="GaussQuadrature_8h_source.html#l00203">Arcane::FemUtils::a1</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00270">computeNbEdge()</a>, <a class="el" href="FemDoFsOnNodes_8cc_source.html#l00155">Arcane::FemUtils::FemDoFsOnNodes::dofFamily()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00272">m_allUIndex</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00290">m_dofs_on_nodes</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00271">m_index_manager</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00280">m_matrixA</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00275">m_mdist</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00288">m_mesh</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00166">m_nb_dof</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00274">m_space</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00276">m_vdist</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00278">m_vectorB</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00279">m_vectorX</a>.</p>
+<p class="reference">References <a class="el" href="GaussQuadrature_8h_source.html#l00232">Arcane::FemUtils::a1</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00270">computeNbEdge()</a>, <a class="el" href="FemDoFsOnNodes_8cc_source.html#l00155">Arcane::FemUtils::FemDoFsOnNodes::dofFamily()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00320">m_allUIndex</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00338">m_dofs_on_nodes</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00319">m_index_manager</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00328">m_matrixA</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00323">m_mdist</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00336">m_mesh</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00182">m_nb_dof</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00322">m_space</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00324">m_vdist</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00326">m_vectorB</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00327">m_vectorX</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="FemModule_8cc_source.html#l00597">FemModuleElasticity::_initAlienBsr()</a>.</p>
 <div class="dynheader">
@@ -1576,9 +1659,9 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a72d88ba25afcfee76f1f76577ff8b77f_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a72d88ba25afcfee76f1f76577ff8b77f_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a72d88ba25afcfee76f1f76577ff8b77f_cgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a72d88ba25afcfee76f1f76577ff8b77f_cgraph">
-<area shape="rect" title=" " alt="" coords="5,39,235,80"/>
+<area shape="rect" title="AI generated: Initializes the format with mesh and number of DoFs per node." alt="" coords="5,39,235,80"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a68a924c9113672501a71fe4362179ee1" title=" " alt="" coords="283,5,512,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#a0918765e5de7906386b66d36558ca6ab" title=" " alt="" coords="302,71,493,112"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#a0918765e5de7906386b66d36558ca6ab" title="AI generated: Returns the DoF item family." alt="" coords="302,71,493,112"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1586,7 +1669,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a72d88ba25afcfee76f1f76577ff8b77f_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a72d88ba25afcfee76f1f76577ff8b77f_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a72d88ba25afcfee76f1f76577ff8b77f_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a72d88ba25afcfee76f1f76577ff8b77f_icgraph">
-<area shape="rect" title=" " alt="" coords="581,5,811,47"/>
+<area shape="rect" title="AI generated: Initializes the format with mesh and number of DoFs per node." alt="" coords="581,5,811,47"/>
 <area shape="rect" href="classFemModuleElasticity.html#a3abe0e405d3b7b734efa42c7142dc92c" title="AI comment: Initializes the Alien BSR (Block Sparse Row) matrix format." alt="" coords="389,5,533,47"/>
 <area shape="rect" href="classFemModuleElasticity.html#ad3bb0f9040e4141ceef536038cd61a2d" title="Performs the main computation for the FemModuleElasticity." alt="" coords="197,5,341,47"/>
 <area shape="rect" href="classFemModuleElasticity.html#ab06ab2db63cae57328155891523641f4" title="AI comment: Main time loop, handles coupled (preCICE) and standalone computation modes." alt="" coords="5,5,149,47"/>
@@ -1610,9 +1693,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>AI generated: Returns the underlying BSR matrix. </p>
+
 <p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8cc_source.html#l00740">740</a> of file <a class="el" href="AlienBSRFormat_8cc_source.html">AlienBSRFormat.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00285">m_bsr_matrix</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00333">m_bsr_matrix</a>.</p>
 
 </div>
 </div>
@@ -1650,7 +1735,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00185">185</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p>AI generated: Packs two Int32 values into a single UInt64 for edge representation. </p>
+
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00210">210</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8cc_source.html#l00518">computeSortedEdges()</a>.</p>
 <div class="dynheader">
@@ -1658,9 +1745,9 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_abef32ce1fd3199e122e057a3172b9dc9_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_abef32ce1fd3199e122e057a3172b9dc9_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_abef32ce1fd3199e122e057a3172b9dc9_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_abef32ce1fd3199e122e057a3172b9dc9_icgraph">
-<area shape="rect" title=" " alt="" coords="560,5,789,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ade2d033e9c9fdb650fce0860e13cc795" title=" " alt="" coords="283,5,512,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#acb46694d417beab16112310aaf2ba31e" title=" " alt="" coords="5,5,235,47"/>
+<area shape="rect" title="AI generated: Packs two Int32 values into a single UInt64 for edge representation." alt="" coords="560,5,789,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ade2d033e9c9fdb650fce0860e13cc795" title="AI generated: Computes sorted edge list from mesh connectivity." alt="" coords="283,5,512,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#acb46694d417beab16112310aaf2ba31e" title="AI generated: Computes matrix sparsity pattern with atomic operations." alt="" coords="5,5,235,47"/>
 </map>
 </div>
 
@@ -1689,9 +1776,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00175">175</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p>AI generated: Returns the associated run queue. </p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00289">m_queue</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00193">193</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00337">m_queue</a>.</p>
 
 </div>
 </div>
@@ -1747,7 +1836,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00203">203</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p>AI generated: Atomically registers an edge as a column entry in the sparsity pattern. </p>
+
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00233">233</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8cc_source.html#l00612">computeColumns()</a>.</p>
 <div class="dynheader">
@@ -1755,8 +1846,8 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_ad28fe76f82fa019063088b1684eb8fda_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ad28fe76f82fa019063088b1684eb8fda_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ad28fe76f82fa019063088b1684eb8fda_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_ad28fe76f82fa019063088b1684eb8fda_icgraph">
-<area shape="rect" title=" " alt="" coords="283,5,512,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a457423aef18c3e9a46c8964dc9c04293" title=" " alt="" coords="5,5,235,47"/>
+<area shape="rect" title="AI generated: Atomically registers an edge as a column entry in the sparsity pattern." alt="" coords="283,5,512,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a457423aef18c3e9a46c8964dc9c04293" title="AI generated: Computes column indices from sorted edges." alt="" coords="5,5,235,47"/>
 </map>
 </div>
 
@@ -1777,15 +1868,17 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>AI generated: Resets all matrix values to zero. </p>
+
 <p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8cc_source.html#l00749">749</a> of file <a class="el" href="AlienBSRFormat_8cc_source.html">AlienBSRFormat.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00117">Arcane::FemUtils::AlienBSRMatrix::_values()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00285">m_bsr_matrix</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00289">m_queue</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00132">Arcane::FemUtils::AlienBSRMatrix::_values()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00333">m_bsr_matrix</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00337">m_queue</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a5353a49b0cbee9a2d7893b64779d1749_cgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a5353a49b0cbee9a2d7893b64779d1749_cgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a5353a49b0cbee9a2d7893b64779d1749_cgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a5353a49b0cbee9a2d7893b64779d1749_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,235,47"/>
+<area shape="rect" title="AI generated: Resets all matrix values to zero." alt="" coords="5,5,235,47"/>
 <area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a1c12a539b7442dd0f182abfd4bbb2cef" title=" " alt="" coords="283,5,508,47"/>
 </map>
 </div>
@@ -1807,9 +1900,11 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>AI generated: Begins the system filling step. </p>
+
 <p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8cc_source.html#l00723">723</a> of file <a class="el" href="AlienBSRFormat_8cc_source.html">AlienBSRFormat.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00282">m_builder</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00280">m_matrixA</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00270">m_use_accelerator</a>.</p>
+<p class="reference">References <a class="el" href="AlienBSRFormat_8h_source.html#l00330">m_builder</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00328">m_matrixA</a>, and <a class="el" href="AlienBSRFormat_8h_source.html#l00318">m_use_accelerator</a>.</p>
 
 </div>
 </div>
@@ -1828,6 +1923,8 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>AI generated: Converts the assembled matrix to a linear system. </p>
 
 <p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8cc_source.html#l00349">349</a> of file <a class="el" href="AlienBSRFormat_8cc_source.html">AlienBSRFormat.cc</a>.</p>
 
@@ -1873,7 +1970,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00192">192</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p>AI generated: Unpacks a UInt64 edge representation into two Int32 values. </p>
+
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00218">218</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8cc_source.html#l00612">computeColumns()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00573">computeNeighbors()</a>.</p>
 <div class="dynheader">
@@ -1881,11 +1980,11 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classArcane_1_1FemUtils_1_1AlienBSRFormat_a7c1dc3dec490e94cda382b028bd3ab74_icgraph.png" border="0" usemap="#aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a7c1dc3dec490e94cda382b028bd3ab74_icgraph" alt=""/></div>
 <map name="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a7c1dc3dec490e94cda382b028bd3ab74_icgraph" id="aclassArcane_1_1FemUtils_1_1AlienBSRFormat_a7c1dc3dec490e94cda382b028bd3ab74_icgraph">
-<area shape="rect" title=" " alt="" coords="837,39,1067,80"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a457423aef18c3e9a46c8964dc9c04293" title=" " alt="" coords="560,5,789,47"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a12977ac25951cf9c21f972b620051c00" title=" " alt="" coords="560,71,789,112"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8fb3b5efe946ad96d816e4360e6599f5" title=" " alt="" coords="283,71,512,112"/>
-<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#acb46694d417beab16112310aaf2ba31e" title=" " alt="" coords="5,71,235,112"/>
+<area shape="rect" title="AI generated: Unpacks a UInt64 edge representation into two Int32 values." alt="" coords="837,39,1067,80"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a457423aef18c3e9a46c8964dc9c04293" title="AI generated: Computes column indices from sorted edges." alt="" coords="560,5,789,47"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a12977ac25951cf9c21f972b620051c00" title="AI generated: Computes neighbor nodes from sorted edges." alt="" coords="560,71,789,112"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8fb3b5efe946ad96d816e4360e6599f5" title="AI generated: Computes row index array from sorted edges." alt="" coords="283,71,512,112"/>
+<area shape="rect" href="classArcane_1_1FemUtils_1_1AlienBSRFormat.html#acb46694d417beab16112310aaf2ba31e" title="AI generated: Computes matrix sparsity pattern with atomic operations." alt="" coords="5,71,235,112"/>
 </map>
 </div>
 
@@ -1912,9 +2011,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00272">272</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00320">320</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00297">computeProfile()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00225">getAllUIndex()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00291">initialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00345">computeProfile()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00262">getAllUIndex()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00291">initialize()</a>.</p>
 
 </div>
 </div>
@@ -1938,9 +2037,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00285">285</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00333">333</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00441">assembleBilinearAtomic()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00605">assembleBilinearAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00306">assembleBilinearOrderedPerBlock()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00455">assembleBilinearOrderedPerBlockAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00363">assembleBilinearOrderedPerRow()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00522">assembleBilinearOrderedPerRowAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00612">computeColumns()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00453">computeColumnsAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00365">computeNzPerRowArray()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00595">computeRowIndex()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00437">computeRowIndexAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00759">dumpMatrix()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00741">matrix()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00750">resetMatrixValues()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00489">assembleBilinearAtomic()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00653">assembleBilinearAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00354">assembleBilinearOrderedPerBlock()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00503">assembleBilinearOrderedPerBlockAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00411">assembleBilinearOrderedPerRow()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00570">assembleBilinearOrderedPerRowAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00612">computeColumns()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00453">computeColumnsAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00365">computeNzPerRowArray()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00595">computeRowIndex()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00437">computeRowIndexAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00759">dumpMatrix()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00741">matrix()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00750">resetMatrixValues()</a>.</p>
 
 </div>
 </div>
@@ -1964,9 +2063,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00282">282</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00330">330</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8cc_source.html#l00729">endSystemFillingStep()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00221">getMatrixBuilder()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00723">startSystemFillingStep()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8cc_source.html#l00729">endSystemFillingStep()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00257">getMatrixBuilder()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00723">startSystemFillingStep()</a>.</p>
 
 </div>
 </div>
@@ -1990,7 +2089,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00286">286</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00334">334</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
 </div>
 </div>
@@ -2014,9 +2113,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00290">290</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00338">338</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00363">assembleBilinearOrderedPerRow()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00291">initialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00411">assembleBilinearOrderedPerRow()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00291">initialize()</a>.</p>
 
 </div>
 </div>
@@ -2040,7 +2139,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00271">271</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00319">319</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8cc_source.html#l00291">initialize()</a>.</p>
 
@@ -2066,9 +2165,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00280">280</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00328">328</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00297">computeProfile()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00237">getMatrixA()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00291">initialize()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00723">startSystemFillingStep()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00345">computeProfile()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00277">getMatrixA()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00291">initialize()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00723">startSystemFillingStep()</a>.</p>
 
 </div>
 </div>
@@ -2092,7 +2191,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00275">275</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00323">323</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8cc_source.html#l00291">initialize()</a>.</p>
 
@@ -2118,9 +2217,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00288">288</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00336">336</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00306">assembleBilinearOrderedPerBlock()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00455">assembleBilinearOrderedPerBlockAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00363">assembleBilinearOrderedPerRow()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00522">assembleBilinearOrderedPerRowAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00612">computeColumns()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00453">computeColumnsAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00410">computeNeighborsAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00595">computeRowIndex()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00437">computeRowIndexAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00518">computeSortedEdges()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00659">computeSparsityAtomic()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00291">initialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00354">assembleBilinearOrderedPerBlock()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00503">assembleBilinearOrderedPerBlockAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00411">assembleBilinearOrderedPerRow()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00570">assembleBilinearOrderedPerRowAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00612">computeColumns()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00453">computeColumnsAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00410">computeNeighborsAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00595">computeRowIndex()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00437">computeRowIndexAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00518">computeSortedEdges()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00659">computeSparsityAtomic()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00291">initialize()</a>.</p>
 
 </div>
 </div>
@@ -2144,7 +2243,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00166">166</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00182">182</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8cc_source.html#l00291">initialize()</a>.</p>
 
@@ -2170,9 +2269,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00289">289</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00337">337</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00306">assembleBilinearOrderedPerBlock()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00455">assembleBilinearOrderedPerBlockAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00363">assembleBilinearOrderedPerRow()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00522">assembleBilinearOrderedPerRowAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00612">computeColumns()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00453">computeColumnsAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00573">computeNeighbors()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00410">computeNeighborsAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00365">computeNzPerRowArray()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00595">computeRowIndex()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00437">computeRowIndexAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00518">computeSortedEdges()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00659">computeSparsityAtomic()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00175">queue()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00750">resetMatrixValues()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00354">assembleBilinearOrderedPerBlock()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00503">assembleBilinearOrderedPerBlockAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00411">assembleBilinearOrderedPerRow()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00570">assembleBilinearOrderedPerRowAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00612">computeColumns()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00453">computeColumnsAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00573">computeNeighbors()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00410">computeNeighborsAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00365">computeNzPerRowArray()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00595">computeRowIndex()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00437">computeRowIndexAtomicFree()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00518">computeSortedEdges()</a>, <a class="el" href="AlienBSRFormat_8cc_source.html#l00659">computeSparsityAtomic()</a>, <a class="el" href="AlienBSRFormat_8h_source.html#l00193">queue()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00750">resetMatrixValues()</a>.</p>
 
 </div>
 </div>
@@ -2196,7 +2295,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00274">274</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00322">322</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8cc_source.html#l00291">initialize()</a>.</p>
 
@@ -2222,7 +2321,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00270">270</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00318">318</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8cc_source.html#l00729">endSystemFillingStep()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00723">startSystemFillingStep()</a>.</p>
 
@@ -2248,9 +2347,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00269">269</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00317">317</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00619">assembleBilinear()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00667">assembleBilinear()</a>.</p>
 
 </div>
 </div>
@@ -2274,7 +2373,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00268">268</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00316">316</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8cc_source.html#l00659">computeSparsityAtomic()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00500">computeSparsityAtomicFree()</a>.</p>
 
@@ -2300,7 +2399,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00276">276</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00324">324</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8cc_source.html#l00291">initialize()</a>.</p>
 
@@ -2326,9 +2425,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00278">278</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00326">326</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00229">getVectorB()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00291">initialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00267">getVectorB()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00291">initialize()</a>.</p>
 
 </div>
 </div>
@@ -2352,9 +2451,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00279">279</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlienBSRFormat_8h_source.html#l00327">327</a> of file <a class="el" href="AlienBSRFormat_8h_source.html">AlienBSRFormat.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00233">getVectorX()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00291">initialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="AlienBSRFormat_8h_source.html#l00272">getVectorX()</a>, and <a class="el" href="AlienBSRFormat_8cc_source.html#l00291">initialize()</a>.</p>
 
 </div>
 </div>

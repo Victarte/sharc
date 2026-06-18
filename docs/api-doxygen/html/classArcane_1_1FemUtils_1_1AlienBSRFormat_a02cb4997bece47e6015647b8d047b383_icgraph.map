@@ -1,4 +1,4 @@
 <map id="Arcane::FemUtils::AlienBSRFormat::assembleBilinearAtomic" name="Arcane::FemUtils::AlienBSRFormat::assembleBilinearAtomic">
 <area shape="rect" id="node1" title="Assembles the global BSR matrix for a bilinear operator, cell&#45;wise." alt="" coords="283,5,512,47"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861" title=" " alt="" coords="5,5,235,47"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861" title="AI generated: Dispatches assembly to atomic or atomic&#45;free method." alt="" coords="5,5,235,47"/>
 </map>

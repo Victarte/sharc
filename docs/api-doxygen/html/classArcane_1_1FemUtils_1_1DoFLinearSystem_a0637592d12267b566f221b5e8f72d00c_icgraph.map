@@ -1,12 +1,12 @@
 <map id="Arcane::FemUtils::DoFLinearSystem::matrixAddValue" name="Arcane::FemUtils::DoFLinearSystem::matrixAddValue">
 <area shape="rect" id="node1" title="Add the value value to the (row,column) element of the matrix." alt="" coords="1389,169,1581,211"/>
-<area shape="rect" id="node2" href="$classFemModulePoisson.html#af45bca1390e76977fc925a64f6139e8d" title="Assembles the bilinear operator matrix for the FEM linear system." alt="" coords="1156,5,1301,47"/>
+<area shape="rect" id="node2" href="$classFemModulePoisson.html#af45bca1390e76977fc925a64f6139e8d" title="AI comment: Assembles the bilinear form using element matrix computation callback." alt="" coords="1156,5,1301,47"/>
 <area shape="rect" id="node3" href="$classFemModuleElasticity.html#a6b4396d5a8d6fd8a3983e7079f4aad14" title="Assembles the FEM bilinear operator on CPU." alt="" coords="1123,71,1334,112"/>
-<area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a327425773696a13f80be66e53c9b2eb9" title=" " alt="" coords="1116,136,1341,177"/>
-<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#ae4cc36e6ff5e26b92ea9f1d86e8bd2e5" title=" " alt="" coords="1131,201,1327,243"/>
+<area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a327425773696a13f80be66e53c9b2eb9" title="AI generated: Converts the matrix to a linear system for solving." alt="" coords="1116,136,1341,177"/>
+<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#ae4cc36e6ff5e26b92ea9f1d86e8bd2e5" title="AI generated: Converts to a DoF linear system." alt="" coords="1131,201,1327,243"/>
 <area shape="rect" id="node14" href="$classArcane_1_1FemUtils_1_1CooFormat.html#aea92d2a2646e81a66ecade7a2a7ffa03" title="Translate to Arcane linear system." alt="" coords="1130,267,1327,308"/>
-<area shape="rect" id="node15" href="$classArcane_1_1FemUtils_1_1CsrFormat.html#accabe45ba8e0314bb66105c75adfc282" title=" " alt="" coords="1132,332,1325,373"/>
-<area shape="rect" id="node6" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a01cf7f213dbfed98b9ab3328fa0311ce" title=" " alt="" coords="868,201,1068,243"/>
+<area shape="rect" id="node15" href="$classArcane_1_1FemUtils_1_1CsrFormat.html#accabe45ba8e0314bb66105c75adfc282" title="AI generated: Transfers CSR matrix values into a DoFLinearSystem." alt="" coords="1132,332,1325,373"/>
+<area shape="rect" id="node6" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a01cf7f213dbfed98b9ab3328fa0311ce" title="AI generated: Converts the matrix to a DoF linear system." alt="" coords="868,201,1068,243"/>
 <area shape="rect" id="node7" href="$classFemModuleElasticity.html#aaa11f39de79f8c84022f82bb6cf03b7e" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="633,168,820,209"/>
 <area shape="rect" id="node11" href="$classFemModulePoisson.html#abebde0793ed126cb14881d9e629bf9a3" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="637,233,816,275"/>
 <area shape="rect" id="node8" href="$classFemModuleElasticity.html#a5b769fd9a5bc4503b409f70211e3a0b1" title="Performs a stationary solve for the FEM system." alt="" coords="441,168,585,209"/>

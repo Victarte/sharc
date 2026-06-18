@@ -16,6 +16,8 @@ using namespace Arcane;
 namespace BC
 {
 
+/** AI generated: Interface for point-wise Dirichlet boundary conditions applied to individual nodes */
+/** AI generated: Interface for point-wise Dirichlet boundary conditions applied to individual nodes */
 class IDirichletPointCondition
 {
  public:
@@ -25,6 +27,7 @@ class IDirichletPointCondition
   virtual String getEnforceDirichletMethod() =0;
 };
 
+/** AI generated: Interface for surface Dirichlet boundary conditions applied to face groups */
 class IDirichletBoundaryCondition
 {
  public:
@@ -34,6 +37,7 @@ class IDirichletBoundaryCondition
   virtual String getEnforceDirichletMethod() =0;
 };
 
+/** AI generated: Interface for Neumann (flux) boundary conditions applied to face groups */
 class INeumannBoundaryCondition
 {
  public:
@@ -41,6 +45,7 @@ class INeumannBoundaryCondition
   virtual StringConstArrayView getValue() =0;
 };
 
+/** AI generated: Interface for traction boundary conditions specifying surface forces */
 class ITractionBoundaryCondition
 {
  public:
@@ -49,6 +54,7 @@ class ITractionBoundaryCondition
   virtual String getTractionInputFile() =0;
 };
 
+/** AI generated: Interface for manufactured solutions used in code verification (MMS) */
 class IManufacturedSolution
 {
  public:
@@ -62,6 +68,7 @@ class IManufacturedSolution
   virtual IStandardFunction* getManufacturedSourceStandardFunction() =0;
 };
 
+/** AI generated: Main interface for accessing all types of FEM boundary conditions */
 class IArcaneFemBC
 {
  public:

@@ -43,6 +43,7 @@ namespace Arcane::FemUtils::Gpu::Csr
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI generated: Finds column index within a CSR row segment via linear search */
 ARCCORE_HOST_DEVICE inline Int32
 findIndex(Int32 begin, Int32 end, Int32 column_lid, Span<const Int32> in_csr_columns)
 {
@@ -87,6 +88,7 @@ computeAreaTria3(CellLocalId cell_lid, const IndexedCellNodeConnectivityView& cn
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI generated: Computes the area of a triangular face from face-to-node connectivity */
 ARCCORE_HOST_DEVICE inline Real
 computeAreaTria(FaceLocalId face_lid,
                 const IndexedFaceNodeConnectivityView& fn_cv,
@@ -212,6 +214,7 @@ computeNormalTriangle(FaceLocalId face_lid,
   return { normal.x / norm, normal.y / norm, normal.z / norm };
 }
 
+/** AI generated: Computes the volume of a hexahedron as the sum of three tetrahedral decompositions */
 ARCCORE_HOST_DEVICE static inline Real
 computeVolumeHexa8(CellLocalId cell_lid,
                    const IndexedCellNodeConnectivityView& cn_cv,
@@ -299,6 +302,7 @@ computeGradientYTria3(CellLocalId cell_lid,
   return { (n2.x - n1.x) / A2, (n0.x - n2.x) / A2, (n1.x - n0.x) / A2 };
 }
 
+/** AI generated: Stores shape function gradients (dN/dx, dN/dy) and Jacobian determinant at a quadrature point for a Quad4 element */
 struct Quad4GaussPointInfo
 {
   RealVector<4> dN_dx; // Derivatives of shape functions in x {∂𝑁₁/∂𝑥  ∂𝑁₂/∂𝑥  ∂𝑁₃/∂𝑥  ∂𝑁₄/∂𝑥}
@@ -306,6 +310,7 @@ struct Quad4GaussPointInfo
   Real det_j; // Determinant of the Jacobian matrix at the Gauss point.
 };
 
+/** AI generated: Computes shape function gradients and Jacobian determinant for a Quad4 element at a given (xi, eta) Gauss point */
 ARCCORE_HOST_DEVICE static inline Quad4GaussPointInfo
 computeGradientsAndJacobianQuad4(CellLocalId cell_lid,
                                  const IndexedCellNodeConnectivityView& cn_cv,
@@ -523,6 +528,7 @@ computeGradientZTetra4(CellLocalId cell_lid,
   return dz;
 };
 
+/** AI generated: Stores shape function gradients (dN/dx, dN/dy, dN/dz) and Jacobian determinant at a quadrature point for a Hexa8 element */
 struct Hexa8GaussPointInfo
 {
   RealVector<8> dN_dx; // Derivatives of shape functions in x {∂𝑁₁/∂𝑥  ∂𝑁₂/∂𝑥  ...  ∂𝑁₈/∂𝑥}
@@ -531,6 +537,7 @@ struct Hexa8GaussPointInfo
   Real det_j; // Determinant of the Jacobian matrix at the Gauss point.
 };
 
+/** AI generated: Computes shape function gradients and Jacobian determinant for a Hexa8 element at a given (xi, eta, zeta) Gauss point */
 ARCCORE_HOST_DEVICE  inline Hexa8GaussPointInfo
 computeGradientsAndJacobianHexa8(CellLocalId cell_lid,
                                  const IndexedCellNodeConnectivityView& cn_cv,
@@ -640,10 +647,12 @@ namespace Arcane::FemUtils::Gpu
 /*-------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------*/
 
+/** AI generated: Helper class implementing generic GPU boundary condition operations (Dirichlet, source terms) */
 class BoundaryConditionsHelpers
 {
  public:
 
+  /** AI generated: Applies a constant source term to the RHS using a spatial integral functor */
   template <class Function>
   static void applyConstantSourceToRhsBase(Function computeSpatialIntegral, Real qdot,
                                            RunQueue* queue, VariableDoFReal& rhs_variable_na, IMesh* mesh,
@@ -679,16 +688,19 @@ class BoundaryConditionsHelpers
     };
   }
 
+  /** AI generated: Applies Dirichlet BCs by setting the RHS value directly (no matrix modification) */
   static void
   applyDirichletToNodeGroupRhsOnly(Int32 dof_index, Real value, RunQueue* queue,
                                    IMesh* mesh, DoFLinearSystem& linear_system, const FemDoFsOnNodes& dofs_on_nodes,
                                    const NodeGroup& node_group);
 
+  /** AI generated: Applies Dirichlet BCs using the penalty method (adds penalty to diagonal and RHS) */
   static void
   applyDirichletToNodeGroupViaPenalty(Int32 dof_index, Real value, Real penalty, RunQueue* queue,
                                       IMesh* mesh, DoFLinearSystem& linear_system, const FemDoFsOnNodes& dofs_on_nodes,
                                       const NodeGroup& node_group);
 
+  /** AI generated: Applies Dirichlet BCs via row or row-column elimination (modifies matrix and RHS) */
   static void
   applyDirichletToNodeGroupViaRowOrRowColumnElimination(Byte elimination_type, Int32 dof_index, Real value, RunQueue* queue,
                                                         DoFLinearSystem& linear_system, const FemDoFsOnNodes& dofs_on_nodes,
@@ -698,19 +710,12 @@ class BoundaryConditionsHelpers
 /*-------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------*/
 
+/** AI generated: Applies FEM boundary conditions (Dirichlet, point Dirichlet) on LHS and RHS */
 class BoundaryConditions
 {
  public:
 
-  /*---------------------------------------------------------------------------*/
-  /**
-   * @brief Applies Dirichlet boundary conditions to RHS and LHS.
-   *
-   * - For LHS matrix `𝐀`, the diagonal term for the Dirichlet DOF is set to `𝑃`.
-   * - For RHS vector `𝐛`, the Dirichlet DOF term is scaled by `𝑃`.
-   */
-  /*---------------------------------------------------------------------------*/
-
+  /** AI generated: Applies Dirichlet boundary conditions to both RHS and LHS */
   static void
   applyDirichletToLhsAndRhs(BC::IDirichletBoundaryCondition* bs, const FemDoFsOnNodes& dofs_on_nodes,
                             DoFLinearSystem& linear_system,
@@ -757,21 +762,12 @@ class BoundaryConditions
                            IMesh* mesh, Accelerator::RunQueue* queue);
 };
 
+/** AI generated: Applies 2D boundary conditions (constant source, Neumann) on the RHS */
 class BoundaryConditions2D
 {
  public:
 
-  /*---------------------------------------------------------------------------*/
-  /**
-   * @brief Applies a constant source term to the RHS vector.
-   *
-   * This method adds a constant source term `qdot` to the RHS vector for each
-   * node in the mesh. The contribution to each node is weighted by the area of
-   * the cell and evenly distributed among the number of nodes of the cell.
-   *
-   */
-  /*---------------------------------------------------------------------------*/
-
+  /** AI generated: Applies a constant source term to the RHS vector using 2D cell area weighting */
   static void applyConstantSourceToRhs(Real qdot, const FemDoFsOnNodes& dofs_on_nodes,
                                        const VariableNodeReal3& node_coord, VariableDoFReal& rhs_variable_na,
                                        IMesh* mesh, Accelerator::RunQueue* queue);
@@ -792,21 +788,12 @@ class BoundaryConditions2D
                                 IMesh* mesh, Accelerator::RunQueue* queue);
 };
 
+/** AI generated: Applies 3D boundary conditions (constant source, Neumann) on the RHS */
 class BoundaryConditions3D
 {
  public:
 
-  /*---------------------------------------------------------------------------*/
-  /**
-   * @brief Applies a constant source term to the RHS vector.
-   *
-   * This method adds a constant source term `qdot` to the RHS vector for each
-   * node in the mesh. The contribution to each node is weighted by the area of
-   * the cell and evenly distributed among the number of nodes of the cell.
-   *
-   */
-  /*---------------------------------------------------------------------------*/
-
+  /** AI generated: Applies a constant source term to the RHS vector using 3D cell volume weighting */
   static void applyConstantSourceToRhs(Real qdot, const FemDoFsOnNodes& dofs_on_nodes,
                                        const VariableNodeReal3& node_coord, VariableDoFReal& rhs_variable_na,
                                        IMesh* mesh, Accelerator::RunQueue* queue);

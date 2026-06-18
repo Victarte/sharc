@@ -1,8 +1,8 @@
 <map id="Arcane::FemUtils::AlienBSRMatrix::toLinearSystem" name="Arcane::FemUtils::AlienBSRMatrix::toLinearSystem">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,231,80"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a4158c6a022b5f6ca88d0d33b3d0afade" title=" " alt="" coords="279,5,504,47"/>
+<area shape="rect" id="node1" title="AI generated: Converts the matrix to a linear system for solving." alt="" coords="5,39,231,80"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a4158c6a022b5f6ca88d0d33b3d0afade" title="AI generated: Gets the value at the specified (row, col) position." alt="" coords="279,5,504,47"/>
 <area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a0637592d12267b566f221b5e8f72d00c" title="Add the value value to the (row,column) element of the matrix." alt="" coords="295,71,487,112"/>
-<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a1d6c21b87bdbef70a5ef233239a7b943" title=" " alt="" coords="552,5,777,47"/>
+<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a1d6c21b87bdbef70a5ef233239a7b943" title="AI generated: Finds the linear index of a value given its (row, col) coordinates." alt="" coords="552,5,777,47"/>
 <area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#afcda9b66b5bd30edc8472ec6b9af18a4" title=" " alt="" coords="569,71,761,112"/>
 <area shape="rect" id="node6" href="$classArcane_1_1FemUtils_1_1IDoFLinearSystemImpl.html#a55efaab2dfadb45431f4e0552e717912" title=" " alt="" coords="567,136,763,177"/>
 </map>

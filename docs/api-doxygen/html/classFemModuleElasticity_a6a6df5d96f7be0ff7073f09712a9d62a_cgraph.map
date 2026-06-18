@@ -1,5 +1,5 @@
 <map id="FemModuleElasticity::_computePostPro" name="FemModuleElasticity::_computePostPro">
 <area shape="rect" id="node1" title="AI comment: Post&#45;processing: extracts displacement components and computes divergence." alt="" coords="5,13,149,54"/>
 <area shape="rect" id="node2" href="$classArcaneFemFunctions_1_1FeOperation3D.html#a768f626b681eb8b7380ff919680c6399" title="Computes the gradient of a scalar field &#39;u&#39; for a Hexa8 element." alt="" coords="197,5,423,61"/>
-<area shape="rect" id="node3" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation3D.html#afafdcaaab5d908f7783d8c6ca91e4ae5" title=" " alt="" coords="471,5,703,61"/>
+<area shape="rect" id="node3" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation3D.html#afafdcaaab5d908f7783d8c6ca91e4ae5" title="AI generated: Computes shape function gradients and Jacobian determinant for a Hexa8 element at a giv..." alt="" coords="471,5,703,61"/>
 </map>

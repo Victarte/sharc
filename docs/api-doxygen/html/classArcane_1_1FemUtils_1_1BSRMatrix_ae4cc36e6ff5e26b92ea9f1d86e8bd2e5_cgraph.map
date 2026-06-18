@@ -1,8 +1,8 @@
 <map id="Arcane::FemUtils::BSRMatrix::toLinearSystem" name="Arcane::FemUtils::BSRMatrix::toLinearSystem">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,201,80"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a651d20456d150385a7e6cad305ee9daf" title=" " alt="" coords="249,5,445,47"/>
+<area shape="rect" id="node1" title="AI generated: Converts to a DoF linear system." alt="" coords="5,39,201,80"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a651d20456d150385a7e6cad305ee9daf" title="AI generated: Gets the value at a given (row, col) DoF pair." alt="" coords="249,5,445,47"/>
 <area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a0637592d12267b566f221b5e8f72d00c" title="Add the value value to the (row,column) element of the matrix." alt="" coords="251,71,443,112"/>
-<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a4723c442290e051aad69f50b5bc876ab" title=" " alt="" coords="493,5,689,47"/>
+<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a4723c442290e051aad69f50b5bc876ab" title="AI generated: Finds the value index for a given (row, col) DoF pair." alt="" coords="493,5,689,47"/>
 <area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#afcda9b66b5bd30edc8472ec6b9af18a4" title=" " alt="" coords="495,71,687,112"/>
 <area shape="rect" id="node6" href="$classArcane_1_1FemUtils_1_1IDoFLinearSystemImpl.html#a55efaab2dfadb45431f4e0552e717912" title=" " alt="" coords="493,136,689,177"/>
 </map>

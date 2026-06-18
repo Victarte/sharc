@@ -1,7 +1,7 @@
 <map id="FemModulePoisson::_assembleBilinear" name="FemModulePoisson::_assembleBilinear">
-<area shape="rect" id="node1" title="Assembles the bilinear operator matrix for the FEM linear system." alt="" coords="5,71,151,112"/>
+<area shape="rect" id="node1" title="AI comment: Assembles the bilinear form using element matrix computation callback." alt="" coords="5,71,151,112"/>
 <area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a0637592d12267b566f221b5e8f72d00c" title="Add the value value to the (row,column) element of the matrix." alt="" coords="223,37,415,79"/>
-<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title=" " alt="" coords="199,103,439,144"/>
+<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html#ab0b3015811321ca9896eda9dc68e0030" title="AI generated: Returns the connectivity view from nodes to their associated DoFs." alt="" coords="199,103,439,144"/>
 <area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#afcda9b66b5bd30edc8472ec6b9af18a4" title=" " alt="" coords="489,5,681,47"/>
 <area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1IDoFLinearSystemImpl.html#a55efaab2dfadb45431f4e0552e717912" title=" " alt="" coords="487,71,683,112"/>
 </map>

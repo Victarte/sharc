@@ -1,5 +1,5 @@
 <map id="Arcane::FemUtils::AlienDoFLinearSystemImpl" name="Arcane::FemUtils::AlienDoFLinearSystemImpl">
-<area shape="rect" id="node1" title=" " alt="" coords="684,57,863,98"/>
+<area shape="rect" id="node1" title="AI generated: Implementation of DoFLinearSystem using Alien linear algebra." alt="" coords="684,57,863,98"/>
 <area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1DoFLinearSystemImplBase.html" title=" " alt="" coords="443,57,635,98"/>
 <area shape="rect" id="node3" title=" " alt="" coords="49,5,158,32"/>
 <area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1IDoFLinearSystemImpl.html" title=" " alt="" coords="5,57,201,98"/>

@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" title="Computes the area of a triangle defined by three nodes." alt="" coords="1377,269,1580,325"/>
 <area shape="rect" id="node2" href="$classFemModuleElasticity.html#a256f8c1d84a3fb6da7c58eeb211e89cc" title="Applies body force to the RHS vector of the linear system." alt="" coords="893,64,1037,105"/>
 <area shape="rect" id="node7" href="$classFemModuleElasticity.html#a6f3693bac64f0e4dd7b43c54609ca028" title="AI comment: Computes the triangle element matrix, called from CPU assembly path." alt="" coords="1121,5,1319,47"/>
-<area shape="rect" id="node9" href="$classFemModulePoisson.html#a6d3a01e3b39f9a2b9f573b4ce60262c4" title="Computes the element matrix for a triangular element (ℙ1 FE)." alt="" coords="1125,203,1315,244"/>
+<area shape="rect" id="node9" href="$classFemModulePoisson.html#a6d3a01e3b39f9a2b9f573b4ce60262c4" title="AI comment: Computes the 3&#45;node triangle element matrix." alt="" coords="1125,203,1315,244"/>
 <area shape="rect" id="node13" href="$classArcaneFemFunctions_1_1BoundaryConditions2D.html#af999a73fb5289a4246c479a98951719a" title="Applies a constant source term to the RHS vector." alt="" coords="1123,349,1317,405"/>
 <area shape="rect" id="node16" href="$classArcaneFemFunctions_1_1BoundaryConditions2D.html#a921bd154e309821e48804984b1d72786" title="Applies a manufactured source term to the RHS vector." alt="" coords="1111,269,1329,325"/>
 <area shape="rect" id="node17" href="$classArcaneFemFunctions_1_1BoundaryConditions3D.html#af813e549e6408dbec3e0a85e2de4e41a" title="Applies Neumann conditions to the right&#45;hand side (RHS) values." alt="" coords="1137,509,1303,565"/>

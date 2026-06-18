@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" title="Computes shape function gradients and the Jacobian determinant for a Quad4 element." alt="" coords="1135,97,1367,153"/>
 <area shape="rect" id="node2" href="$classFemModuleElasticity.html#a256f8c1d84a3fb6da7c58eeb211e89cc" title="Applies body force to the RHS vector of the linear system." alt="" coords="905,5,1049,47"/>
 <area shape="rect" id="node7" href="$classFemModuleElasticity.html#ac2500a3508b48f967e296ffc0f72d668" title="AI comment: Computes the quadrilateral element matrix using 2×2 Gauss quadrature." alt="" coords="873,71,1082,112"/>
-<area shape="rect" id="node9" href="$classFemModulePoisson.html#ad60c92bd722a2cb0f229a4d2a68c5076" title="Computes the element matrix for a quadrilateral element (QUAD4, ℙ1 FE)." alt="" coords="877,136,1078,177"/>
+<area shape="rect" id="node9" href="$classFemModulePoisson.html#ad60c92bd722a2cb0f229a4d2a68c5076" title="AI comment: Computes the 4&#45;node quadrilateral element matrix." alt="" coords="877,136,1078,177"/>
 <area shape="rect" id="node13" href="$classArcaneFemFunctions_1_1BoundaryConditions2D.html#a7f5516612c34f2e92c10f6bd2e6a8dd3" title="Applies a nodal field to the RHS vector." alt="" coords="868,202,1087,258"/>
 <area shape="rect" id="node3" href="$classFemModuleElasticity.html#aea65a80f4ea414287e4400990d081a7f" title="Assemble the FEM linear operator." alt="" coords="637,5,816,47"/>
 <area shape="rect" id="node4" href="$classFemModuleElasticity.html#a5b769fd9a5bc4503b409f70211e3a0b1" title="Performs a stationary solve for the FEM system." alt="" coords="441,39,585,80"/>

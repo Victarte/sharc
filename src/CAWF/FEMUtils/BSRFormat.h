@@ -80,35 +80,49 @@ class BSRMatrix
 
  public:
 
+  /** AI generated: Constructor */
   BSRMatrix(ITraceMng* tm, const eMemoryRessource& mem_ressource, const RunQueue& queue);
 
  public:
 
+  /** AI generated: Initializes matrix dimensions and storage order */
   void initialize(Int32 nb_non_zero_value, Int32 nb_col, Int32 nb_row, Int8 nb_block, bool order_values_per_block);
+  /** AI generated: Finds the value index for a given (row, col) DoF pair */
   Int32 findValueIndex(DoFLocalId row, DoFLocalId col) const;
+  /** AI generated: Gets the value at a given (row, col) DoF pair */
   Real getValue(DoFLocalId row, DoFLocalId col) const
   {
     auto value_idx = findValueIndex(row, col);
     return m_values[value_idx];
   }
+  /** AI generated: Sets the value at a given (row, col) DoF pair */
   void setValue(DoFLocalId row, DoFLocalId col, Real value)
   {
     auto value_idx = findValueIndex(row, col);
     m_values[value_idx] = value;
   }
+  /** AI generated: Adds a value at a given (row, col) DoF pair */
   void addValue(DoFLocalId row, DoFLocalId col, Real value)
   {
     auto value_idx = findValueIndex(row, col);
     m_values[value_idx] += value;
   }
+  /** AI generated: Converts the BSR matrix to CSR format */
   void toCsr(CsrFormat* csr_matrix);
+  /** AI generated: Converts to a DoF linear system */
   void toLinearSystem(DoFLinearSystem& linear_system);
+  /** AI generated: Dumps the matrix to a file */
   void dump(const String& filename);
 
+  /** AI generated: Returns whether values are ordered per block */
   bool orderValuePerBlock() { return m_order_values_per_block; }
+  /** AI generated: Returns the number of non-zero values */
   Int32 nbNonZero() { return m_nb_non_zero_value; };
+  /** AI generated: Returns the number of columns */
   Int32 nbColumn() { return m_nb_col; };
+  /** AI generated: Returns the number of rows */
   Int32 nbRow() { return m_nb_row; };
+  /** AI generated: Returns the number of blocks */
   Int8 nbBlock() { return m_nb_block; };
 
  private:
@@ -158,6 +172,7 @@ class BSRFormat
 {
  public:
 
+  /** AI generated: Constructor */
   BSRFormat(ITraceMng* tm, RunQueue& queue, const FemDoFsOnNodes& dofs_on_nodes);
 
  private:
@@ -168,14 +183,22 @@ class BSRFormat
 
  public:
 
+  /** AI generated: Initializes the BSR format with mesh and DoF parameters */
   void initialize(IMesh* mesh, Int8 nb_dof, bool does_linear_system_use_csr, bool use_atomic_free = false);
+  /** AI generated: Converts the matrix to a DoF linear system */
   void toLinearSystem(DoFLinearSystem& linear_system);
+  /** AI generated: Computes the number of non-zeros per row array */
   void computeNzPerRowArray();
+  /** AI generated: Computes neighbors using atomic-free operations */
   void computeNeighborsAtomicFree(SmallSpan<Int32>& neighbors_ss);
+  /** AI generated: Computes the row index array using atomic-free operations */
   void computeRowIndexAtomicFree();
+  /** AI generated: Computes the columns array using atomic-free operations */
   void computeColumnsAtomicFree();
+  /** AI generated: Computes sparsity using atomic-free operations */
   void computeSparsityAtomicFree();
 
+  /** AI generated: Packs two Int32 values into a UInt64 */
   ARCCORE_HOST_DEVICE static UInt64 pack(Int32 n0, Int32 n1)
   {
     Int32 min = n0 > n1 ? n1 : n0;
@@ -183,16 +206,21 @@ class BSRFormat
     return ((UInt64)min << 32) | (UInt64)max;
   }
 
+  /** AI generated: Unpacks a UInt64 into two Int32 values */
   ARCCORE_HOST_DEVICE static void unpack(UInt64 packed_edge, Int32& n0, Int32& n1)
   {
     n0 = (Int32)(packed_edge >> 32);
     n1 = (Int32)(packed_edge & 0xFFFFFFFF);
   }
 
+  /** AI generated: Computes sorted edges from element connectivity */
   void computeSortedEdges(Int8 edges_per_element, Int64 nb_edge_total, SmallSpan<UInt64>& sorted_edges_ss);
+  /** AI generated: Computes neighbor connectivity */
   void computeNeighbors(Int8 edges_per_element, Int64 nb_edge_total, NumArray<Int32, MDDim1>& neighbors, SmallSpan<UInt64>& sorted_edges_ss);
+  /** AI generated: Computes the row index array */
   void computeRowIndex(Int8 edges_per_element, Int64 nb_edge_total, SmallSpan<UInt64>& sorted_edges_ss);
 
+  /** AI generated: Registers an edge in the columns array */
   ARCCORE_HOST_DEVICE static void
   registerEdgeInColumns(Int32 src, Int32 dst,
                         Accelerator::NumArrayView<DataViewGetterSetter<Int32>, MDDim1, DefaultLayout> offsets,
@@ -204,33 +232,46 @@ class BSRFormat
     columns[start + offset] = dst;
   }
 
+  /** AI generated: Computes the columns array from sorted edges */
   void computeColumns(Int8 edges_per_element, Int64 nb_edge_total, SmallSpan<uint64_t>& sorted_edges_ss);
+  /** AI generated: Computes sparsity using atomic operations */
   void computeSparsityAtomic();
+  /** AI generated: Computes the sparsity pattern */
   void computeSparsity();
 
+  /** AI generated: Returns a reference to the underlying BSR matrix */
   BSRMatrix& matrix();
+  /** AI generated: Resets all matrix values to zero */
   void resetMatrixValues();
+  /** AI generated: Dumps the matrix to a file */
   void dumpMatrix(const String& filename);
 
  public:
 
+  /** AI generated: Assembles the bilinear form ordered per block */
   template <class Function> inline void
   assembleBilinearOrderedPerBlock(Function compute_element_matrix);
 
+  /** AI generated: Assembles the bilinear form ordered per row */
   template <class Function> inline void
   assembleBilinearOrderedPerRow(Function compute_element_matrix);
 
+  /** AI generated: Assembles the bilinear form using atomic operations */
   template <class Function> inline void
   assembleBilinearAtomic(Function compute_element_matrix);
 
+  /** AI generated: Assembles the bilinear form ordered per block with atomic-free operations */
   template <class Function> inline void
   assembleBilinearOrderedPerBlockAtomicFree(Function compute_element_vectors);
 
+  /** AI generated: Assembles the bilinear form ordered per row with atomic-free operations */
   template <class Function> inline void
   assembleBilinearOrderedPerRowAtomicFree(Function compute_element_vectors);
 
+  /** AI generated: Assembles the bilinear form using atomic-free operations */
   template <class Function> inline void
   assembleBilinearAtomicFree(Function compute_element_vectors);
+  /** AI generated: Assembles the bilinear form (dispatches to atomic or atomic-free) */
   template <class Function> inline void
   assembleBilinear(Function compute_element_matrix);
 

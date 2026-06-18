@@ -1,10 +1,10 @@
 <map id="Arcane::FemUtils::BSRMatrix::findValueIndex" name="Arcane::FemUtils::BSRMatrix::findValueIndex">
-<area shape="rect" id="node1" title=" " alt="" coords="1604,71,1800,112"/>
-<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a8b7de55c16507ab98f93f998a66085ae" title=" " alt="" coords="1360,5,1556,47"/>
-<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a651d20456d150385a7e6cad305ee9daf" title=" " alt="" coords="1360,71,1556,112"/>
-<area shape="rect" id="node13" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a4afcf4cba5140cd1aa40eb8c7c8f2705" title=" " alt="" coords="1360,136,1556,177"/>
-<area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#ae4cc36e6ff5e26b92ea9f1d86e8bd2e5" title=" " alt="" coords="1116,71,1312,112"/>
-<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a01cf7f213dbfed98b9ab3328fa0311ce" title=" " alt="" coords="868,71,1068,112"/>
+<area shape="rect" id="node1" title="AI generated: Finds the value index for a given (row, col) DoF pair." alt="" coords="1604,71,1800,112"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a8b7de55c16507ab98f93f998a66085ae" title="AI generated: Adds a value at a given (row, col) DoF pair." alt="" coords="1360,5,1556,47"/>
+<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a651d20456d150385a7e6cad305ee9daf" title="AI generated: Gets the value at a given (row, col) DoF pair." alt="" coords="1360,71,1556,112"/>
+<area shape="rect" id="node13" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a4afcf4cba5140cd1aa40eb8c7c8f2705" title="AI generated: Sets the value at a given (row, col) DoF pair." alt="" coords="1360,136,1556,177"/>
+<area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#ae4cc36e6ff5e26b92ea9f1d86e8bd2e5" title="AI generated: Converts to a DoF linear system." alt="" coords="1116,71,1312,112"/>
+<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a01cf7f213dbfed98b9ab3328fa0311ce" title="AI generated: Converts the matrix to a DoF linear system." alt="" coords="868,71,1068,112"/>
 <area shape="rect" id="node6" href="$classFemModuleElasticity.html#aaa11f39de79f8c84022f82bb6cf03b7e" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="633,37,820,79"/>
 <area shape="rect" id="node10" href="$classFemModulePoisson.html#abebde0793ed126cb14881d9e629bf9a3" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="637,103,816,144"/>
 <area shape="rect" id="node7" href="$classFemModuleElasticity.html#a5b769fd9a5bc4503b409f70211e3a0b1" title="Performs a stationary solve for the FEM system." alt="" coords="441,37,585,79"/>

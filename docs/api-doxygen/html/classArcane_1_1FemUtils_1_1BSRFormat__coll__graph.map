@@ -3,6 +3,6 @@
 <area shape="rect" id="node2" title=" " alt="" coords="5,36,115,63"/>
 <area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html" title="A class representing a Block Sparse Row (BSR) matrix." alt="" coords="379,23,575,50"/>
 <area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes_1_1Impl.html" title=" " alt="" coords="164,77,355,118"/>
-<area shape="rect" id="node6" href="$classArcane_1_1FemUtils_1_1CsrFormat.html" title=" " alt="" coords="380,143,573,170"/>
+<area shape="rect" id="node6" href="$classArcane_1_1FemUtils_1_1CsrFormat.html" title="AI generated: Container for matrices in Compressed Sparse Row (CSR) format." alt="" coords="380,143,573,170"/>
 <area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1FemDoFsOnNodes.html" title="Manage one or more DoFs on Nodes." alt="" coords="599,80,789,121"/>
 </map>
