@@ -1,0 +1,5 @@
+<map id="FemModuleElasticity::startInit" name="FemModuleElasticity::startInit">
+<area shape="rect" id="node1" title="AI comment: Initializes solver parameters, material properties, body force, and node pressure." alt="" coords="5,35,149,76"/>
+<area shape="rect" id="node2" href="$classFemModuleElasticity.html#a501a8cb3a1b59e4a93161774acb2e655" title="Retrieves and sets the material parameters for the simulation." alt="" coords="197,5,367,47"/>
+<area shape="rect" id="node3" href="$classArcaneFemFunctions_1_1GeneralFunctions.html#a536ca8befa6eb6b59fff8ef1a5895634" title="Logs the execution time with ArcaneFem&#45;Timer." alt="" coords="415,27,561,83"/>
+</map>

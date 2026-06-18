@@ -1,0 +1,5 @@
+<map id="Arcane::FemUtils::GaussDoFsOnCells" name="Arcane::FemUtils::GaussDoFsOnCells">
+<area shape="rect" id="node1" title="Manage one or more Gauss Points on Cells through the Arcane DoFs mechanism." alt="" coords="5,185,192,227"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1GaussDoFsOnCells_1_1Impl.html" title=" " alt="" coords="5,81,192,123"/>
+<area shape="rect" id="node3" title=" " alt="" coords="44,5,153,32"/>
+</map>

@@ -56,76 +56,145 @@
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/**
+ * \ingroup TwoPhaseFlow
+ * \aigenerated
+ * Main module for two-phase flow simulation in porous media.
+ *
+ * TwoPhaseFlowSimulationModule implements the coupled system of equations
+ * for two-phase (water/oil or water/gas) flow, including accumulation,
+ * internal flux, and boundary flux computations. It uses the Newton method
+ * for solving the non-linear system and supports various physical laws
+ * (capillary pressure, relative permeability, fluid density, etc.).
+ */
 class TwoPhaseFlowSimulationModule
         : public ArcaneTwoPhaseFlowSimulationObject
                 , public ArcNum::INonLinearSystem
 {
 public:
 
+    /** \aigenerated Constructs the module */
     TwoPhaseFlowSimulationModule(const Arcane::ModuleBuildInfo & sbi)
             : ArcaneTwoPhaseFlowSimulationObject(sbi)
     {}
 
+    /** \aigenerated Destructor */
     ~TwoPhaseFlowSimulationModule() {}
 
 public:
 
-    // Methode du module
+    /** \aigenerated Initializes the simulation */
     void init();
+
+    /** \aigenerated Executes one computation step */
     void compute();
 
-    // Interface Systeme non lineaire
+    /** \aigenerated Returns the number of equations in the system */
     Integer nbEquations() const { return m_unknown_manager.size() ; }
 
+    /** \aigenerated Returns the system domain */
     Domain const& systemDomain() const {  return m_domain ; }
 
+    /** \aigenerated Initializes the linear system profile (matrix sparsity) */
     void initLinearSystemProfile(Arcane::CellGroup cells,
                                Alien::MatrixProfiler& blockProfiler,
                                Arcane::ConstArray2View<Arcane::Integer> indexes,
                                Arcane::Integer block_size) ;
 
+    /** \aigenerated Sets the solution variable pointers */
     void setSolutionVariables(Arcane::SharedArray<Arcane::VariableCellReal*>& solutions) ;
 
+    /** \aigenerated Returns the equation system (unknowns manager) */
     const Law::PropertyVector& equationSystem() const { return m_unknown_manager; }
+
+    /** \aigenerated Builds the residual and Jacobian matrix */
     void build(ArcNum::Vector& residual, ArcNum::Matrix& jacobian);
+
+    /** \aigenerated Applies constraints on the solution (e.g. clipping) */
     void applyConstraintOnSolution(bool &NonPhysicalSolution);
+
+    /** \aigenerated Returns the variable cell folder */
     const Law::VariableCellFolder& folder() const { return m_folder->domain(); }
 
 private:
 
-    // system gump
+    /** \aigenerated Returns the Gump system */
     ArcRes::System& system() { return m_system; }
-    // unknowns as Law::PropertyVector!
+
+    /** \aigenerated Returns the unknown properties manager */
     const Law::PropertyVector& unknownsManager() const { return m_unknown_manager; }
-    // law function manager
+
+    /** \aigenerated Returns the law function manager */
     Law::FunctionManager& functionMng() { return m_funcs; }
-    // domain for contributions
+
+    /** \aigenerated Returns the domain for contributions */
     Law::VariableCellFolder& domain() { return m_folder->domain(); }
+
+    /** \aigenerated Returns the domain at time T0 */
     Law::VariableCellFolder& domainT0() { return m_folder->domainT0(); }
+
+    /** \aigenerated Returns the domain at time Tn */
     Law::VariableCellFolder& domainTn() { return m_folder->domainTn(); }
-    // init functions
+
+    /** \aigenerated Adds a time-varying variable for snapshot management */
     void _addTimeVariable(const Gump::ScalarRealProperty& property);
+
+    /** \aigenerated Initializes the physical system */
     void _initPhysicalSystem();
+
+    /** \aigenerated Initializes mesh geometry */
     void _initGeometry();
+
+    /** \aigenerated Initializes mesh groups */
     void _initGroup() ;
+
+    /** \aigenerated Initializes domain variable manager */
     void _initDomainVariableMng();
+
+    /** \aigenerated Initializes boundary variable manager */
     void _initBoundaryVariableMng();
+
+    /** \aigenerated Initializes well variable manager */
     void _initWellVariableMng();
+
+    /** \aigenerated Initializes time variable manager (restart snapshots) */
     void _initTimeVariableMng();
+
+    /** \aigenerated Initializes transmissivity operators */
     void _initTransmissivity();
+
+    /** \aigenerated Initializes the equation system (unknowns) */
     void _initEquationSystem();
+
+    /** \aigenerated Initializes the restore/snapshot system */
     void _initRestore();
+
+    /** \aigenerated Configures and initializes physical laws */
     void _initLaws();
+
+    /** \aigenerated Initializes the Newton solver */
     void _initNewton();
-    // update function
+
+    /** \aigenerated Updates mesh geometry at each time step */
     void _updateGeometry();
-    // build functions
+
+    /** \aigenerated Evaluates physical laws on a given folder */
     template<typename Folder>
     void _evaluateLaws(Folder& folder, Law::EvaluationMode derivability);
+
+    /** \aigenerated Builds the accumulation term (mass matrix) */
     void _buildAccumulation(ArcNum::Vector& residual, ArcNum::Matrix& jacobian);
+
+    /** \aigenerated Builds the closure equations */
     void _buildClosure(ArcNum::Vector& residual, ArcNum::Matrix& jacobian);
+
+    /** \aigenerated Builds the internal flux term */
     void _buildFluxInternal(ArcNum::Vector& residual, ArcNum::Matrix& jacobian);
+
+    /** \aigenerated Builds the boundary flux term */
     void _buildFluxBoundary(ArcNum::Vector& residual, ArcNum::Matrix& jacobian);
+
+    /** \aigenerated Builds the well flux term */
     void _buildFluxWell(ArcNum::Vector& residual, ArcNum::Matrix& jacobian);
 
     void _twoPointsProfiler(Arcane::CellGroup cells,
@@ -220,32 +289,43 @@ private:
 
 private:
 
+    /** \aigenerated Two-point transmissivity operator */
     ArcNum::TwoPointsTransmissivity m_transmissivities;
 
+    /** \aigenerated Multi-point stencil for flux computation (optional) */
     std::shared_ptr<ArcNum::MultiPointsStencil> m_schemeStencil ;
 
-    // unknowns as Law::PropertyVector!
+    /** \note Original: unknowns as Law::PropertyVector!
+     *  \aigenerated Manager for unknown properties */
     Law::PropertyVector m_unknown_manager;
 
-    // system instance based on gump
+    /** \note Original: system instance based on gump
+     *  \aigenerated Gump-based system instance */
     ArcRes::System m_system;
 
-    // evolutive variable management restart newtown
+    /** \note Original: evolutive variable management restart newton
+     *  \aigenerated Snapshot manager for restart on Newton failure */
     ArcGeoSim::AppService<ArcGeoSim::ITimeLoopSnapshotManager> m_snapshots;
 
-    // law function manager and evaluator
+    /** \note Original: law function manager and evaluator
+     *  \aigenerated Function manager for physical law evaluation */
     Law::FunctionManager m_funcs;
+
+    /** \aigenerated Properties to evaluate in law functions */
     Arcane::SharedArray<Gump::ScalarRealProperty> m_properties_to_evaluate;
 
-    // acces domain for contributions
+    /** \note Original: acces domain for contributions
+     *  \aigenerated Domain accessor for contribution assembly */
     ArcGeoSim::AppService<IVariableManager> m_folder;
+
+    /** \aigenerated Non-linear system domain */
     ArcNum::INonLinearSystem::Domain        m_domain ;
 };
 
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
-// restart management
+/** AI comment: Registers a scalar property for time-varying snapshot management */
 void
 TwoPhaseFlowSimulationModule::
 _addTimeVariable(const Gump::ScalarRealProperty& property)
@@ -256,7 +336,7 @@ _addTimeVariable(const Gump::ScalarRealProperty& property)
     m_snapshots->snap(v, vTn);
 }
 
-// load system as service
+/** AI comment: Loads the Gump physical system from the service manager */
 void
 TwoPhaseFlowSimulationModule::
 _initPhysicalSystem()
@@ -270,6 +350,7 @@ _initPhysicalSystem()
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Full initialization sequence: system, geometry, groups, variables, laws, Newton */
 void
 TwoPhaseFlowSimulationModule::
 init()
@@ -302,6 +383,7 @@ init()
     _initNewton();
 }
 
+/** AI comment: Initializes matrix profile using two-point or multi-point stencil */
 void
 TwoPhaseFlowSimulationModule::
 initLinearSystemProfile(Arcane::CellGroup cells,
@@ -316,6 +398,7 @@ initLinearSystemProfile(Arcane::CellGroup cells,
     _multiPointsProfiler(cells, blockProfiler, indexes, block_size) ;
 }
 
+/** AI comment: Sets pointers to solution variables for the Newton solver */
 void TwoPhaseFlowSimulationModule::
 setSolutionVariables(Arcane::SharedArray<Arcane::VariableCellReal*>& solutions)
 {
@@ -328,6 +411,7 @@ setSolutionVariables(Arcane::SharedArray<Arcane::VariableCellReal*>& solutions)
 }
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Solves the non-linear system via Newton method at each time step */
 void
 TwoPhaseFlowSimulationModule::
 compute()
@@ -342,6 +426,7 @@ compute()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Builds the residual vector and Jacobian matrix for the non-linear system */
 void
 TwoPhaseFlowSimulationModule::
 build(ArcNum::Vector& residual, ArcNum::Matrix& jacobian)
@@ -361,6 +446,7 @@ build(ArcNum::Vector& residual, ArcNum::Matrix& jacobian)
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Clips saturation to [0,1] and renormalizes to enforce saturation sum constraint */
 void
 TwoPhaseFlowSimulationModule::
 applyConstraintOnSolution(bool &NonPhysicalSolution)
@@ -388,6 +474,7 @@ applyConstraintOnSolution(bool &NonPhysicalSolution)
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Registers and computes geometric properties (volume, center, face normal) */
 void
 TwoPhaseFlowSimulationModule::
 _initGeometry()
@@ -426,6 +513,7 @@ _initGeometry()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Forces an update of all geometric properties via the geometry manager */
 void
 TwoPhaseFlowSimulationModule::
 _updateGeometry(){
@@ -437,6 +525,7 @@ _updateGeometry(){
 }
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Creates mesh groups via the group creator service */
 void
 TwoPhaseFlowSimulationModule::
 _initGroup()
@@ -451,6 +540,7 @@ _initGroup()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Registers domain variable containers for all fluid properties and applies IC */
 void
 TwoPhaseFlowSimulationModule::
 _initDomainVariableMng()
@@ -485,6 +575,7 @@ _initDomainVariableMng()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Initializes boundary condition variables and containers for each boundary */
 void
 TwoPhaseFlowSimulationModule::
 _initBoundaryVariableMng()
@@ -511,6 +602,7 @@ _initBoundaryVariableMng()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Initializes well condition variables and containers for each well */
 void
 TwoPhaseFlowSimulationModule::
 _initWellVariableMng()
@@ -533,6 +625,7 @@ _initWellVariableMng()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Registers time-varying variables for Newton failure rollback */
 void
 TwoPhaseFlowSimulationModule::
 _initTimeVariableMng()
@@ -550,6 +643,7 @@ _initTimeVariableMng()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Configures physical laws and evaluates them on domain, boundary, and wells */
 void
 TwoPhaseFlowSimulationModule::
 _initLaws()
@@ -590,6 +684,7 @@ _initLaws()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Initializes Tn containers by copying initial law evaluation results */
 void
 TwoPhaseFlowSimulationModule::
 _initRestore()
@@ -616,6 +711,7 @@ _initRestore()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Computes transmissivity operator using scalar or tensor permeability */
 void
 TwoPhaseFlowSimulationModule::
 _initTransmissivity()
@@ -654,6 +750,7 @@ _initTransmissivity()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Sets up equation/unknown system: pressure for phase 0, saturation for others */
 void
 TwoPhaseFlowSimulationModule::
 _initEquationSystem()
@@ -672,6 +769,7 @@ _initEquationSystem()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Initializes the Newton solver with this module as the non-linear system */
 void
 TwoPhaseFlowSimulationModule::
 _initNewton()
@@ -698,6 +796,7 @@ _evaluateLaws(Folder& folder, Law::EvaluationMode derivability)
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Builds the accumulation term (mass * saturation * density / delta-t) */
 void TwoPhaseFlowSimulationModule::
 _buildAccumulation(ArcNum::Vector& residual, ArcNum::Matrix& jacobian)
 {
@@ -754,6 +853,7 @@ _buildAccumulation(ArcNum::Vector& residual, ArcNum::Matrix& jacobian)
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Builds the internal flux term between cells using two-point flux approximation */
 void TwoPhaseFlowSimulationModule::
 _buildFluxInternal(ArcNum::Vector& residual, ArcNum::Matrix& jacobian)
 {
@@ -824,6 +924,7 @@ _buildFluxInternal(ArcNum::Vector& residual, ArcNum::Matrix& jacobian)
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Builds the boundary flux term using Dirichlet boundary condition values */
 void TwoPhaseFlowSimulationModule::
 _buildFluxBoundary(ArcNum::Vector& residual, ArcNum::Matrix& jacobian)
 {
@@ -898,6 +999,7 @@ _buildFluxBoundary(ArcNum::Vector& residual, ArcNum::Matrix& jacobian)
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Builds the well flux term using well index and bottom-hole pressure */
 void TwoPhaseFlowSimulationModule::
 _buildFluxWell(ArcNum::Vector& residual, ArcNum::Matrix& jacobian)
 {
@@ -969,6 +1071,7 @@ _buildFluxWell(ArcNum::Vector& residual, ArcNum::Matrix& jacobian)
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Builds the saturation closure equation (sum of saturations = 1) */
 void TwoPhaseFlowSimulationModule::
 _buildClosure(ArcNum::Vector& residual, ArcNum::Matrix& jacobian)
 {

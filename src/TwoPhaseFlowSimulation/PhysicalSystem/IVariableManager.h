@@ -15,20 +15,33 @@
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/**
+ * \ingroup TwoPhaseFlow
+ * \aigenerated
+ * \brief Interface for variable management.
+ *
+ * Manages variable folders at different time states (current, previous,
+ * and initial) for the two-phase flow simulation.
+ */
 class IVariableManager
 {
 public:
   
+  /** \aigenerated Virtual destructor */
   virtual ~IVariableManager() {}
   
 public:
 
+  /** \aigenerated Initializes the variable manager */
   virtual void init() = 0;
   
+  /** \aigenerated Returns the current-time variable folder */
   virtual Law::VariableCellFolder& domain() = 0;
   
+  /** \aigenerated Returns the previous-time (t_{n}) variable folder */
   virtual Law::VariableCellFolder& domainTn() = 0;
 
+  /** \aigenerated Returns the initial-time (t_{0}) variable folder */
   virtual Law::VariableCellFolder& domainT0() = 0;
 };
 

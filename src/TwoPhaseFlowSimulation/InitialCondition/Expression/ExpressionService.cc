@@ -51,6 +51,7 @@ private:
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Initializes and evaluates expression-based initial conditions */
 void
 ExpressionService::
 init(ArcRes::System& system, Law::VariableCellFolder& domain)
@@ -60,6 +61,7 @@ init(ArcRes::System& system, Law::VariableCellFolder& domain)
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Re-evaluates expression-based conditions (e.g. after mesh change) */
 void 
 ExpressionService::
 revaluate(ArcRes::System& system, Law::VariableCellFolder& domain)
@@ -69,6 +71,7 @@ revaluate(ArcRes::System& system, Law::VariableCellFolder& domain)
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Evaluates the expression-based condition function on all domain cells */
 void 
 ExpressionService::
 _evaluate(ArcRes::System& system, Law::VariableCellFolder& domain){

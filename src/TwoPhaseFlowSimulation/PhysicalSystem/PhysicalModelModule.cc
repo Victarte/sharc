@@ -82,6 +82,7 @@ private:
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Asserts that the physical model has been initialized */
 void 
 PhysicalModelModule::
 _fatalIfNotInitialized() const
@@ -92,6 +93,7 @@ _fatalIfNotInitialized() const
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Registers this module as IPhysicalSystem and IVariableManager services */
 void 
 PhysicalModelModule::
 build()
@@ -102,6 +104,7 @@ build()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Builds the Gump system and creates domain variable folders */
 void
 PhysicalModelModule::
 init()
@@ -125,6 +128,7 @@ init()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Returns the Gump physical system, asserting it has been initialized */
 ArcRes::System
 PhysicalModelModule::
 system() const
@@ -136,6 +140,7 @@ system() const
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Destroys the Gump physical system model */
 void
 PhysicalModelModule::
 exit()

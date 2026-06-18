@@ -50,6 +50,7 @@ private:
 /*---------------------------------------------------------------------------*/
 using namespace Arcane;
 
+/** AI comment: Initializes mesh reader based on format and stores mesh name/event id */
 void DynamicMeshMngService::init()
 {
   m_mesh_name          = options()->mesh() ;
@@ -78,6 +79,7 @@ void DynamicMeshMngService::init()
   }
 }
 
+/** AI comment: Reads new mesh file, adds nodes/cells/faces, and updates boundary groups per event */
 void DynamicMeshMngService::updateNewEvent()
 {
   ++m_current_event_iter;

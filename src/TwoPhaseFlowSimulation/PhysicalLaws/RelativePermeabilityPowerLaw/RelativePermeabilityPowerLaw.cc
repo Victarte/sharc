@@ -19,6 +19,7 @@
 
 //=====================================================
 
+/** AI comment: Evaluates relative permeability krw = SwBar^alpha */
 void RelativePermeabilityPowerLaw::eval( const Real Sw, Real& krw, Real& dkrw_dSw ) const
 {   
   // Compute results  
@@ -30,6 +31,7 @@ void RelativePermeabilityPowerLaw::eval( const Real Sw, Real& krw, Real& dkrw_dS
 
 //=====================================================
 
+/** AI comment: Computes normalized saturation SwBar = (Sw - Swi) / (1 - Sgc - Swi) */
 Real RelativePermeabilityPowerLaw::computeSwBar( const Real Sw, Real& dSwBar_dSw ) const
 {   
   // Compute results  
@@ -55,6 +57,7 @@ Real RelativePermeabilityPowerLaw::computeSwBar( const Real Sw, Real& dSwBar_dSw
 
 //=====================================================
 
+/** AI comment: Sets relative permeability parameters: irreducible saturations, exponent */
 void RelativePermeabilityPowerLaw::setParameters( const Real Swi, const Real Sgc, const Real alpha  )
 {
   // Set Parameters
@@ -65,6 +68,7 @@ void RelativePermeabilityPowerLaw::setParameters( const Real Swi, const Real Sgc
 
 //=====================================================
 
+/** AI comment: Initializes relative permeability parameters to default values */
 void RelativePermeabilityPowerLaw::initParameters()
 {
   // Init Parameters

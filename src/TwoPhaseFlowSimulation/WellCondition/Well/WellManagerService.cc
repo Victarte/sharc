@@ -82,6 +82,7 @@ private:
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Asserts that the well manager service has been initialized */
 void
 WellManagerService::
 _fatalIfNotInitialized() const
@@ -92,6 +93,7 @@ _fatalIfNotInitialized() const
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Initializes well folders, computes well indices, evaluates limit conditions */
 void
 WellManagerService::
 init(ArcRes::System& system, Law::VariableCellFolder& domain)
@@ -212,6 +214,7 @@ init(ArcRes::System& system, Law::VariableCellFolder& domain)
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Updates well limit conditions by re-evaluating property expressions */
 void 
 WellManagerService::
 _updateLimitCondition(ArcRes::System& system)
@@ -257,6 +260,7 @@ _updateLimitCondition(ArcRes::System& system)
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Updates well properties, limit conditions, and flow rate expressions */
 void
 WellManagerService::
 update(ArcRes::System& system)

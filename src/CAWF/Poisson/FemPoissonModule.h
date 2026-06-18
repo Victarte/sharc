@@ -53,11 +53,13 @@ namespace ax = Arcane::Accelerator;
 
 /*---------------------------------------------------------------------------*/
 /**
- * @brief A module for finite element method.
+ * \ingroup CAWF
+ * \aigenerated
+ * \brief Finite Element module for the Poisson (scalar elliptic) equation.
  *
- * This class handles the initialization and computation for finite element
- * method (FEM) simulations, providing methods to  set  up and solve linear
- * systems, assemble FEM operators, and perform result checks.
+ * Solves a steady-state diffusion problem using the Finite Element Method.
+ * Supports multiple element types (Tria3, Tetra4, Quad4, Hexa8) with
+ * CPU and GPU assembly backends.
  */
 /*---------------------------------------------------------------------------*/
 
@@ -66,6 +68,7 @@ class FemModulePoisson
 {
  public:
 
+  /** \aigenerated Constructs the Poisson FEM module */
   explicit FemModulePoisson(const ModuleBuildInfo& mbi)
   : ArcaneFemPoissonObject(mbi)
   , m_dofs_on_nodes(mbi.subDomain()->traceMng())
@@ -76,42 +79,70 @@ class FemModulePoisson
     cm->setAllowUnkownRootElelement(false);
   }
 
-  void startInit() override; //! Method called at the beginning of the simulation
-  void compute() override; //! Method called at each iteration
+  /** \aigenerated Method called at the beginning of the simulation */
+  void startInit() override;
+  /** \aigenerated Computes the solution at each iteration */
+  void compute() override;
+  /** \aigenerated Returns the module version */
   VersionInfo versionInfo() const override { return VersionInfo(1, 0, 0); }
 
+  /** \aigenerated Assembles the bilinear operator (stiffness matrix) */
   void _assembleBilinearOperator();
+  /** \aigenerated Assembles the linear operator on GPU */
   void _assembleLinearOperatorGpu();
 
  private:
 
+  /** \aigenerated Block sparse row matrix format for assembly */
   BSRFormat m_bsr_format;
+  /** \aigenerated Linear system (matrix + RHS + solution) */
   DoFLinearSystem m_linear_system;
+  /** \aigenerated Degree-of-freedom item family */
   IItemFamily* m_dof_family = nullptr;
+  /** \aigenerated DoF mapping on mesh nodes */
   FemDoFsOnNodes m_dofs_on_nodes;
 
+  /** \aigenerated Source term value */
   Real f;
 
+  /** \aigenerated PETSc solver flags */
   String m_petsc_flags;
+  /** \aigenerated Matrix format type */
   String m_matrix_format = "DOK";
 
+  /** \aigenerated Whether to assemble the linear system */
   bool m_assemble_linear_system = true;
+  /** \aigenerated Whether to solve the linear system */
   bool m_solve_linear_system = true;
+  /** \aigenerated Whether to perform cross-validation */
   bool m_cross_validation = false;
+  /** \aigenerated Whether the mesh uses hex/quad elements */
   bool m_hex_quad_mesh = false;
 
+  /** \aigenerated Performs a stationary (direct) solve */
   void _doStationarySolve();
+  /** \aigenerated Retrieves material parameters from the case file */
   void _getMaterialParameters();
+  /** \aigenerated Solves the assembled linear system */
   void _solve();
+  /** \aigenerated Assembles the linear operator on CPU */
   void _assembleLinearOperatorCpu();
+  /** \aigenerated Assembles the full linear operator (stiffness + BCs) */
   void _assembleLinearOperator();
+  /** \aigenerated Updates time-dependent variables */
   void _updateVariables();
+  /** \aigenerated Validates results against reference values */
   void _validateResults();
 
+  /** AI comment: Computes the 3-node triangle element matrix */
   RealMatrix<3, 3> _computeElementMatrixTria3(Cell cell);
+  /** AI comment: Computes the 4-node tetrahedron element matrix */
   RealMatrix<4, 4> _computeElementMatrixTetra4(Cell cell);
+  /** AI comment: Computes the 4-node quadrilateral element matrix */
   RealMatrix<4, 4> _computeElementMatrixQuad4(Cell cell);
+  /** AI comment: Computes the 8-node hexahedron element matrix */
   RealMatrix<8, 8> _computeElementMatrixHexa8(Cell cell);
+  /** AI comment: Assembles the bilinear form using element matrix computation callback */
   template <int N>
   void _assembleBilinear(const std::function<RealMatrix<N, N>(const Cell&)>& compute_element_matrix);
 };

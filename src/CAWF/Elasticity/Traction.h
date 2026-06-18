@@ -23,9 +23,9 @@
  * traction term ∫∫ (𝐭.𝐯)  with 𝐭 = (𝑡𝑥, 𝑡𝑦, 𝑡𝑧) = (t[0], t[1], t[2])
  * 
  * @param rhs_values The variable representing the RHS vector to be updated.
- * @param node_dof The connectivity view mapping nodes to their corresponding 
+ * @param node_dof The connectivity view mapping nodes to their corresponding
  *                 degrees of freedom (DoFs).
- * 
+ */
 /*---------------------------------------------------------------------------*/
 
 inline void FemModuleElasticity::

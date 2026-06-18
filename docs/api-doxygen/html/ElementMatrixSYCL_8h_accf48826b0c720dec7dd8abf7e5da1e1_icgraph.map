@@ -1,0 +1,4 @@
+<map id="computeElementMatrixTria3BaseSYCL" name="computeElementMatrixTria3BaseSYCL">
+<area shape="rect" id="node1" title="Computes the element matrix for a triangular element (ℙ1 FE)." alt="" coords="271,5,455,47"/>
+<area shape="rect" id="node2" href="$ElementMatrixSYCL_8h.html#aa2e45fec42a0c89855dd4f2139feefc3" title="AI comment: SYCL&#45;accelerated wrapper for triangle element matrix computation." alt="" coords="5,13,223,39"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Arcane::FemUtils::_translateCSRToCOO" name="Arcane::FemUtils::_translateCSRToCOO">
+<area shape="rect" id="node1" title="Convert CSR format rows into COO format rows." alt="" coords="265,13,416,54"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1PETScDoFLinearSystemImpl.html#abd7afecd5d34b76fb39213592f20ea4f" title="Allocate matrix related PETSc objects." alt="" coords="5,5,217,61"/>
+</map>

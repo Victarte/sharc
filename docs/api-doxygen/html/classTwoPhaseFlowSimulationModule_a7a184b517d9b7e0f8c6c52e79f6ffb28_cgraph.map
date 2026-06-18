@@ -1,0 +1,7 @@
+<map id="TwoPhaseFlowSimulationModule::_buildFluxInternal" name="TwoPhaseFlowSimulationModule::_buildFluxInternal">
+<area shape="rect" id="node1" title="AI comment: Builds the internal flux term between cells using two&#45;point flux approximation." alt="" coords="5,104,219,145"/>
+<area shape="rect" id="node2" href="$classTwoPhaseFlowSimulationModule.html#abafbcc5fb9432c797638e676227785bf" title=" " alt="" coords="267,5,480,47"/>
+<area shape="rect" id="node3" href="$classTwoPhaseFlowSimulationModule.html#a0449330c278b1f136275a7192f3f2394" title=" " alt="" coords="267,71,480,112"/>
+<area shape="rect" id="node4" href="$classTwoPhaseFlowSimulationModule.html#af2551d8c966e9978463b8efda100fc7f" title=" " alt="" coords="267,136,480,177"/>
+<area shape="rect" id="node5" href="$classTwoPhaseFlowSimulationModule.html#ac2b2275c7c585d8b07a6df222f74335d" title=" " alt="" coords="267,201,480,243"/>
+</map>

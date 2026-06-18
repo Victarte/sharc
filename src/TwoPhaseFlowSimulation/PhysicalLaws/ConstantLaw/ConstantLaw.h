@@ -15,23 +15,34 @@
 #include "ArcGeoSim/Utils/Utils.h"
 
 //=====================================================
-
+/**
+ * \ingroup TwoPhaseFlow
+ * \aigenerated
+ * \brief Constant-valued law.
+ *
+ * Returns a constant value for a physical property. Useful for
+ * simple test cases where spatial or temporal variation is
+ * not needed.
+ */
 class ConstantLaw
 {
 public :
 
+  /** \aigenerated Constructs the law with zero value */
   ConstantLaw()
     : m_value(0.) {}
   
-  // Evaluation de la fonction
+  /** \aigenerated Evaluates the constant value */
   void eval( Real& C ) const;
   
 private :
   
+  /** \aigenerated Constant value */
   Real m_value ;
   
 public:
 
+/** \aigenerated Sets the constant value */
 void setParameters( const Real value  );
 
 };

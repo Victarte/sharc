@@ -13,26 +13,35 @@
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/**
+ * \ingroup TwoPhaseFlow
+ * \aigenerated
+ * \brief Interface for well condition management.
+ *
+ * Manages well boundary conditions for two-phase flow simulation,
+ * including well index computation and flow rate management.
+ * Supports enumeration over active wells.
+ */
 class IWellManager
 {
 public:
 
+    /** \aigenerated Enumerator type for iterating over wells */
     typedef WellEnumerator Enumerator;
 
+    /** \aigenerated Virtual destructor */
     virtual ~IWellManager() {}
 
 public:
 
-  // Initialisation de la condition
-  // ie enregistrement des propriétés, création des variables et
-  // remplissage au temps courant
+  /** \aigenerated Initializes well conditions: registers properties,
+   *  creates variables, and populates at current time */
   virtual void init(ArcRes::System& system, Law::VariableCellFolder& domain) = 0;
 
-  // Mise à jour de la condition
-  // ie remplissage au temps courant
+  /** \aigenerated Updates well conditions at the current time */
   virtual void update(ArcRes::System& system) = 0;
 
-  // Renvoie un enumérateur sur les wells
+  /** \aigenerated Returns an enumerator over the active wells */
   virtual Enumerator enumerator() const = 0;
 };
 

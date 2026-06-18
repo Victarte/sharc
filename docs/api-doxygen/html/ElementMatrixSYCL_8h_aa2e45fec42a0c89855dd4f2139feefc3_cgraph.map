@@ -1,0 +1,7 @@
+<map id="computeElementMatrixTria3SYCL" name="computeElementMatrixTria3SYCL">
+<area shape="rect" id="node1" title="AI comment: SYCL&#45;accelerated wrapper for triangle element matrix computation." alt="" coords="5,131,223,157"/>
+<area shape="rect" id="node2" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1MeshOperation.html#a8cf50a9c52da08162b43e6d8b7719571" title="computes the area of a triangle defined by three nodes." alt="" coords="282,5,485,61"/>
+<area shape="rect" id="node3" href="$ElementMatrixSYCL_8h.html#accf48826b0c720dec7dd8abf7e5da1e1" title="Computes the element matrix for a triangular element (ℙ1 FE)." alt="" coords="291,86,475,127"/>
+<area shape="rect" id="node4" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation2D.html#ac019000fd3845be08da0af3f6ee6ec7e" title="Computes the 𝑥 gradients of basis functions 𝐍 for ℙ1 triangles." alt="" coords="271,152,496,208"/>
+<area shape="rect" id="node5" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation2D.html#a73e82a008e620a09ccc86d38008971a1" title="Computes the 𝑦 gradients of basis functions 𝐍 for ℙ1 triangles." alt="" coords="271,232,496,288"/>
+</map>

@@ -70,6 +70,7 @@ const RealVector<4>& dxu, const RealVector<4>& dyu, Real integration_weight, Rea
   return (normal_strain_energy + compressibility_effect + shear_energy);
 }
 
+/** AI comment: Computes the quadrilateral element matrix using 2×2 Gauss quadrature */
 RealMatrix<8, 8> FemModuleElasticity::_computeElementMatrixQuad4(Cell cell)
 {
   // Gauss points and weights for 2x2 quadrature
@@ -105,6 +106,7 @@ RealMatrix<8, 8> FemModuleElasticity::_computeElementMatrixQuad4(Cell cell)
 }
 
 
+/** AI comment: GPU-accelerated wrapper for quadrilateral element matrix computation */
 ARCCORE_HOST_DEVICE RealMatrix<8, 8>
 computeElementMatrixQuad4Gpu(CellLocalId cell_lid,
                             const IndexedCellNodeConnectivityView& cn_cv,
@@ -228,6 +230,7 @@ Real integration_weight, Real lambda, Real mu)
   return (normal_strain_energy + compressibility_effect + shear_energy);
 }
 
+/** AI comment: Computes the hexahedron element matrix using 2×2×2 Gauss quadrature */
 RealMatrix<24, 24> FemModuleElasticity::_computeElementMatrixHexa8(Cell cell)
 {
   // Gauss points and weights for 2x2x2 quadrature
@@ -267,6 +270,7 @@ RealMatrix<24, 24> FemModuleElasticity::_computeElementMatrixHexa8(Cell cell)
   return ae;
 }
 
+/** AI comment: GPU-accelerated wrapper for hexahedron element matrix computation */
 ARCCORE_HOST_DEVICE RealMatrix<24, 24>
 computeElementMatrixHexa8Gpu(CellLocalId cell_lid,
                               const IndexedCellNodeConnectivityView& cn_cv,

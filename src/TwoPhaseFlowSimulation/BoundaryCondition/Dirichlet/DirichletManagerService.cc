@@ -85,6 +85,7 @@ private:
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Validates that property/value count matches for each multi-limit condition */
 void
 DirichletManagerService::
 _checkSizeMulti()
@@ -114,6 +115,7 @@ _checkSizeMulti()
 /*---------------------------------------------------------------------------*/
 
 
+/** AI comment: Asserts that the service has been initialized */
 void 
 DirichletManagerService::
 _fatalIfNotInitialized() const
@@ -124,6 +126,7 @@ _fatalIfNotInitialized() const
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Initializes boundary folders, adds variables for all condition types */
 void
 DirichletManagerService::
 init(ArcRes::System& system)
@@ -203,6 +206,7 @@ init(ArcRes::System& system)
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Evaluates boundary conditions: space-time, single, and multi-limit conditions */
 void 
 DirichletManagerService::
 _compute(ArcRes::System& system)
@@ -288,6 +292,7 @@ _compute(ArcRes::System& system)
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Re-evaluates all boundary conditions (e.g. after mesh change or time step) */
 void
 DirichletManagerService::
 update(ArcRes::System& system)

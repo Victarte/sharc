@@ -1,0 +1,5 @@
+<map id="ShArcModule::endSimulation" name="ShArcModule::endSimulation">
+<area shape="rect" id="node1" title="AI comment: Ends the simulation, performing post&#45;processing exit and validation." alt="" coords="5,31,196,57"/>
+<area shape="rect" id="node2" href="$classShArcModule.html#a5486ce83cdddbc1f9d610606366e0a21" title="AI comment: Runs all registered validators and stops the simulation on failure." alt="" coords="275,5,434,32"/>
+<area shape="rect" id="node3" href="$classShArcModule.html#a1e0cb157accad4d3c2b965bd12e47d6b" title="Informations de d�pouillement en sortie de la boucle de calcul." alt="" coords="244,56,465,83"/>
+</map>

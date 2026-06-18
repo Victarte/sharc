@@ -1,0 +1,4 @@
+<map id="FemModulePoisson::_getMaterialParameters" name="FemModulePoisson::_getMaterialParameters">
+<area shape="rect" id="node1" title="Retrieves and sets the material parameters for the simulation." alt="" coords="5,13,167,54"/>
+<area shape="rect" id="node2" href="$classArcaneFemFunctions_1_1GeneralFunctions.html#a536ca8befa6eb6b59fff8ef1a5895634" title="Logs the execution time with ArcaneFem&#45;Timer." alt="" coords="215,5,361,61"/>
+</map>

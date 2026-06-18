@@ -1,0 +1,5 @@
+<map id="WellManagerService::update" name="WellManagerService::update">
+<area shape="rect" id="node1" title="AI comment: Updates well properties, limit conditions, and flow rate expressions." alt="" coords="5,5,148,47"/>
+<area shape="rect" id="node2" href="$classWellManagerService.html#aefd0f64511ae7a1f11ae9fcf8a2c756b" title="AI comment: Asserts that the well manager service has been initialized." alt="" coords="403,5,548,47"/>
+<area shape="rect" id="node3" href="$classWellManagerService.html#ad938384b13ec9239c368e2613404641a" title="AI comment: Updates well limit conditions by re&#45;evaluating property expressions." alt="" coords="196,35,355,76"/>
+</map>

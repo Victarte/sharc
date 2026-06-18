@@ -1,0 +1,4 @@
+<map id="ShArcModule::_hasPostProcessing" name="ShArcModule::_hasPostProcessing">
+<area shape="rect" id="node1" title="AI comment: Returns true if post&#45;processing options are configured." alt="" coords="239,5,467,32"/>
+<area shape="rect" id="node2" href="$classShArcModule.html#aa81ef7921644e850e7d394269a17e27b" title="AI comment: Called at the end of each time step, handles post&#45;processing and stop conditions." alt="" coords="5,5,191,32"/>
+</map>

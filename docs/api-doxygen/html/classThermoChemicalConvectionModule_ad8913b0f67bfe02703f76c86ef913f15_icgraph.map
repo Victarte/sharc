@@ -1,0 +1,7 @@
+<map id="ThermoChemicalConvectionModule::functionMng" name="ThermoChemicalConvectionModule::functionMng">
+<area shape="rect" id="node1" title=" " alt="" coords="475,71,661,112"/>
+<area shape="rect" id="node2" href="$classThermoChemicalConvectionModule.html#a6e76066fda2cefa4beaf168e1b8899f9" title="AI comment: Builds accumulation terms for mass, concentration, and energy equations." alt="" coords="240,5,427,47"/>
+<area shape="rect" id="node4" href="$classThermoChemicalConvectionModule.html#ab00b52dee3789b03ee97c291aebc2c78" title="AI comment: Builds boundary flux terms for all three equations using Dirichlet BC values." alt="" coords="240,71,427,112"/>
+<area shape="rect" id="node5" href="$classThermoChemicalConvectionModule.html#ae0ef1fd4e117a2a8cd26e9a25804ea85" title="AI comment: Builds internal flux terms for pressure, concentration, and temperature (advection + diff..." alt="" coords="240,136,427,177"/>
+<area shape="rect" id="node3" href="$classThermoChemicalConvectionModule.html#a49a46f581755139966d4b22b204f06a4" title="AI comment: Builds residual and Jacobian for pressure, concentration, and temperature equations." alt="" coords="5,71,192,112"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,191,32"/>
+<area shape="rect" id="node2" href="$classPhysicalModelModule.html" title=" " alt="" coords="239,56,387,83"/>
+<area shape="rect" id="node3" href="$classIPhysicalSystem.html" title="Interface for the physical system." alt="" coords="39,56,157,83"/>
+<area shape="rect" id="node4" href="$classIVariableManager.html" title="Interface for variable management." alt="" coords="37,107,159,133"/>
+</map>

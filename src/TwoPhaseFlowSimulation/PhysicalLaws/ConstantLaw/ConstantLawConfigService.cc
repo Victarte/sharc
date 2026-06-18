@@ -42,6 +42,7 @@ private:
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Configures and registers the constant law with its value parameter */
 void
 ConstantLawConfigService::
 configure(Law::FunctionManager& function_mng, ArcRes::System& system)

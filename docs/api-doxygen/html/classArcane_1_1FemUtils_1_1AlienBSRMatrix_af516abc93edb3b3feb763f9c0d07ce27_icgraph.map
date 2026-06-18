@@ -1,0 +1,6 @@
+<map id="Arcane::FemUtils::AlienBSRMatrix::orderValuePerBlock" name="Arcane::FemUtils::AlienBSRMatrix::orderValuePerBlock">
+<area shape="rect" id="node1" title=" " alt="" coords="560,39,785,80"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a02cb4997bece47e6015647b8d047b383" title="Assembles the global BSR matrix for a bilinear operator, cell&#45;wise." alt="" coords="283,5,512,47"/>
+<area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ade768ae2af1a5ddd3c2ecf8ae6189e6b" title="Assembles the global BSR matrix for a bilinear operator, node&#45;wise." alt="" coords="283,71,512,112"/>
+<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861" title=" " alt="" coords="5,39,235,80"/>
+</map>

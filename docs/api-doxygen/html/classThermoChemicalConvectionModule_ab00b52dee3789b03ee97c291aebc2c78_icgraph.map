@@ -1,0 +1,4 @@
+<map id="ThermoChemicalConvectionModule::_buildFluxBoundary" name="ThermoChemicalConvectionModule::_buildFluxBoundary">
+<area shape="rect" id="node1" title="AI comment: Builds boundary flux terms for all three equations using Dirichlet BC values." alt="" coords="240,5,427,47"/>
+<area shape="rect" id="node2" href="$classThermoChemicalConvectionModule.html#a49a46f581755139966d4b22b204f06a4" title="AI comment: Builds residual and Jacobian for pressure, concentration, and temperature equations." alt="" coords="5,5,192,47"/>
+</map>

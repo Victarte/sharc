@@ -1,0 +1,8 @@
+<map id="TwoPhaseFlowSimulationModule::_buildAccumulation" name="TwoPhaseFlowSimulationModule::_buildAccumulation">
+<area shape="rect" id="node1" title="AI comment: Builds the accumulation term (mass * saturation * density / delta&#45;t)" alt="" coords="5,136,219,177"/>
+<area shape="rect" id="node2" href="$classTwoPhaseFlowSimulationModule.html#abafbcc5fb9432c797638e676227785bf" title=" " alt="" coords="267,5,480,47"/>
+<area shape="rect" id="node3" href="$classTwoPhaseFlowSimulationModule.html#a5cff80bd1cd55982dc87b35bc5b060f1" title=" " alt="" coords="267,71,480,112"/>
+<area shape="rect" id="node4" href="$classTwoPhaseFlowSimulationModule.html#a0449330c278b1f136275a7192f3f2394" title=" " alt="" coords="267,136,480,177"/>
+<area shape="rect" id="node5" href="$classTwoPhaseFlowSimulationModule.html#af2551d8c966e9978463b8efda100fc7f" title=" " alt="" coords="267,201,480,243"/>
+<area shape="rect" id="node6" href="$classTwoPhaseFlowSimulationModule.html#ac2b2275c7c585d8b07a6df222f74335d" title=" " alt="" coords="267,267,480,308"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="TwoPhaseFlowSimulationModule::_initDomainVariableMng" name="TwoPhaseFlowSimulationModule::_initDomainVariableMng">
+<area shape="rect" id="node1" title="AI comment: Registers domain variable containers for all fluid properties and applies IC." alt="" coords="5,39,219,80"/>
+<area shape="rect" id="node2" href="$classTwoPhaseFlowSimulationModule.html#abafbcc5fb9432c797638e676227785bf" title=" " alt="" coords="267,5,480,47"/>
+<area shape="rect" id="node3" href="$classTwoPhaseFlowSimulationModule.html#af2551d8c966e9978463b8efda100fc7f" title=" " alt="" coords="267,71,480,112"/>
+</map>

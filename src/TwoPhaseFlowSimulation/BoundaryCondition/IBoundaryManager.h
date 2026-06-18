@@ -19,29 +19,39 @@
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/**
+ * \ingroup TwoPhaseFlow
+ * \aigenerated
+ * \brief Interface for boundary condition management.
+ *
+ * Manages the registration, creation, and update of boundary conditions
+ * for the two-phase flow simulation. Supports enumeration over active
+ * boundary folders.
+ */
 class IBoundaryManager
 {
 public:
   
+  /** \aigenerated Enumerator type for iterating over boundary folders */
   typedef FolderEnumerator<Law::ContainerKind::PartialVariable,
                            Law::ItemKind::Face> BoundaryEnumerator;
 
+  /** \aigenerated Virtual destructor */
   virtual ~IBoundaryManager() {}
   
 public:
 
-  // Initialisation de la condition
-  // ie enregistrement des proprietes, creation des variables et
-  // remplissage au temps courant
+  /** \aigenerated Initializes boundary conditions: registers properties,
+   *  creates variables, and populates at current time */
   virtual void init(ArcRes::System& system) = 0;
 
-  // Mise a jour de la condition
-  // ie remplissage au temps courant
+  /** \aigenerated Updates boundary conditions at the current time */
   virtual void update(ArcRes::System& system) = 0;
 
+  /** \aigenerated Checks whether boundary conditions exist */
   virtual bool exists() const = 0;
 
-  // Renvoie un enumerateur sur les bords
+  /** \aigenerated Returns an enumerator over the active boundaries */
   virtual BoundaryEnumerator boundaryEnumerator() const = 0;
 
 };

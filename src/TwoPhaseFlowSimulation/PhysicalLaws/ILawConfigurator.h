@@ -16,14 +16,25 @@
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/**
+ * \ingroup TwoPhaseFlow
+ * \aigenerated
+ * \brief Interface for law configurators.
+ *
+ * Configures physical laws (capillary pressure, relative permeability,
+ * density, etc.) by registering them with the law function manager
+ * and associating them with the system variables.
+ */
 class ILawConfigurator
 {
 public:
 
+  /** \aigenerated Virtual destructor */
   virtual ~ILawConfigurator() {}
   
 public:
 
+  /** \aigenerated Configures and registers physical laws with the system */
   virtual void configure(Law::FunctionManager& law_register, ArcRes::System& system) = 0;
 
 };

@@ -1,0 +1,6 @@
+<map id="ShArcModule::initializeAppServiceMng" name="ShArcModule::initializeAppServiceMng">
+<area shape="rect" id="node1" title="AI comment: Initializes the application service manager, loading optional services." alt="" coords="228,49,405,90"/>
+<area shape="rect" id="node2" href="$classShArcModule.html#a93489a706278866f765b31783343b374" title="AI comment: Continues initialization (for multi&#45;phase init sequences)" alt="" coords="5,5,180,32"/>
+<area shape="rect" id="node3" href="$classShArcModule.html#afe5739003efbf5e46fae54f9f94b6091" title="AI comment: Initializes time step policy, geometry, post&#45;processing, and validators." alt="" coords="30,56,155,83"/>
+<area shape="rect" id="node4" href="$classShArcModule.html#ab01135379e1cf0a6be201386a400eab7" title="AI comment: Prepares initialization by loading geometry manager and creating policy." alt="" coords="8,107,177,133"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="FemModulePoisson::_solve" name="FemModulePoisson::_solve">
+<area shape="rect" id="node1" title="Solves the linear system." alt="" coords="441,5,587,47"/>
+<area shape="rect" id="node2" href="$classFemModulePoisson.html#aff70fb3c910e715daf9b6f4d404c6857" title="Performs a stationary solve for the FEM system." alt="" coords="248,5,393,47"/>
+<area shape="rect" id="node3" href="$classFemModulePoisson.html#a044148fb14bd4cc124ba751b11fea973" title="Performs the main computation for the FemModulePoisson." alt="" coords="5,13,200,39"/>
+</map>

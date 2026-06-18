@@ -19,6 +19,7 @@
 
 //=====================================================
 
+/** AI comment: Evaluates capillary pressure Pc = Pe * Se^(-1/lambda) */
 void CapillaryPressureLaw::eval( const Real S, Real& Pc, Real& dPc_dS ) const
 {
     // Compute results
@@ -40,6 +41,7 @@ void CapillaryPressureLaw::eval( const Real S, Real& Pc, Real& dPc_dS ) const
 
 //=====================================================
 
+/** AI comment: Computes effective saturation Se from saturation S and residual saturations */
 Real CapillaryPressureLaw::computeSe( const Real S, Real& dSe_dS ) const
 {
 
@@ -52,6 +54,7 @@ Real CapillaryPressureLaw::computeSe( const Real S, Real& dSe_dS ) const
 
 //=====================================================
 
+/** AI comment: Sets capillary pressure law parameters: entry pressure, residual saturations, exponent */
 void CapillaryPressureLaw::setParameters( const Real Pe, const Real Sr_ref, const Real Sr, const Real lambda  )
 {
     // Set Parameters
@@ -64,6 +67,7 @@ void CapillaryPressureLaw::setParameters( const Real Pe, const Real Sr_ref, cons
 
 //=====================================================
 
+/** AI comment: Initializes capillary pressure parameters to default values */
 void CapillaryPressureLaw::initParameters()
 {
     // Init Parameters

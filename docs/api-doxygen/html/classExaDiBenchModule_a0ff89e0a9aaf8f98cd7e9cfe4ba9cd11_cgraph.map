@@ -1,0 +1,7 @@
+<map id="ExaDiBenchModule::init" name="ExaDiBenchModule::init">
+<area shape="rect" id="node1" title="AI comment: Initializes mesh export, refinement, geometry properties, and border detection." alt="" coords="5,101,167,127"/>
+<area shape="rect" id="node2" href="$classExaDiBenchModule.html#a478e0f0c9e90a38c368a9762daa89967" title="AI comment: Computes the average center of all owned cells, validating against geometry." alt="" coords="229,5,409,47"/>
+<area shape="rect" id="node3" href="$classExaDiBenchModule.html#aa2c40e930052ae22eddc791bcf3030b9" title="AI comment: Refines the mesh to a given level (not yet implemented)" alt="" coords="215,71,423,98"/>
+<area shape="rect" id="node4" href="$classExaDiBenchModule.html#a1e8f580b26c512e6df4f212af298bc43" title="AI comment: Computes total surface area of border faces, validating against geometry." alt="" coords="225,123,413,164"/>
+<area shape="rect" id="node5" href="$classExaDiBenchModule.html#a20f1eaf18362fb5c7132ec3a567890df" title="AI comment: Computes total volume by summing cell measures and validates against geometry." alt="" coords="226,188,411,229"/>
+</map>

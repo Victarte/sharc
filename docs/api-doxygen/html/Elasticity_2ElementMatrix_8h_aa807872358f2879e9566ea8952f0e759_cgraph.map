@@ -1,0 +1,8 @@
+<map id="computeElementMatrixTetra4Gpu" name="computeElementMatrixTetra4Gpu">
+<area shape="rect" id="node1" title="AI comment: GPU&#45;accelerated wrapper for tetrahedron element matrix computation." alt="" coords="5,151,221,177"/>
+<area shape="rect" id="node2" href="$Elasticity_2ElementMatrix_8h.html#ad906406c4d44efd4cb7f6be7b9fb3e10" title="Computes the element matrix for a tetrahedral element (ℙ1 FE)." alt="" coords="271,5,493,32"/>
+<area shape="rect" id="node3" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation3D.html#aaaa881ec6f6a41a32c8a487842c90993" title="Computes the X gradients of basis functions 𝐍 for ℙ1 Tetrahedron." alt="" coords="269,56,495,112"/>
+<area shape="rect" id="node4" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation3D.html#accabc428bf5140dc5aa2038a0ddab9e2" title="Computes the Y gradients of basis functions 𝐍 for ℙ1 Tetrahedron." alt="" coords="269,136,495,192"/>
+<area shape="rect" id="node5" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation3D.html#a77f14b048df7652c9ea6af8aaf8d3506" title="Computes the 𝑧 gradients of basis functions 𝐍 for ℙ1 Tetrahedron." alt="" coords="269,216,495,272"/>
+<area shape="rect" id="node6" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1MeshOperation.html#ae7939929d72afd589596c4a562faafd9" title="Computes the volume of a tetrahedra defined by four nodes." alt="" coords="273,296,491,352"/>
+</map>

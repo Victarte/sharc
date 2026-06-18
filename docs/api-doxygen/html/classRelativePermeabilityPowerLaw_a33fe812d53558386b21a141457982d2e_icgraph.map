@@ -1,0 +1,6 @@
+<map id="RelativePermeabilityPowerLaw::setParameters" name="RelativePermeabilityPowerLaw::setParameters">
+<area shape="rect" id="node1" title="AI comment: Sets relative permeability parameters: irreducible saturations, exponent." alt="" coords="523,39,697,80"/>
+<area shape="rect" id="node2" href="$classRelativePermeabilityPowerLawConfigService.html#a6c3b687282c44de76e0bceb9610f416e" title="AI comment: Configures and registers the relative permeability power law with its parameters." alt="" coords="284,5,475,47"/>
+<area shape="rect" id="node3" href="$classRelativePermeabilityPowerLaw.html#a598eebd397dfb5d34c70e3a866ad772e" title="AI comment: Initializes relative permeability parameters to default values." alt="" coords="292,71,467,112"/>
+<area shape="rect" id="node4" href="$classRelativePermeabilityPowerLaw.html#a15880e62b00b0995e89da0798ca7e2ac" title=" " alt="" coords="5,71,236,112"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="Arcane::FemUtils::IDoFLinearSystemImpl::solutionVariable" name="Arcane::FemUtils::IDoFLinearSystemImpl::solutionVariable">
+<area shape="rect" id="node1" title=" " alt="" coords="1067,39,1263,80"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a2c0c142c63809f51c41742d8923c2472" title="Variable containing the solution vector." alt="" coords="827,39,1019,80"/>
+<area shape="rect" id="node3" href="$classFemModuleElasticity.html#a3791deba08b19e3531949deb9c897c0b" title="Update the FEM variables." alt="" coords="634,5,778,47"/>
+<area shape="rect" id="node7" href="$classFemModulePoisson.html#addc60439215377f53c82ea72d934942f" title="Update the FEM variables." alt="" coords="633,71,779,112"/>
+<area shape="rect" id="node4" href="$classFemModuleElasticity.html#a5b769fd9a5bc4503b409f70211e3a0b1" title="Performs a stationary solve for the FEM system." alt="" coords="441,5,585,47"/>
+<area shape="rect" id="node5" href="$classFemModuleElasticity.html#ad3bb0f9040e4141ceef536038cd61a2d" title="Performs the main computation for the FemModuleElasticity." alt="" coords="223,5,367,47"/>
+<area shape="rect" id="node6" href="$classFemModuleElasticity.html#ab06ab2db63cae57328155891523641f4" title="AI comment: Main time loop, handles coupled (preCICE) and standalone computation modes." alt="" coords="5,5,149,47"/>
+<area shape="rect" id="node8" href="$classFemModulePoisson.html#aff70fb3c910e715daf9b6f4d404c6857" title="Performs a stationary solve for the FEM system." alt="" coords="440,71,585,112"/>
+<area shape="rect" id="node9" href="$classFemModulePoisson.html#a044148fb14bd4cc124ba751b11fea973" title="Performs the main computation for the FemModulePoisson." alt="" coords="197,78,392,105"/>
+</map>

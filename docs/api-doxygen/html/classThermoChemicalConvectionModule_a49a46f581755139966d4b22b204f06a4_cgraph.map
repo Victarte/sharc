@@ -1,0 +1,13 @@
+<map id="ThermoChemicalConvectionModule::build" name="ThermoChemicalConvectionModule::build">
+<area shape="rect" id="node1" title="AI comment: Builds residual and Jacobian for pressure, concentration, and temperature equations." alt="" coords="5,136,192,177"/>
+<area shape="rect" id="node2" href="$classThermoChemicalConvectionModule.html#a6e76066fda2cefa4beaf168e1b8899f9" title="AI comment: Builds accumulation terms for mass, concentration, and energy equations." alt="" coords="240,201,427,243"/>
+<area shape="rect" id="node3" href="$classThermoChemicalConvectionModule.html#ae8a4f8f58064a75e7313a728362d9b05" title=" " alt="" coords="475,5,661,47"/>
+<area shape="rect" id="node8" href="$classThermoChemicalConvectionModule.html#ab00b52dee3789b03ee97c291aebc2c78" title="AI comment: Builds boundary flux terms for all three equations using Dirichlet BC values." alt="" coords="240,136,427,177"/>
+<area shape="rect" id="node9" href="$classThermoChemicalConvectionModule.html#ae0ef1fd4e117a2a8cd26e9a25804ea85" title="AI comment: Builds internal flux terms for pressure, concentration, and temperature (advection + diff..." alt="" coords="240,71,427,112"/>
+<area shape="rect" id="node10" href="$classThermoChemicalConvectionModule.html#a0430b21b26113458fed643b0dbb7e47f" title="AI comment: Evaluates all registered physical laws on the given folder." alt="" coords="240,299,427,340"/>
+<area shape="rect" id="node4" href="$classThermoChemicalConvectionModule.html#ae79ee5f6c2d9380dac47eff11cee6d78" title=" " alt="" coords="475,267,661,308"/>
+<area shape="rect" id="node5" href="$classThermoChemicalConvectionModule.html#ad8913b0f67bfe02703f76c86ef913f15" title=" " alt="" coords="475,71,661,112"/>
+<area shape="rect" id="node6" href="$classThermoChemicalConvectionModule.html#a0bd6df1fbbe2c88e6bc3b7938a395fe0" title=" " alt="" coords="475,136,661,177"/>
+<area shape="rect" id="node7" href="$classThermoChemicalConvectionModule.html#aaae450914d0b6fd9052dfbcfaf4c5e70" title=" " alt="" coords="475,201,661,243"/>
+<area shape="rect" id="node11" href="$classThermoChemicalConvectionModule.html#aa0ea1c543bba784d320938c9c3f23f2c" title=" " alt="" coords="475,332,661,373"/>
+</map>

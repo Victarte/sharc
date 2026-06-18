@@ -28,6 +28,7 @@
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Initializes mesh export, refinement, geometry properties, and border detection */
 void 
 ExaDiBenchModule::
 init()
@@ -149,6 +150,7 @@ init()
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Perturbs interior node coordinates randomly and updates geometry measures */
 void 
 ExaDiBenchModule::
 compute()
@@ -203,6 +205,7 @@ compute()
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Refines the mesh to a given level (not yet implemented) */
 void 
 ExaDiBenchModule::
 refineMesh(Integer level)
@@ -212,6 +215,7 @@ refineMesh(Integer level)
   warning() << "Refine feature not yet implemented";
 }
 
+/** AI comment: Restores the module state (placeholder for restart) */
 void
 ExaDiBenchModule::
 restore()
@@ -222,6 +226,7 @@ restore()
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Computes total volume by summing cell measures and validates against geometry */
 Real
 ExaDiBenchModule::
 volumeCompute()
@@ -254,6 +259,7 @@ volumeCompute()
 /*---------------------------------------------------------------------------*/
 
 
+/** AI comment: Computes the average center of all owned cells, validating against geometry */
 Real3
 ExaDiBenchModule::
 centerCompute()
@@ -283,6 +289,7 @@ centerCompute()
 
 
 
+/** AI comment: Computes total surface area of border faces, validating against geometry */
 Real
 ExaDiBenchModule::
 surfaceCompute()

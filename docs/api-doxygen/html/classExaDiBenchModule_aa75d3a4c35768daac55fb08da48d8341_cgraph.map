@@ -1,0 +1,6 @@
+<map id="ExaDiBenchModule::compute" name="ExaDiBenchModule::compute">
+<area shape="rect" id="node1" title="AI comment: Perturbs interior node coordinates randomly and updates geometry measures." alt="" coords="5,78,200,105"/>
+<area shape="rect" id="node2" href="$classExaDiBenchModule.html#a478e0f0c9e90a38c368a9762daa89967" title="AI comment: Computes the average center of all owned cells, validating against geometry." alt="" coords="252,5,432,47"/>
+<area shape="rect" id="node3" href="$classExaDiBenchModule.html#a1e8f580b26c512e6df4f212af298bc43" title="AI comment: Computes total surface area of border faces, validating against geometry." alt="" coords="248,71,436,112"/>
+<area shape="rect" id="node4" href="$classExaDiBenchModule.html#a20f1eaf18362fb5c7132ec3a567890df" title="AI comment: Computes total volume by summing cell measures and validates against geometry." alt="" coords="249,136,435,177"/>
+</map>

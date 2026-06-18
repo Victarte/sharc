@@ -24,15 +24,34 @@
 
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
-
+/**
+ * \ingroup TwoPhaseFlow
+ * \aigenerated
+ * \brief Computes Peaceman well indices for well-cell connections.
+ *
+ * Implements the Peaceman (1983) well index formula for 3D anisotropic
+ * permeability fields. The well index relates the wellbore pressure
+ * to the cell-averaged pressure for inflow/outflow calculations.
+ *
+ * Formula: \f$WI = \frac{2\pi \sqrt{k_x k_y} \Delta z}{\ln(r_e / r_w) + s}\f$
+ * where \f$r_e\f$ is the Peaceman equivalent radius, \f$r_w\f$ the
+ * wellbore radius, and \f$s\f$ the skin factor.
+ */
     class WellIndexComputer
     {
     public:
 
+        /** \aigenerated Constructs the computer with mesh node coordinates */
         WellIndexComputer(IMesh*  mesh);
 
     public:
 
+        /** \aigenerated Computes well indices for all wells in the system
+         *  \param system The ArcRes system
+         *  \param domain Cell variable folder
+         *  \param well_index Output well index variable
+         *  \param radius Wellbore radius
+         *  \param skin Skin factor */
         void compute(ArcRes::System& system,
                      Law::VariableCellFolder& domain,
                      Arcane::PartialVariableCellReal well_index,
@@ -41,6 +60,7 @@
 
     private:
 
+        /** \aigenerated Computes the Peaceman well index for a single cell */
         inline Arcane::Real _computeWellIndex(const Arcane::Real3& cell_dims,
                                               const Arcane::Real3& cell_perm,
                                               const Arcane::Real& well_radius,
@@ -55,8 +75,10 @@
 
     private:
 
+        /** \aigenerated Pi constant */
         Arcane::Real m_pi;
 
+        /** \aigenerated Mesh node coordinates */
         const Arcane::VariableNodeReal3& m_node_coordinates;
     };
 

@@ -1,0 +1,4 @@
+<map id="ExaDiBenchModule::refineMesh" name="ExaDiBenchModule::refineMesh">
+<area shape="rect" id="node1" title="AI comment: Refines the mesh to a given level (not yet implemented)" alt="" coords="215,5,423,32"/>
+<area shape="rect" id="node2" href="$classExaDiBenchModule.html#a0ff89e0a9aaf8f98cd7e9cfe4ba9cd11" title="AI comment: Initializes mesh export, refinement, geometry properties, and border detection." alt="" coords="5,5,167,32"/>
+</map>

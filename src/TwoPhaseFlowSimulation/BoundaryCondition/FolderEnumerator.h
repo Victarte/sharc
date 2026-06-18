@@ -16,17 +16,27 @@
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/**
+ * \ingroup TwoPhaseFlow
+ * \aigenerated
+ * \brief Template class for enumerating over boundary/well condition folders.
+ *
+ * Provides iteration over named variable folders (e.g., boundary patches
+ * or well regions), each associated with a slice of variables and properties.
+ */
 template<Law::ContainerKind::eType CK, Law::ItemKind::eType IK>
 class FolderEnumerator
 {
 public:
   
+  /** \aigenerated The variable folder type for this enumeration */
   typedef Law::VariableFolder<CK,IK> Folder;
   
 public:
 
+  /** \aigenerated Constructs the enumerator from folder and name arrays */
   FolderEnumerator(const Arcane::Array<Folder*>& folders,
-		  	  	       const Arcane::StringArray& names)
+ 		  	  	       const Arcane::StringArray& names)
     : m_folders(folders)
 	  , m_names(names)
     , m_index(0)
@@ -34,39 +44,42 @@ public:
     ARCANE_ASSERT((folders.size() == names.size()),("folder and names size different"));
   }
 
+  /** \aigenerated Copy constructor */
   FolderEnumerator(const FolderEnumerator& e)
     : m_folders(e.m_folders)
   	, m_names(e.m_names)
     , m_index(0) {}
 
-  //! Vrai si la l'enumeration n'est pas terminee
+  /** \aigenerated True if enumeration is not finished (increment first) */
   bool hasNext() const { return m_index != size(); }
 
-  //! Incrementation
+  /** \aigenerated Increments to the next element */
   void operator++() { m_index ++; }
 
-  //! Acces aux entites
+  /** \aigenerated Access to the current folder (const) */
   const Folder& folder() const { return *(m_folders[m_index]); }
 
+  /** \aigenerated Access to the current folder (mutable) */
   Folder& folder() { return *(m_folders[m_index]); }
 
+  /** \aigenerated Returns the name of the current folder */
   Arcane::String name() const { return m_names[m_index]; }
 
-  //! Nombre d'elements a enumerer
+  /** \aigenerated Returns the number of elements to enumerate */
   Arcane::Integer size() const { return m_folders.size(); }
 
-  //! Index courant
+  /** \aigenerated Returns the current index */
   Arcane::Integer index() const { return m_index; }
 
 private:
 
-  //! Liste des entites a enumerer
+  /** \aigenerated List of folder pointers to enumerate */
   const Arcane::Array<Folder*>& m_folders;
 
-  //! Liste des noms
+  /** \aigenerated List of folder names */
   const Arcane::StringArray& m_names;
 
-  //! Index courant
+  /** \aigenerated Current index in the enumeration */
   Arcane::Integer m_index;
 };
 

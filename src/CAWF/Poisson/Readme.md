@@ -10,39 +10,39 @@ The Poisson equation is encountered in various physical scenarios, including hea
 
 #### Problem description ####
 
-The 2D Poisson's equation is solved for a closed meshed domain $\Omega^h$ in order to know the solution $u(x,y)$ within the domain. The equation reads
+The 2D Poisson's equation is solved for a closed meshed domain \f$\Omega^h\f$ in order to know the solution \f$u(x,y)\f$ within the domain. The equation reads
 
-$$\frac{\partial}{\partial x}\left( \frac{\partial u}{\partial x} \right) + \frac{\partial}{\partial y}\left( \frac{\partial u}{\partial y} \right) = {\mathcal{f}}   \quad \forall (x,y)\in\Omega^h $$
+\f[\frac{\partial}{\partial x}\left( \frac{\partial u}{\partial x} \right) + \frac{\partial}{\partial y}\left( \frac{\partial u}{\partial y} \right) = {\mathcal{f}}   \quad \forall (x,y)\in\Omega^h\f]
 
 or in a more compact form
 
-$$\nabla^2 u = {\mathcal{f}} \quad \forall (x,y)\in\Omega^h.$$
+\f[\nabla^2 u = {\mathcal{f}} \quad \forall (x,y)\in\Omega^h.\f]
 
 
 
 To complete the problem description,   first type (Dirichlet) boundary conditions is applied to this problem:
 
-$u = 0.5 \quad \forall(x,y)\in\partial\Omega^h_{\text{horizontal}}\subset\partial \Omega^h,$
+\f$u = 0.5 \quad \forall(x,y)\in\partial\Omega^h_{\text{horizontal}}\subset\partial \Omega^h,\f$
 
 Finally the right hand side source is present within the domain
 
-${\mathcal{f}}=5.5$
+\f${\mathcal{f}}=5.5\f$
 
 
 
-In this case  the FEM variational formulation in $H^1_{0}(\Omega) \subset H^1{\Omega}$  reads
+In this case  the FEM variational formulation in \f$H^1_{0}(\Omega) \subset H^1{\Omega}\f$  reads
 
-search FEM trial function $u^h(x,y)$ satisfying
+search FEM trial function \f$u^h(x,y)\f$ satisfying
 
-$$- \int_{\Omega^h}\nabla u^h \nabla  v^h + \int_{\partial\Omega_N} (\overline{q} \cdot \mathbf{n}) v^h + \int_{\Omega^h}{\mathcal{f}} v^h = 0 \quad \forall v^h\in H^1_0(\Omega^h)$$
+\f[- \int_{\Omega^h}\nabla u^h \nabla  v^h + \int_{\partial\Omega_N} (\overline{q} \cdot \mathbf{n}) v^h + \int_{\Omega^h}{\mathcal{f}} v^h = 0 \quad \forall v^h\in H^1_0(\Omega^h)\f]
 
 given
 
-$u^h=0.0 \quad \forall (x,y)\in\partial\Omega^h_{\text{boundary}}$,
+\f$u^h=0.0 \quad \forall (x,y)\in\partial\Omega^h_{\text{boundary}}\f$,
 
-$\int_{\Omega^h_{\text{N}}}(\mathbf{q} \cdot \mathbf{n}) v^h=0$ since no Neumann BC is present,
+\f$\int_{\Omega^h_{\text{N}}}(\mathbf{q} \cdot \mathbf{n}) v^h=0\f$ since no Neumann BC is present,
 
-$\int_{\Omega^h}{\mathcal{f}} v^h=5.5$, and
+\f$\int_{\Omega^h}{\mathcal{f}} v^h=5.5\f$, and
 
 ## The code ##
 
@@ -68,7 +68,7 @@ Please not that use version 4.1 `.msh` file from `Gmsh`.
 
 #### properties ###
 
-The value of constant source term $\mathcal{f}$  can be provided in  `circle.arc` file
+The value of constant source term \f$\mathcal{f}\f$  can be provided in  `circle.arc` file
 
 ```xml
   <fem>
@@ -90,7 +90,7 @@ The Dirichlet boundary conditions  are provided in `circle.arc` file
     </boundary-conditions>
 ```
 
-So in the snippet above, three Dirichlet condition $u=0.5$ is  applied to border ('horizontal') which is a group of edges in the mesh file `circle_cut.msh`.
+So in the snippet above, three Dirichlet condition \f$u=0.5\f$ is  applied to border ('horizontal') which is a group of edges in the mesh file `circle_cut.msh`.
 
 If needed, the Neumann  boundary conditions  can also be provided in `circle.arc` file
 
@@ -121,5 +121,6 @@ Post processing is controled via
    </output>
   </arcane-post-processing>
 ```
-For post processing the `Mesh0.hdf` file is outputted (in `output/depouillement/vtkhdfv2` folder), which can be read by PARAVIS. The output is of the $\mathbb{P}_1$ FE order (on nodes).
-
+For post processing the `Mesh0.hdf` file is outputted (in `output/depouillement/vtkhdfv2` folder), which can be read by PARAVIS. The output is of the \f$\mathbb{P}_1\f$ FE order (on nodes).
+\f[\f]
+\f[\f]

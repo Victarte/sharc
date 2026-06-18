@@ -1,0 +1,13 @@
+<map id="Arcane::FemUtils::AlienBSRMatrix::nbColumn" name="Arcane::FemUtils::AlienBSRMatrix::nbColumn">
+<area shape="rect" id="node1" title=" " alt="" coords="903,136,1128,177"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a8871b081cd97590f22c5db65693225c0" title=" " alt="" coords="593,5,822,47"/>
+<area shape="rect" id="node5" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#aacb0c7afc08bc53d94212bcad8daf508" title=" " alt="" coords="560,136,855,177"/>
+<area shape="rect" id="node7" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a5e31ed65629996c71daf509eb729ca31" title=" " alt="" coords="593,71,822,112"/>
+<area shape="rect" id="node8" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ab389aa89fcb831a377a0e93dfd5a29a6" title=" " alt="" coords="563,201,851,243"/>
+<area shape="rect" id="node9" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a37871181fd6885e63fbae2ee0a14298e" title=" " alt="" coords="593,267,822,308"/>
+<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a02cb4997bece47e6015647b8d047b383" title="Assembles the global BSR matrix for a bilinear operator, cell&#45;wise." alt="" coords="283,71,512,112"/>
+<area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a367d0c623145dd217393543231bf7861" title=" " alt="" coords="5,104,235,145"/>
+<area shape="rect" id="node6" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#ade768ae2af1a5ddd3c2ecf8ae6189e6b" title="Assembles the global BSR matrix for a bilinear operator, node&#45;wise." alt="" coords="283,136,512,177"/>
+<area shape="rect" id="node10" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#acb46694d417beab16112310aaf2ba31e" title=" " alt="" coords="283,233,512,275"/>
+<area shape="rect" id="node11" href="$classArcane_1_1FemUtils_1_1AlienBSRFormat.html#a644b8c26165e813d7b40c124edd51c63" title=" " alt="" coords="283,299,512,340"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="ArcaneFemFunctions::FeOperation2D::computeGradientQuad4" name="ArcaneFemFunctions::FeOperation2D::computeGradientQuad4">
+<area shape="rect" id="node1" title="Computes the gradient of a scalar field &#39;u&#39; for a Quad4 element." alt="" coords="5,5,231,61"/>
+<area shape="rect" id="node2" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation2D.html#a26aaa13ed4775a4e7967a466fd2a976f" title=" " alt="" coords="279,5,511,61"/>
+</map>

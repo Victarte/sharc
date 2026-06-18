@@ -1,0 +1,6 @@
+<map id="WellManagerService::init" name="WellManagerService::init">
+<area shape="rect" id="node1" title="AI comment: Initializes well folders, computes well indices, evaluates limit conditions." alt="" coords="5,39,148,80"/>
+<area shape="rect" id="node2" href="$classWellIndexComputer.html#a02973eeddb4193a206ec50965203f3d2" title=" " alt="" coords="196,39,340,80"/>
+<area shape="rect" id="node3" href="$classWellIndexComputer.html#a457838877cc87381a09dc29c09815ab2" title=" " alt="" coords="388,5,551,47"/>
+<area shape="rect" id="node4" href="$classWellIndexComputer.html#af5630d55bef00fd77556270d66652981" title=" " alt="" coords="397,71,541,112"/>
+</map>

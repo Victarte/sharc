@@ -1,0 +1,73 @@
+baseURL: https://arcaneframework.github.io/sharc/
+title: ShArc
+disableKinds:
+  - taxonomy
+  - term
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+
+enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block: [['\[', '\]'], ['$$', '$$']]
+          inline: [['\(', '\)'], ['$', '$']]
+  highlight:
+    style: monokai
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+
+module:
+  imports:
+    - path: github.com/google/docsy
+
+params:
+  copyright: CEA/IFPEN and Contributors
+  privacy_policy: false
+  ui:
+    showLightDarkToggle: true
+    sidebar_menu_compact: false
+    sidebar_cache_limit: 10
+    navbar_logo: true
+    footer_about_enable: true
+    navpane_translucent: false
+  links:
+    user:
+      - name: GitHub
+        url: https://github.com/arcaneframework/sharc
+        icon: fab fa-github
+        desc: Source code
+    developer:
+      - name: GitHub Issues
+        url: https://github.com/arcaneframework/sharc/issues
+        icon: fab fa-github
+      - name: Arcane Framework
+        url: https://github.com/arcaneframework
+        icon: fas fa-cube
+
+outputs:
+  home:
+    - HTML
+  section:
+    - HTML
+  page:
+    - HTML
+
+security:
+  allowContent:
+    - '^text/'
+  node:
+    permissions:
+      disable: true
+
+services:
+  googleAnalytics:
+    ID: ""

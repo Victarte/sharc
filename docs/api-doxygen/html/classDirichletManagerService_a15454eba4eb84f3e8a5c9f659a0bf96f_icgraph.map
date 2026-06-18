@@ -1,0 +1,5 @@
+<map id="DirichletManagerService::_compute" name="DirichletManagerService::_compute">
+<area shape="rect" id="node1" title="AI comment: Evaluates boundary conditions: space&#45;time, single, and multi&#45;limit conditions." alt="" coords="219,39,384,80"/>
+<area shape="rect" id="node2" href="$classDirichletManagerService.html#ab3431a9b9fa8abaa49db20b9e0d4a8b6" title="AI comment: Initializes boundary folders, adds variables for all condition types." alt="" coords="5,5,171,47"/>
+<area shape="rect" id="node3" href="$classDirichletManagerService.html#afec1154d0275821ff32738cc41524725" title="AI comment: Re&#45;evaluates all boundary conditions (e.g." alt="" coords="5,71,171,112"/>
+</map>

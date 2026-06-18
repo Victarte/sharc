@@ -1,0 +1,4 @@
+<map id="computeElementMatrixQuad4Base" name="computeElementMatrixQuad4Base">
+<area shape="rect" id="node1" title="Computes the element matrix for a quadrilateral element (QUAD4, ℙ1 FE)." alt="" coords="272,5,496,32"/>
+<area shape="rect" id="node2" href="$ElementMatrixHexQuadSYCL_8h.html#aebbe4a505d80c982c938d09a1f39b24c" title="AI comment: SYCL&#45;accelerated wrapper for quadrilateral element matrix computation." alt="" coords="5,5,224,32"/>
+</map>

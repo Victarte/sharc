@@ -1,0 +1,5 @@
+<map id="ArcaneFemFunctions::BoundaryConditions2D::applyManufacturedSourceToRhs" name="ArcaneFemFunctions::BoundaryConditions2D::applyManufacturedSourceToRhs">
+<area shape="rect" id="node1" title="Applies a manufactured source term to the RHS vector." alt="" coords="5,45,224,101"/>
+<area shape="rect" id="node2" href="$classArcaneFemFunctions_1_1MeshOperation.html#a4f8e0354f35f2ecf21239e4c939d40f7" title="Computes the area of a triangle defined by three nodes." alt="" coords="273,5,475,61"/>
+<area shape="rect" id="node3" href="$classArcaneFemFunctions_1_1MeshOperation.html#adc8c51dfa1afc71e4d71ca79425426a8" title="Computes the barycenter (centroid) of a triangle." alt="" coords="272,85,476,141"/>
+</map>

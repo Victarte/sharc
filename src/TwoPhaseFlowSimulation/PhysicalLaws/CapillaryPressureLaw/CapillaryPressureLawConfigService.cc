@@ -47,6 +47,7 @@ private:
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Configures and registers the capillary pressure law with its parameters */
 void
 CapillaryPressureLawConfigService::
 configure(Law::FunctionManager& function_mng, ArcRes::System& system)

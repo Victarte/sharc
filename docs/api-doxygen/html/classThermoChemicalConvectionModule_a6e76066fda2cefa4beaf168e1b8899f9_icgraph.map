@@ -1,0 +1,4 @@
+<map id="ThermoChemicalConvectionModule::_buildAccumulation" name="ThermoChemicalConvectionModule::_buildAccumulation">
+<area shape="rect" id="node1" title="AI comment: Builds accumulation terms for mass, concentration, and energy equations." alt="" coords="240,5,427,47"/>
+<area shape="rect" id="node2" href="$classThermoChemicalConvectionModule.html#a49a46f581755139966d4b22b204f06a4" title="AI comment: Builds residual and Jacobian for pressure, concentration, and temperature equations." alt="" coords="5,5,192,47"/>
+</map>

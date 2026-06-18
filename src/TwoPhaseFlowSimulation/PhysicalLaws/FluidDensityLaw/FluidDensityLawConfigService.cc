@@ -47,6 +47,7 @@ private:
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Configures and registers the fluid density law with its parameters */
 void
 FluidDensityLawConfigService::
 configure(Law::FunctionManager& function_mng, ArcRes::System& system)

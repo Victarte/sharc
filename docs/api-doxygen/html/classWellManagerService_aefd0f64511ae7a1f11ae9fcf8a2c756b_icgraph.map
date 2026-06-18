@@ -1,0 +1,5 @@
+<map id="WellManagerService::_fatalIfNotInitialized" name="WellManagerService::_fatalIfNotInitialized">
+<area shape="rect" id="node1" title="AI comment: Asserts that the well manager service has been initialized." alt="" coords="403,35,548,76"/>
+<area shape="rect" id="node2" href="$classWellManagerService.html#ad938384b13ec9239c368e2613404641a" title="AI comment: Updates well limit conditions by re&#45;evaluating property expressions." alt="" coords="196,5,355,47"/>
+<area shape="rect" id="node3" href="$classWellManagerService.html#af584a7a802d12a0f77f11edf0278a8c2" title="AI comment: Updates well properties, limit conditions, and flow rate expressions." alt="" coords="5,35,148,76"/>
+</map>

@@ -212,21 +212,18 @@ class CooFormat : TraceAccessor
       i++;
     }
     //binsearch only on the row and iterate through the column
-    /*
-    while (begin <= end) {
-      /*
-      Int32 mid = begin + (end - begin) / 2;
-      if (column == m_matrix_column(mid)) {
-        return mid;
-      }
-      if (column > m_matrix_column(mid)) {
-        begin = mid + 1;
-      }
-      if (column < m_matrix_column(mid)) {
-        end = mid - 1;
-      }
-  }
-      */
+    // while (begin <= end) {
+    //   Int32 mid = begin + (end - begin) / 2;
+    //   if (column == m_matrix_column(mid)) {
+    //     return mid;
+    //   }
+    //   if (column > m_matrix_column(mid)) {
+    //     begin = mid + 1;
+    //   }
+    //   if (column < m_matrix_column(mid)) {
+    //     end = mid - 1;
+    //   }
+    // }
     return -1;
   }
 

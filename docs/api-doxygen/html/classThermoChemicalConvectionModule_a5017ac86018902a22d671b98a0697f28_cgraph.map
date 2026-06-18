@@ -1,0 +1,5 @@
+<map id="ThermoChemicalConvectionModule::_initDomainVariableMng" name="ThermoChemicalConvectionModule::_initDomainVariableMng">
+<area shape="rect" id="node1" title="AI comment: Registers domain variables for fluid and solid properties, applies IC." alt="" coords="5,39,217,80"/>
+<area shape="rect" id="node2" href="$classThermoChemicalConvectionModule.html#ae8a4f8f58064a75e7313a728362d9b05" title=" " alt="" coords="265,5,452,47"/>
+<area shape="rect" id="node3" href="$classThermoChemicalConvectionModule.html#a0bd6df1fbbe2c88e6bc3b7938a395fe0" title=" " alt="" coords="265,71,452,112"/>
+</map>

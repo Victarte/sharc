@@ -1,0 +1,5 @@
+<map id="Arcane::FemUtils::Gpu::FeOperation2D::computeGradientsAndJacobianQuad4" name="Arcane::FemUtils::Gpu::FeOperation2D::computeGradientsAndJacobianQuad4">
+<area shape="rect" id="node1" title=" " alt="" coords="279,24,511,80"/>
+<area shape="rect" id="node2" href="$Elasticity_2ElementMatrixHexQuad_8h.html#aebbe4a505d80c982c938d09a1f39b24c" title="AI comment: GPU&#45;accelerated wrapper for quadrilateral element matrix computation." alt="" coords="9,5,227,32"/>
+<area shape="rect" id="node3" href="$classArcaneFemFunctions_1_1FeOperation2D.html#a0ad6ffa5ee8b19be36db90e526e9f0e3" title="Computes the gradient of a scalar field &#39;u&#39; for a Quad4 element." alt="" coords="5,56,231,112"/>
+</map>

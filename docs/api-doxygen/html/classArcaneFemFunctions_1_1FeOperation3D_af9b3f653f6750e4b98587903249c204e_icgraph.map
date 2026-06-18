@@ -1,0 +1,15 @@
+<map id="ArcaneFemFunctions::FeOperation3D::computeGradientsAndJacobianHexa8" name="ArcaneFemFunctions::FeOperation3D::computeGradientsAndJacobianHexa8">
+<area shape="rect" id="node1" title="Computes shape function gradients and the Jacobian determinant for a Hexa8 element." alt="" coords="1133,97,1365,153"/>
+<area shape="rect" id="node2" href="$classFemModuleElasticity.html#a256f8c1d84a3fb6da7c58eeb211e89cc" title="Applies body force to the RHS vector of the linear system." alt="" coords="905,5,1049,47"/>
+<area shape="rect" id="node7" href="$classFemModuleElasticity.html#a7ea496af8ddb472bb9fedd82a7e613bd" title="AI comment: Computes the hexahedron element matrix using 2×2×2 Gauss quadrature." alt="" coords="873,71,1081,112"/>
+<area shape="rect" id="node9" href="$classFemModulePoisson.html#aa5174a7121a86fff49e32a6ad16f2e7c" title="Computes the element matrix for a hexahedral element (HEXA8, ℙ1 FE)." alt="" coords="877,136,1077,177"/>
+<area shape="rect" id="node13" href="$classArcaneFemFunctions_1_1BoundaryConditions3D.html#a1b05dc3d968427fe0e0cbf7738af38ac" title="Applies a nodal field to the RHS vector." alt="" coords="868,202,1085,258"/>
+<area shape="rect" id="node3" href="$classFemModuleElasticity.html#aea65a80f4ea414287e4400990d081a7f" title="Assemble the FEM linear operator." alt="" coords="637,5,816,47"/>
+<area shape="rect" id="node4" href="$classFemModuleElasticity.html#a5b769fd9a5bc4503b409f70211e3a0b1" title="Performs a stationary solve for the FEM system." alt="" coords="441,39,585,80"/>
+<area shape="rect" id="node5" href="$classFemModuleElasticity.html#ad3bb0f9040e4141ceef536038cd61a2d" title="Performs the main computation for the FemModuleElasticity." alt="" coords="223,39,367,80"/>
+<area shape="rect" id="node6" href="$classFemModuleElasticity.html#ab06ab2db63cae57328155891523641f4" title="AI comment: Main time loop, handles coupled (preCICE) and standalone computation modes." alt="" coords="5,39,149,80"/>
+<area shape="rect" id="node8" href="$classFemModuleElasticity.html#aaa11f39de79f8c84022f82bb6cf03b7e" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="633,71,820,112"/>
+<area shape="rect" id="node10" href="$classFemModulePoisson.html#abebde0793ed126cb14881d9e629bf9a3" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="637,136,816,177"/>
+<area shape="rect" id="node11" href="$classFemModulePoisson.html#aff70fb3c910e715daf9b6f4d404c6857" title="Performs a stationary solve for the FEM system." alt="" coords="440,136,585,177"/>
+<area shape="rect" id="node12" href="$classFemModulePoisson.html#a044148fb14bd4cc124ba751b11fea973" title="Performs the main computation for the FemModulePoisson." alt="" coords="197,143,392,170"/>
+</map>

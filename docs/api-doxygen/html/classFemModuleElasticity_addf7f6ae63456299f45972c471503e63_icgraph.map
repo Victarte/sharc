@@ -1,0 +1,4 @@
+<map id="FemModuleElasticity::startInit" name="FemModuleElasticity::startInit">
+<area shape="rect" id="node1" title="AI comment: Initializes solver parameters, material properties, body force, and node pressure." alt="" coords="197,5,341,47"/>
+<area shape="rect" id="node2" href="$classFemModuleElasticity.html#a713a5dee527a0f9a218b9c8b461ceee1" title="Initializes the FemModuleElasticity at the start of the simulation." alt="" coords="5,5,149,47"/>
+</map>

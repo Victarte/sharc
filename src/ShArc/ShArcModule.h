@@ -24,6 +24,16 @@
 
 using namespace Arcane;
 
+/**
+ * \ingroup ShArc
+ * \aigenerated
+ * Main simulation module that orchestrates all ShArc components.
+ *
+ * ShArcModule coordinates the initialization, time-stepping, and finalization
+ * of the simulation by delegating to specialized sub-modules (TwoPhaseFlow,
+ * CAWF, ExaDiBench). It manages geometry, post-processing, mesh partitioning,
+ * and service validation.
+ */
 class ShArcModule
   : public ArcaneShArcObject
   , public IAppServiceMng
@@ -31,47 +41,84 @@ class ShArcModule
 {
 public:
 
+  /** \aigenerated Constructs the module with given build information */
   ShArcModule(const Arcane::ModuleBuildInfo& mbi);
 
+  /** \aigenerated Destructor */
   virtual ~ShArcModule();
 
 protected:
 
+  /** \aigenerated Initializes the application service manager */
   void initializeAppServiceMng();
 
 public:
 
+  /** \aigenerated Builds the simulation setup */
   void build();
+
+  /** \aigenerated Prepares the initialization phase */
   void prepareInit();
+
+  /** \aigenerated Executes the initialization */
   void init();
+
+  /** \aigenerated Continues initialization if multi-phase */
   void continueInit();
+
+  /** \aigenerated Finalizes the initialization */
   void endInit();
+
+  /** \aigenerated Called at the beginning of each time step */
   void beginTimeStep();
+
+  /** \aigenerated Called at the end of each time step */
   void endTimeStep();
+
+  /** \aigenerated Called at the end of the simulation */
   void endSimulation();
 
-  /** Retourne le numero de version du module */
+  /** \aigenerated Returns the module version
+   * \note Original developer comment: Retourne le numero de version du module */
   virtual Arcane::VersionInfo versionInfo() const { return Arcane::VersionInfo(1,0,0); }
 
 private:
 
+  /** \aigenerated Starts post-processing initialization */
   void postProcessingStartInit();
+
+  /** \aigenerated Initializes post-processing */
   void postProcessingInit();
+
+  /** \aigenerated Finalizes post-processing */
   void postProcessingExit();
+
+  /** \aigenerated Checks if post-processing is configured */
   bool _hasPostProcessing() const;
+
+  /** \aigenerated Validates simulation results */
   void _validate();
+
+  /** \aigenerated Updates mesh geometry */
   void updateGeometry();
 
-  //! Affichage de l'information en temps
+  /** \aigenerated Displays time step information
+   * \note Original: Affichage de l'information en temps */
   void timeStepInformation(Arcane::Integer nb_loop);
 
 private:
 
+  /** \aigenerated Whether the module has been initialized */
   bool m_initialized;
+  /** \aigenerated Whether to forecast computation */
   bool m_forecast_compute;
+  /** \aigenerated Maximum number of iterations */
   Integer m_max_iteration;
+  /** \aigenerated Geometry manager */
   IGeometryMng * m_geometry_mng;
+  /** \aigenerated Geometry policy */
   IGeometryPolicy * m_geometry_policy;
+  /** \aigenerated Post-processing handler */
   ArcGeoSimPostProcessingBase m_post_processing;
 };
 

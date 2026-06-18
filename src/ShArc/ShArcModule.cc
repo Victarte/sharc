@@ -30,6 +30,7 @@
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Constructs the ShArc module with default service pointers and post-processing */
 ShArcModule::ShArcModule(const Arcane::ModuleBuildInfo& mbi)
 : ArcaneShArcObject(mbi)
 , IAppServiceMng()
@@ -42,6 +43,7 @@ ShArcModule::ShArcModule(const Arcane::ModuleBuildInfo& mbi)
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Destructor, deletes the geometry policy object */
 ShArcModule::~ShArcModule()
 {
   delete m_geometry_policy;
@@ -50,6 +52,7 @@ ShArcModule::~ShArcModule()
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Initializes the application service manager, loading optional services */
 void
 ShArcModule::initializeAppServiceMng()
 {
@@ -70,6 +73,7 @@ ShArcModule::initializeAppServiceMng()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Builds the simulation setup, preparing connectivity and forecast mode */
 void
 ShArcModule::build()
 {
@@ -96,6 +100,7 @@ ShArcModule::build()
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Prepares initialization by loading geometry manager and creating policy */
 void
 ShArcModule::prepareInit()
 {
@@ -113,6 +118,7 @@ ShArcModule::prepareInit()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Initializes time step policy, geometry, post-processing, and validators */
 void
 ShArcModule::init()
 {
@@ -145,6 +151,7 @@ ShArcModule::init()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Finalizes initialization by saving post-processing at initial time if configured */
 void
 ShArcModule::
 endInit()
@@ -161,6 +168,7 @@ endInit()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Continues initialization (for multi-phase init sequences) */
 void
 ShArcModule::continueInit()
 {
@@ -169,6 +177,7 @@ ShArcModule::continueInit()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Called at the beginning of each time step, asserts module is initialized */
 void
 ShArcModule::beginTimeStep()
 {
@@ -177,6 +186,7 @@ ShArcModule::beginTimeStep()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Called at the end of each time step, handles post-processing and stop conditions */
 void
 ShArcModule::endTimeStep()
 {
@@ -206,6 +216,7 @@ ShArcModule::endTimeStep()
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Updates mesh geometry using the current geometry policy */
 void
 ShArcModule::updateGeometry()
 {
@@ -215,6 +226,7 @@ ShArcModule::updateGeometry()
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Ends the simulation, performing post-processing exit and validation */
 void
 ShArcModule::
 endSimulation()
@@ -226,6 +238,7 @@ endSimulation()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Runs all registered validators and stops the simulation on failure */
 void
 ShArcModule::
 _validate()
@@ -258,6 +271,7 @@ _validate()
 /************************ Gestion du post-processing *************************/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Initializes post-processing with output path, format writers, and period */
 void ShArcModule::
 postProcessingInit()
 {
@@ -292,6 +306,7 @@ postProcessingInit()
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Resets the post-processing iteration counter to zero */
 void
 ShArcModule::
 postProcessingStartInit()
@@ -302,6 +317,7 @@ postProcessingStartInit()
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Returns true if post-processing options are configured */
 bool
 ShArcModule::
 _hasPostProcessing() const
@@ -319,6 +335,7 @@ _hasPostProcessing() const
  * de d�pouillement sera le m�me quel que soit le nombre de protections
  * reprises effectu�es.
  */
+/** AI comment: Finalizes post-processing by saving final output and closing writers */
 void
 ShArcModule::
 postProcessingExit()
@@ -343,6 +360,7 @@ postProcessingExit()
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Logs formatted time step information (iteration, time, delta-t) */
 void
 ShArcModule::
 timeStepInformation(Arcane::Integer nb_loop)

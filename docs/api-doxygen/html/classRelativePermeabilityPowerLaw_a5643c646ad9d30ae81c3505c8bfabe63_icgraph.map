@@ -1,0 +1,5 @@
+<map id="RelativePermeabilityPowerLaw::computeSwBar" name="RelativePermeabilityPowerLaw::computeSwBar">
+<area shape="rect" id="node1" title="AI comment: Computes normalized saturation SwBar = (Sw &#45; Swi) / (1 &#45; Sgc &#45; Swi)" alt="" coords="467,5,641,47"/>
+<area shape="rect" id="node2" href="$classRelativePermeabilityPowerLaw.html#a7d725e31331674a75e27c7b9075c16f2" title="AI comment: Evaluates relative permeability krw = SwBar^alpha." alt="" coords="244,5,419,47"/>
+<area shape="rect" id="node3" href="$classRelativePermeabilityPowerLawConfigService.html#a6c3b687282c44de76e0bceb9610f416e" title="AI comment: Configures and registers the relative permeability power law with its parameters." alt="" coords="5,5,196,47"/>
+</map>

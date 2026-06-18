@@ -1,0 +1,4 @@
+<map id="CapillaryPressureLaw::eval" name="CapillaryPressureLaw::eval">
+<area shape="rect" id="node1" title="AI comment: Evaluates capillary pressure Pc = Pe * Se^(&#45;1/lambda)" alt="" coords="5,5,155,47"/>
+<area shape="rect" id="node2" href="$classCapillaryPressureLaw.html#a5d5929ec46907e7c05dcca856f35b0e5" title="AI comment: Computes effective saturation Se from saturation S and residual saturations." alt="" coords="203,5,352,47"/>
+</map>

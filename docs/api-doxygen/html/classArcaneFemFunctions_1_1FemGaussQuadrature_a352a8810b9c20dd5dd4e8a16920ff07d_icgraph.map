@@ -1,0 +1,4 @@
+<map id="ArcaneFemFunctions::FemGaussQuadrature::getGaussRefPosition" name="ArcaneFemFunctions::FemGaussQuadrature::getGaussRefPosition">
+<area shape="rect" id="node1" title="Provides the position of a Gauss Point in the reference (local) element for a given finite element,..." alt="" coords="200,5,359,61"/>
+<area shape="rect" id="node2" href="$classArcaneFemFunctions_1_1CellFEMDispatcher.html#a4b9d9d103f9c4016f9e6c8bcdb37e0e0" title="Provides at once, all Gauss data of a given input finite element (vector containing weights,..." alt="" coords="5,5,152,61"/>
+</map>

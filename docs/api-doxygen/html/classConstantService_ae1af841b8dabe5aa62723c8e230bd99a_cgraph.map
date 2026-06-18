@@ -1,0 +1,4 @@
+<map id="ConstantService::init" name="ConstantService::init">
+<area shape="rect" id="node1" title="AI comment: Initializes and evaluates constant&#45;value conditions on the domain." alt="" coords="5,5,151,32"/>
+<area shape="rect" id="node2" href="$classConstantService.html#aca1c108c1d146f89329315c0fd1c2522" title="AI comment: Parses and evaluates constant value expressions for the selected property." alt="" coords="199,5,381,32"/>
+</map>

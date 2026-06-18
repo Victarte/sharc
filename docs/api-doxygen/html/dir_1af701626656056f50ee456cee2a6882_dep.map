@@ -1,0 +1,8 @@
+<map id="src/TwoPhaseFlowSimulation/PhysicalLaws" name="src/TwoPhaseFlowSimulation/PhysicalLaws">
+<area shape="rect" id="node2" href="dir_fa5355efff08291cc2df068f76efdb0f.html" title="CapillaryPressureLaw" alt="" coords="527,63,676,111"/>
+<area shape="rect" id="node3" href="dir_63224ce0989929496cc234a5905c3892.html" title="ConstantLaw" alt="" coords="404,63,503,111"/>
+<area shape="rect" id="node4" href="dir_f000003e5a873a765b89e5c9b1397233.html" title="FluidDensityLaw" alt="" coords="261,63,379,111"/>
+<area shape="rect" id="node5" href="dir_0bebf6ead2ad35b79010ad590c1e0b5c.html" title="RelativePermeabilityPowerLaw" alt="" coords="38,63,237,111"/>
+<area shape="rect" id="clust2" href="dir_1af701626656056f50ee456cee2a6882.html" alt="" coords="27,52,815,121"/>
+<area shape="rect" id="clust1" href="dir_1e18e7355e1c195c127af4e36d990a2d.html" title="TwoPhaseFlowSimulation" alt="" coords="16,16,825,132"/>
+</map>

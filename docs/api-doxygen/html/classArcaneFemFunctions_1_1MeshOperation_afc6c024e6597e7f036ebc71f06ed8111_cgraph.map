@@ -1,0 +1,4 @@
+<map id="ArcaneFemFunctions::MeshOperation::computeFacLengthOrArea" name="ArcaneFemFunctions::MeshOperation::computeFacLengthOrArea">
+<area shape="rect" id="node1" title="Computes the factor used for integration of 1D, 2D and 3D finite elements." alt="" coords="5,5,204,61"/>
+<area shape="rect" id="node2" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1MeshOperation.html#a8cf50a9c52da08162b43e6d8b7719571" title="computes the area of a triangle defined by three nodes." alt="" coords="252,5,455,61"/>
+</map>

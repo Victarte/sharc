@@ -1,0 +1,16 @@
+<map id="Arcane::FemUtils::Gpu::MeshOperation::computeVolumeTetra4" name="Arcane::FemUtils::Gpu::MeshOperation::computeVolumeTetra4">
+<area shape="rect" id="node1" title="Computes the volume of a tetrahedra defined by four nodes." alt="" coords="1143,117,1361,173"/>
+<area shape="rect" id="node2" href="$Poisson_2ElementMatrix_8h.html#a4dd99acc353027fc5b0dc6797813124b" title=" " alt="" coords="870,5,1093,32"/>
+<area shape="rect" id="node6" href="$Poisson_2ElementMatrix_8h.html#a6a585275423469db2894e3ccde74de19" title=" " alt="" coords="869,56,1093,83"/>
+<area shape="rect" id="node7" href="$Elasticity_2ElementMatrix_8h.html#aa807872358f2879e9566ea8952f0e759" title="AI comment: GPU&#45;accelerated wrapper for tetrahedron element matrix computation." alt="" coords="873,107,1089,133"/>
+<area shape="rect" id="node12" href="$ElementMatrixSYCL_8h.html#abfe20aa46031b0a22b61cb25e346a05c" title="AI comment: SYCL&#45;accelerated wrapper for tetrahedron element matrix computation." alt="" coords="869,157,1094,184"/>
+<area shape="rect" id="node13" href="$Elasticity_2ElementMatrix_8h.html#a706cc33d50679432ad666301a86da9f9" title="AI comment: GPU&#45;accelerated computation of a single row of the tetrahedron element matrix." alt="" coords="873,208,1090,235"/>
+<area shape="rect" id="node14" href="$ElementMatrixSYCL_8h.html#acf16edd4907b982c39c31d897abf5e38" title="AI comment: SYCL&#45;accelerated computation of a single row of the tetrahedron element matrix." alt="" coords="868,259,1095,285"/>
+<area shape="rect" id="node3" href="$classFemModulePoisson.html#abebde0793ed126cb14881d9e629bf9a3" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="637,23,816,65"/>
+<area shape="rect" id="node4" href="$classFemModulePoisson.html#aff70fb3c910e715daf9b6f4d404c6857" title="Performs a stationary solve for the FEM system." alt="" coords="440,23,585,65"/>
+<area shape="rect" id="node5" href="$classFemModulePoisson.html#a044148fb14bd4cc124ba751b11fea973" title="Performs the main computation for the FemModulePoisson." alt="" coords="197,31,392,57"/>
+<area shape="rect" id="node8" href="$classFemModuleElasticity.html#aaa11f39de79f8c84022f82bb6cf03b7e" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="633,131,820,173"/>
+<area shape="rect" id="node9" href="$classFemModuleElasticity.html#a5b769fd9a5bc4503b409f70211e3a0b1" title="Performs a stationary solve for the FEM system." alt="" coords="441,131,585,173"/>
+<area shape="rect" id="node10" href="$classFemModuleElasticity.html#ad3bb0f9040e4141ceef536038cd61a2d" title="Performs the main computation for the FemModuleElasticity." alt="" coords="223,131,367,173"/>
+<area shape="rect" id="node11" href="$classFemModuleElasticity.html#ab06ab2db63cae57328155891523641f4" title="AI comment: Main time loop, handles coupled (preCICE) and standalone computation modes." alt="" coords="5,131,149,173"/>
+</map>

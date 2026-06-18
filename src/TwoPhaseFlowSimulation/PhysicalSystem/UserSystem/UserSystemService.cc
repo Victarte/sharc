@@ -40,6 +40,7 @@ class UserSystemService
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Builds a Gump system with fluid/solid phases and species from user options */
 ArcRes::System
 UserSystemService::
 buildSystem()

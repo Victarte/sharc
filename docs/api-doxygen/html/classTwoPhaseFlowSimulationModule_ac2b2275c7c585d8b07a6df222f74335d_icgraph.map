@@ -1,0 +1,9 @@
+<map id="TwoPhaseFlowSimulationModule::unknownsManager" name="TwoPhaseFlowSimulationModule::unknownsManager">
+<area shape="rect" id="node1" title=" " alt="" coords="528,136,741,177"/>
+<area shape="rect" id="node2" href="$classTwoPhaseFlowSimulationModule.html#af1411f4085b2aad87a3be136bf08c946" title="AI comment: Builds the accumulation term (mass * saturation * density / delta&#45;t)" alt="" coords="267,5,480,47"/>
+<area shape="rect" id="node4" href="$classTwoPhaseFlowSimulationModule.html#ad73e5c82314a2a8d8b13b3f2a5a23952" title="AI comment: Builds the saturation closure equation (sum of saturations = 1)" alt="" coords="267,71,480,112"/>
+<area shape="rect" id="node5" href="$classTwoPhaseFlowSimulationModule.html#aa99db08b3cea5cb0081d6752a07dda09" title="AI comment: Builds the boundary flux term using Dirichlet boundary condition values." alt="" coords="267,136,480,177"/>
+<area shape="rect" id="node6" href="$classTwoPhaseFlowSimulationModule.html#a7a184b517d9b7e0f8c6c52e79f6ffb28" title="AI comment: Builds the internal flux term between cells using two&#45;point flux approximation." alt="" coords="267,201,480,243"/>
+<area shape="rect" id="node7" href="$classTwoPhaseFlowSimulationModule.html#a8ee9596c1ec435b9cf70876b6f8febda" title="AI comment: Builds the well flux term using well index and bottom&#45;hole pressure." alt="" coords="267,267,480,308"/>
+<area shape="rect" id="node3" href="$classTwoPhaseFlowSimulationModule.html#a908249cda5fb188ba3f561c6e27c4bd0" title="AI comment: Builds the residual vector and Jacobian matrix for the non&#45;linear system." alt="" coords="5,136,219,177"/>
+</map>

@@ -20,6 +20,7 @@
 
 //=====================================================
 
+/** AI comment: Returns the constant value */
 void ConstantLaw::eval( Real& C) const
 {
   C = m_value;
@@ -27,6 +28,7 @@ void ConstantLaw::eval( Real& C) const
 
 //======================================================
 
+/** AI comment: Sets the constant law value */
 void ConstantLaw::setParameters( const Real value)
 {
   // Set parameters

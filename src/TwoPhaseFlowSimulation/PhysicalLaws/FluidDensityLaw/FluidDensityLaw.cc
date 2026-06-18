@@ -19,6 +19,7 @@
 
 //=====================================================
 
+/** AI comment: Evaluates fluid density rho = rho0 * (1 - betat*(T-T0) + betac*(C-C0)) */
 void FluidDensityLaw::eval( const Real T, const Real C, Real& rho, Real& drho_dt, Real& drho_dc ) const
 {
     // Compute results
@@ -50,6 +51,7 @@ Real FluidDensityLaw::computeSe( const Real S, Real& dSe_dS ) const
 */
 //=====================================================
 
+/** AI comment: Sets fluid density law parameters: reference density, thermal/salinity expansion */
 void FluidDensityLaw::setParameters( const Real rho0, const Real betat, const Real betac, const Real t0, const Real c0  )
 {
     // Set Parameters
@@ -64,6 +66,7 @@ void FluidDensityLaw::setParameters( const Real rho0, const Real betat, const Re
 
 //=====================================================
 
+/** AI comment: Initializes fluid density parameters to default values */
 void FluidDensityLaw::initParameters()
 {
     // Init Parameters

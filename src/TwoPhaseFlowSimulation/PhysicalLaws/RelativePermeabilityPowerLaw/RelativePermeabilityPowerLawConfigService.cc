@@ -44,6 +44,7 @@ private:
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Configures and registers the relative permeability power law with its parameters */
 void 
 RelativePermeabilityPowerLawConfigService::
 configure(Law::FunctionManager& function_mng, ArcRes::System& system)

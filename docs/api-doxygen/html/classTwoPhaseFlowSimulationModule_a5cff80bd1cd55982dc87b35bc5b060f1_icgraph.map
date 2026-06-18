@@ -1,0 +1,12 @@
+<map id="TwoPhaseFlowSimulationModule::domainTn" name="TwoPhaseFlowSimulationModule::domainTn">
+<area shape="rect" id="node1" title=" " alt="" coords="1312,71,1525,112"/>
+<area shape="rect" id="node2" href="$classTwoPhaseFlowSimulationModule.html#a6cc674f8639bc625017ae3d32342392d" title="AI comment: Registers a scalar property for time&#45;varying snapshot management." alt="" coords="1051,5,1264,47"/>
+<area shape="rect" id="node8" href="$classTwoPhaseFlowSimulationModule.html#af1411f4085b2aad87a3be136bf08c946" title="AI comment: Builds the accumulation term (mass * saturation * density / delta&#45;t)" alt="" coords="1051,71,1264,112"/>
+<area shape="rect" id="node10" href="$classTwoPhaseFlowSimulationModule.html#ab20de382f54a3c318884abc57f70bed0" title="AI comment: Initializes Tn containers by copying initial law evaluation results." alt="" coords="789,136,1003,177"/>
+<area shape="rect" id="node3" href="$classTwoPhaseFlowSimulationModule.html#acd9b8249240b763aa5cdf6da659cb038" title="AI comment: Registers time&#45;varying variables for Newton failure rollback." alt="" coords="789,5,1003,47"/>
+<area shape="rect" id="node4" href="$classTwoPhaseFlowSimulationModule.html#a3e8d183f5327848cd689521c08a47d21" title="AI comment: Full initialization sequence: system, geometry, groups, variables, laws,..." alt="" coords="528,71,741,112"/>
+<area shape="rect" id="node5" href="$classTwoPhaseFlowSimulationModule.html#a622e4686c10978c5773107b7eeabec7f" title="AI comment: Creates mesh groups via the group creator service." alt="" coords="267,71,480,112"/>
+<area shape="rect" id="node6" href="$classTwoPhaseFlowSimulationModule.html#ac869ea31d63c0979be783eed6b05fc6c" title=" " alt="" coords="267,136,480,177"/>
+<area shape="rect" id="node7" href="$classTwoPhaseFlowSimulationModule.html#a62c2954268fb1d31f0b9d8d27bb24b9e" title="AI comment: Initializes matrix profile using two&#45;point or multi&#45;point stencil." alt="" coords="5,136,219,177"/>
+<area shape="rect" id="node9" href="$classTwoPhaseFlowSimulationModule.html#a908249cda5fb188ba3f561c6e27c4bd0" title="AI comment: Builds the residual vector and Jacobian matrix for the non&#45;linear system." alt="" coords="789,71,1003,112"/>
+</map>

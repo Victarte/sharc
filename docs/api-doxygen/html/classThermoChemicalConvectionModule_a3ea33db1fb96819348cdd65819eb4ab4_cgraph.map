@@ -1,0 +1,7 @@
+<map id="ThermoChemicalConvectionModule::_initTimeVariableMng" name="ThermoChemicalConvectionModule::_initTimeVariableMng">
+<area shape="rect" id="node1" title="AI comment: Registers time&#45;varying variables (P, C, T, density) for Newton rollback." alt="" coords="5,71,201,112"/>
+<area shape="rect" id="node2" href="$classThermoChemicalConvectionModule.html#a7313fb998cf87ab05c2f367e494f4608" title="AI comment: Registers a scalar property for time&#45;varying snapshot management." alt="" coords="249,37,436,79"/>
+<area shape="rect" id="node5" href="$classThermoChemicalConvectionModule.html#a0bd6df1fbbe2c88e6bc3b7938a395fe0" title=" " alt="" coords="249,103,436,144"/>
+<area shape="rect" id="node3" href="$classThermoChemicalConvectionModule.html#ae8a4f8f58064a75e7313a728362d9b05" title=" " alt="" coords="484,5,671,47"/>
+<area shape="rect" id="node4" href="$classThermoChemicalConvectionModule.html#ae79ee5f6c2d9380dac47eff11cee6d78" title=" " alt="" coords="484,71,671,112"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="DirichletManagerService::init" name="DirichletManagerService::init">
+<area shape="rect" id="node1" title="AI comment: Initializes boundary folders, adds variables for all condition types." alt="" coords="5,39,171,80"/>
+<area shape="rect" id="node2" href="$classDirichletManagerService.html#a0ae40d4f8ea210b1d7623604c5452ea0" title="AI comment: Validates that property/value count matches for each multi&#45;limit condition." alt="" coords="219,5,384,47"/>
+<area shape="rect" id="node3" href="$classDirichletManagerService.html#a15454eba4eb84f3e8a5c9f659a0bf96f" title="AI comment: Evaluates boundary conditions: space&#45;time, single, and multi&#45;limit conditions." alt="" coords="219,71,384,112"/>
+</map>

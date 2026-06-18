@@ -1,0 +1,4 @@
+<map id="ExpressionService::_evaluate" name="ExpressionService::_evaluate">
+<area shape="rect" id="node1" title="AI comment: Evaluates the expression&#45;based condition function on all domain cells." alt="" coords="5,5,145,47"/>
+<area shape="rect" id="node2" href="$classExpressionService.html#a9b8d4cc8f3c6feac00062de9dc81a91e" title="AI comment: Initializes and evaluates expression&#45;based initial conditions." alt="" coords="193,13,351,39"/>
+</map>

@@ -60,6 +60,7 @@ ARCCORE_HOST_DEVICE RealMatrix<6, 6> computeElementMatrixTria3Base(Real3 dxu, Re
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: GPU-accelerated wrapper for triangular element matrix computation */
 ARCCORE_HOST_DEVICE RealMatrix<6, 6>
 computeElementMatrixTria3Gpu(CellLocalId cell_lid,
                              const IndexedCellNodeConnectivityView& cn_cv,
@@ -77,6 +78,7 @@ computeElementMatrixTria3Gpu(CellLocalId cell_lid,
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Computes the triangle element matrix, called from CPU assembly path */
 RealMatrix<6, 6> FemModuleElasticity::_computeElementMatrixTria3(Cell cell)
 {
   Real3 dxu = ArcaneFemFunctions::FeOperation2D::computeGradientXTria3(cell, m_node_coord);
@@ -196,6 +198,7 @@ ARCCORE_HOST_DEVICE RealMatrix<12, 12> computeElementMatrixTetra4Base(Real4 dxu,
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Computes the tetrahedron element matrix, called from CPU assembly path */
 RealMatrix<12, 12> FemModuleElasticity::_computeElementMatrixTetra4(Cell cell)
 {
   Real4 dxu = ArcaneFemFunctions::FeOperation3D::computeGradientXTetra4(cell, m_node_coord);
@@ -210,6 +213,7 @@ RealMatrix<12, 12> FemModuleElasticity::_computeElementMatrixTetra4(Cell cell)
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: GPU-accelerated wrapper for tetrahedron element matrix computation */
 ARCCORE_HOST_DEVICE RealMatrix<12, 12>
 computeElementMatrixTetra4Gpu(CellLocalId cell_lid,
                               const IndexedCellNodeConnectivityView& cn_cv,
@@ -229,6 +233,7 @@ computeElementMatrixTetra4Gpu(CellLocalId cell_lid,
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: GPU-accelerated computation of a single row of the tetrahedron element matrix */
 ARCCORE_HOST_DEVICE RealMatrix<3, 12>
 computeElementVectorTetra4Gpu(CellLocalId cell_lid,
                               const IndexedCellNodeConnectivityView& cn_cv,

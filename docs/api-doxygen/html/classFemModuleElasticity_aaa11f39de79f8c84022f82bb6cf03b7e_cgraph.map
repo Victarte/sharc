@@ -1,0 +1,52 @@
+<map id="FemModuleElasticity::_assembleBilinearOperator" name="FemModuleElasticity::_assembleBilinearOperator">
+<area shape="rect" id="node1" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="5,1263,192,1305"/>
+<area shape="rect" id="node2" href="$classFemModuleElasticity.html#a7ea496af8ddb472bb9fedd82a7e613bd" title="AI comment: Computes the hexahedron element matrix using 2×2×2 Gauss quadrature." alt="" coords="245,63,453,105"/>
+<area shape="rect" id="node5" href="$classFemModuleElasticity.html#ac2500a3508b48f967e296ffc0f72d668" title="AI comment: Computes the quadrilateral element matrix using 2×2 Gauss quadrature." alt="" coords="244,194,453,235"/>
+<area shape="rect" id="node8" href="$classFemModuleElasticity.html#aa3e68cf42ad61c851776529942f95f33" title="AI comment: Computes the tetrahedron element matrix, called from CPU assembly path." alt="" coords="245,765,452,806"/>
+<area shape="rect" id="node14" href="$classFemModuleElasticity.html#a6f3693bac64f0e4dd7b43c54609ca028" title="AI comment: Computes the triangle element matrix, called from CPU assembly path." alt="" coords="249,1125,448,1166"/>
+<area shape="rect" id="node19" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#ab40b83069f7e3687258becfc1f3ca01e" title="Assembles the global BSR matrix for a bilinear operator, cell&#45;wise." alt="" coords="249,1522,449,1563"/>
+<area shape="rect" id="node27" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a8d688f9f1a53070ad55129d0e3a32fa8" title="Assembles the global BSR matrix for a bilinear operator, node&#45;wise." alt="" coords="249,1655,449,1697"/>
+<area shape="rect" id="node30" href="$Elasticity_2ElementMatrix_8h.html#aa807872358f2879e9566ea8952f0e759" title="AI comment: GPU&#45;accelerated wrapper for tetrahedron element matrix computation." alt="" coords="241,507,457,533"/>
+<area shape="rect" id="node35" href="$Elasticity_2ElementMatrix_8h.html#a99f38bb1dc681d4708c9efd37f455665" title="AI comment: GPU&#45;accelerated wrapper for triangular element matrix computation." alt="" coords="245,1271,453,1297"/>
+<area shape="rect" id="node39" href="$Elasticity_2ElementMatrix_8h.html#a706cc33d50679432ad666301a86da9f9" title="AI comment: GPU&#45;accelerated computation of a single row of the tetrahedron element matrix." alt="" coords="240,441,457,468"/>
+<area shape="rect" id="node40" href="$Elasticity_2ElementMatrix_8h.html#a6d5dce2fcf240bb1b915f6212d3f2738" title=" " alt="" coords="244,1328,453,1355"/>
+<area shape="rect" id="node41" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#ae2923f622def0bbfe6f52809deaeb791" title=" " alt="" coords="249,1801,449,1842"/>
+<area shape="rect" id="node44" href="$classArcaneFemFunctions_1_1GeneralFunctions.html#a536ca8befa6eb6b59fff8ef1a5895634" title="Logs the execution time with ArcaneFem&#45;Timer." alt="" coords="275,1867,422,1923"/>
+<area shape="rect" id="node45" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a01cf7f213dbfed98b9ab3328fa0311ce" title=" " alt="" coords="249,2074,449,2115"/>
+<area shape="rect" id="node3" href="$Elasticity_2ElementMatrixHexQuad_8h.html#a3e9c949cc73f865668bf84e13c0a998b" title="Computes the element matrix for a quadrilateral element (HEXA8, ℙ1 FE)." alt="" coords="510,5,733,32"/>
+<area shape="rect" id="node4" href="$classArcaneFemFunctions_1_1FeOperation3D.html#af9b3f653f6750e4b98587903249c204e" title="Computes shape function gradients and the Jacobian determinant for a Hexa8 element." alt="" coords="505,56,737,112"/>
+<area shape="rect" id="node6" href="$Elasticity_2ElementMatrixHexQuad_8h.html#a8621659b9ea138456aa352ab33ca583e" title="Computes the element matrix for a quadrilateral element (QUAD4, ℙ1 FE)." alt="" coords="509,136,733,163"/>
+<area shape="rect" id="node7" href="$classArcaneFemFunctions_1_1FeOperation2D.html#aabb86aa038cacbd4cf61718234fcdfb7" title="Computes shape function gradients and the Jacobian determinant for a Quad4 element." alt="" coords="505,187,737,243"/>
+<area shape="rect" id="node9" href="$Elasticity_2ElementMatrix_8h.html#ad906406c4d44efd4cb7f6be7b9fb3e10" title="Computes the element matrix for a tetrahedral element (ℙ1 FE)." alt="" coords="510,587,733,613"/>
+<area shape="rect" id="node10" href="$classArcaneFemFunctions_1_1FeOperation3D.html#a9fe2e5d79bb1b967c02e1d083f699877" title="Computes the X gradients of basis functions 𝐍 for ℙ1 Tetrahedron." alt="" coords="509,637,734,693"/>
+<area shape="rect" id="node11" href="$classArcaneFemFunctions_1_1FeOperation3D.html#aabbb79017560ea34a8deed97ae2d4378" title="Computes the Y gradients of basis functions 𝐍 for ℙ1 Tetrahedron." alt="" coords="509,717,734,773"/>
+<area shape="rect" id="node12" href="$classArcaneFemFunctions_1_1FeOperation3D.html#a913330042d24d1c09b805bfa779dd21c" title="Computes the 𝑧 gradients of basis functions 𝐍 for ℙ1 Tetrahedron." alt="" coords="509,797,734,853"/>
+<area shape="rect" id="node13" href="$classArcaneFemFunctions_1_1MeshOperation.html#a893ab75bb006f3973464e7e40cdbcca8" title="Computes the volume of a tetrahedra defined by four nodes." alt="" coords="512,877,731,933"/>
+<area shape="rect" id="node15" href="$classArcaneFemFunctions_1_1MeshOperation.html#a4f8e0354f35f2ecf21239e4c939d40f7" title="Computes the area of a triangle defined by three nodes." alt="" coords="520,957,723,1013"/>
+<area shape="rect" id="node16" href="$Elasticity_2ElementMatrix_8h.html#a766babd4e6daed43f0f8c5f2a9da5a80" title="Computes the element matrix for a triangular element (ℙ1 FE)." alt="" coords="514,1197,729,1224"/>
+<area shape="rect" id="node17" href="$classArcaneFemFunctions_1_1FeOperation2D.html#ac409be566c382b69d3107b719a1f688b" title="Computes the 𝑥 gradients of basis functions 𝐍 for ℙ1 triangles." alt="" coords="509,1037,734,1093"/>
+<area shape="rect" id="node18" href="$classArcaneFemFunctions_1_1FeOperation2D.html#aa09b12c670700a10bd61408c983b7412" title="Computes the 𝑦 gradients of basis functions 𝐍 for ℙ1 triangles." alt="" coords="509,1117,734,1173"/>
+<area shape="rect" id="node20" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a7d97fed9fe3c78510d5e1427b5fd72cc" title=" " alt="" coords="508,1554,735,1595"/>
+<area shape="rect" id="node25" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a677f917d42dc238a228295baadade5a2" title=" " alt="" coords="511,1489,732,1530"/>
+<area shape="rect" id="node26" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a037d05c3c1534722230b2440e56e90bb" title=" " alt="" coords="523,1619,719,1661"/>
+<area shape="rect" id="node21" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a23cc2fce6932d9fdc5be4d44b0ef2a43" title=" " alt="" coords="785,1562,981,1603"/>
+<area shape="rect" id="node22" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a89d7aa7afdf3fcc05a3c109fb07d004e" title=" " alt="" coords="785,1497,981,1538"/>
+<area shape="rect" id="node23" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a424a9c230aca99f27bc65d300f36ea6f" title=" " alt="" coords="785,1627,981,1669"/>
+<area shape="rect" id="node24" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a48709f21b363909bf3c445829dd68729" title=" " alt="" coords="785,1693,981,1734"/>
+<area shape="rect" id="node28" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a042b4adcd932b6b200604b2f6bf05a75" title=" " alt="" coords="508,1765,735,1821"/>
+<area shape="rect" id="node29" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a767201a827f5bd52be86dcda60e0894c" title=" " alt="" coords="511,1685,732,1741"/>
+<area shape="rect" id="node31" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation3D.html#aaaa881ec6f6a41a32c8a487842c90993" title="Computes the X gradients of basis functions 𝐍 for ℙ1 Tetrahedron." alt="" coords="509,427,734,483"/>
+<area shape="rect" id="node32" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation3D.html#accabc428bf5140dc5aa2038a0ddab9e2" title="Computes the Y gradients of basis functions 𝐍 for ℙ1 Tetrahedron." alt="" coords="509,507,734,563"/>
+<area shape="rect" id="node33" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation3D.html#a77f14b048df7652c9ea6af8aaf8d3506" title="Computes the 𝑧 gradients of basis functions 𝐍 for ℙ1 Tetrahedron." alt="" coords="509,267,734,323"/>
+<area shape="rect" id="node34" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1MeshOperation.html#ae7939929d72afd589596c4a562faafd9" title="Computes the volume of a tetrahedra defined by four nodes." alt="" coords="512,347,731,403"/>
+<area shape="rect" id="node36" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1MeshOperation.html#a8cf50a9c52da08162b43e6d8b7719571" title="computes the area of a triangle defined by three nodes." alt="" coords="520,1328,723,1384"/>
+<area shape="rect" id="node37" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation2D.html#ac019000fd3845be08da0af3f6ee6ec7e" title="Computes the 𝑥 gradients of basis functions 𝐍 for ℙ1 triangles." alt="" coords="509,1408,734,1464"/>
+<area shape="rect" id="node38" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation2D.html#a73e82a008e620a09ccc86d38008971a1" title="Computes the 𝑦 gradients of basis functions 𝐍 for ℙ1 triangles." alt="" coords="509,1248,734,1304"/>
+<area shape="rect" id="node42" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a663d729428e45f524a7c688d117eb21a" title=" " alt="" coords="521,1846,721,1887"/>
+<area shape="rect" id="node43" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a2ebe2d0be621f7a28f73129c433b7753" title=" " alt="" coords="521,1911,721,1953"/>
+<area shape="rect" id="node46" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a04439cc0d8ee2ad5206a161650836af8" title="Indique si l&#39;implémentation supporte d&#39;utiliser setCSRValue()" alt="" coords="525,2042,717,2083"/>
+<area shape="rect" id="node47" href="$classArcane_1_1FemUtils_1_1DoFLinearSystem.html#a163c2a203744152ebbfc057c7eaeab96" title="Positionne directement les valeurs de la matrice." alt="" coords="525,2107,717,2149"/>
+<area shape="rect" id="node48" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a0614e7b67c54539a865ab7d310313400" title=" " alt="" coords="523,2173,719,2214"/>
+<area shape="rect" id="node49" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#ae4cc36e6ff5e26b92ea9f1d86e8bd2e5" title=" " alt="" coords="523,2238,719,2279"/>
+<area shape="rect" id="node50" href="$classArcane_1_1FemUtils_1_1CsrFormat.html#a59c94a5d04bc1307789c08162185b8d0" title="View of the matrix." alt="" coords="525,1977,718,2018"/>
+</map>

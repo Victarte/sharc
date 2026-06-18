@@ -1,0 +1,4 @@
+<map id="TwoPhaseFlowSimulationModule::_buildAccumulation" name="TwoPhaseFlowSimulationModule::_buildAccumulation">
+<area shape="rect" id="node1" title="AI comment: Builds the accumulation term (mass * saturation * density / delta&#45;t)" alt="" coords="267,5,480,47"/>
+<area shape="rect" id="node2" href="$classTwoPhaseFlowSimulationModule.html#a908249cda5fb188ba3f561c6e27c4bd0" title="AI comment: Builds the residual vector and Jacobian matrix for the non&#45;linear system." alt="" coords="5,5,219,47"/>
+</map>

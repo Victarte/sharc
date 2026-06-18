@@ -1,0 +1,6 @@
+<map id="FemModulePoisson::_computeElementMatrixTria3" name="FemModulePoisson::_computeElementMatrixTria3">
+<area shape="rect" id="node1" title="Computes the element matrix for a triangular element (ℙ1 FE)." alt="" coords="5,93,196,134"/>
+<area shape="rect" id="node2" href="$classArcaneFemFunctions_1_1MeshOperation.html#a4f8e0354f35f2ecf21239e4c939d40f7" title="Computes the area of a triangle defined by three nodes." alt="" coords="255,5,458,61"/>
+<area shape="rect" id="node3" href="$classArcaneFemFunctions_1_1FeOperation2D.html#ac409be566c382b69d3107b719a1f688b" title="Computes the 𝑥 gradients of basis functions 𝐍 for ℙ1 triangles." alt="" coords="244,85,469,141"/>
+<area shape="rect" id="node4" href="$classArcaneFemFunctions_1_1FeOperation2D.html#aa09b12c670700a10bd61408c983b7412" title="Computes the 𝑦 gradients of basis functions 𝐍 for ℙ1 triangles." alt="" coords="244,165,469,221"/>
+</map>

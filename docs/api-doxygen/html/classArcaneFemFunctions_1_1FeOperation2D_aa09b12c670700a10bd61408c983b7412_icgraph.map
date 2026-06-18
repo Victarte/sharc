@@ -1,0 +1,12 @@
+<map id="ArcaneFemFunctions::FeOperation2D::computeGradientYTria3" name="ArcaneFemFunctions::FeOperation2D::computeGradientYTria3">
+<area shape="rect" id="node1" title="Computes the 𝑦 gradients of basis functions 𝐍 for ℙ1 triangles." alt="" coords="1115,31,1340,87"/>
+<area shape="rect" id="node2" href="$classFemModuleElasticity.html#a6f3693bac64f0e4dd7b43c54609ca028" title="AI comment: Computes the triangle element matrix, called from CPU assembly path." alt="" coords="868,5,1067,47"/>
+<area shape="rect" id="node7" href="$classFemModulePoisson.html#a6d3a01e3b39f9a2b9f573b4ce60262c4" title="Computes the element matrix for a triangular element (ℙ1 FE)." alt="" coords="872,71,1063,112"/>
+<area shape="rect" id="node3" href="$classFemModuleElasticity.html#aaa11f39de79f8c84022f82bb6cf03b7e" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="633,5,820,47"/>
+<area shape="rect" id="node4" href="$classFemModuleElasticity.html#a5b769fd9a5bc4503b409f70211e3a0b1" title="Performs a stationary solve for the FEM system." alt="" coords="441,5,585,47"/>
+<area shape="rect" id="node5" href="$classFemModuleElasticity.html#ad3bb0f9040e4141ceef536038cd61a2d" title="Performs the main computation for the FemModuleElasticity." alt="" coords="223,5,367,47"/>
+<area shape="rect" id="node6" href="$classFemModuleElasticity.html#ab06ab2db63cae57328155891523641f4" title="AI comment: Main time loop, handles coupled (preCICE) and standalone computation modes." alt="" coords="5,5,149,47"/>
+<area shape="rect" id="node8" href="$classFemModulePoisson.html#abebde0793ed126cb14881d9e629bf9a3" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="637,71,816,112"/>
+<area shape="rect" id="node9" href="$classFemModulePoisson.html#aff70fb3c910e715daf9b6f4d404c6857" title="Performs a stationary solve for the FEM system." alt="" coords="440,71,585,112"/>
+<area shape="rect" id="node10" href="$classFemModulePoisson.html#a044148fb14bd4cc124ba751b11fea973" title="Performs the main computation for the FemModulePoisson." alt="" coords="197,78,392,105"/>
+</map>

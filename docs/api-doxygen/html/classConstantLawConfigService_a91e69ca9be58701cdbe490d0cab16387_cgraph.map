@@ -1,0 +1,5 @@
+<map id="ConstantLawConfigService::configure" name="ConstantLawConfigService::configure">
+<area shape="rect" id="node1" title="AI comment: Configures and registers the constant law with its value parameter." alt="" coords="5,23,188,65"/>
+<area shape="rect" id="node2" href="$classConstantLaw.html#ab59f6907877ebf428f4a12855972a70c" title="AI comment: Returns the constant value." alt="" coords="267,5,397,32"/>
+<area shape="rect" id="node3" href="$classConstantLaw.html#ade076053aa2c61a5853f191c4c6f0a11" title="AI comment: Sets the constant law value." alt="" coords="236,56,428,83"/>
+</map>

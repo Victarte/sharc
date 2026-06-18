@@ -1,0 +1,6 @@
+<map id="CapillaryPressureLaw::setParameters" name="CapillaryPressureLaw::setParameters">
+<area shape="rect" id="node1" title="AI comment: Sets capillary pressure law parameters: entry pressure, residual saturations,..." alt="" coords="445,39,595,80"/>
+<area shape="rect" id="node2" href="$classCapillaryPressureLawConfigService.html#a95daac639cdff1d331d17a3c0074f0ad" title="AI comment: Configures and registers the capillary pressure law with its parameters." alt="" coords="211,5,397,47"/>
+<area shape="rect" id="node3" href="$classCapillaryPressureLaw.html#a18170940e51fccd4fd3e194706d8affe" title="AI comment: Initializes capillary pressure parameters to default values." alt="" coords="229,71,379,112"/>
+<area shape="rect" id="node4" href="$classCapillaryPressureLaw.html#a2429712120ad6446b5613469aba468c7" title=" " alt="" coords="5,71,163,112"/>
+</map>

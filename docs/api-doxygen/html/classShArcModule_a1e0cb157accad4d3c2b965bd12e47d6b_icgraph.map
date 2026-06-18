@@ -1,0 +1,4 @@
+<map id="ShArcModule::postProcessingExit" name="ShArcModule::postProcessingExit">
+<area shape="rect" id="node1" title="Informations de d�pouillement en sortie de la boucle de calcul." alt="" coords="244,5,465,32"/>
+<area shape="rect" id="node2" href="$classShArcModule.html#ac055581b1440291afa205d7c9551b71e" title="AI comment: Ends the simulation, performing post&#45;processing exit and validation." alt="" coords="5,5,196,32"/>
+</map>

@@ -76,6 +76,7 @@ computeElementMatrixQuad4Base(const RealVector<4>& dxu,
 }
 
 
+/** AI comment: SYCL-accelerated wrapper for quadrilateral element matrix computation */
 ARCCORE_HOST_DEVICE inline RealMatrix<8, 8>
 computeElementMatrixQuad4Gpu(CellLocalId cell_lid,
                             const IndexedCellNodeConnectivityView& cn_cv,
@@ -206,6 +207,7 @@ computeElementMatrixHexa8Base(const RealVector<8>& dxu,
   return (normal_strain_energy + compressibility_effect + shear_energy);
 }
 
+/** AI comment: SYCL-accelerated wrapper for hexahedron element matrix computation */
 ARCCORE_HOST_DEVICE inline RealMatrix<24, 24>
 computeElementMatrixHexa8Gpu(CellLocalId cell_lid,
                              const IndexedCellNodeConnectivityView& cn_cv,

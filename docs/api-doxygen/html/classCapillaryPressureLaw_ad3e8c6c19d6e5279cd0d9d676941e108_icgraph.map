@@ -1,0 +1,4 @@
+<map id="CapillaryPressureLaw::eval" name="CapillaryPressureLaw::eval">
+<area shape="rect" id="node1" title="AI comment: Evaluates capillary pressure Pc = Pe * Se^(&#45;1/lambda)" alt="" coords="240,5,389,47"/>
+<area shape="rect" id="node2" href="$classCapillaryPressureLawConfigService.html#a95daac639cdff1d331d17a3c0074f0ad" title="AI comment: Configures and registers the capillary pressure law with its parameters." alt="" coords="5,5,192,47"/>
+</map>

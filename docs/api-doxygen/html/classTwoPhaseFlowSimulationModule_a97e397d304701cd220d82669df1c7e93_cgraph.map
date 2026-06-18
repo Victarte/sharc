@@ -1,0 +1,4 @@
+<map id="TwoPhaseFlowSimulationModule::_initGeometry" name="TwoPhaseFlowSimulationModule::_initGeometry">
+<area shape="rect" id="node1" title="AI comment: Registers and computes geometric properties (volume, center, face normal)" alt="" coords="5,5,219,47"/>
+<area shape="rect" id="node2" href="$classTwoPhaseFlowSimulationModule.html#ae75ecfea981f4097298605eb02a28d09" title="AI comment: Forces an update of all geometric properties via the geometry manager." alt="" coords="267,5,480,47"/>
+</map>

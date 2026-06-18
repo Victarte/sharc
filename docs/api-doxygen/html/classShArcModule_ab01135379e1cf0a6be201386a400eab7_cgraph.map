@@ -1,0 +1,4 @@
+<map id="ShArcModule::prepareInit" name="ShArcModule::prepareInit">
+<area shape="rect" id="node1" title="AI comment: Prepares initialization by loading geometry manager and creating policy." alt="" coords="5,13,175,39"/>
+<area shape="rect" id="node2" href="$classShArcModule.html#aa1a26bcb13a7b79cb1c49500ccad2f8c" title="AI comment: Initializes the application service manager, loading optional services." alt="" coords="223,5,400,47"/>
+</map>

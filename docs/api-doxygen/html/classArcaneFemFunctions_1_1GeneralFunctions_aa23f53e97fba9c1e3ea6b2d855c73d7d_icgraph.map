@@ -1,0 +1,6 @@
+<map id="ArcaneFemFunctions::GeneralFunctions::getPetscFlagsFromCommandline" name="ArcaneFemFunctions::GeneralFunctions::getPetscFlagsFromCommandline">
+<area shape="rect" id="node1" title="Parses PETSc command&#45;line flags into a CommandLineArguments object." alt="" coords="440,20,655,76"/>
+<area shape="rect" id="node2" href="$classFemModulePoisson.html#a044148fb14bd4cc124ba751b11fea973" title="Performs the main computation for the FemModulePoisson." alt="" coords="197,5,392,32"/>
+<area shape="rect" id="node3" href="$classFemModuleElasticity.html#ad3bb0f9040e4141ceef536038cd61a2d" title="Performs the main computation for the FemModuleElasticity." alt="" coords="223,57,367,98"/>
+<area shape="rect" id="node4" href="$classFemModuleElasticity.html#ab06ab2db63cae57328155891523641f4" title="AI comment: Main time loop, handles coupled (preCICE) and standalone computation modes." alt="" coords="5,57,149,98"/>
+</map>

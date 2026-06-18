@@ -1,0 +1,6 @@
+<map id="FemModuleElasticity::_getMaterialParameters" name="FemModuleElasticity::_getMaterialParameters">
+<area shape="rect" id="node1" title="Retrieves and sets the material parameters for the simulation." alt="" coords="389,39,559,80"/>
+<area shape="rect" id="node2" href="$classFemModuleElasticity.html#addf7f6ae63456299f45972c471503e63" title="AI comment: Initializes solver parameters, material properties, body force, and node pressure." alt="" coords="197,5,341,47"/>
+<area shape="rect" id="node4" href="$classFemModuleElasticity.html#ab06ab2db63cae57328155891523641f4" title="AI comment: Main time loop, handles coupled (preCICE) and standalone computation modes." alt="" coords="197,71,341,112"/>
+<area shape="rect" id="node3" href="$classFemModuleElasticity.html#a713a5dee527a0f9a218b9c8b461ceee1" title="Initializes the FemModuleElasticity at the start of the simulation." alt="" coords="5,5,149,47"/>
+</map>

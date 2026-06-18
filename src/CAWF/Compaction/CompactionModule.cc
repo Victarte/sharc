@@ -54,6 +54,7 @@ using namespace Alien;
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Initializes solver, geometry, boundary groups, material properties, and coupling */
 void CompactionModule::init()
 {
 
@@ -208,6 +209,7 @@ void CompactionModule::init()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Saves pressure and density from current to previous time step for rollback */
 void
 CompactionModule::saveOldState()
 {
@@ -219,6 +221,7 @@ CompactionModule::saveOldState()
   }
 }
 
+/** AI comment: Reloads pressure and density from saved old state after coupling failure */
 void CompactionModule::reloadOldState()
 {
   info() << " App1  ReloadOldState " ;
@@ -229,6 +232,7 @@ void CompactionModule::reloadOldState()
   }
 }
 
+/** AI comment: Updates the top boundary face group from new event cells */
 void CompactionModule::
 updateTopBoundary(CellGroup const& new_event)
 {
@@ -284,6 +288,7 @@ updateTopBoundary(CellGroup const& new_event)
   }
 }
 
+/** AI comment: Updates density from pressure change and divergence */
 void
 CompactionModule::
 computeDensity()
@@ -295,6 +300,7 @@ computeDensity()
   }
 }
 
+/** AI comment: Copies current time variables (pressure, density, divergence) to Tn state */
 void
 CompactionModule::
 updateVariablesTN()
@@ -308,6 +314,7 @@ updateVariablesTN()
 }
 
 
+/** AI comment: Assembles and solves the pressure linear system using finite volume method */
 void
 CompactionModule::
 computePressure()
@@ -509,6 +516,7 @@ computePressure()
   m_linear_solver->getSolverStat().print(Universe().traceMng(), status, "Linear Solver : ") ;
 }
 
+/** AI comment: Main time loop, handles coupled (preCICE) and standalone compaction computation */
 void
 CompactionModule::
 test()

@@ -1,0 +1,9 @@
+<map id="computeElementMatrixTria3Base" name="computeElementMatrixTria3Base">
+<area shape="rect" id="node1" title="Computes the element matrix for a triangular element (ℙ1 FE)." alt="" coords="1072,42,1287,69"/>
+<area shape="rect" id="node2" href="$classFemModuleElasticity.html#a6f3693bac64f0e4dd7b43c54609ca028" title="AI comment: Computes the triangle element matrix, called from CPU assembly path." alt="" coords="821,5,1019,47"/>
+<area shape="rect" id="node7" href="$Elasticity_2ElementMatrix_8h.html#a99f38bb1dc681d4708c9efd37f455665" title="AI comment: GPU&#45;accelerated wrapper for triangular element matrix computation." alt="" coords="816,71,1024,98"/>
+<area shape="rect" id="node3" href="$classFemModuleElasticity.html#aaa11f39de79f8c84022f82bb6cf03b7e" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="581,35,768,76"/>
+<area shape="rect" id="node4" href="$classFemModuleElasticity.html#a5b769fd9a5bc4503b409f70211e3a0b1" title="Performs a stationary solve for the FEM system." alt="" coords="389,35,533,76"/>
+<area shape="rect" id="node5" href="$classFemModuleElasticity.html#ad3bb0f9040e4141ceef536038cd61a2d" title="Performs the main computation for the FemModuleElasticity." alt="" coords="197,35,341,76"/>
+<area shape="rect" id="node6" href="$classFemModuleElasticity.html#ab06ab2db63cae57328155891523641f4" title="AI comment: Main time loop, handles coupled (preCICE) and standalone computation modes." alt="" coords="5,35,149,76"/>
+</map>

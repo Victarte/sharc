@@ -1,2 +1,5 @@
 .svn*
 *~
+
+# Hugo documentation site output
+docs/public/

@@ -1,0 +1,7 @@
+<map id="ThermoChemicalConvectionModule::_initLaws" name="ThermoChemicalConvectionModule::_initLaws">
+<area shape="rect" id="node1" title="AI comment: Configures physical laws and evaluates them on domain and boundaries." alt="" coords="728,5,915,47"/>
+<area shape="rect" id="node2" href="$classThermoChemicalConvectionModule.html#a70a1addb9ed30e725d5a287feda3b7d1" title="AI comment: Full initialization: system, geometry, groups, variables, laws, Newton." alt="" coords="493,5,680,47"/>
+<area shape="rect" id="node3" href="$classThermoChemicalConvectionModule.html#a404e01384c6a94ce38bd87f3a27ee5b5" title="AI comment: Creates mesh groups via the group creator service." alt="" coords="259,5,445,47"/>
+<area shape="rect" id="node4" href="$classThermoChemicalConvectionModule.html#a69efe2c609a3c63e49df34a255ad53c7" title=" " alt="" coords="259,71,445,112"/>
+<area shape="rect" id="node5" href="$classThermoChemicalConvectionModule.html#ab8a48bdb31d3cad3ed44baba79f9ef70" title="AI comment: Initializes matrix profile using two&#45;point or multi&#45;point stencil." alt="" coords="5,71,211,112"/>
+</map>

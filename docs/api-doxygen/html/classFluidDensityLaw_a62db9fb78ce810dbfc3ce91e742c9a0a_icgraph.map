@@ -1,0 +1,4 @@
+<map id="FluidDensityLaw::eval" name="FluidDensityLaw::eval">
+<area shape="rect" id="node1" title="AI comment: Evaluates fluid density rho = rho0 * (1 &#45; betat*(T&#45;T0) + betac*(C&#45;C0))" alt="" coords="256,13,405,39"/>
+<area shape="rect" id="node2" href="$classFluidDensityLawConfigService.html#a85ea6bdf9ed770b7a3aa687e0099f150" title="AI comment: Configures and registers the fluid density law with its parameters." alt="" coords="5,5,208,47"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="FemModuleElasticity::_initBsr" name="FemModuleElasticity::_initBsr">
+<area shape="rect" id="node1" title="Initializes BSR matrix." alt="" coords="5,75,149,116"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a9193fc39c187959fca84fd5bb09d6c28" title=" " alt="" coords="197,37,397,79"/>
+<area shape="rect" id="node5" href="$classArcaneFemFunctions_1_1GeneralFunctions.html#a536ca8befa6eb6b59fff8ef1a5895634" title="Logs the execution time with ArcaneFem&#45;Timer." alt="" coords="224,103,371,159"/>
+<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a48c86e55aa5bb28a7618b9b8fc3ed781" title=" " alt="" coords="445,5,645,47"/>
+<area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#ad0a774918efa80c12e82ff310ccca191" title=" " alt="" coords="447,71,643,112"/>
+</map>

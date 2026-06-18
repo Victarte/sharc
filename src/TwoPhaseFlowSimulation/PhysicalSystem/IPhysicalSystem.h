@@ -15,16 +15,28 @@
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/**
+ * \ingroup TwoPhaseFlow
+ * \aigenerated
+ * \brief Interface for the physical system.
+ *
+ * Provides access to the ArcRes system representation, which holds
+ * all variables, properties, and equations for the two-phase flow
+ * physical model.
+ */
 class IPhysicalSystem
 {
 public:
   
+  /** \aigenerated Virtual destructor */
   virtual ~IPhysicalSystem() {}
   
 public:
 
+  /** \aigenerated Initializes the physical system and its variables */
   virtual void init() = 0;
   
+  /** \aigenerated Returns the ArcRes system that defines the physics */
   virtual ArcRes::System system() const = 0;
 };
 

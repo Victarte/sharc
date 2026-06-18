@@ -52,70 +52,129 @@
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/**
+ * \ingroup TwoPhaseFlow
+ * \aigenerated
+ * Thermo-chemical convection simulation module.
+ *
+ * ThermoChemicalConvectionModule solves coupled heat and mass transfer
+ * with chemical convection in porous media. It handles the non-linear
+ * system of equations for pressure, concentration, and temperature,
+ * including accumulation, internal flux, and boundary flux terms.
+ */
 class ThermoChemicalConvectionModule
         : public ArcaneThermoChemicalConvectionObject
                 , public ArcNum::INonLinearSystem
 {
 public:
 
+    /** \aigenerated Constructs the module */
     ThermoChemicalConvectionModule(const Arcane::ModuleBuildInfo & sbi)
             : ArcaneThermoChemicalConvectionObject(sbi)
     {}
 
+    /** \aigenerated Destructor */
     ~ThermoChemicalConvectionModule() {}
 
 public:
 
-    // Methode du module
+    /** \aigenerated Initializes the simulation */
     void init();
+
+    /** \aigenerated Executes one computation step */
     void compute();
 
-    // Interface Systeme non lineaire
+    /** \aigenerated Returns the number of equations in the system */
     Integer nbEquations() const { return m_unknown_manager.size() ; }
 
+    /** \aigenerated Returns the system domain */
     Domain const& systemDomain() const {  return m_domain ; }
 
+    /** \aigenerated Initializes the linear system profile */
     void initLinearSystemProfile(Arcane::CellGroup cells,
                                Alien::MatrixProfiler& blockProfiler,
                                Arcane::ConstArray2View<Arcane::Integer> indexes,
                                Arcane::Integer block_size) ;
 
+    /** \aigenerated Sets the solution variable pointers */
     void setSolutionVariables(Arcane::SharedArray<Arcane::VariableCellReal*>& solutions) ;
 
+    /** \aigenerated Returns the equation system (unknowns manager) */
     const Law::PropertyVector& equationSystem() const { return m_unknown_manager; }
+
+    /** \aigenerated Builds the residual and Jacobian matrix */
     void build(ArcNum::Vector& residual, ArcNum::Matrix& jacobian);
+
+    /** \aigenerated Returns the variable cell folder */
     const Law::VariableCellFolder& folder() const { return m_folder->domain(); }
 
 private:
 
-    // system gump
+    /** \aigenerated Returns the Gump system */
     ArcRes::System& system() { return m_system; }
-    // unknowns as Law::PropertyVector!
+
+    /** \aigenerated Returns the unknown properties manager */
     const Law::PropertyVector& unknownsManager() const { return m_unknown_manager; }
-    // law function manager
+
+    /** \aigenerated Returns the law function manager */
     Law::FunctionManager& functionMng() { return m_funcs; }
-    // domain for contributions
+
+    /** \aigenerated Returns the domain for contributions */
     Law::VariableCellFolder& domain() { return m_folder->domain(); }
+
+    /** \aigenerated Returns the domain at time T0 */
     Law::VariableCellFolder& domainT0() { return m_folder->domainT0(); }
+
+    /** \aigenerated Returns the domain at time Tn */
     Law::VariableCellFolder& domainTn() { return m_folder->domainTn(); }
-    // init functions
+
+    /** \aigenerated Adds a time-varying variable for snapshot management */
     void _addTimeVariable(const Gump::ScalarRealProperty& property);
+
+    /** \aigenerated Initializes the physical system */
     void _initPhysicalSystem();
+
+    /** \aigenerated Initializes mesh geometry */
     void _initGeometry();
+
+    /** \aigenerated Initializes mesh groups */
     void _initGroup() ;
+
+    /** \aigenerated Initializes domain variable manager */
     void _initDomainVariableMng();
+
+    /** \aigenerated Initializes boundary variable manager */
     void _initBoundaryVariableMng();
+
+    /** \aigenerated Initializes time variable manager (restart snapshots) */
     void _initTimeVariableMng();
+
+    /** \aigenerated Initializes transmissivity operators */
     void _initTransmissivity();
+
+    /** \aigenerated Initializes the equation system (unknowns) */
     void _initEquationSystem();
+
+    /** \aigenerated Initializes the restore/snapshot system */
     void _initRestore();
+
+    /** \aigenerated Configures and initializes physical laws */
     void _initLaws();
+
+    /** \aigenerated Initializes the Newton solver */
     void _initNewton();
-    // build functions
+
+    /** \aigenerated Evaluates physical laws on a given folder */
     template<typename Folder>
     void _evaluateLaws(Folder& folder, Law::EvaluationMode derivability);
+
+    /** \aigenerated Builds the accumulation term */
     void _buildAccumulation(ArcNum::Vector& residual, ArcNum::Matrix& jacobian);
+
+    /** \aigenerated Builds the internal flux term */
     void _buildFluxInternal(ArcNum::Vector& residual, ArcNum::Matrix& jacobian);
+
+    /** \aigenerated Builds the boundary flux term */
     void _buildFluxBoundary(ArcNum::Vector& residual, ArcNum::Matrix& jacobian);
 
     void _twoPointsProfiler(Arcane::CellGroup cells,
@@ -210,31 +269,43 @@ private:
 
 private:
 
+    /** \aigenerated Two-point transmissivity operator */
     ArcNum::TwoPointsTransmissivity m_transmissivities;
+
+    /** \aigenerated Multi-point stencil for flux computation (optional) */
     std::shared_ptr<ArcNum::MultiPointsStencil> m_schemeStencil ;
 
-    // unknowns as Law::PropertyVector!
+    /** \note Original: unknowns as Law::PropertyVector!
+     *  \aigenerated Manager for unknown properties */
     Law::PropertyVector m_unknown_manager;
 
-    // system instance based on gump
+    /** \note Original: system instance based on gump
+     *  \aigenerated Gump-based system instance */
     ArcRes::System m_system;
 
-    // evolutive variable management restart newtown
+    /** \note Original: evolutive variable management restart newton
+     *  \aigenerated Snapshot manager for restart on failure */
     ArcGeoSim::AppService<ArcGeoSim::ITimeLoopSnapshotManager> m_snapshots;
 
-    // law function manager and evaluator
+    /** \note Original: law function manager and evaluator
+     *  \aigenerated Function manager for physical law evaluation */
     Law::FunctionManager m_funcs;
+
+    /** \aigenerated Properties to evaluate in law functions */
     Arcane::SharedArray<Gump::ScalarRealProperty> m_properties_to_evaluate;
 
-    // acces domain for contributions
+    /** \note Original: acces domain for contributions
+     *  \aigenerated Domain accessor for contribution assembly */
     ArcGeoSim::AppService<IVariableManager> m_folder;
+
+    /** \aigenerated Non-linear system domain */
     ArcNum::INonLinearSystem::Domain        m_domain ;
 };
 
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
-// restart management
+/** AI comment: Registers a scalar property for time-varying snapshot management */
 void
 ThermoChemicalConvectionModule::
 _addTimeVariable(const Gump::ScalarRealProperty& property)
@@ -245,7 +316,7 @@ _addTimeVariable(const Gump::ScalarRealProperty& property)
     m_snapshots->snap(v, vTn);
 }
 
-// load system as service
+/** AI comment: Loads the Gump physical system from the service manager */
 void
 ThermoChemicalConvectionModule::
 _initPhysicalSystem()
@@ -259,6 +330,7 @@ _initPhysicalSystem()
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Full initialization: system, geometry, groups, variables, laws, Newton */
 void
 ThermoChemicalConvectionModule::
 init()
@@ -289,6 +361,7 @@ init()
     _initNewton();
 }
 
+/** AI comment: Initializes matrix profile using two-point or multi-point stencil */
 void
 ThermoChemicalConvectionModule::
 initLinearSystemProfile(Arcane::CellGroup cells,
@@ -303,6 +376,7 @@ initLinearSystemProfile(Arcane::CellGroup cells,
     _multiPointsProfiler(cells, blockProfiler, indexes, block_size) ;
 }
 
+/** AI comment: Sets pointers to solution variables for the Newton solver */
 void
 ThermoChemicalConvectionModule::
 setSolutionVariables(Arcane::SharedArray<Arcane::VariableCellReal*>& solutions)
@@ -316,6 +390,7 @@ setSolutionVariables(Arcane::SharedArray<Arcane::VariableCellReal*>& solutions)
 }
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Solves the non-linear thermo-chemical convection system via Newton */
 void
 ThermoChemicalConvectionModule::
 compute()
@@ -330,6 +405,7 @@ compute()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Builds residual and Jacobian for pressure, concentration, and temperature equations */
 void
 ThermoChemicalConvectionModule::
 build(ArcNum::Vector& residual, ArcNum::Matrix& jacobian)
@@ -345,6 +421,7 @@ build(ArcNum::Vector& residual, ArcNum::Matrix& jacobian)
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Registers and computes geometric properties (volume, center, face normal) */
 void
 ThermoChemicalConvectionModule::
 _initGeometry()
@@ -384,6 +461,7 @@ _initGeometry()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Creates mesh groups via the group creator service */
 void
 ThermoChemicalConvectionModule::
 _initGroup()
@@ -395,6 +473,7 @@ _initGroup()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Registers domain variables for fluid and solid properties, applies IC */
 void
 ThermoChemicalConvectionModule::
 _initDomainVariableMng()
@@ -441,6 +520,7 @@ _initDomainVariableMng()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Initializes boundary condition variables for fluid and solid properties */
 void
 ThermoChemicalConvectionModule::
 _initBoundaryVariableMng()
@@ -475,6 +555,7 @@ _initBoundaryVariableMng()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Registers time-varying variables (P, C, T, density) for Newton rollback */
 void
 ThermoChemicalConvectionModule::
 _initTimeVariableMng()
@@ -495,6 +576,7 @@ _initTimeVariableMng()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Configures physical laws and evaluates them on domain and boundaries */
 void
 ThermoChemicalConvectionModule::
 _initLaws()
@@ -537,6 +619,7 @@ _initLaws()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Initializes Tn containers by copying initial law evaluation results */
 void
 ThermoChemicalConvectionModule::
 _initRestore()
@@ -563,6 +646,7 @@ _initRestore()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Computes transmissivity operator using permeability tensor */
 void
 ThermoChemicalConvectionModule::
 _initTransmissivity()
@@ -580,6 +664,7 @@ _initTransmissivity()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Sets up three equations: pressure, concentration, and temperature */
 void
 ThermoChemicalConvectionModule::
 _initEquationSystem()
@@ -594,6 +679,7 @@ _initEquationSystem()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Initializes the Newton solver with this module as the non-linear system */
 void
 ThermoChemicalConvectionModule::
 _initNewton()
@@ -605,6 +691,7 @@ _initNewton()
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Evaluates all registered physical laws on the given folder */
 template<typename Folder>
 void
 ThermoChemicalConvectionModule::
@@ -620,6 +707,7 @@ _evaluateLaws(Folder& folder, Law::EvaluationMode derivability)
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Builds accumulation terms for mass, concentration, and energy equations */
 void ThermoChemicalConvectionModule::
 _buildAccumulation(ArcNum::Vector& residual, ArcNum::Matrix& jacobian)
 {
@@ -694,6 +782,7 @@ _buildAccumulation(ArcNum::Vector& residual, ArcNum::Matrix& jacobian)
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Builds internal flux terms for pressure, concentration, and temperature (advection + diffusion) */
 void ThermoChemicalConvectionModule::
 _buildFluxInternal(ArcNum::Vector& residual, ArcNum::Matrix& jacobian)
 {
@@ -806,6 +895,7 @@ _buildFluxInternal(ArcNum::Vector& residual, ArcNum::Matrix& jacobian)
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Builds boundary flux terms for all three equations using Dirichlet BC values */
 void ThermoChemicalConvectionModule::
 _buildFluxBoundary(ArcNum::Vector& residual, ArcNum::Matrix& jacobian)
 {

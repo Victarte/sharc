@@ -1,0 +1,4 @@
+<map id="ArcaneFemFunctions::MeshOperation::computeBaryCenterTria3" name="ArcaneFemFunctions::MeshOperation::computeBaryCenterTria3">
+<area shape="rect" id="node1" title="Computes the barycenter (centroid) of a triangle." alt="" coords="272,5,476,61"/>
+<area shape="rect" id="node2" href="$classArcaneFemFunctions_1_1BoundaryConditions2D.html#a921bd154e309821e48804984b1d72786" title="Applies a manufactured source term to the RHS vector." alt="" coords="5,5,224,61"/>
+</map>

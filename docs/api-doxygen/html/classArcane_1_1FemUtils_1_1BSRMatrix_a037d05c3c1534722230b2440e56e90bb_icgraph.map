@@ -1,0 +1,13 @@
+<map id="Arcane::FemUtils::BSRMatrix::orderValuePerBlock" name="Arcane::FemUtils::BSRMatrix::orderValuePerBlock">
+<area shape="rect" id="node1" title=" " alt="" coords="1129,72,1325,113"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#ab40b83069f7e3687258becfc1f3ca01e" title="Assembles the global BSR matrix for a bilinear operator, cell&#45;wise." alt="" coords="881,39,1081,80"/>
+<area shape="rect" id="node11" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a8d688f9f1a53070ad55129d0e3a32fa8" title="Assembles the global BSR matrix for a bilinear operator, node&#45;wise." alt="" coords="881,104,1081,145"/>
+<area shape="rect" id="node3" href="$classFemModuleElasticity.html#aaa11f39de79f8c84022f82bb6cf03b7e" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="640,5,827,47"/>
+<area shape="rect" id="node7" href="$classFemModulePoisson.html#abebde0793ed126cb14881d9e629bf9a3" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="644,71,823,112"/>
+<area shape="rect" id="node10" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a3c63ad01e982485773b6000a8dba1538" title=" " alt="" coords="633,136,833,177"/>
+<area shape="rect" id="node4" href="$classFemModuleElasticity.html#a5b769fd9a5bc4503b409f70211e3a0b1" title="Performs a stationary solve for the FEM system." alt="" coords="441,5,585,47"/>
+<area shape="rect" id="node5" href="$classFemModuleElasticity.html#ad3bb0f9040e4141ceef536038cd61a2d" title="Performs the main computation for the FemModuleElasticity." alt="" coords="223,5,367,47"/>
+<area shape="rect" id="node6" href="$classFemModuleElasticity.html#ab06ab2db63cae57328155891523641f4" title="AI comment: Main time loop, handles coupled (preCICE) and standalone computation modes." alt="" coords="5,5,149,47"/>
+<area shape="rect" id="node8" href="$classFemModulePoisson.html#aff70fb3c910e715daf9b6f4d404c6857" title="Performs a stationary solve for the FEM system." alt="" coords="440,71,585,112"/>
+<area shape="rect" id="node9" href="$classFemModulePoisson.html#a044148fb14bd4cc124ba751b11fea973" title="Performs the main computation for the FemModulePoisson." alt="" coords="197,78,392,105"/>
+</map>

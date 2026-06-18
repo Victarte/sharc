@@ -62,6 +62,7 @@ ARCCORE_HOST_DEVICE RealMatrix<6, 6> computeElementMatrixTria3BaseSYCL(Real3 dxu
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: SYCL-accelerated wrapper for triangle element matrix computation */
 ARCCORE_HOST_DEVICE RealMatrix<6, 6>
 computeElementMatrixTria3SYCL(CellLocalId cell_lid,
                              const IndexedCellNodeConnectivityView& cn_cv,
@@ -189,6 +190,7 @@ ARCCORE_HOST_DEVICE RealMatrix<12, 12> computeElementMatrixTetra4BaseSYCL(Real4 
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: SYCL-accelerated wrapper for tetrahedron element matrix computation */
 ARCCORE_HOST_DEVICE RealMatrix<12, 12>
 computeElementMatrixTetra4SYCL(CellLocalId cell_lid,
                               const IndexedCellNodeConnectivityView& cn_cv,
@@ -206,6 +208,7 @@ computeElementMatrixTetra4SYCL(CellLocalId cell_lid,
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: SYCL-accelerated computation of a single row of the tetrahedron element matrix */
 ARCCORE_HOST_DEVICE RealMatrix<3, 12>
 computeElementVectorTetra4SYCL(CellLocalId cell_lid,
                               const IndexedCellNodeConnectivityView& cn_cv,

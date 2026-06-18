@@ -1,0 +1,5 @@
+<map id="FluidDensityLawConfigService::configure" name="FluidDensityLawConfigService::configure">
+<area shape="rect" id="node1" title="AI comment: Configures and registers the fluid density law with its parameters." alt="" coords="5,23,208,65"/>
+<area shape="rect" id="node2" href="$classFluidDensityLaw.html#a62db9fb78ce810dbfc3ce91e742c9a0a" title="AI comment: Evaluates fluid density rho = rho0 * (1 &#45; betat*(T&#45;T0) + betac*(C&#45;C0))" alt="" coords="287,5,437,32"/>
+<area shape="rect" id="node3" href="$classFluidDensityLaw.html#a75e60c6b68d679b5d13f33164d584de1" title="AI comment: Sets fluid density law parameters: reference density, thermal/salinity expansion." alt="" coords="256,56,468,83"/>
+</map>

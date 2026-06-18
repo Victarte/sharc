@@ -1,0 +1,5 @@
+<map id="FluidDensityLaw::FluidDensityLaw" name="FluidDensityLaw::FluidDensityLaw">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,228,32"/>
+<area shape="rect" id="node2" href="$classFluidDensityLaw.html#a511cc9dd4b2c7cfdcae1b9296b82eae9" title="AI comment: Initializes fluid density parameters to default values." alt="" coords="276,5,487,32"/>
+<area shape="rect" id="node3" href="$classFluidDensityLaw.html#a75e60c6b68d679b5d13f33164d584de1" title="AI comment: Sets fluid density law parameters: reference density, thermal/salinity expansion." alt="" coords="535,5,747,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="ShArcModule::postProcessingInit" name="ShArcModule::postProcessingInit">
+<area shape="rect" id="node1" title="AI comment: Initializes post&#45;processing with output path, format writers, and period." alt="" coords="179,5,395,32"/>
+<area shape="rect" id="node2" href="$classShArcModule.html#afe5739003efbf5e46fae54f9f94b6091" title="AI comment: Initializes time step policy, geometry, post&#45;processing, and validators." alt="" coords="5,5,131,32"/>
+</map>

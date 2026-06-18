@@ -1,0 +1,6 @@
+<map id="PhysicalModelModule::_fatalIfNotInitialized" name="PhysicalModelModule::_fatalIfNotInitialized">
+<area shape="rect" id="node1" title="AI comment: Asserts that the physical model has been initialized." alt="" coords="397,39,545,80"/>
+<area shape="rect" id="node2" href="$classPhysicalModelModule.html#ad2048f3fec8b209d9c157916e15d21d3" title="AI comment: Destroys the Gump physical system model." alt="" coords="201,5,349,47"/>
+<area shape="rect" id="node3" href="$classPhysicalModelModule.html#ae1c19cae52fdd0185a0d34074f18d748" title="Retourne le systeme physique (retour const impossible." alt="" coords="201,71,349,112"/>
+<area shape="rect" id="node4" href="$classPhysicalModelModule.html#a29256050c0b2e4828e6e395e71310458" title="AI comment: Builds the Gump system and creates domain variable folders." alt="" coords="5,71,153,112"/>
+</map>

@@ -25,7 +25,7 @@
  * @param rhs_values The variable representing the RHS vector to be updated.
  * @param node_dof The connectivity view mapping nodes to their corresponding
  *                 degrees of freedom (DoFs).
- *
+ */
 /*---------------------------------------------------------------------------*/
 
 inline void FemModuleElasticity::

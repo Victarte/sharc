@@ -1,0 +1,5 @@
+<map id="FemModuleElasticity::_computeElementMatrixQuad4" name="FemModuleElasticity::_computeElementMatrixQuad4">
+<area shape="rect" id="node1" title="AI comment: Computes the quadrilateral element matrix using 2×2 Gauss quadrature." alt="" coords="5,31,215,73"/>
+<area shape="rect" id="node2" href="$Elasticity_2ElementMatrixHexQuad_8h.html#a8621659b9ea138456aa352ab33ca583e" title="Computes the element matrix for a quadrilateral element (QUAD4, ℙ1 FE)." alt="" coords="267,5,491,32"/>
+<area shape="rect" id="node3" href="$classArcaneFemFunctions_1_1FeOperation2D.html#aabb86aa038cacbd4cf61718234fcdfb7" title="Computes shape function gradients and the Jacobian determinant for a Quad4 element." alt="" coords="263,56,495,112"/>
+</map>

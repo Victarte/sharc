@@ -1,0 +1,15 @@
+<map id="TwoPhaseFlowSimulationModule::build" name="TwoPhaseFlowSimulationModule::build">
+<area shape="rect" id="node1" title="AI comment: Builds the residual vector and Jacobian matrix for the non&#45;linear system." alt="" coords="5,174,219,215"/>
+<area shape="rect" id="node2" href="$classTwoPhaseFlowSimulationModule.html#af1411f4085b2aad87a3be136bf08c946" title="AI comment: Builds the accumulation term (mass * saturation * density / delta&#45;t)" alt="" coords="267,43,480,85"/>
+<area shape="rect" id="node3" href="$classTwoPhaseFlowSimulationModule.html#abafbcc5fb9432c797638e676227785bf" title=" " alt="" coords="528,77,741,118"/>
+<area shape="rect" id="node8" href="$classTwoPhaseFlowSimulationModule.html#ad73e5c82314a2a8d8b13b3f2a5a23952" title="AI comment: Builds the saturation closure equation (sum of saturations = 1)" alt="" coords="267,305,480,346"/>
+<area shape="rect" id="node9" href="$classTwoPhaseFlowSimulationModule.html#aa99db08b3cea5cb0081d6752a07dda09" title="AI comment: Builds the boundary flux term using Dirichlet boundary condition values." alt="" coords="267,109,480,150"/>
+<area shape="rect" id="node10" href="$classTwoPhaseFlowSimulationModule.html#a7a184b517d9b7e0f8c6c52e79f6ffb28" title="AI comment: Builds the internal flux term between cells using two&#45;point flux approximation." alt="" coords="267,174,480,215"/>
+<area shape="rect" id="node11" href="$classTwoPhaseFlowSimulationModule.html#a8ee9596c1ec435b9cf70876b6f8febda" title="AI comment: Builds the well flux term using well index and bottom&#45;hole pressure." alt="" coords="267,239,480,281"/>
+<area shape="rect" id="node12" href="$classTwoPhaseFlowSimulationModule.html#ae6fac290a68051a18cc4c2c4f18ac7a3" title=" " alt="" coords="267,370,480,411"/>
+<area shape="rect" id="node4" href="$classTwoPhaseFlowSimulationModule.html#a5cff80bd1cd55982dc87b35bc5b060f1" title=" " alt="" coords="528,11,741,53"/>
+<area shape="rect" id="node5" href="$classTwoPhaseFlowSimulationModule.html#a0449330c278b1f136275a7192f3f2394" title=" " alt="" coords="528,142,741,183"/>
+<area shape="rect" id="node6" href="$classTwoPhaseFlowSimulationModule.html#af2551d8c966e9978463b8efda100fc7f" title=" " alt="" coords="528,207,741,249"/>
+<area shape="rect" id="node7" href="$classTwoPhaseFlowSimulationModule.html#ac2b2275c7c585d8b07a6df222f74335d" title=" " alt="" coords="528,273,741,314"/>
+<area shape="rect" id="node13" href="$classTwoPhaseFlowSimulationModule.html#a2aaa14ee3b4fa9003488e79701afe4ab" title=" " alt="" coords="528,370,741,411"/>
+</map>

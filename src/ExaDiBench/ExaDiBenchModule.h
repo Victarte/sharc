@@ -9,45 +9,67 @@
 
 #include "ArcGeoSim/Utils/ItemGroupMap.h"
 
+/**
+ * \ingroup ExaDiBench
+ * \aigenerated
+ * Benchmark module for geometry and mesh operations.
+ *
+ * ExaDiBenchModule provides benchmark tests for mesh geometry computations
+ * including volume, surface, and center calculations on various mesh types.
+ * It supports mesh refinement and result validation.
+ */
 class ExaDiBenchModule
 : public ArcaneExaDiBenchObject
 {
  public:
-  /** Constructeur de la classe */
+  /** \aigenerated Constructs the benchmark module */
   ExaDiBenchModule(const Arcane::ModuleBuildInfo& mbi)
     : ArcaneExaDiBenchObject(mbi)
   {
     ;
   }
 
-  /** Destructeur de la classe */
+  /** \aigenerated Destructor */
   virtual ~ExaDiBenchModule()
   {
     delete m_geometry_policy;
   }
   
  public:
+  /** \aigenerated Initializes the benchmark module */
   virtual void init();
-  
+
+  /** \aigenerated Executes the benchmark computation */
   virtual void compute();
 
+  /** \aigenerated Refines the mesh to a given level */
   virtual void refineMesh(Integer level) ;
 
+  /** \aigenerated Restores the module state */
   virtual void restore();
 
-  /** Retourne le num�ro de version du module */
+  /** \aigenerated Returns the module version
+   * \note Original: Retourne le num�ro de version du module */
   virtual Arcane::VersionInfo versionInfo() const { return Arcane::VersionInfo(1,0,0); }
 
 private:
+  /** \aigenerated Cell group for the mesh */
   CellGroup m_cell_group;
+  /** \aigenerated Border node group */
   NodeGroup m_border_node_group;
+  /** \aigenerated Border face group */
   FaceGroup m_border_face_group;
+  /** \aigenerated Border node checker map */
   ItemGroupMapT<Node,bool> m_border_node_checker;
 
 private:
+  /** \aigenerated Computes volume for benchmarking */
   Real volumeCompute();
+  /** \aigenerated Computes surface for benchmarking */
   Real surfaceCompute();
+  /** \aigenerated Computes center for benchmarking */
   Real3 centerCompute();
+  /** \aigenerated Geometry policy */
   IGeometryPolicy * m_geometry_policy = nullptr;
 };
 

@@ -1,0 +1,5 @@
+<map id="computeElementMatrixHexa8Gpu" name="computeElementMatrixHexa8Gpu">
+<area shape="rect" id="node1" title="AI comment: SYCL&#45;accelerated wrapper for hexahedron element matrix computation." alt="" coords="5,39,223,65"/>
+<area shape="rect" id="node2" href="$ElementMatrixHexQuadSYCL_8h.html#a3e9c949cc73f865668bf84e13c0a998b" title="Computes the element matrix for a quadrilateral element (HEXA8, ℙ1 FE)." alt="" coords="275,5,498,32"/>
+<area shape="rect" id="node3" href="$namespaceArcane_1_1FemUtils_1_1Gpu_1_1FeOperation3D.html#afafdcaaab5d908f7783d8c6ca91e4ae5" title=" " alt="" coords="271,56,503,112"/>
+</map>

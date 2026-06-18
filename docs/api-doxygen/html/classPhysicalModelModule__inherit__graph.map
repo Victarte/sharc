@@ -1,0 +1,6 @@
+<map id="PhysicalModelModule" name="PhysicalModelModule">
+<area shape="rect" id="node1" title=" " alt="" coords="200,80,348,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,191,32"/>
+<area shape="rect" id="node3" href="$classIPhysicalSystem.html" title="Interface for the physical system." alt="" coords="215,5,333,32"/>
+<area shape="rect" id="node4" href="$classIVariableManager.html" title="Interface for variable management." alt="" coords="357,5,479,32"/>
+</map>

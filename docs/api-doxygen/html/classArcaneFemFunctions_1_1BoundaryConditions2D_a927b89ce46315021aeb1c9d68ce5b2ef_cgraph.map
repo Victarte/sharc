@@ -1,0 +1,6 @@
+<map id="ArcaneFemFunctions::BoundaryConditions2D::applyTractionTableToRhsTria3" name="ArcaneFemFunctions::BoundaryConditions2D::applyTractionTableToRhsTria3">
+<area shape="rect" id="node1" title="Applies trasient traction conditions to the right&#45;hand side (RHS) values." alt="" coords="5,79,208,135"/>
+<area shape="rect" id="node2" href="$classArcaneFemFunctions_1_1MeshOperation.html#a4eb21db7f0664cf957a5c34dde7ae429" title="Computes the length of the edge defined by a given face." alt="" coords="256,5,471,61"/>
+<area shape="rect" id="node3" href="$classBC_1_1ITractionBoundaryCondition.html#a98f183ac7b9daab4d1091a686156e22f" title=" " alt="" coords="259,86,468,127"/>
+<area shape="rect" id="node4" href="$classBC_1_1ITractionBoundaryCondition.html#ac3b3b414db8b09cecbda9c8af892676b" title=" " alt="" coords="259,151,468,193"/>
+</map>

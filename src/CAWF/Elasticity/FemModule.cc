@@ -171,6 +171,7 @@ void FemModuleElasticity::init()
   startInit();
 }
 
+/** AI comment: Initializes solver parameters, material properties, body force, and node pressure */
 void FemModuleElasticity::
 startInit()
 {
@@ -211,6 +212,7 @@ startInit()
   ArcaneFemFunctions::GeneralFunctions::printArcaneFemTime(traceMng(),"initialize", elapsedTime);
 }
 
+/** AI comment: Updates the top boundary face group from new event cells */
 void FemModuleElasticity::
 _updateTopBoundary(CellGroup const& new_event)
 {
@@ -326,6 +328,7 @@ computeDivU()
 }
 
 
+/** AI comment: Main time loop, handles coupled (preCICE) and standalone computation modes */
 void
 FemModuleElasticity::
 test()
@@ -544,6 +547,7 @@ test()
   }
 }
 
+/** AI comment: Saves the current state for potential rollback in coupled simulations */
 void
 FemModuleElasticity::saveOldState()
 {
@@ -554,6 +558,7 @@ FemModuleElasticity::saveOldState()
   }
 }
 
+/** AI comment: Reloads the previously saved state after a failed coupling iteration */
 void FemModuleElasticity::reloadOldState()
 {
   info() << " App1  ReloadOldState " ;
@@ -588,6 +593,7 @@ void FemModuleElasticity::_initBsr()
   ArcaneFemFunctions::GeneralFunctions::printArcaneFemTime(traceMng(),"initialize-bsr-matrix", elapsedTime);
 }
 
+/** AI comment: Initializes the Alien BSR (Block Sparse Row) matrix format */
 void FemModuleElasticity::_initAlienBsr()
 {
   info() << "[ArcaneFem-Info] Started module  _initAlienCsr()";
@@ -604,6 +610,7 @@ void FemModuleElasticity::_initAlienBsr()
 }
 
 
+/** AI comment: Pre-processing: computes body force from pressure gradient on hexahedral meshes */
 void FemModuleElasticity::
 _computePrePro()
 {
@@ -635,6 +642,7 @@ _computePrePro()
   }
 }
 
+/** AI comment: Post-processing: extracts displacement components and computes divergence */
 void FemModuleElasticity::
 _computePostPro()
 {
@@ -944,6 +952,7 @@ _solve()
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Validates computed results against a reference solution file */
 void FemModuleElasticity::
 _validateResults()
 {

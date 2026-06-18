@@ -1,0 +1,6 @@
+<map id="_computeElementVectorTetra4Gpu" name="_computeElementVectorTetra4Gpu">
+<area shape="rect" id="node1" title=" " alt="" coords="668,13,892,39"/>
+<area shape="rect" id="node2" href="$classFemModulePoisson.html#abebde0793ed126cb14881d9e629bf9a3" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="441,5,620,47"/>
+<area shape="rect" id="node3" href="$classFemModulePoisson.html#aff70fb3c910e715daf9b6f4d404c6857" title="Performs a stationary solve for the FEM system." alt="" coords="248,5,393,47"/>
+<area shape="rect" id="node4" href="$classFemModulePoisson.html#a044148fb14bd4cc124ba751b11fea973" title="Performs the main computation for the FemModulePoisson." alt="" coords="5,13,200,39"/>
+</map>

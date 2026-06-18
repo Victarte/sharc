@@ -1,0 +1,6 @@
+<map id="TwoPhaseFlowSimulationModule::init" name="TwoPhaseFlowSimulationModule::init">
+<area shape="rect" id="node1" title="AI comment: Full initialization sequence: system, geometry, groups, variables, laws,..." alt="" coords="528,5,741,47"/>
+<area shape="rect" id="node2" href="$classTwoPhaseFlowSimulationModule.html#a622e4686c10978c5773107b7eeabec7f" title="AI comment: Creates mesh groups via the group creator service." alt="" coords="267,5,480,47"/>
+<area shape="rect" id="node3" href="$classTwoPhaseFlowSimulationModule.html#ac869ea31d63c0979be783eed6b05fc6c" title=" " alt="" coords="267,71,480,112"/>
+<area shape="rect" id="node4" href="$classTwoPhaseFlowSimulationModule.html#a62c2954268fb1d31f0b9d8d27bb24b9e" title="AI comment: Initializes matrix profile using two&#45;point or multi&#45;point stencil." alt="" coords="5,71,219,112"/>
+</map>

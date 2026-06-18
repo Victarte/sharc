@@ -1,0 +1,7 @@
+<map id="ArcaneFemFunctions::FeOperation3D::computeGradientHexa8" name="ArcaneFemFunctions::FeOperation3D::computeGradientHexa8">
+<area shape="rect" id="node1" title="Computes the gradient of a scalar field &#39;u&#39; for a Hexa8 element." alt="" coords="581,31,807,87"/>
+<area shape="rect" id="node2" href="$classFemModuleElasticity.html#a6a6df5d96f7be0ff7073f09712a9d62a" title="AI comment: Post&#45;processing: extracts displacement components and computes divergence." alt="" coords="389,5,533,47"/>
+<area shape="rect" id="node5" href="$classFemModuleElasticity.html#af2c0a289f42afad93dc0dfea7d63a293" title="AI comment: Pre&#45;processing: computes body force from pressure gradient on hexahedral meshes." alt="" coords="389,71,533,112"/>
+<area shape="rect" id="node3" href="$classFemModuleElasticity.html#ad3bb0f9040e4141ceef536038cd61a2d" title="Performs the main computation for the FemModuleElasticity." alt="" coords="197,39,341,80"/>
+<area shape="rect" id="node4" href="$classFemModuleElasticity.html#ab06ab2db63cae57328155891523641f4" title="AI comment: Main time loop, handles coupled (preCICE) and standalone computation modes." alt="" coords="5,39,149,80"/>
+</map>

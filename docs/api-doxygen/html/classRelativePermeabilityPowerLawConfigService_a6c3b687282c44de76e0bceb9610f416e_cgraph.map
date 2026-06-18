@@ -1,0 +1,6 @@
+<map id="RelativePermeabilityPowerLawConfigService::configure" name="RelativePermeabilityPowerLawConfigService::configure">
+<area shape="rect" id="node1" title="AI comment: Configures and registers the relative permeability power law with its parameters." alt="" coords="5,39,196,80"/>
+<area shape="rect" id="node2" href="$classRelativePermeabilityPowerLaw.html#a7d725e31331674a75e27c7b9075c16f2" title="AI comment: Evaluates relative permeability krw = SwBar^alpha." alt="" coords="244,5,419,47"/>
+<area shape="rect" id="node4" href="$classRelativePermeabilityPowerLaw.html#a33fe812d53558386b21a141457982d2e" title="AI comment: Sets relative permeability parameters: irreducible saturations, exponent." alt="" coords="244,71,419,112"/>
+<area shape="rect" id="node3" href="$classRelativePermeabilityPowerLaw.html#a5643c646ad9d30ae81c3505c8bfabe63" title="AI comment: Computes normalized saturation SwBar = (Sw &#45; Swi) / (1 &#45; Sgc &#45; Swi)" alt="" coords="467,5,641,47"/>
+</map>

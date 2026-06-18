@@ -68,6 +68,7 @@ private:
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Asserts that the constant initial condition service has been initialized */
 void 
 ConstantService::
 _fatalIfNotInitialized() const
@@ -78,6 +79,7 @@ _fatalIfNotInitialized() const
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Initializes and evaluates constant-value conditions on the domain */
 void 
 ConstantService::
 init(ArcRes::System& system, Law::VariableCellFolder& domain)
@@ -91,6 +93,7 @@ init(ArcRes::System& system, Law::VariableCellFolder& domain)
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Re-evaluates constant conditions (e.g. after mesh change) */
 void 
 ConstantService::
 revaluate(ArcRes::System& system, Law::VariableCellFolder& domain)
@@ -100,6 +103,7 @@ revaluate(ArcRes::System& system, Law::VariableCellFolder& domain)
 
 /*---------------------------------------------------------------------------*/
 
+/** AI comment: Parses and evaluates constant value expressions for the selected property */
 void 
 ConstantService::
 _evaluate(ArcRes::System& system, Law::VariableCellFolder& domain)

@@ -17,16 +17,27 @@
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
+/**
+ * \ingroup TwoPhaseFlow
+ * \aigenerated
+ * \brief Interface for initial condition specification.
+ *
+ * Defines the protocol for setting up initial values in the variable
+ * domain, and for re-evaluating them when conditions change.
+ */
 class IInitialCondition
 {
 public:
   
+  /** \aigenerated Virtual destructor */
   virtual ~IInitialCondition() {}
   
 public:
 
+  /** \aigenerated Initializes the system with initial conditions */
   virtual void init(ArcRes::System& system ,Law::VariableCellFolder& domain) = 0;
   
+  /** \aigenerated Re-evaluates the initial conditions (e.g., after restart) */
   virtual void revaluate(ArcRes::System& system ,Law::VariableCellFolder& domain) = 0;
 };
 

@@ -1,3 +1,6 @@
 [submodule "common/ArcaneInfra/build-system"]
 	path = common/ArcaneInfra/build-system
 	url = https://github.com/arcaneframework/app_buildsystem_tools.git
+[submodule "docs/themes/docsy"]
+	path = docs/themes/docsy
+	url = https://github.com/google/docsy.git

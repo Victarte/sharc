@@ -1,0 +1,4 @@
+<map id="TwoPhaseFlowSimulationModule::_initEquationSystem" name="TwoPhaseFlowSimulationModule::_initEquationSystem">
+<area shape="rect" id="node1" title="AI comment: Sets up equation/unknown system: pressure for phase 0, saturation for others." alt="" coords="5,5,219,47"/>
+<area shape="rect" id="node2" href="$classTwoPhaseFlowSimulationModule.html#af2551d8c966e9978463b8efda100fc7f" title=" " alt="" coords="267,5,480,47"/>
+</map>

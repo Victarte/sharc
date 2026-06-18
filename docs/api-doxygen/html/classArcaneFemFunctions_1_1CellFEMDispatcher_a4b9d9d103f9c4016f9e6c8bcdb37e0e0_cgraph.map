@@ -1,0 +1,6 @@
+<map id="ArcaneFemFunctions::CellFEMDispatcher::getGaussData" name="ArcaneFemFunctions::CellFEMDispatcher::getGaussData">
+<area shape="rect" id="node1" title="Provides at once, all Gauss data of a given input finite element (vector containing weights,..." alt="" coords="5,85,152,141"/>
+<area shape="rect" id="node2" href="$classArcaneFemFunctions_1_1FemGaussQuadrature.html#a352a8810b9c20dd5dd4e8a16920ff07d" title="Provides the position of a Gauss Point in the reference (local) element for a given finite element,..." alt="" coords="220,5,379,61"/>
+<area shape="rect" id="node3" href="$classArcaneFemFunctions_1_1FemGaussQuadrature.html#a262d2d96b7c0781dceb520f3c57e9e69" title="Provides the integration weight of a Gauss Point for a given finite element, depending on the rank of..." alt="" coords="220,85,379,141"/>
+<area shape="rect" id="node4" href="$classArcaneFemFunctions_1_1FemGaussQuadrature.html#acbb796428f6c578cb5b7cfc2850e8578" title="Provides the number of Gauss Points for a given finite element type, depending on the integration ord..." alt="" coords="200,165,399,221"/>
+</map>

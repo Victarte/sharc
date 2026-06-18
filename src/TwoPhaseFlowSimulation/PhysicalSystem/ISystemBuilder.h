@@ -17,14 +17,24 @@
 /*---------------------------------------------------------------------------*/
 
 
+/**
+ * \ingroup TwoPhaseFlow
+ * \aigenerated
+ * \brief Interface for building the physical system.
+ *
+ * Constructs the ArcRes system by assembling variables, properties,
+ * and equations from the data model definition.
+ */
 class ISystemBuilder
 {
 public:
   
+  /** \aigenerated Virtual destructor */
   virtual ~ISystemBuilder() {}
   
 public:
   
+  /** \aigenerated Builds and returns the ArcRes system */
   virtual ArcRes::System buildSystem() = 0;
 };
 

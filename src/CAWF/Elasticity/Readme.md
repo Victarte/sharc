@@ -10,33 +10,33 @@ The primary objective of the solver is to determine the vector solution for the 
 
 #### Problem description
 
-Under small elastic deformation, the steady elastic deformation equation (linear elastic system) on  domain $\Omega$ reads
+Under small elastic deformation, the steady elastic deformation equation (linear elastic system) on  domain \f$\Omega\f$ reads
 
-$$
+\f[
 -\nabla\cdot\sigma(\mathbf{x})=\mathbf{f}(\mathbf{x}) \quad \mathbf{x}\in\Omega
-$$
+\f]
 
-here, $\sigma(\mathbf{x})$ is stress tensor, $\mathbf{f}(\mathbf{x})$ is the body force per unit volume. The stress tensor  $\sigma(\mathbf{x})$ under isotropic elastic conditions is given by
+here, \f$\sigma(\mathbf{x})\f$ is stress tensor, \f$\mathbf{f}(\mathbf{x})\f$ is the body force per unit volume. The stress tensor  \f$\sigma(\mathbf{x})\f$ under isotropic elastic conditions is given by
 
-$$
+\f[
 \sigma(\mathbf{x}) = \lambda(\nabla\cdot\mathbf{u}(\mathbf{x}))\mathbb{I} + \mu (\nabla\mathbf{u}(\mathbf{x}) + \left(\nabla\mathbf{u}(\mathbf{x})\right)^\text{T})
-$$
+\f]
 
-here, $\lambda\in\mathbb{R}^{+}$ and $\mu\in\mathbb{R}^{+}$ are the Lame's elasticity parameters for the homogeneous material, $\mathbb{I}$ is the identity tensor, and $\mathbf{u}(\mathbf{x})$ is the displacement field vector. This governing PDE iis also knows as Navier's equation.
+here, \f$\lambda\in\mathbb{R}^{+}\f$ and \f$\mu\in\mathbb{R}^{+}\f$ are the Lame's elasticity parameters for the homogeneous material, \f$\mathbb{I}\f$ is the identity tensor, and \f$\mathbf{u}(\mathbf{x})\f$ is the displacement field vector. This governing PDE iis also knows as Navier's equation.
 
 #### Variational formulation
 
 Without entering into the details, the variational formulation for the Navier's equation reads
 
-$$
+\f[
 \int_{\Omega} \lambda \nabla \cdot \mathbf{u}(\mathbf{x}) \nabla \cdot \mathbf{v}(\mathbf{x}) + 2\mu\varepsilon(\mathbf{u}(\mathbf{x})):\varepsilon(\mathbf{u}(\mathbf{x})) - \int_{\Omega}\mathbf{f}(\mathbf{x})\cdot{\mathbf{v}(\mathbf{x})} - \int_{\partial\Omega_N} \mathbf{t}(\mathbf{x}) \cdot \mathbf{v}(\mathbf{x}) = 0
-$$
+\f]
 
-here, $\mathbf{t}(\mathbf{x})$ is the traction vector imposed on Neumann boundary $\Omega_N$, and  $\varepsilon(\mathbf{u}(\mathbf{x})) = \varepsilon_{ij}(\mathbf{u}(\mathbf{x}))$ is the strain tensor given by
+here, \f$\mathbf{t}(\mathbf{x})\f$ is the traction vector imposed on Neumann boundary \f$\Omega_N\f$, and  \f$\varepsilon(\mathbf{u}(\mathbf{x})) = \varepsilon_{ij}(\mathbf{u}(\mathbf{x}))\f$ is the strain tensor given by
 
-$$
+\f[
 \varepsilon_{ij}(\mathbf{u}) = \frac{1}{2}(\frac{\partial{u}_i}{\partial{x}_j} + \frac{\partial{u}_j}{\partial{x}_i} )
-$$
+\f]
 
 ## An example elasticity solver
 
@@ -123,4 +123,5 @@ The post-processing configuration is specified to control how and when results a
 
 #### Post Process
 
-For post processing the `Mesh0.hdf` file is outputted (in `output/depouillement/vtkhdfv2` folder), which can be read by PARAVIS. The output is of the $\mathbb{P}_1$ FE order (on nodes).
+For post processing the `Mesh0.hdf` file is outputted (in `output/depouillement/vtkhdfv2` folder), which can be read by PARAVIS. The output is of the \f$\mathbb{P}_1\f$ FE order (on nodes).\f[\f]
+\f[\f]

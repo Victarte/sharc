@@ -1,0 +1,7 @@
+<map id="ThermoChemicalConvectionModule::_initLaws" name="ThermoChemicalConvectionModule::_initLaws">
+<area shape="rect" id="node1" title="AI comment: Configures physical laws and evaluates them on domain and boundaries." alt="" coords="5,71,192,112"/>
+<area shape="rect" id="node2" href="$classThermoChemicalConvectionModule.html#a0430b21b26113458fed643b0dbb7e47f" title="AI comment: Evaluates all registered physical laws on the given folder." alt="" coords="240,5,427,47"/>
+<area shape="rect" id="node4" href="$classThermoChemicalConvectionModule.html#ae8a4f8f58064a75e7313a728362d9b05" title=" " alt="" coords="240,71,427,112"/>
+<area shape="rect" id="node5" href="$classThermoChemicalConvectionModule.html#a0bd6df1fbbe2c88e6bc3b7938a395fe0" title=" " alt="" coords="240,136,427,177"/>
+<area shape="rect" id="node3" href="$classThermoChemicalConvectionModule.html#aa0ea1c543bba784d320938c9c3f23f2c" title=" " alt="" coords="475,5,661,47"/>
+</map>

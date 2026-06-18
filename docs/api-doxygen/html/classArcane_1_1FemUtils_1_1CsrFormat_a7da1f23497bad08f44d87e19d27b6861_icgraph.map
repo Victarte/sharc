@@ -1,0 +1,13 @@
+<map id="Arcane::FemUtils::CsrFormat::initialize" name="Arcane::FemUtils::CsrFormat::initialize">
+<area shape="rect" id="node1" title=" " alt="" coords="1389,39,1583,80"/>
+<area shape="rect" id="node2" href="$classArcane_1_1FemUtils_1_1AlienBSRMatrix.html#a101ad9db1c3be882fa231f079095823f" title=" " alt="" coords="1116,5,1341,47"/>
+<area shape="rect" id="node3" href="$classArcane_1_1FemUtils_1_1BSRMatrix.html#a0614e7b67c54539a865ab7d310313400" title=" " alt="" coords="1131,71,1327,112"/>
+<area shape="rect" id="node4" href="$classArcane_1_1FemUtils_1_1BSRFormat.html#a01cf7f213dbfed98b9ab3328fa0311ce" title=" " alt="" coords="868,71,1068,112"/>
+<area shape="rect" id="node5" href="$classFemModuleElasticity.html#aaa11f39de79f8c84022f82bb6cf03b7e" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="633,37,820,79"/>
+<area shape="rect" id="node9" href="$classFemModulePoisson.html#abebde0793ed126cb14881d9e629bf9a3" title="Calls the right function for LHS assembly given as mesh type." alt="" coords="637,103,816,144"/>
+<area shape="rect" id="node6" href="$classFemModuleElasticity.html#a5b769fd9a5bc4503b409f70211e3a0b1" title="Performs a stationary solve for the FEM system." alt="" coords="441,37,585,79"/>
+<area shape="rect" id="node7" href="$classFemModuleElasticity.html#ad3bb0f9040e4141ceef536038cd61a2d" title="Performs the main computation for the FemModuleElasticity." alt="" coords="223,37,367,79"/>
+<area shape="rect" id="node8" href="$classFemModuleElasticity.html#ab06ab2db63cae57328155891523641f4" title="AI comment: Main time loop, handles coupled (preCICE) and standalone computation modes." alt="" coords="5,37,149,79"/>
+<area shape="rect" id="node10" href="$classFemModulePoisson.html#aff70fb3c910e715daf9b6f4d404c6857" title="Performs a stationary solve for the FEM system." alt="" coords="440,103,585,144"/>
+<area shape="rect" id="node11" href="$classFemModulePoisson.html#a044148fb14bd4cc124ba751b11fea973" title="Performs the main computation for the FemModulePoisson." alt="" coords="197,110,392,137"/>
+</map>
